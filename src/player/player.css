@@ -801,3 +801,6 @@
   }
 
   .themes {
+    flex-wrap: nowrap;
+  }
+
