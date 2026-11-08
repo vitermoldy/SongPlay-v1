@@ -140,3 +140,4 @@ export const COLOR_PATHS = [
   'particles.color2',
 ];
 
+export const NUMBER_PATHS = [
