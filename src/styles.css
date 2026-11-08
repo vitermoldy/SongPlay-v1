@@ -801,3 +801,4 @@ body.menu-open .site-header {
   position: absolute;
   top: 0;
   bottom: 0;
+  left: var(--pos);
