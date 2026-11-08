@@ -575,3 +575,4 @@ export function createScene(
       css = { renderer: cssRenderer, scene: cssScene };
       resize();
     },
+    // idle: the bare glowing tube; video: dimmer, with a light flicker on the grass; paused: low.
