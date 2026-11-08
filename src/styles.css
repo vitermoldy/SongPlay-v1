@@ -190,3 +190,4 @@ button:disabled {
   place-items: center;
   width: 48px;
   height: 46px;
+  border-radius: 12px;
