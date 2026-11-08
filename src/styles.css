@@ -860,3 +860,6 @@ body.menu-open .site-header {
   -webkit-appearance: none;
   width: 1px;
   height: 1px;
+  background: transparent;
+}
+
