@@ -388,3 +388,4 @@
   left: 0;
   right: 0;
   z-index: 2;
+  width: min(100% - 2 * var(--gutter), 640px);
