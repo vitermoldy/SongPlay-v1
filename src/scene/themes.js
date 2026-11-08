@@ -209,3 +209,4 @@ export function compose(timeName, seasonName) {
     const dusk = new Color(read(THEMES.dusk, path));
     colors.set(
       path,
+      new Color(paint.r * relight(lit.r, dusk.r), paint.g * relight(lit.g, dusk.g), paint.b * relight(lit.b, dusk.b)),
