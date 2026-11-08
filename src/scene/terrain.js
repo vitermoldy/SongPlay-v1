@@ -34,3 +34,4 @@ export function createTerrain(uniforms) {
       }
     `,
     fragmentShader: /* glsl */ `
+      uniform vec3 uSunDir;
