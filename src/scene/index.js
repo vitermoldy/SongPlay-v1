@@ -92,3 +92,4 @@ export function createScene(
     reducedMotion = false,
     onReady,
     onLost,
+    onSlow,
