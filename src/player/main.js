@@ -390,3 +390,4 @@ function webglAvailable() {
 async function initScene() {
   if (!webglAvailable()) {
     ui.video.classList.add('is-flat');
+    return;
