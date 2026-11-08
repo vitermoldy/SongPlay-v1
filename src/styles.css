@@ -1147,3 +1147,6 @@ body.menu-open .site-header {
 }
 
 .field [aria-invalid='true'] {
+  border-color: var(--error) !important;
+}
+
