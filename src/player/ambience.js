@@ -283,3 +283,4 @@ export function createAmbience() {
     const g = ctx.createGain();
     const now = ctx.currentTime;
     const peak = thunderLevel * (0.5 + rand() * 0.5);
+    g.gain.setValueAtTime(0.0001, now);
