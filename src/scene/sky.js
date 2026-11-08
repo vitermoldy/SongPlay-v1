@@ -194,3 +194,4 @@ export function createMountains(live) {
           float t = smoothstep(-3.0, uTopY, vY);
           vec3 c = mix(uLow, uTop, t);
           c = mix(uFog, c, smoothstep(-6.0, 2.0, vY) * 0.85 + 0.15);
+          gl_FragColor = vec4(c, 1.0);
