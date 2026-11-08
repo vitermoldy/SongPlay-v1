@@ -657,3 +657,4 @@ body.menu-open .site-header {
 /* ---------- Sections ---------- */
 
 .section {
+  position: relative;
