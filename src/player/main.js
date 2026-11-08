@@ -22,3 +22,4 @@ const ui = {
   announce: $('[data-announce]'),
   form: $('[data-add]'),
   input: $('#song-link'),
+  error: $('#song-link-error'),
