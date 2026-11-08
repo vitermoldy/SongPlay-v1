@@ -1167,3 +1167,4 @@ body.menu-open .site-header {
   display: inline-flex;
 }
 
+/* The real checkbox covers its chip and carries the focus ring; the span draws the state. */
