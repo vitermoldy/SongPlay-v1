@@ -281,3 +281,4 @@ export function createAmbience() {
     src.buffer = thunderNoise;
     const low = filter('lowpass', 130 + rand() * 60);
     const g = ctx.createGain();
+    const now = ctx.currentTime;
