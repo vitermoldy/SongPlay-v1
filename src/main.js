@@ -17,3 +17,4 @@ function initHeader() {
   window.addEventListener(
     'scroll',
     () => {
+      if (queued) return;
