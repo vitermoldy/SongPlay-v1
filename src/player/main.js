@@ -666,3 +666,4 @@ function placeQueue() {
   } else {
     panel.dataset.place = 'above';
     panel.style.maxHeight = `${Math.round(Math.min(window.innerHeight * 0.36, 320))}px`;
+  }
