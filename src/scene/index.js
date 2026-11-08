@@ -306,3 +306,4 @@ export function createScene(
           if (below(m)) b = m;
           else a = m;
         }
+        return new Vector3(o.x + d.x * b, o.y + d.y * b, o.z + d.z * b);
