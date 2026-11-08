@@ -175,3 +175,4 @@ if (soundOn) {
     if (event.target.closest?.('[data-sound-switch], [data-sound-volume]')) return;
     document.removeEventListener('pointerdown', startOnFirstGesture);
     document.removeEventListener('keydown', startOnFirstGesture);
+    if (soundOn && !ambience?.running) setSound(true);
