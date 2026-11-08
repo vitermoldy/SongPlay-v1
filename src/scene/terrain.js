@@ -33,3 +33,4 @@ export function createTerrain(uniforms) {
         gl_Position = projectionMatrix * viewMatrix * w;
       }
     `,
+    fragmentShader: /* glsl */ `
