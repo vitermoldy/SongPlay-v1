@@ -47,3 +47,4 @@ export async function fetchInfo(item) {
   if (!res.ok) {
     const error = new Error(`oEmbed ${res.status}`);
     error.status = res.status;
+    throw error;
