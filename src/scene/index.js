@@ -568,3 +568,4 @@ export function createScene(
       element.style.setProperty('--glass-radius', `${Math.round(tv.shape.corner * height)}px`);
       const object = new CSS3DObject(element);
       object.position.copy(tv.glassFront.clone().applyMatrix4(tv.group.matrixWorld));
+      object.rotation.set(0, setup.tvYaw, 0);
