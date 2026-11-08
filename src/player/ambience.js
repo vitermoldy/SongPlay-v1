@@ -338,3 +338,4 @@ export function createAmbience() {
     },
     // 0 to 1, from the volume slider; follows the slider closely.
     setVolume(next) {
+      volume = next;
