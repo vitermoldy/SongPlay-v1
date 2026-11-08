@@ -728,3 +728,4 @@ ui.form.addEventListener('submit', (event) => {
       render();
     });
 
+  if (ACTIVE.has(state.status)) {
