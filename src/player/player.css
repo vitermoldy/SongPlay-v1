@@ -17,3 +17,6 @@
 .player-page .header-back:hover,
 .stage .scene-toggle:hover,
 .sound-toggle:hover {
+  background: rgba(8, 11, 36, 0.74);
+}
+
