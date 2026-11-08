@@ -825,3 +825,4 @@ body.menu-open .site-header {
   transition: transform 180ms var(--ease);
 }
 
+.compare:hover .compare-knob {
