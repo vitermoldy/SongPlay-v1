@@ -1399,3 +1399,4 @@ body.menu-open .site-header {
     left: var(--frame);
     right: var(--frame);
     bottom: var(--frame);
+    justify-content: center;
