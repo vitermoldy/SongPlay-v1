@@ -32,3 +32,4 @@ export const NOISE_GLSL = /* glsl */ `
     vec2 u = f * f * (3.0 - 2.0 * f);
     float a = hash12(i);
     float b = hash12(i + vec2(1.0, 0.0));
+    float c = hash12(i + vec2(0.0, 1.0));
