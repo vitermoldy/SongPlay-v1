@@ -173,3 +173,4 @@ syncSound();
 if (soundOn) {
   const startOnFirstGesture = (event) => {
     if (event.target.closest?.('[data-sound-switch], [data-sound-volume]')) return;
+    document.removeEventListener('pointerdown', startOnFirstGesture);
