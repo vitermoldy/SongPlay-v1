@@ -70,3 +70,4 @@ const FinishShader = {
       vec4 c = texture2D(tDiffuse, vUv);
       float g = hash(vUv * vec2(1931.0, 1087.0) + fract(uTime * 7.0) * 113.0) - 0.5;
       c.rgb += g * uGrain;
+      vec2 q = vUv - 0.5;
