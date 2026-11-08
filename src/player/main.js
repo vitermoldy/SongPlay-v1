@@ -712,3 +712,4 @@ ui.form.addEventListener('submit', (event) => {
     problem: null,
   };
   state.items.push(item);
+  saveQueue();
