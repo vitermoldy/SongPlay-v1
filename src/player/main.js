@@ -787,3 +787,6 @@ ui.clear.addEventListener('click', () => {
   saveQueue();
   stopAll('ended', 'Queue cleared. Paste a link to start again.');
   say('Queue cleared.');
+  ui.queueToggle.focus();
+});
+
