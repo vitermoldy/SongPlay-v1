@@ -133,3 +133,4 @@ async function setSound(on) {
   } catch (error) {
     console.warn('Ambient sound could not start.', error);
     soundOn = false;
+    syncSound();
