@@ -343,3 +343,4 @@ export function createAmbience() {
     },
     // Quieter while a video plays, so the song comes first.
     setDucked(on) {
+      if (on === ducked) return;
