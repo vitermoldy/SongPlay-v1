@@ -29,3 +29,4 @@ const FocusBlurShader = {
     uniform sampler2D tDiffuse;
     uniform vec2 uResolution;
     uniform vec2 uDir;
+    uniform vec2 uFocus;
