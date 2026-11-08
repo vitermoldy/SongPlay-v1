@@ -121,3 +121,4 @@ export function createScene(
   camera.position.copy(base);
   camera.lookAt(look);
 
+  // Glossy surfaces reflect a plain version of the current sky, rebuilt when the theme settles.
