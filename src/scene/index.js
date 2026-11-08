@@ -417,3 +417,4 @@ export function createScene(
     const ease = (rate) => (dt > 0 ? 1 - Math.exp(-dt * rate) : 1);
 
     // Watch the first frames once; a machine that cannot hold ~15 fps gets the still frame.
+    if (playing && raw > 0 && sampled < 45) {
