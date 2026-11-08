@@ -65,3 +65,4 @@ export function createParticles(count, live) {
         vAlpha = aData.w * smoothstep(1.5, 4.0, depth);
         vBlur = 1.0 - smoothstep(3.0, 12.0, depth);
         vSpin = uTime * (0.6 + seed * 1.4) + seed * 6.2831;
+        gl_Position = projectionMatrix * mv;
