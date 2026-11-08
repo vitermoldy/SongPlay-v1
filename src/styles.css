@@ -223,3 +223,4 @@ button:disabled {
 /* ---------- Header ---------- */
 
 .site-header {
+  position: fixed;
