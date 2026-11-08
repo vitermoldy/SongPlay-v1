@@ -436,3 +436,6 @@ export function createScene(
     live.u.time.value = time;
     shared.uTvPower.value = glow * (0.55 + 0.45 * screenLevel) * flicker;
     tv.screenMaterial.uniforms.uTime.value = time;
+    tv.screenMaterial.uniforms.uOn.value = on;
+    tv.screenMaterial.uniforms.uLevel.value = screenLevel;
+
