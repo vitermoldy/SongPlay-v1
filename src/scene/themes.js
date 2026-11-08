@@ -97,3 +97,4 @@ export const SEASONS = {
     particles: { shape: 1, color: '#ffffff', color2: '#e2eaff', opacity: 1, fall: 1.7, size: 1.1 },
   },
   // The rainy season also clouds the sky over: `overcast` greys whatever the time of day shows.
+  rain: {
