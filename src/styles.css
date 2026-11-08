@@ -422,3 +422,4 @@ body.menu-open .site-header {
   height: 100svh;
   min-height: 620px;
   overflow: hidden;
+  isolation: isolate;
