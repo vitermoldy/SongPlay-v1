@@ -958,3 +958,6 @@ body.menu-open .site-header {
 }
 
 .art-vhs {
+  width: calc(187 * var(--mm));
+}
+
