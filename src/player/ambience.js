@@ -104,3 +104,4 @@ export function createAmbience() {
   }
 
   // Raindrops: many tiny, quickly fading pings at random pitches.
+  function droplets(seconds) {
