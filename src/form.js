@@ -48,3 +48,4 @@ export function initRequestForm(form) {
     status.textContent = '';
     const problems = validate();
     if (problems.length) {
+      const [first] = problems[0];
