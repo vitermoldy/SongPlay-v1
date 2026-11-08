@@ -555,3 +555,4 @@ export function createScene(
         kick();
       });
     },
+    // Lays an HTML element (the video player) over the TV's whole glass, in the scene's
