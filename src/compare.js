@@ -217,3 +217,6 @@ export function initCompare(root) {
     const pos = clamp(value, 0, 100);
     root.style.setProperty('--pos', `${pos}%`);
     range.value = String(Math.round(pos));
+    range.setAttribute('aria-valuetext', `Divider at ${Math.round(pos)} percent, corrected frame on the right`);
+  };
+
