@@ -37,3 +37,4 @@ function initMenu() {
     open = next;
     toggle.setAttribute('aria-expanded', String(open));
     toggle.textContent = open ? 'Close' : 'Menu';
+    document.body.classList.toggle('menu-open', open);
