@@ -764,3 +764,4 @@ ui.next.addEventListener('click', () => {
       yt.nextVideo();
       return;
     }
+  }
