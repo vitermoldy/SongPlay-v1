@@ -132,3 +132,4 @@ async function setSound(on) {
     await ambience.setEnabled(true);
   } catch (error) {
     console.warn('Ambient sound could not start.', error);
+    soundOn = false;
