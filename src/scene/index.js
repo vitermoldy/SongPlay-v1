@@ -539,3 +539,4 @@ export function createScene(
     startsStill: still,
     setPlaying(next) {
       playing = next;
+      kick();
