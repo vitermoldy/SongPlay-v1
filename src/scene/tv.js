@@ -83,3 +83,4 @@ export function createTV(shapeName = 'classic') {
   const screenMaterial = new ShaderMaterial({
     uniforms: {
       uTime: { value: 0 },
+      uOn: { value: 0 },
