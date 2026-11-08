@@ -217,3 +217,4 @@ export function createAmbience() {
     layers[name] = g;
   }
 
+  const loop = (buf, ...chain) => {
