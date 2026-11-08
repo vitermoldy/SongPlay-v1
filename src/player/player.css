@@ -467,3 +467,4 @@
   outline-offset: 1px;
 }
 
+.deck-row input[aria-invalid='true'] {
