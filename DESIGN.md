@@ -13,3 +13,4 @@ tapes, in a cinematic dusk 3D style. Dial: ENERGY 3 / RHYTHM 2 / MOTION 2.
 - **Motif: the handwritten tape label.** Dancing Script appears only where a person would have
   written by hand: the first headline line, the labels drawn on the cassettes, the closing
   "Start with one tape."
+- **Motif: the cursor is a lamp.** From the owner's reference, where the grass glows gold around
