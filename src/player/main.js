@@ -151,3 +151,4 @@ soundVolume.addEventListener('input', () => {
   remember(VOLUME_KEY, String(volume));
   // Turning the volume up from silence is a way of asking for sound.
   if (volume > 0 && (!soundOn || !ambience?.running)) setSound(true);
+  else {
