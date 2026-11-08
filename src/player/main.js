@@ -730,3 +730,4 @@ ui.form.addEventListener('submit', (event) => {
 
   if (ACTIVE.has(state.status)) {
     say(`Added to the queue. ${state.items.length} in the queue.`);
+    render();
