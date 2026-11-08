@@ -177,3 +177,4 @@ button:disabled {
 }
 
 .cta:hover {
+  transform: translateY(-1px);
