@@ -621,3 +621,4 @@ body.menu-open .site-header {
 }
 
 /* Hero entrance: once, on load. */
+[data-enter] .enter {
