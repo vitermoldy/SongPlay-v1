@@ -519,3 +519,4 @@ export function createScene(
     shared.uCursorPower.value = cursorPower;
     post.renderPass.camera = camera;
     updateFocus(camera);
+    post.composer.render(0);
