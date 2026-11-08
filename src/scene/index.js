@@ -455,3 +455,4 @@ export function createScene(
     post.composer.render(dt);
     css?.renderer.render(css.scene, camera);
 
+    if (pendingCapture && on >= 1) capture();
