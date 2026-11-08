@@ -49,3 +49,4 @@ export function paintStandIn() {
   g.lineTo(0, H);
   g.fill();
 
+  const hill = g.createLinearGradient(0, H * 0.7, 0, H);
