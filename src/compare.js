@@ -237,3 +237,4 @@ export function initCompare(root) {
     if (dragging) fromPointer(event);
   });
   for (const type of ['pointerup', 'pointercancel', 'lostpointercapture']) {
+    root.addEventListener(type, () => {
