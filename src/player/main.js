@@ -317,3 +317,4 @@ function queueRow(item, index) {
   sub.className = 'queue-sub';
   if (current && state.status === 'playing') sub.textContent = 'Now playing';
   else if (current && state.status === 'paused') sub.textContent = 'Paused';
+  else if (current && state.status === 'loading') sub.textContent = 'Tuning in';
