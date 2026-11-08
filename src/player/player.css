@@ -266,3 +266,6 @@
     top: calc(100% + 14px);
     left: calc(var(--frame) + 14px);
     right: calc(var(--frame) + 76px);
+  }
+}
+
