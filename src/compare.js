@@ -254,3 +254,4 @@ export function initCompare(root) {
         URL.revokeObjectURL(b);
         URL.revokeObjectURL(a);
         return;
+      }
