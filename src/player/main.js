@@ -687,3 +687,4 @@ function showError(message) {
   ui.input.setAttribute('aria-invalid', message ? 'true' : 'false');
 }
 
+ui.form.addEventListener('submit', (event) => {
