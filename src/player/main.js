@@ -769,3 +769,4 @@ ui.next.addEventListener('click', () => {
 });
 
 ui.prev.addEventListener('click', () => {
+  const item = state.items[state.current];
