@@ -536,3 +536,4 @@ export function createScene(
   resize();
 
   return {
+    startsStill: still,
