@@ -324,3 +324,4 @@ function queueRow(item, index) {
   meta.append(title, sub);
 
   const play = document.createElement('button');
+  play.type = 'button';
