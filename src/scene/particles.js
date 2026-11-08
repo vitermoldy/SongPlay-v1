@@ -101,3 +101,4 @@ export function createParticles(count, live) {
           float k = cos(vSpin);
           vec2 q = vec2(c.x * k - c.y * s, c.x * s + c.y * k);
           q.y *= 1.0 + 0.8 * abs(sin(vSpin * 0.7));
+          float e = length(q / vec2(0.46, 0.22));
