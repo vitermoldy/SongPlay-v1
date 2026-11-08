@@ -71,3 +71,4 @@ const FinishShader = {
       float g = hash(vUv * vec2(1931.0, 1087.0) + fract(uTime * 7.0) * 113.0) - 0.5;
       c.rgb += g * uGrain;
       vec2 q = vUv - 0.5;
+      c.rgb *= mix(0.8, 1.0, smoothstep(0.86, 0.3, length(q * vec2(1.0, 1.1))));
