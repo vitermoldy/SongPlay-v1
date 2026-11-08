@@ -11,3 +11,4 @@ export function heightAt(x, z) {
   return crest + leftRise + rightFar + leftFar + roll;
 }
 
+export function createTerrain(uniforms) {
