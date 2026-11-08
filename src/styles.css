@@ -528,3 +528,4 @@ body.menu-open .site-header {
 }
 
 .hero-sub {
+  font-size: clamp(36px, 4.5vw, 66px);
