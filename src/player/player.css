@@ -178,3 +178,6 @@
   overflow: hidden;
   isolation: isolate;
   background: var(--night);
+  color: #fff;
+}
+
