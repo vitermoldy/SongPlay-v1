@@ -277,3 +277,6 @@ export function createScene(
     if (s.t >= 1) {
       themeShift = null;
       refreshEnvironment();
+    }
+  }
+
