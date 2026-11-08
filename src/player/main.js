@@ -662,3 +662,4 @@ function placeQueue() {
     panel.dataset.place = 'side';
     panel.style.width = `${Math.min(440, Math.floor(sideSpace))}px`;
     panel.style.right = `${Math.round(deck.right - (window.innerWidth - edge - 16))}px`;
+    panel.style.maxHeight = `${Math.floor(deck.top - margin - ceiling - 16)}px`;
