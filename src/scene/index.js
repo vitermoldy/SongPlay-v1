@@ -59,3 +59,4 @@ const POWER_TIME = 1.5;
 const THEME_TIME = 1.4;
 const SCREEN_LEVEL = { idle: 1, video: 0.22, paused: 0.18 };
 
+// The current time of day and season as live Color objects and uniforms every material shares.
