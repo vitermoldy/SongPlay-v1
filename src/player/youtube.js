@@ -64,3 +64,4 @@ export function loadYouTubeApi() {
     window.onYouTubeIframeAPIReady = () => {
       previous?.();
       resolve(window.YT);
+    };
