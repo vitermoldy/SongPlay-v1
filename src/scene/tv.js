@@ -112,3 +112,4 @@ export function createTV(shapeName = 'classic') {
         if (edge > 0.0) discard;
 
         float r = length((vUv - 0.5) * vec2(1.0, 1.15));
+        vec3 hot = vec3(3.0, 2.7, 1.9);
