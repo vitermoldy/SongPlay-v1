@@ -424,3 +424,6 @@ export function createScene(
         slow = true;
         cursorWanted = 0;
         onSlow?.();
+      }
+    }
+
