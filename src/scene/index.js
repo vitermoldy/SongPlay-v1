@@ -560,3 +560,4 @@ export function createScene(
     mountScreen(element, container, { width = 640 } = {}) {
       const height = Math.round((width * tv.shape.screenH) / tv.shape.screenW);
       const cssRenderer = new CSS3DRenderer();
+      cssRenderer.domElement.classList.add('screen-layer');
