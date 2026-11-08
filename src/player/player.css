@@ -463,3 +463,4 @@
 }
 
 .deck-row input:focus-visible {
+  border-color: var(--glow);
