@@ -90,3 +90,4 @@ export function createTV(shapeName = 'classic') {
     },
     vertexShader: /* glsl */ `
       varying vec2 vUv;
+      void main() {
