@@ -29,3 +29,4 @@ export function parseYouTube(raw) {
   if (listUsable) {
     const index = Math.max(0, Number(url.searchParams.get('index') || 1) - 1) || 0;
     return { kind: 'playlist', list, index };
+  }
