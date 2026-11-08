@@ -221,3 +221,4 @@ export function createScene(
   let visible = true;
   let raf = 0;
   let time = 0;
+  let last = 0;
