@@ -199,3 +199,4 @@ export function createScene(
   fill.position.set(-5, 4, 6);
   scene.add(fill);
 
+  function applyNumbers() {
