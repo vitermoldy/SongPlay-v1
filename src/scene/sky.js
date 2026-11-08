@@ -106,3 +106,4 @@ export function createClouds(live) {
         uFade: live.u.cloudOpacity,
         uLit: { value: live.color('clouds.lit') },
         uShade: { value: live.color('clouds.shade') },
+      },
