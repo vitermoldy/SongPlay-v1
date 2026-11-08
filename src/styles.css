@@ -1074,3 +1074,4 @@ body.menu-open .site-header {
 
 .field {
   display: grid;
+  gap: 8px;
