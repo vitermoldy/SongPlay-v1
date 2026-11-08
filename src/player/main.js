@@ -349,3 +349,4 @@ function render() {
   ui.queueEmpty.hidden = count > 0;
   ui.clear.hidden = count === 0;
 
+  // Rebuilding the list would drop focus from a row button; keep it on the same row if so.
