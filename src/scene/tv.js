@@ -65,3 +65,6 @@ export function createTV(shapeName = 'classic') {
     clearcoatRoughness: 0.3,
     envMapIntensity: 0.32,
   });
+  const face = new MeshStandardMaterial({ color: '#030308', roughness: 0.6, envMapIntensity: 0.12 });
+  const dark = new MeshStandardMaterial({ color: '#08090f', roughness: 0.5, metalness: 0.2, envMapIntensity: 0.25 });
+
