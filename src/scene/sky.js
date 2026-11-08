@@ -164,3 +164,4 @@ function ridge(seed, width, base, peak) {
 
 export function createMountains(live) {
   const layers = [
+    { z: -110, seed: 41, base: 0.2, peak: 3.4, top: 'mountains.farTop', low: 'mountains.farLow' },
