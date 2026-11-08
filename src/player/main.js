@@ -83,3 +83,4 @@ ui.seasons.addEventListener('change', (event) => {
   season = name;
   ui.stage.dataset.season = name;
   scene?.setSeason(name);
+  ambience?.setScene(theme, season);
