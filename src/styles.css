@@ -226,3 +226,4 @@ button:disabled {
   position: fixed;
   inset: 0 0 auto;
   z-index: 50;
+  display: flex;
