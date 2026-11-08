@@ -5,3 +5,4 @@ import { mulberry32 } from './shared.js';
 // or fireflies at night); 1: round snowflakes; 2: petals or leaves, spinning as they fall;
 // 3: rain streaks.
 // The near ones are larger and blurrier, like out-of-focus light.
+// uDrift is the fall distance so far, added up frame by frame, so a change of speed between
