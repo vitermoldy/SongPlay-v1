@@ -77,3 +77,4 @@ ui.themes.addEventListener('change', (event) => {
   remember(THEME_KEY, name);
 });
 
+ui.seasons.addEventListener('change', (event) => {
