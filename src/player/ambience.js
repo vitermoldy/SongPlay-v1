@@ -348,3 +348,4 @@ export function createAmbience() {
       applyMaster();
     },
     // A hidden tab goes quiet and saves the battery; it picks up again when shown.
+    setHidden(on) {
