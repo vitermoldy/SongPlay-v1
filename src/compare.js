@@ -248,3 +248,4 @@ export function initCompare(root) {
   return {
     async setSource(source) {
       const mine = ++version;
+      const [w, h] = outputSize(root);
