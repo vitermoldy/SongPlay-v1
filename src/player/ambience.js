@@ -276,3 +276,4 @@ export function createAmbience() {
   const thunderNoise = brownNoise(6);
   let thunderLevel = 0;
   let thunderTimer = 0;
+  function rumble() {
