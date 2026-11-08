@@ -176,3 +176,4 @@ export function createMountains(live) {
         uLow: { value: live.color(low) },
         uFog: { value: live.color('haze') },
         uTopY: { value: base + peak },
+      },
