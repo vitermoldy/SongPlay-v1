@@ -250,3 +250,6 @@ export function createScene(
       toSun: new Vector3(...next.sunDir).normalize(),
     };
     if (still) stepTheme(0);
+    kick();
+  }
+
