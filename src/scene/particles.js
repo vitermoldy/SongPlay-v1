@@ -107,3 +107,6 @@ export function createParticles(count, live) {
         vec3 col = mix(uColor, uColor2, vSeed);
         gl_FragColor = vec4(col * (uShape > 1.5 && uShape < 2.5 ? 1.0 : 1.15), alpha * vAlpha * uOpacity);
       }
+    `,
+  });
+
