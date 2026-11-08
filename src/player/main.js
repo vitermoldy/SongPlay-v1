@@ -601,3 +601,4 @@ function advance(note = '') {
   else stopAll('ended', `${note ? `${note} ` : ''}That was the last one in the queue. Add another link to keep going.`);
 }
 
+function stopAll(status, message) {
