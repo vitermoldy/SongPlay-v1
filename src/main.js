@@ -23,3 +23,6 @@ function initHeader() {
     },
     { passive: true },
   );
+  update();
+}
+
