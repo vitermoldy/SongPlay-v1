@@ -122,3 +122,4 @@ export function createAmbience() {
 
   // Three crickets with their own pitch and rhythm; 2.4 s holds a whole number of each cycle.
   function crickets() {
+    const seconds = 2.4;
