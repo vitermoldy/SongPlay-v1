@@ -760,3 +760,4 @@ ui.next.addEventListener('click', () => {
   if (item?.kind === 'playlist' && yt) {
     const list = yt.getPlaylist?.() || [];
     const at = yt.getPlaylistIndex?.() ?? -1;
+    if (at >= 0 && at < list.length - 1) {
