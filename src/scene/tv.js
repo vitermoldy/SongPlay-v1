@@ -164,3 +164,4 @@ export function createTV(shapeName = 'classic') {
   return {
     group,
     shape,
+    screenMaterial,
