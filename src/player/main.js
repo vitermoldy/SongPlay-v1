@@ -454,3 +454,4 @@ function ensurePlayer() {
   if (ytReady) return ytReady;
   ytReady = loadYouTubeApi()
     .then(
+      (YT) =>
