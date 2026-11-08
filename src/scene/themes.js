@@ -181,3 +181,4 @@ function overcastSky(colors, numbers, { tint, amount }) {
   const greyLuma = luma(grey);
   for (const path of OVERCAST_PATHS) {
     const c = colors.get(path);
+    const target = grey.clone().multiplyScalar((luma(c) / greyLuma) * 0.82);
