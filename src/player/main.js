@@ -316,3 +316,4 @@ function queueRow(item, index) {
   const sub = document.createElement('p');
   sub.className = 'queue-sub';
   if (current && state.status === 'playing') sub.textContent = 'Now playing';
+  else if (current && state.status === 'paused') sub.textContent = 'Paused';
