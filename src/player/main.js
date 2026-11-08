@@ -455,3 +455,4 @@ function ensurePlayer() {
   ytReady = loadYouTubeApi()
     .then(
       (YT) =>
+        new Promise((resolve) => {
