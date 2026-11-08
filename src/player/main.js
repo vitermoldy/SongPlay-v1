@@ -658,3 +658,4 @@ function placeQueue() {
     ui.sceneToggle.hidden ? 0 : ui.sceneToggle.getBoundingClientRect().bottom,
   );
 
+  if (sideSpace >= 300) {
