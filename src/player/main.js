@@ -626,3 +626,4 @@ function removeAt(index) {
   saveQueue();
   say(`Removed ${titleOf(item)}.`);
   if (index < state.current) {
+    state.current -= 1;
