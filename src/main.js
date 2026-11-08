@@ -40,3 +40,4 @@ function initMenu() {
     document.body.classList.toggle('menu-open', open);
     for (const el of outside) el.inert = open;
     if (open) {
+      menu.hidden = false;
