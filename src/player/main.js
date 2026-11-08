@@ -572,3 +572,6 @@ async function playIndex(index) {
   } catch {
     // Nothing loaded yet.
   }
+  if (item.kind === 'video') player.loadVideoById(item.id);
+  else player.loadPlaylist({ list: item.list, listType: 'playlist', index: item.index || 0 });
+
