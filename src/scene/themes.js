@@ -219,3 +219,4 @@ export function compose(timeName, seasonName) {
   if (season.particles) {
     const tint = new Color(time.light.particles);
     colors.set('particles.color', new Color(season.particles.color).multiply(tint));
+    colors.set('particles.color2', new Color(season.particles.color2).multiply(tint));
