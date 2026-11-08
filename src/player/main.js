@@ -465,3 +465,4 @@ function ensurePlayer() {
               onReady: () => {
                 yt = player;
                 resolve(player);
+              },
