@@ -272,3 +272,4 @@ function say(text) {
 }
 
 function nowLine() {
+  const item = state.items[state.current];
