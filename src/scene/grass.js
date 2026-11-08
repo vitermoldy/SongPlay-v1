@@ -56,3 +56,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
     const tall = far ? 1.6 : inFront ? 0.32 : nearTv ? 0.8 : 1;
     params[i * 4] = rand() * Math.PI * 2;
     params[i * 4 + 1] = (0.2 + rand() * 0.26) * tall;
+    params[i * 4 + 2] = (0.035 + rand() * 0.03) * (far ? 2.2 : 1);
