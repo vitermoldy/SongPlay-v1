@@ -17,3 +17,4 @@ const passVertex = /* glsl */ `
 // depth of field: the set is sharp, the near grass and the far sky go soft.
 const FocusBlurShader = {
   uniforms: {
+    tDiffuse: { value: null },
