@@ -203,3 +203,4 @@ function toUrl(canvas) {
 
 function swap(img, url) {
   const old = img.currentSrc || img.src;
+  img.src = url;
