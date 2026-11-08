@@ -81,3 +81,4 @@ export function createTV(shapeName = 'classic') {
   group.add(bezel);
 
   const screenMaterial = new ShaderMaterial({
+    uniforms: {
