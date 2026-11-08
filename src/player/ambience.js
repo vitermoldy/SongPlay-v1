@@ -97,3 +97,4 @@ export function createAmbience() {
     for (let i = 0; i < d.length; i++) {
       last = (last + 0.02 * (rand() * 2 - 1)) / 1.02;
       d[i] = last * 3.5;
+    }
