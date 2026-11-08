@@ -181,3 +181,4 @@ export function vhsify(source, outW = W, outH = H) {
 }
 
 function cleanCopy(source, outW, outH) {
+  const out = makeCanvas(outW, outH);
