@@ -161,3 +161,4 @@ export function vhsify(source, outW = W, outH = H) {
   g.fillRect(0, h - 10, w, 10);
 
   g.fillStyle = 'rgba(255, 255, 255, 0.92)';
+  g.shadowColor = 'rgba(0, 0, 0, 0.5)';
