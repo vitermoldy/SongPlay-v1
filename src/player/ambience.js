@@ -262,3 +262,4 @@ export function createAmbience() {
   const bed = ctx.createGain();
   bed.gain.value = 0.7;
   loop(pinkNoise(5), filter('highpass', 350), filter('lowpass', 6500), bed, layers.rain);
+  const patter = ctx.createGain();
