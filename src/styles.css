@@ -743,3 +743,4 @@ body.menu-open .site-header {
   aspect-ratio: 4 / 3;
   border-radius: var(--radius-m);
   overflow: hidden;
+  background: linear-gradient(#2232b8, #8d9cf2 60%, #2c3416 61%);
