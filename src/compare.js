@@ -140,3 +140,6 @@ export function vhsify(source, outW = W, outH = H) {
       d[i] = r * 0.84 + 36 + n;
       d[i + 1] = gg * 0.8 + 20 + n * 0.9;
       d[i + 2] = b * 0.8 + 42 + n;
+    }
+  }
+
