@@ -221,3 +221,4 @@ export function createAmbience() {
     const src = ctx.createBufferSource();
     src.buffer = buf;
     src.loop = true;
+    let node = src;
