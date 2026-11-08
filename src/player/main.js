@@ -14,3 +14,4 @@ const SEASON_NAMES = ['spring', 'summer', 'autumn', 'winter', 'rain'];
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const $ = (selector) => document.querySelector(selector);
 
+const ui = {
