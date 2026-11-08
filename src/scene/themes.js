@@ -6,3 +6,4 @@ import { Color } from 'three';
 // `light.particles` tints a season's falling things (snow, petals, leaves) for this light.
 export const THEMES = {
   dusk: {
+    label: 'Dusk',
