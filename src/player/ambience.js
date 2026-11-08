@@ -191,3 +191,4 @@ export function createAmbience() {
       const amp = 0.2 + rand() * 0.5;
       for (let k = 0; k < len; k++) {
         const t = k / len;
+        const env = Math.min(1, t * 20) * (1 - t) ** 2;
