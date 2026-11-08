@@ -30,3 +30,4 @@ export function createParticles(count, live) {
     blending: AdditiveBlending,
     uniforms: {
       uTime: live.u.time,
+      uDrift: live.u.drift,
