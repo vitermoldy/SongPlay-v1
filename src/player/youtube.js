@@ -61,3 +61,4 @@ export function loadYouTubeApi() {
   if (apiPromise) return apiPromise;
   apiPromise = new Promise((resolve, reject) => {
     const previous = window.onYouTubeIframeAPIReady;
+    window.onYouTubeIframeAPIReady = () => {
