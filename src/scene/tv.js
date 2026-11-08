@@ -103,3 +103,4 @@ export function createTV(shapeName = 'classic') {
       uniform float uCorner;
       varying vec2 vUv;
       float sdRoundRect(vec2 p, vec2 b, float r) {
+        vec2 q = abs(p) - b + r;
