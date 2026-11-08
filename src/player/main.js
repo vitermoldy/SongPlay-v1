@@ -225,3 +225,4 @@ function isValid(item) {
 }
 
 function loadQueue() {
+  try {
