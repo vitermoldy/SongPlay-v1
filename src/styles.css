@@ -1151,3 +1151,4 @@ body.menu-open .site-header {
 }
 
 .field-error {
+  color: var(--error);
