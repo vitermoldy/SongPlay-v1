@@ -723,3 +723,4 @@ ui.form.addEventListener('submit', (event) => {
       else if (error.status === 400 || error.status === 404) item.problem = 'it is private or was removed';
     })
     .finally(() => {
+      if (!state.items.includes(item)) return;
