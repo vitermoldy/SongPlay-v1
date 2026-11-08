@@ -463,3 +463,4 @@ export function createScene(
   }
 
   function shouldRun() {
+    const settling =
