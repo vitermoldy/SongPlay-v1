@@ -37,3 +37,4 @@ export function createTerrain(uniforms) {
       uniform vec3 uSunDir;
       uniform vec3 uSunColor;
       uniform vec3 uSkyColor;
+      uniform vec3 uGround;
