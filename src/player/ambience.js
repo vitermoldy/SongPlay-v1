@@ -328,3 +328,4 @@ export function createAmbience() {
           if (!enabled) ctx.suspend();
         }, 1500);
       }
+    },
