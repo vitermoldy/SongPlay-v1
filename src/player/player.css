@@ -56,3 +56,4 @@
   display: block;
 }
 
+.sound-toggle[data-on='true'] {
