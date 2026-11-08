@@ -698,3 +698,4 @@ ui.form.addEventListener('submit', (event) => {
   const parsed = parseYouTube(raw);
   if (!parsed) {
     showError('That isn’t a YouTube video or playlist link. It should start with youtube.com or youtu.be.');
+    ui.input.focus();
