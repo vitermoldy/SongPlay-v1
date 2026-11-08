@@ -119,3 +119,4 @@ export function createTV(shapeName = 'classic') {
         c *= 0.975 + 0.025 * sin(uTime * 31.0) * sin(uTime * 7.0);
         c *= uLevel;
 
+        // Power-on: a bright line grows across, then the picture opens top to bottom.
