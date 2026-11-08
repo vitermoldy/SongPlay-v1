@@ -591,3 +591,4 @@ export function createScene(
       renderer.dispose();
     },
   };
+}
