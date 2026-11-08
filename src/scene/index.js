@@ -590,3 +590,4 @@ export function createScene(
       pmrem.dispose();
       renderer.dispose();
     },
+  };
