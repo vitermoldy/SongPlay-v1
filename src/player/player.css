@@ -580,3 +580,6 @@
 }
 
 .queue-toggle:active {
+  transform: scale(0.97);
+}
+
