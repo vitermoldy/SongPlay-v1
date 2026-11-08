@@ -890,3 +890,4 @@ body.menu-open .site-header {
 
 .formats {
   --mm: 2px;
+  background: var(--cream);
