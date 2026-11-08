@@ -299,3 +299,4 @@ export function createScene(
     let prev = 0.2;
     for (let t = 0.2; t < 90; t += t < 12 ? 0.12 : 0.5) {
       if (below(t)) {
+        let a = prev;
