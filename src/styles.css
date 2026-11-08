@@ -1306,3 +1306,6 @@ body.menu-open .site-header {
 @media (max-width: 960px) {
   .site-nav,
   .header-cta {
+    display: none;
+  }
+
