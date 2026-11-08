@@ -1400,3 +1400,4 @@ body.menu-open .site-header {
     right: var(--frame);
     bottom: var(--frame);
     justify-content: center;
+    max-width: none;
