@@ -74,3 +74,6 @@ ui.themes.addEventListener('change', (event) => {
   ui.stage.dataset.theme = name;
   scene?.setTheme(name);
   ambience?.setScene(theme, season);
+  remember(THEME_KEY, name);
+});
+
