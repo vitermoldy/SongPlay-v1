@@ -259,3 +259,4 @@ export function createAmbience() {
   loop(brownNoise(9), windTone, gust, layers.wind);
 
   // Rain: a hiss bed and the patter of drops.
+  const bed = ctx.createGain();
