@@ -820,3 +820,4 @@
   }
 
   .deck-add-btn > span:first-child {
+    position: absolute;
