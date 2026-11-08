@@ -717,3 +717,4 @@ ui.form.addEventListener('submit', (event) => {
   bumpCount();
 
   fetchInfo(item)
+    .then((info) => Object.assign(item, info))
