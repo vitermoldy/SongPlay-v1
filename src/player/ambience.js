@@ -294,3 +294,4 @@ export function createAmbience() {
 
   // ---------- State ----------
 
+  let enabled = false;
