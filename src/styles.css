@@ -1248,3 +1248,4 @@ body.menu-open .site-header {
 }
 
 .footer-row {
+  display: flex;
