@@ -323,3 +323,4 @@ function queueRow(item, index) {
   else sub.textContent = item.author || (item.title ? 'YouTube' : 'Getting the title…');
   meta.append(title, sub);
 
+  const play = document.createElement('button');
