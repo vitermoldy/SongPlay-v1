@@ -779,3 +779,5 @@ ui.prev.addEventListener('click', () => {
   }
 });
 
+ui.queueToggle.addEventListener('click', () => setQueueOpen(ui.queuePanel.hidden));
+
