@@ -20,3 +20,4 @@ const FocusBlurShader = {
     tDiffuse: { value: null },
     uResolution: { value: new Vector2(1, 1) },
     uDir: { value: new Vector2(1, 0) },
+    uFocus: { value: new Vector2(0.5, 0.42) },
