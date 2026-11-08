@@ -362,3 +362,4 @@ function render() {
 
   const playingNow = state.status === 'playing' || state.status === 'loading';
   ui.toggle.dataset.state = playingNow ? 'playing' : 'paused';
+  ui.toggle.setAttribute('aria-label', playingNow ? 'Pause' : 'Play');
