@@ -158,3 +158,4 @@ export const read = (theme, path) => path.split('.').reduce((o, k) => o?.[k], th
 
 const OVERCAST_PATHS = [
   'sky.top',
+  'sky.mid',
