@@ -99,3 +99,4 @@ export function createScene(
   const renderer = new WebGLRenderer({
     canvas,
     antialias: false,
+    stencil: false,
