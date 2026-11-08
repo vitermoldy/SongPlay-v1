@@ -106,3 +106,4 @@ export function paintStandIn() {
 export function vhsify(source, outW = W, outH = H) {
   const w = 640;
   const h = 480;
+  const small = makeCanvas(300, h);
