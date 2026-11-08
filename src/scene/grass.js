@@ -66,3 +66,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
   geometry.instanceCount = i;
 
   const material = new ShaderMaterial({
+    uniforms,
