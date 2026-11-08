@@ -116,3 +116,4 @@ export function createPost(renderer, scene, camera) {
     setTime(t) {
       finish.uniforms.uTime.value = t;
     },
+  };
