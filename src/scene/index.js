@@ -11,3 +11,4 @@ import {
   Vector3,
   WebGLRenderer,
 } from 'three';
+import { CSS3DObject, CSS3DRenderer } from 'three/examples/jsm/renderers/CSS3DRenderer.js';
