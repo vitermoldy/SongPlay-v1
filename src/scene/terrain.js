@@ -48,3 +48,4 @@ export function createTerrain(uniforms) {
       uniform float uCursorPower;
       uniform float uFogNear;
       uniform float uFogFar;
+      varying vec3 vWorld;
