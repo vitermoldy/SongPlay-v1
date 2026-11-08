@@ -912,3 +912,4 @@ body.menu-open .site-header {
    line the lede and every split's right column start on. */
 .formats-list {
   display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
