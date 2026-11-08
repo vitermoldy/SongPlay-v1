@@ -477,3 +477,4 @@ export function createScene(
   }
 
   function kick() {
+    if (raf) return;
