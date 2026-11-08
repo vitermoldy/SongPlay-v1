@@ -140,3 +140,4 @@ export function createAmbience() {
             d[start + k] += v.amp * env * Math.sin((2 * Math.PI * v.f * (start + k)) / sr);
           }
         }
+      }
