@@ -152,3 +152,4 @@ button:disabled {
   transition: background-size 260ms var(--ease);
 }
 
+.text-link:hover {
