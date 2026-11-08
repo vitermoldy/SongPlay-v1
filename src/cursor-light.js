@@ -12,3 +12,4 @@ export function initCursorLight({ skip = [] } = {}) {
   let y = -1000;
   let queued = false;
   const place = () => {
+    queued = false;
