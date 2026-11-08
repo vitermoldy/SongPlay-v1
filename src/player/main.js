@@ -63,3 +63,4 @@ function remember(key, value) {
 let theme = saved(THEME_KEY, THEME_NAMES, 'dusk');
 let season = saved(SEASON_KEY, SEASON_NAMES, 'summer');
 ui.stage.dataset.theme = theme;
+ui.stage.dataset.season = season;
