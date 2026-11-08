@@ -456,3 +456,4 @@ body.menu-open .site-header {
   pointer-events: none;
   background:
     linear-gradient(to bottom, rgba(16, 22, 92, 0.38), rgba(16, 22, 92, 0) 26%),
+    radial-gradient(ellipse 46% 32% at 50% 84%, rgba(5, 7, 24, 0.66), rgba(5, 7, 24, 0)),
