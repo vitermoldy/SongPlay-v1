@@ -1021,3 +1021,4 @@ body.menu-open .site-header {
 }
 
 .contacts-copy {
+  grid-column: 1 / span 5;
