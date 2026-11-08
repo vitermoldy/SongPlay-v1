@@ -233,3 +233,4 @@ export function createAmbience() {
     const f = ctx.createBiquadFilter();
     f.type = type;
     f.frequency.value = frequency;
+    f.Q.value = Q;
