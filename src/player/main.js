@@ -87,3 +87,5 @@ ui.seasons.addEventListener('change', (event) => {
   remember(SEASON_KEY, name);
 });
 
+// ---------- Ambient sound for the scene (off until asked for) ----------
+
