@@ -365,3 +365,4 @@ export function createScene(
       const shotPerUnit = height / (2 * PLAYER_DISTANCE * tan);
       let perUnit = 1;
       let cx = width / 2;
+      let cy = height / 2;
