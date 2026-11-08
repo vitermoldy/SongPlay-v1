@@ -507,3 +507,4 @@ function onPlayerState(event) {
     } else {
       state.status = 'paused';
       scene?.setScreenMode('paused');
+    }
