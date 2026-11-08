@@ -198,3 +198,6 @@ function outputSize(root) {
 function toUrl(canvas) {
   return new Promise((resolve, reject) => {
     canvas.toBlob((blob) => (blob ? resolve(URL.createObjectURL(blob)) : reject(new Error('toBlob failed'))), 'image/jpeg', 0.86);
+  });
+}
+
