@@ -561,3 +561,4 @@ export function createScene(
       const height = Math.round((width * tv.shape.screenH) / tv.shape.screenW);
       const cssRenderer = new CSS3DRenderer();
       cssRenderer.domElement.classList.add('screen-layer');
+      container.append(cssRenderer.domElement);
