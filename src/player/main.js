@@ -214,3 +214,4 @@ const state = {
   items: loadQueue(),
   current: -1,
   status: 'idle', // idle | loading | playing | paused | ended | error
+  message: '',
