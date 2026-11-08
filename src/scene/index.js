@@ -174,3 +174,4 @@ export function createScene(
   scene.add(createTerrain(shared));
   scene.add(
     createGrass({
+      count: lowPower ? 30000 : 80000,
