@@ -1332,3 +1332,4 @@ body.menu-open .site-header {
   .contacts-grid .request,
   .formats-head h2,
   .formats-head .lede {
+    grid-column: 1 / -1;
