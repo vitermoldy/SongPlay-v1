@@ -590,3 +590,4 @@ async function playIndex(index) {
       return;
     }
     state.status = 'paused';
+    render();
