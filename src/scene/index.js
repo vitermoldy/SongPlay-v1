@@ -237,3 +237,4 @@ export function createScene(
   // ---------- Time of day and season: every colour, light and number eases to the new look ----------
   function retarget() {
     const next = compose(live.time, live.season);
+    // What falls changes form at once (snow, petals, leaves); its colour and speed ease over.
