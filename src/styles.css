@@ -1101,3 +1101,4 @@ body.menu-open .site-header {
 .field select,
 .field textarea {
   width: 100%;
+  min-height: 52px;
