@@ -42,3 +42,4 @@ export function watchUrl(item) {
 
 // Title, channel and thumbnail from YouTube's oEmbed endpoint, which answers cross-origin.
 // A 401 or 403 means the owner turned embedding off; a 404 a private or removed video.
+export async function fetchInfo(item) {
