@@ -545,3 +545,4 @@ export function createScene(
       visible = next;
       if (next) kick();
     },
+    setTheme,
