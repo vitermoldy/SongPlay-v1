@@ -233,3 +233,4 @@ export function initCompare(root) {
     root.setPointerCapture(event.pointerId);
     fromPointer(event);
   });
+  root.addEventListener('pointermove', (event) => {
