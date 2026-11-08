@@ -162,3 +162,4 @@ document.addEventListener('keydown', (event) => {
     setSoundPanel(false);
     ui.sound.focus();
   }
+});
