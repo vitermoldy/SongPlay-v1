@@ -203,3 +203,4 @@ export function createScene(
     const n = live.numbers;
     live.u.stars.value = n.stars;
     live.u.cloudOpacity.value = n['clouds.opacity'];
+    live.u.particleOpacity.value = n['particles.opacity'];
