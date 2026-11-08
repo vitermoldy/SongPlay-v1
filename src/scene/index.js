@@ -542,3 +542,4 @@ export function createScene(
       kick();
     },
     setVisible(next) {
+      visible = next;
