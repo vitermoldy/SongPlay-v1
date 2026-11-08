@@ -98,3 +98,4 @@ export const SEASONS = {
   },
   // The rainy season also clouds the sky over: `overcast` greys whatever the time of day shows.
   rain: {
+    label: 'Rain',
