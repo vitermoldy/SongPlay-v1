@@ -108,3 +108,4 @@ export function createScene(
   const gl = renderer.getContext();
   const info = gl.getExtension('WEBGL_debug_renderer_info');
   const rendererName = info ? String(gl.getParameter(info.UNMASKED_RENDERER_WEBGL)) : '';
+  const software = /swiftshader|llvmpipe|software|basic render/i.test(rendererName);
