@@ -243,3 +243,4 @@ function saveQueue() {
       index,
       title,
       author,
+      thumb,
