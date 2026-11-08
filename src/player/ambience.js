@@ -299,3 +299,4 @@ export function createAmbience() {
   let hidden = false;
   let volume = 0.7;
 
+  function scheduleThunder() {
