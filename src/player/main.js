@@ -379,3 +379,4 @@ function bumpCount() {
 
 let scene = null;
 
+function webglAvailable() {
