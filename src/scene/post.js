@@ -104,3 +104,4 @@ export function createPost(renderer, scene, camera) {
       composer.setPixelRatio(pixelRatio);
       composer.setSize(width, height);
       for (const pass of [blurX, blurY]) {
+        pass.uniforms.uResolution.value.set(width * pixelRatio, height * pixelRatio);
