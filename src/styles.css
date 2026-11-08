@@ -1069,3 +1069,6 @@ body.menu-open .site-header {
   padding: clamp(24px, 3.4vw, 44px);
   border: 1px solid var(--line);
   border-radius: var(--radius-l);
+  background: var(--night-2);
+}
+
