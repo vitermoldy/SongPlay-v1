@@ -437,3 +437,4 @@
 }
 
 .deck-row {
+  display: flex;
