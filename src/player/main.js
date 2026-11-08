@@ -202,3 +202,4 @@ function frameArea() {
     top: header + 18,
     bottom: floor - stage.top - 18,
     left: edge + 6,
+    right: stage.width - edge - 6,
