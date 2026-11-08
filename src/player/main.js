@@ -617,3 +617,4 @@ function stopAll(status, message) {
   render();
 }
 
+function removeAt(index) {
