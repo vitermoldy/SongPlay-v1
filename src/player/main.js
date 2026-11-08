@@ -786,3 +786,4 @@ ui.clear.addEventListener('click', () => {
   state.current = -1;
   saveQueue();
   stopAll('ended', 'Queue cleared. Paste a link to start again.');
+  say('Queue cleared.');
