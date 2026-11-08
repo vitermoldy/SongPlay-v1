@@ -77,3 +77,6 @@ export function createTV(shapeName = 'classic') {
   group.add(back);
 
   const bezel = new Mesh(new RoundedBoxGeometry(shape.bezel[0], shape.bezel[1], 0.06, 4, 0.05), face);
+  bezel.position.set(screenX, midY, 0.445);
+  group.add(bezel);
+
