@@ -591,3 +591,4 @@ async function playIndex(index) {
     }
     state.status = 'paused';
     render();
+    setText(ui.now, `Ready: ${titleOf(item)}. Press play to start.`);
