@@ -718,3 +718,4 @@ ui.form.addEventListener('submit', (event) => {
 
   fetchInfo(item)
     .then((info) => Object.assign(item, info))
+    .catch((error) => {
