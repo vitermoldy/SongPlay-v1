@@ -262,3 +262,6 @@ export function createScene(
   function setSeason(name) {
     if (!SEASONS[name] || name === live.season) return;
     live.season = name;
+    retarget();
+  }
+
