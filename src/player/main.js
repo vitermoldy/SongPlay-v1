@@ -115,3 +115,4 @@ function syncSound() {
   soundValue.textContent = `${volume}%`;
 }
 
+async function setSound(on) {
