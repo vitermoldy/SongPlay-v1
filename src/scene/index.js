@@ -88,3 +88,4 @@ export function createScene(
     theme = 'dusk',
     season = 'summer',
     frameArea,
+    lowPower = false,
