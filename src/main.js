@@ -66,3 +66,4 @@ function initMenu() {
 // there. Done here rather than with CSS smooth scrolling, which also slows every Tab jump.
 function initAnchors() {
   document.addEventListener('click', (event) => {
+    const link = event.target.closest('a[href^="#"]');
