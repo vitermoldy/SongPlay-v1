@@ -66,3 +66,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
   the free stage between header and deck, the video sits inside a thin dark rim of the glass, and
   on wide screens the pickers move into the header bar to give the set that room. On a phone this
   puts the video under YouTube's 200px guideline; keeping the whole set on screen came first.
+- **The player is a wide shot**: the camera stands at one fixed distance from the TV on every
