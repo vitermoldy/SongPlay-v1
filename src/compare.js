@@ -185,3 +185,6 @@ function cleanCopy(source, outW, outH) {
   const og = out.getContext('2d');
   og.imageSmoothingQuality = 'high';
   og.drawImage(source, 0, 0, outW, outH);
+  return out;
+}
+
