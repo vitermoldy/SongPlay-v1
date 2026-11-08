@@ -224,3 +224,4 @@ function isValid(item) {
   return item.kind === 'playlist' && /^[\w-]{12,}$/.test(item.list);
 }
 
+function loadQueue() {
