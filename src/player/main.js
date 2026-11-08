@@ -97,3 +97,4 @@ let volume = (() => {
     const v = Number(localStorage.getItem(VOLUME_KEY));
     return localStorage.getItem(VOLUME_KEY) !== null && v >= 0 && v <= 100 ? v : 70;
   } catch {
+    return 70;
