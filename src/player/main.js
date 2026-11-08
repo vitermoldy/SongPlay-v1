@@ -611,3 +611,4 @@ function stopAll(status, message) {
   }
   ui.video.classList.remove('is-on');
   state.status = status;
+  state.message = message;
