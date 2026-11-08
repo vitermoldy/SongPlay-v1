@@ -41,3 +41,4 @@ export function createSky(live, { forReflections = false } = {}) {
     fragmentShader: /* glsl */ `
       uniform vec3 uTop;
       uniform vec3 uMid;
+      uniform vec3 uLow;
