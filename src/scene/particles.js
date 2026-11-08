@@ -114,3 +114,4 @@ export function createParticles(count, live) {
   points.frustumCulled = false;
   return {
     points,
+    material,
