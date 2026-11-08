@@ -30,3 +30,5 @@ tapes, in a cinematic dusk 3D style. Dial: ENERGY 3 / RHYTHM 2 / MOTION 2.
 
 The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a literal sky.
 
+## Type
+
