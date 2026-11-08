@@ -16,3 +16,6 @@ export function parseYouTube(raw) {
   } catch {
     return null;
   }
+  const host = url.hostname.toLowerCase().replace(/^(www|m|music)\./, '');
+  if (!HOSTS.has(host)) return null;
+
