@@ -32,3 +32,4 @@ export function initRequestForm(form) {
     else showError(name, '');
 
     if (!emailValue) problems.push([email, 'Add your email so we can reply.']);
+    else if (!EMAIL_PATTERN.test(emailValue))
