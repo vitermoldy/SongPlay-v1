@@ -85,3 +85,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
 - **Skies on the player page** (owner's request): Dusk is the brand sky; Night, Sunset and Dawn
   change the scene's colours, light and particles only. The page's own controls keep one dark,
   translucent ground in every sky so their white labels stay readable on the bright Dawn sky.
+- **"Put a song on"** names the header button to the player page (the owner asked for a button
