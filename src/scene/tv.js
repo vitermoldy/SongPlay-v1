@@ -61,3 +61,4 @@ export function createTV(shapeName = 'classic') {
     color: '#1830d8',
     roughness: 0.42,
     metalness: 0.0,
+    clearcoat: 0.25,
