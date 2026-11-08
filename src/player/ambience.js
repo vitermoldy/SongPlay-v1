@@ -161,3 +161,4 @@ export function createAmbience() {
         const env = Math.min(1, t * 12) * Math.min(1, (1 - t) * 6);
         d[s + k] += amp * env * Math.sin(phase);
       }
+    };
