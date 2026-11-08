@@ -29,3 +29,6 @@ function initHeader() {
 function initMenu() {
   const toggle = document.querySelector('[data-menu-toggle]');
   const menu = document.querySelector('[data-menu]');
+  const outside = [document.querySelector('main'), document.querySelector('.site-footer')];
+  let open = false;
+
