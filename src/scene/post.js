@@ -81,3 +81,4 @@ export function createPost(renderer, scene, camera) {
   const composer = new EffectComposer(renderer);
   const renderPass = new RenderPass(scene, camera);
   const bloom = new UnrealBloomPass(new Vector2(256, 256), 0.7, 0, 1.05);
+  // Weight the fine mips and starve the coarse ones: a hot halo hugging the screen that
