@@ -724,3 +724,4 @@
   min-height: 44px;
   padding: 0;
   border: 0;
+  background: linear-gradient(currentColor, currentColor) left 75% / 100% 1.5px no-repeat;
