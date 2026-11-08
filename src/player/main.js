@@ -285,3 +285,4 @@ function nowLine() {
     case 'ended':
     case 'error':
       return state.message;
+    default:
