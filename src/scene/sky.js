@@ -123,3 +123,4 @@ export function createClouds(live) {
         uniform vec3 uShade;
         varying vec2 vUv;
         ${NOISE_GLSL}
+        void main() {
