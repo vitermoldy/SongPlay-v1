@@ -327,3 +327,4 @@ export function createScene(
     }
     cursorWanted = hit ? 1 : 0;
     if (hit) cursorTarget.copy(hit);
+    // A paused scene still answers the cursor, one frame per move.
