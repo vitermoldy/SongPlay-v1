@@ -129,3 +129,4 @@ export function createClouds(live) {
           vec2 p = vUv * vec2(4.2, 2.1) + vec2(uSeed, uSeed * 0.37) + vec2(uTime * 0.01, 0.0);
           float warp = fbm(p * 0.7);
           float n = fbm(p + warp * 1.6);
+          float dens = smoothstep(0.4, 0.74, n) * shape;
