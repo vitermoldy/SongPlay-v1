@@ -59,3 +59,4 @@ const FinishShader = {
   },
   vertexShader: passVertex,
   fragmentShader: /* glsl */ `
+    uniform sampler2D tDiffuse;
