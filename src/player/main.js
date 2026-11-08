@@ -740,3 +740,4 @@ ui.input.addEventListener('input', () => {
   if (!ui.error.hidden) showError('');
 });
 
+ui.toggle.addEventListener('click', () => {
