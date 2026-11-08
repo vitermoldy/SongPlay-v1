@@ -228,3 +228,4 @@ export function initCompare(root) {
   root.addEventListener('pointerdown', (event) => {
     if (event.pointerType === 'mouse' && event.button !== 0) return;
     // A click on the "Drag to compare" label focuses the slider; it should not move the line.
+    if (event.target.closest('label')) return;
