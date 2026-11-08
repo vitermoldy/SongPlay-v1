@@ -312,3 +312,4 @@ export function createAmbience() {
   }
 
   function applyMaster(speed = enabled ? 0.5 : 0.25) {
+    const target = enabled ? loudness(volume) * (ducked ? DUCKED : 1) : 0;
