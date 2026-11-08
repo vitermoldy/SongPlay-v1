@@ -260,3 +260,6 @@ const safeThumb = (url) => (typeof url === 'string' && /^https:\/\/i\d?\.ytimg\.
 // ---------- Rendering ----------
 
 function setText(el, text) {
+  if (el.textContent !== text) el.textContent = text;
+}
+
