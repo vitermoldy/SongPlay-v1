@@ -11,3 +11,4 @@ function initHeader() {
   const header = document.querySelector('[data-header]');
   let queued = false;
   const update = () => {
+    queued = false;
