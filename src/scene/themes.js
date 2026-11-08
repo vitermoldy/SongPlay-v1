@@ -115,3 +115,4 @@ export const COLOR_PATHS = [
   'sky.mid',
   'sky.low',
   'sky.horizon',
+  'sky.sun',
