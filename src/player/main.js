@@ -184,3 +184,4 @@ if (soundOn) {
 document.addEventListener('visibilitychange', () => ambience?.setHidden(document.hidden));
 
 // The free part of the stage the TV must fit in: under the header, over the deck, inside the
+// viewfinder frame, in the stage's own pixels. The pickers (when they hang under the header)
