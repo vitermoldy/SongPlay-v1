@@ -26,3 +26,4 @@ export function initCursorLight({ skip = [] } = {}) {
     'pointermove',
     (event) => {
       if (event.pointerType !== 'mouse' || !fine.matches) return;
+      x = event.clientX;
