@@ -242,3 +242,4 @@ function saveQueue() {
       list,
       index,
       title,
+      author,
