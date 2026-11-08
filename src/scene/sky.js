@@ -19,3 +19,4 @@ import { NOISE_GLSL, mulberry32 } from './shared.js';
 // plain sky (the TV's side panel stays blue) instead of a peach band.
 export function createSky(live, { forReflections = false } = {}) {
   const material = new ShaderMaterial({
+    side: BackSide,
