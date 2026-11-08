@@ -719,3 +719,4 @@ ui.form.addEventListener('submit', (event) => {
   fetchInfo(item)
     .then((info) => Object.assign(item, info))
     .catch((error) => {
+      if (error.status === 401 || error.status === 403) item.problem = 'its owner does not allow it to play on other sites';
