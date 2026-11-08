@@ -76,3 +76,4 @@ export function createSky(live, { forReflections = false } = {}) {
             c += vec3(0.85, 0.9, 1.0) * star * 4.0 * uStars * smoothstep(0.02, 0.22, y);
           }
         }
+        gl_FragColor = vec4(c, 1.0);
