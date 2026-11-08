@@ -427,3 +427,6 @@
 
 .deck-add {
   display: grid;
+  gap: 8px;
+}
+
