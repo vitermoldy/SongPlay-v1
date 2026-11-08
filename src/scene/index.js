@@ -64,3 +64,4 @@ function createLive(time, season) {
   const look = compose(time, season);
   return {
     time: THEMES[time] ? time : 'dusk',
+    season: SEASONS[season] ? season : 'summer',
