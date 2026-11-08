@@ -668,3 +668,4 @@ body.menu-open .site-header {
   width: min(100% - 2 * var(--gutter), var(--wrap));
 }
 
+.section h2 {
