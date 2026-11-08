@@ -755,3 +755,4 @@ ui.toggle.addEventListener('click', () => {
   }
 });
 
+ui.next.addEventListener('click', () => {
