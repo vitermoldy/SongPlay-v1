@@ -180,3 +180,4 @@ function overcastSky(colors, numbers, { tint, amount }) {
   const grey = new Color(tint);
   const greyLuma = luma(grey);
   for (const path of OVERCAST_PATHS) {
+    const c = colors.get(path);
