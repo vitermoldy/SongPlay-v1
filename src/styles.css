@@ -1198,3 +1198,6 @@ body.menu-open .site-header {
   transition:
     background-color 160ms var(--ease),
     border-color 160ms var(--ease),
+    transform 160ms var(--ease);
+}
+
