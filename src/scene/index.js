@@ -267,3 +267,4 @@ export function createScene(
 
   function stepTheme(dt) {
     if (!themeShift) return;
+    const s = themeShift;
