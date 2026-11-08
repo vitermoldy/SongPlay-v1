@@ -39,3 +39,4 @@ const FocusBlurShader = {
       amount = max(amount, smoothstep(0.32, 0.0, vUv.y) * 0.95);
       float radius = amount * uMaxRadius;
       vec4 sum = vec4(0.0);
+      float total = 0.0;
