@@ -32,3 +32,4 @@ export const TV_SHAPES = {
     bezel: [1.32, 0.76],
     screenW: 1.28,
     screenH: 0.72,
+    screenX: 0,
