@@ -493,3 +493,4 @@ function onPlayerState(event) {
   const S = window.YT.PlayerState;
   const item = state.items[state.current];
   if (event.data === S.PLAYING || event.data === S.PAUSED) {
+    // Only count what the queue asked for: a list YouTube refused leaves the last one loaded,
