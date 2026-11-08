@@ -318,3 +318,4 @@ export function createAmbience() {
 
   return {
     async setEnabled(on) {
+      enabled = on;
