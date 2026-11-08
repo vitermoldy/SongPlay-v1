@@ -64,3 +64,4 @@ export function createTV(shapeName = 'classic') {
     clearcoat: 0.25,
     clearcoatRoughness: 0.3,
     envMapIntensity: 0.32,
+  });
