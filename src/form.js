@@ -25,3 +25,6 @@ export function initRequestForm(form) {
   function validate() {
     const problems = [];
     const nameValue = name.value.trim();
+    const emailValue = email.value.trim();
+    const formats = [...form.querySelectorAll('input[name="format"]:checked')];
+
