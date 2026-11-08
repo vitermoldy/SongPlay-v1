@@ -164,3 +164,4 @@ const OVERCAST_PATHS = [
   'haze',
   'clouds.lit',
   'clouds.shade',
+  'mountains.farTop',
