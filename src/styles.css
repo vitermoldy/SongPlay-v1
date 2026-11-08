@@ -1189,3 +1189,4 @@ body.menu-open .site-header {
 
 .chip span {
   display: inline-flex;
+  align-items: center;
