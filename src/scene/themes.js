@@ -174,3 +174,4 @@ const OVERCAST_PATHS = [
 
 const luma = (c) => 0.2126 * c.r + 0.7152 * c.g + 0.0722 * c.b;
 
+// Cloud cover over any time of day: each sky colour moves toward a cool grey of its own
