@@ -377,3 +377,5 @@ function bumpCount() {
 
 // ---------- The scene ----------
 
+let scene = null;
+
