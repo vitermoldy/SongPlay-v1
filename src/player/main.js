@@ -733,3 +733,6 @@ ui.form.addEventListener('submit', (event) => {
     render();
   } else {
     playIndex(state.items.length - 1);
+  }
+});
+
