@@ -78,3 +78,4 @@ export function loadYouTubeApi() {
         apiPromise = null;
         reject(new Error('The YouTube player took too long to load.'));
       }
+    }, 15000);
