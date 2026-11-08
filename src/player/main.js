@@ -415,3 +415,4 @@ async function initScene() {
         playing = false;
         sync();
       },
+    });
