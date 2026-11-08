@@ -134,3 +134,4 @@ export const COLOR_PATHS = [
   'light.sky',
   'lamps.hemiSky',
   'lamps.hemiGround',
+  'lamps.sun',
