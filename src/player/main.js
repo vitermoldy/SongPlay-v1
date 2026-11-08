@@ -524,3 +524,4 @@ function onPlayerState(event) {
 }
 
 function onPlayerError(event) {
+  const item = state.items[state.current];
