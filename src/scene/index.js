@@ -392,3 +392,4 @@ export function createScene(
     } else {
       base.copy(setup.camera);
       look.copy(setup.look);
+    }
