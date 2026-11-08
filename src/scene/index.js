@@ -553,3 +553,4 @@ export function createScene(
       return new Promise((resolve) => {
         pendingCapture = resolve;
         kick();
+      });
