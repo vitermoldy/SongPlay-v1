@@ -607,3 +607,4 @@ function stopAll(status, message) {
   try {
     yt?.stopVideo();
   } catch {
+    // The player may already be gone; nothing to stop.
