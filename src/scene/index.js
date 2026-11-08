@@ -589,3 +589,4 @@ export function createScene(
       envTarget?.dispose();
       pmrem.dispose();
       renderer.dispose();
+    },
