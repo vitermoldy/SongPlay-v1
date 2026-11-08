@@ -167,3 +167,4 @@ export function createScene(
     uCursorColor: { value: col(PALETTE.cursor) },
     uCursorPower: { value: 0 },
     uFogColor: { value: live.color('haze') },
+    uFogNear: { value: 22 },
