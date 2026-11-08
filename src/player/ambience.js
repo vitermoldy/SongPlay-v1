@@ -151,3 +151,4 @@ export function createAmbience() {
     const b = buffer(seconds);
     const d = b.getChannelData(0);
     const note = (start, dur, f1, f2, amp) => {
+      const s = Math.round(start * sr);
