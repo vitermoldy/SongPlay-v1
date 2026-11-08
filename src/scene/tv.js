@@ -6,3 +6,4 @@ import {
   MeshPhysicalMaterial,
   MeshStandardMaterial,
   PlaneGeometry,
+  ShaderMaterial,
