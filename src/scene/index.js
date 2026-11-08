@@ -200,3 +200,4 @@ export function createScene(
   scene.add(fill);
 
   function applyNumbers() {
+    const n = live.numbers;
