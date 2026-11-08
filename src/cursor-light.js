@@ -27,3 +27,4 @@ export function initCursorLight({ skip = [] } = {}) {
     (event) => {
       if (event.pointerType !== 'mouse' || !fine.matches) return;
       x = event.clientX;
+      y = event.clientY;
