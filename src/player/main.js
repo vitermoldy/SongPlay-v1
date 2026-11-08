@@ -409,3 +409,4 @@ async function initScene() {
       frameArea,
       lowPower,
       reducedMotion: reduceMotion.matches,
+      onReady: () => ui.stage.classList.add('is-live'),
