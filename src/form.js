@@ -69,3 +69,4 @@ export function initRequestForm(form) {
     status.textContent = `Your email app should open with this request filled in. If nothing opened, write to ${REQUEST_EMAIL}.`;
   });
 
+  // Clear a field's error as soon as it is fixed, not on every keystroke before submit.
