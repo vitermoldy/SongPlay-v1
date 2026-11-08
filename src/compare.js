@@ -221,3 +221,4 @@ export function initCompare(root) {
   };
 
   const fromPointer = (event) => {
+    const rect = root.getBoundingClientRect();
