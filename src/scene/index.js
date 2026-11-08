@@ -459,3 +459,6 @@ export function createScene(
     if (!readyFired) {
       readyFired = true;
       onReady?.();
+    }
+  }
+
