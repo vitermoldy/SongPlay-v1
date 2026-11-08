@@ -489,3 +489,4 @@
 }
 
 .deck-controls {
+  display: flex;
