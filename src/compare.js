@@ -153,3 +153,4 @@ export function vhsify(source, outW = W, outH = H) {
       d[i] = v;
       d[i + 1] = v;
       d[i + 2] = v;
+    }
