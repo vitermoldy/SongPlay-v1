@@ -101,3 +101,4 @@ export function createClouds(live) {
       depthWrite: false,
       uniforms: {
         uTime: live.u.time,
+        uSeed: { value: seed },
