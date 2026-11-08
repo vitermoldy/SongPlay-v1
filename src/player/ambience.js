@@ -210,3 +210,4 @@ export function createAmbience() {
   master.connect(compressor);
 
   const layers = {};
+  for (const name of LAYERS) {
