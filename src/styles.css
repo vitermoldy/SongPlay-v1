@@ -210,3 +210,4 @@ button:disabled {
 
 @keyframes wave {
   0% {
+    transform: translateX(0);
