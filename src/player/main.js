@@ -236,3 +236,4 @@ function loadQueue() {
 function saveQueue() {
   try {
     const keep = state.items.map(({ uid, kind, id, list, index, title, author, thumb, problem }) => ({
+      uid,
