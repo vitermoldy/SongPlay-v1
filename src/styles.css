@@ -645,3 +645,4 @@ body.menu-open .site-header {
   from {
     opacity: 0;
     transform: translateY(16px);
+    filter: blur(6px);
