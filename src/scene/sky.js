@@ -12,3 +12,6 @@ import {
 import { NOISE_GLSL, mulberry32 } from './shared.js';
 
 // Every function here takes `live`: the theme's colours as Color objects (live.color(path)),
+// a few shared uniforms (live.u) and the sun direction. Materials hold those same objects, so a
+// theme change only has to update them.
+
