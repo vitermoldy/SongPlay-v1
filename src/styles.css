@@ -397,3 +397,4 @@ body.menu-open .site-header {
 }
 
 .menu ul {
+  display: grid;
