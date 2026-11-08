@@ -527,3 +527,4 @@ function onPlayerError(event) {
   const item = state.items[state.current];
   const reason = describeError(event.data);
   if (item?.kind === 'playlist') {
+    const list = yt.getPlaylist?.() || [];
