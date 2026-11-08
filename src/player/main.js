@@ -289,3 +289,6 @@ function nowLine() {
       return state.items.length
         ? `${state.items.length} in the queue. Press play to start.`
         : 'Nothing on yet. Paste a YouTube link to put a song on.';
+  }
+}
+
