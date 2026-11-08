@@ -527,3 +527,4 @@ export function createScene(
   resizeObserver.observe(canvas);
 
   canvas.addEventListener('webglcontextlost', (event) => {
+    event.preventDefault();
