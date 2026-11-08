@@ -575,3 +575,4 @@ async function playIndex(index) {
   if (item.kind === 'video') player.loadVideoById(item.id);
   else player.loadPlaylist({ list: item.list, listType: 'playlist', index: item.index || 0 });
 
+  // Nothing heard back after a while means one of two things. A playlist that never loaded
