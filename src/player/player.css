@@ -407,3 +407,4 @@
   gap: 12px;
   width: min(100% - 2 * var(--gutter), 760px);
   margin-inline: auto;
+  padding: 16px 18px 18px;
