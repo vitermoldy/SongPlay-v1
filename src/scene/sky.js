@@ -152,3 +152,4 @@ function ridge(seed, width, base, peak) {
     const y =
       base +
       peak *
+        (0.55 * Math.sin(x * 0.045 + phases[0]) +
