@@ -511,3 +511,4 @@ export function createScene(
       ch = h;
       cw = h * (4 / 3);
     }
+    const out = document.createElement('canvas');
