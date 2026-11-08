@@ -529,3 +529,4 @@ function onPlayerError(event) {
   if (item?.kind === 'playlist') {
     const list = yt.getPlaylist?.() || [];
     const at = yt.getPlaylistIndex?.() ?? -1;
+    say(`Skipped one video in ${titleOf(item)}: ${reason}.`);
