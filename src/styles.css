@@ -1171,3 +1171,4 @@ body.menu-open .site-header {
 .chip input {
   position: absolute;
   inset: 0;
+  z-index: 1;
