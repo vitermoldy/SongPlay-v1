@@ -15,3 +15,4 @@ const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const $ = (selector) => document.querySelector(selector);
 
 const ui = {
+  stage: $('[data-stage]'),
