@@ -52,3 +52,4 @@ export function createParticles(count, live) {
       varying float vSpin;
       void main() {
         vec3 p = position;
+        float seed = aData.y;
