@@ -145,3 +145,4 @@ export function createAmbience() {
     return b;
   }
 
+  // A few birds: trills, falling whistles and two-note calls, scattered over eight seconds.
