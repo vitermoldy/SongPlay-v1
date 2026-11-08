@@ -319,3 +319,4 @@ export function createScene(
     const rect = canvas.getBoundingClientRect();
     const x = event.clientX - rect.left;
     const y = event.clientY - rect.top;
+    let hit = null;
