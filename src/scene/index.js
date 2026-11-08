@@ -354,3 +354,4 @@ export function createScene(
     camera.fov = aspect >= 1 ? 35 : 35 + (1 - aspect) * 10;
     camera.updateProjectionMatrix();
     if (setup.framesScreen) {
+      // Fit the whole set (its front, the side panel the angle shows, a little air) into the
