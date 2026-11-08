@@ -519,3 +519,6 @@ body.menu-open .site-header {
   justify-items: center;
   gap: 0.1em;
   font-weight: 600;
+  text-shadow: 0 2px 30px rgba(18, 26, 110, 0.45);
+}
+
