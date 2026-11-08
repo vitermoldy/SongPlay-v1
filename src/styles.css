@@ -713,3 +713,6 @@ body.menu-open .site-header {
 }
 
 .services-copy .lede {
+  color: var(--mist);
+}
+
