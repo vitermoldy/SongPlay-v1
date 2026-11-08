@@ -1094,3 +1094,6 @@ body.menu-open .site-header {
 
 .optional {
   color: var(--mist);
+  font-weight: 500;
+}
+
