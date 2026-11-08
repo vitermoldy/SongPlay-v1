@@ -24,3 +24,4 @@ import { COLOR_PATHS, NUMBER_PATHS, SEASONS, THEMES, compose } from './themes.js
 // hero: the landing page, a low wide view with room for the headline above a classic 4:3 set.
 // player: a 16:9 set, close enough that the video on its glass stays at least 200px tall.
 const VARIANTS = {
+  hero: {
