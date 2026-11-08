@@ -95,3 +95,4 @@ export function createScene(
     onSlow,
   } = {},
 ) {
+  const setup = VARIANTS[variant];
