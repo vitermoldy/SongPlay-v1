@@ -239,3 +239,4 @@ function saveQueue() {
       uid,
       kind,
       id,
+      list,
