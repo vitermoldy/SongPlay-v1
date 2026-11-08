@@ -416,3 +416,4 @@
 }
 
 .deck-now {
+  display: -webkit-box;
