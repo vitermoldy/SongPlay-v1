@@ -246,3 +246,4 @@ export function createScene(
       to: next.colors,
       fromNum: { ...live.numbers },
       toNum: next.numbers,
+      fromSun: live.sunDir.clone(),
