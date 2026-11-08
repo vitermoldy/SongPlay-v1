@@ -214,3 +214,6 @@ export function createAmbience() {
     const g = ctx.createGain();
     g.gain.value = 0;
     g.connect(master);
+    layers[name] = g;
+  }
+
