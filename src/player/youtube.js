@@ -88,3 +88,4 @@ export function describeError(code) {
   if (code === 100) return 'it is private or was removed';
   if (code === 101 || code === 150) return 'its owner does not allow it to play on other sites';
   if (code === 2) return 'the link has a broken video ID';
+  return 'YouTube could not play it';
