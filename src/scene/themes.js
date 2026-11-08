@@ -51,3 +51,4 @@ export const THEMES = {
     exposure: 1,
   },
   dawn: {
+    label: 'Dawn',
