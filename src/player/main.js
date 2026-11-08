@@ -79,3 +79,4 @@ ui.themes.addEventListener('change', (event) => {
 
 ui.seasons.addEventListener('change', (event) => {
   const name = event.target.value;
+  if (!SEASON_NAMES.includes(name) || name === season) return;
