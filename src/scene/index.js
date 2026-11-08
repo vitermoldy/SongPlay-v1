@@ -411,3 +411,4 @@ export function createScene(
     last = now;
     if (playing) {
       time += dt;
+      live.u.drift.value += dt * live.numbers['particles.fall'];
