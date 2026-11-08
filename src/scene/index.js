@@ -587,3 +587,4 @@ export function createScene(
       window.removeEventListener('pointermove', onPointer);
       document.documentElement.removeEventListener('mouseleave', onLeave);
       envTarget?.dispose();
+      pmrem.dispose();
