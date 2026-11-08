@@ -678,3 +678,6 @@ function setQueueOpen(open) {
 }
 
 window.addEventListener('resize', () => {
+  if (!ui.queuePanel.hidden) placeQueue();
+});
+
