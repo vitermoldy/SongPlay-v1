@@ -90,3 +90,4 @@ export function paintStandIn() {
     const x = rand() * W;
     const base = H * 0.7 + Math.abs(x - W / 2) * 0.12 + rand() * H * 0.3;
     const len = 12 + rand() * 34;
+    const tone = 40 + rand() * 90;
