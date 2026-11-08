@@ -427,3 +427,5 @@ export function createScene(
       }
     }
 
+    stepTheme(dt);
+
