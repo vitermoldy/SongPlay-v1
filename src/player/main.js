@@ -253,3 +253,4 @@ function saveQueue() {
 }
 
 let uidCount = 0;
+const makeUid = () => `${Date.now().toString(36)}${(uidCount++).toString(36)}`;
