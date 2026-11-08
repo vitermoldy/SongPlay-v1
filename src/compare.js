@@ -177,3 +177,6 @@ export function vhsify(source, outW = W, outH = H) {
   const og = out.getContext('2d');
   og.imageSmoothingQuality = 'high';
   og.drawImage(c, 0, 0, outW, outH);
+  return out;
+}
+
