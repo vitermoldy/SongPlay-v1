@@ -184,3 +184,6 @@ export function createScene(
   );
 
   const particles = createParticles(lowPower ? 260 : 520, live);
+  particles.setShape(live.shape);
+  scene.add(particles.points);
+
