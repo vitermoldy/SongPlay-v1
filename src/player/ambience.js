@@ -174,3 +174,4 @@ export function createAmbience() {
         for (let i = 0; i < 2; i++) note(t0 + i * 0.2, 0.16, 4600 - rand() * 400, 2600, amp);
       } else {
         note(t0, 0.1, 2900, 3400, amp);
+        note(t0 + 0.14, 0.12, 3800, 4300, amp);
