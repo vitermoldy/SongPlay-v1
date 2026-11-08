@@ -242,3 +242,4 @@ export function createScene(
     particles.setShape(next.shape);
     themeShift = {
       t: still ? 1 : 0,
+      from: new Map(COLOR_PATHS.map((path) => [path, live.color(path).clone()])),
