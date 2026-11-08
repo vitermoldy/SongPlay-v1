@@ -86,3 +86,4 @@ export function createSky(live, { forReflections = false } = {}) {
 }
 
 const CLOUDS = [
+  // x, y, z, width, height, seed, opacity
