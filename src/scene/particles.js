@@ -9,3 +9,4 @@ import { mulberry32 } from './shared.js';
 // seasons never makes the flakes jump.
 export function createParticles(count, live) {
   const rand = mulberry32(42);
+  const positions = new Float32Array(count * 3);
