@@ -1137,3 +1137,4 @@ body.menu-open .site-header {
 
 .field input:focus-visible,
 .field select:focus-visible,
+.field textarea:focus-visible {
