@@ -199,3 +199,4 @@ function frameArea() {
   const panelAbove = !ui.queuePanel.hidden && ui.queuePanel.dataset.place === 'above';
   const floor = (panelAbove ? ui.queuePanel : ui.deck).getBoundingClientRect().top;
   return {
+    top: header + 18,
