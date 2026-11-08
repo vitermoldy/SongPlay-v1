@@ -171,3 +171,4 @@ export function createMountains(live) {
     const material = new ShaderMaterial({
       side: DoubleSide,
       depthWrite: true,
+      uniforms: {
