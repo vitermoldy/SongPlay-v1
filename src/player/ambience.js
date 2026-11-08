@@ -345,3 +345,4 @@ export function createAmbience() {
     setDucked(on) {
       if (on === ducked) return;
       ducked = on;
+      applyMaster();
