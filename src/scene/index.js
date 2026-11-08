@@ -516,3 +516,4 @@ export function createScene(
     out.height = 900;
     out.getContext('2d').drawImage(canvas, (w - cw) / 2, (h - ch) / 2, cw, ch, 0, 0, 1200, 900);
 
+    shared.uCursorPower.value = cursorPower;
