@@ -26,3 +26,4 @@ import { COLOR_PATHS, NUMBER_PATHS, SEASONS, THEMES, compose } from './themes.js
 const VARIANTS = {
   hero: {
     tv: 'classic',
+    camera: new Vector3(0, -0.3, 7.6),
