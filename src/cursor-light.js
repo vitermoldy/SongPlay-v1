@@ -22,3 +22,4 @@ export function initCursorLight({ skip = [] } = {}) {
       return px >= r.left && px <= r.right && py >= r.top && py <= r.bottom;
     });
 
+  window.addEventListener(
