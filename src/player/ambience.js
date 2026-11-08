@@ -266,3 +266,4 @@ export function createAmbience() {
   patter.gain.value = 0.9;
   loop(droplets(4), filter('highpass', 900), patter, layers.rain);
 
+  loop(crickets(), pan(0.3), layers.crickets);
