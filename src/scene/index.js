@@ -141,3 +141,4 @@ export function createScene(
   const tv = createTV(setup.tv);
   tv.group.position.set(0, heightAt(0, 0) - 0.1, 0);
   tv.group.rotation.y = setup.tvYaw;
+  scene.add(tv.group);
