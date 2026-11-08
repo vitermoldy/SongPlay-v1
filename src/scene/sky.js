@@ -149,3 +149,4 @@ function ridge(seed, width, base, peak) {
   shape.moveTo(-width / 2, -30);
   const phases = [rand() * 6, rand() * 6, rand() * 6];
   for (let x = -width / 2; x <= width / 2; x += 1.5) {
+    const y =
