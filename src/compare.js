@@ -173,3 +173,4 @@ export function vhsify(source, outW = W, outH = H) {
   g.fill();
   g.fillText('SP', w - 66, 50);
 
+  const out = makeCanvas(outW, outH);
