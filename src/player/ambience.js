@@ -247,3 +247,6 @@ export function createAmbience() {
   const pan = (value) => {
     const p = ctx.createStereoPanner();
     p.pan.value = value;
+    return p;
+  };
+
