@@ -773,3 +773,4 @@
 }
 
 @media (max-width: 480px) {
+  /* Hang the panel from the header's right edge, so it never runs off a narrow screen. */
