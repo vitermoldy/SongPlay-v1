@@ -46,3 +46,6 @@ export function paintStandIn() {
   g.moveTo(0, H * 0.74);
   g.bezierCurveTo(W * 0.3, H * 0.66, W * 0.6, H * 0.76, W, H * 0.68);
   g.lineTo(W, H);
+  g.lineTo(0, H);
+  g.fill();
+
