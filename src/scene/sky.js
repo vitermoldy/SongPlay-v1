@@ -54,3 +54,4 @@ export function createSky(live, { forReflections = false } = {}) {
         return fract((p.x + p.y) * p.z);
       }
       void main() {
+        vec3 d = normalize(vDir);
