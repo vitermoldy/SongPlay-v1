@@ -34,3 +34,4 @@ export const THEMES = {
     lamps: { hemiSky: '#3a4aa0', hemiGround: '#05080a', hemi: 0.4, sun: '#b8c8ff', sunI: 0.5, fill: '#4050a0', fillI: 0.2 },
     particles: { color: '#ffcf6e', color2: '#ffcf6e', opacity: 1, fall: 1, size: 1 },
     exposure: 1,
+  },
