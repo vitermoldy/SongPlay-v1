@@ -108,3 +108,4 @@ export function createClouds(live) {
         uShade: { value: live.color('clouds.shade') },
       },
       vertexShader: /* glsl */ `
+        varying vec2 vUv;
