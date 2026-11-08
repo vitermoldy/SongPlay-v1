@@ -31,3 +31,4 @@ export function createTerrain(uniforms) {
         vWorld = w.xyz;
         vNormal = normalize(mat3(modelMatrix) * normal);
         gl_Position = projectionMatrix * viewMatrix * w;
+      }
