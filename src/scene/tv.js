@@ -99,3 +99,4 @@ export function createTV(shapeName = 'classic') {
       uniform float uTime;
       uniform float uOn;
       uniform float uLevel;
+      uniform float uAspect;
