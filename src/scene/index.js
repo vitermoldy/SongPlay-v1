@@ -369,3 +369,4 @@ export function createScene(
       for (let pass = 0; pass < 3; pass++) {
         const freeW = Math.max(120, area.right - area.left);
         const freeH = Math.max(120, area.bottom - area.top);
+        perUnit = Math.min(freeW / setW, freeH / setH, shotPerUnit);
