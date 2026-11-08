@@ -72,3 +72,4 @@ export const THEMES = {
 // particles.shape: 1 = round snowflakes, 2 = spinning petals or leaves, 3 = rain. No particles: the
 // time of day keeps its own motes (dust, or fireflies at night).
 export const SEASONS = {
+  spring: {
