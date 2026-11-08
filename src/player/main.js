@@ -200,3 +200,4 @@ function frameArea() {
   const floor = (panelAbove ? ui.queuePanel : ui.deck).getBoundingClientRect().top;
   return {
     top: header + 18,
+    bottom: floor - stage.top - 18,
