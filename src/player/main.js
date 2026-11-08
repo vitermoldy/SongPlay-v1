@@ -565,3 +565,4 @@ async function playIndex(index) {
   }
   if (state.current !== index || !state.items.includes(item)) return; // another choice came first
 
+  ui.video.classList.add('is-on');
