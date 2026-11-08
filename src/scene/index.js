@@ -113,3 +113,4 @@ export function createScene(
   renderer.setPixelRatio(pixelRatio);
   renderer.toneMapping = NeutralToneMapping;
 
+  const live = createLive(theme, season);
