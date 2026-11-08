@@ -194,3 +194,4 @@ export function createScene(
   const sun = new DirectionalLight();
   sun.color = live.color('lamps.sun');
   scene.add(sun);
+  const fill = new DirectionalLight();
