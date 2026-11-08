@@ -242,3 +242,4 @@ export function createAmbience() {
     const g = ctx.createGain();
     g.gain.value = depth;
     osc.connect(g).connect(target);
+    osc.start();
