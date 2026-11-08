@@ -677,3 +677,4 @@ body.menu-open .site-header {
 }
 
 .lede {
+  font-size: clamp(18px, 1.5vw, 21px);
