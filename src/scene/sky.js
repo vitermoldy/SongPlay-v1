@@ -55,3 +55,4 @@ export function createSky(live, { forReflections = false } = {}) {
       }
       void main() {
         vec3 d = normalize(vDir);
+        float y = d.y;
