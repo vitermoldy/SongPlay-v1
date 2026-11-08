@@ -7,3 +7,4 @@ import { mulberry32 } from './shared.js';
 // The near ones are larger and blurrier, like out-of-focus light.
 // uDrift is the fall distance so far, added up frame by frame, so a change of speed between
 // seasons never makes the flakes jump.
+export function createParticles(count, live) {
