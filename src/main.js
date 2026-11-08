@@ -119,3 +119,4 @@ async function initScene(compare) {
         playing = false;
         sync();
       },
+    });
