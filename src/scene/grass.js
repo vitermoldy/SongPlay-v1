@@ -116,3 +116,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
       uniform vec3 uSkyColor;
       uniform vec3 uSunDir;
       uniform vec3 uTvPos;
+      uniform vec3 uTvColor;
