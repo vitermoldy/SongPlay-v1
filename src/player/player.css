@@ -24,3 +24,4 @@
 .sound-toggle {
   display: inline-grid;
   flex: none;
+  place-items: center;
