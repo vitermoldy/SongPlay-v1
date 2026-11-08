@@ -56,3 +56,4 @@ export function initRequestForm(form) {
     const data = new FormData(form);
     const nameValue = String(data.get('name')).trim();
     const body = [
+      `Name: ${nameValue}`,
