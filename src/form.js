@@ -43,3 +43,4 @@ export function initRequestForm(form) {
     return problems;
   }
 
+  form.addEventListener('submit', (event) => {
