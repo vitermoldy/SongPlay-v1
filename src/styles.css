@@ -760,3 +760,6 @@ body.menu-open .site-header {
 }
 
 .compare-img:not([src]) {
+  visibility: hidden;
+}
+
