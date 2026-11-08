@@ -38,3 +38,6 @@ const ui = {
   seasons: $('[data-seasons]'),
   pickers: $('[data-pickers]'),
   deck: $('.deck'),
+  sound: $('[data-sound-toggle]'),
+};
+
