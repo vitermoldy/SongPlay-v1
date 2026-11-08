@@ -583,3 +583,4 @@ export function createScene(
     },
     dispose() {
       cancelAnimationFrame(raf);
+      resizeObserver.disconnect();
