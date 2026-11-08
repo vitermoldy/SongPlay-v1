@@ -10,3 +10,4 @@ const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 function initHeader() {
   const header = document.querySelector('[data-header]');
   let queued = false;
+  const update = () => {
