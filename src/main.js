@@ -138,3 +138,6 @@ async function initScene(compare) {
   new IntersectionObserver(([entry]) => {
     heroInView = entry.isIntersecting;
     updateVisible();
+  }).observe(hero);
+  document.addEventListener('visibilitychange', updateVisible);
+
