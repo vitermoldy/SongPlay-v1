@@ -68,3 +68,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
   puts the video under YouTube's 200px guideline; keeping the whole set on screen came first.
 - **The player is a wide shot**: the camera stands at one fixed distance from the TV on every
   screen, so the composition (TV about a fifth of the width, like the reference, with hill and sky
+  round it) never changes; the set scales with the window. Sizing the TV to a fixed pixel size
