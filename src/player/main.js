@@ -16,3 +16,4 @@ const $ = (selector) => document.querySelector(selector);
 
 const ui = {
   stage: $('[data-stage]'),
+  canvas: $('[data-scene]'),
