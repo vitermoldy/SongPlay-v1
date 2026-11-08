@@ -70,3 +70,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
   screen, so the composition (TV about a fifth of the width, like the reference, with hill and sky
   round it) never changes; the set scales with the window. Sizing the TV to a fixed pixel size
   zoomed in on short laptop screens, which the owner rejected twice. The video is smaller than
+  YouTube's 200px guideline on most laptops as a result; YouTube's fullscreen button is there.
