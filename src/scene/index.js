@@ -161,3 +161,4 @@ export function createScene(
     uTipGold: { value: live.color('grass.tipGold') },
     uBack: { value: live.color('grass.back') },
     uTvPos: { value: glowWorld },
+    uTvColor: { value: col(PALETTE.tv) },
