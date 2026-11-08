@@ -174,3 +174,4 @@
 .stage {
   position: relative;
   height: 100svh;
+  min-height: 560px;
