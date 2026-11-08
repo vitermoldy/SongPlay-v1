@@ -515,3 +515,4 @@ body.menu-open .site-header {
 }
 
 .hero-title {
+  display: grid;
