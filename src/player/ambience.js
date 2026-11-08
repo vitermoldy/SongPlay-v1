@@ -188,3 +188,4 @@ export function createAmbience() {
     for (let n = 0; n < 34; n++) {
       const start = Math.floor(rand() * (d.length - sr * 0.4));
       const len = Math.round(sr * (0.05 + rand() * 0.3));
+      const amp = 0.2 + rand() * 0.5;
