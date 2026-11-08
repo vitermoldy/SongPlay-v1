@@ -58,3 +58,4 @@ export function createTV(shapeName = 'classic') {
   const group = new Group();
 
   const shell = new MeshPhysicalMaterial({
+    color: '#1830d8',
