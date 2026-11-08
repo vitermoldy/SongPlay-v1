@@ -175,3 +175,4 @@ export function createScene(
   scene.add(
     createGrass({
       count: lowPower ? 30000 : 80000,
+      heightAt,
