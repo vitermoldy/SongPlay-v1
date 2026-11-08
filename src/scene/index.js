@@ -506,3 +506,4 @@ export function createScene(
     post.composer.render(0);
 
     let cw = w;
+    let ch = w * 0.75;
