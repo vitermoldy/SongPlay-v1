@@ -574,3 +574,4 @@ export function createScene(
       cssScene.add(object);
       css = { renderer: cssRenderer, scene: cssScene };
       resize();
+    },
