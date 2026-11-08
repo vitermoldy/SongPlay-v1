@@ -130,3 +130,4 @@ async function setSound(on) {
     ambience.setDucked(state.status === 'playing');
     ambience.setHidden(document.hidden);
     await ambience.setEnabled(true);
+  } catch (error) {
