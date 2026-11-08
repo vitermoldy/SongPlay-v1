@@ -356,3 +356,6 @@ body.menu-open .site-header {
 
 .cursor-light.is-paper {
   background: radial-gradient(closest-side, rgba(255, 184, 88, 0.3), rgba(255, 184, 88, 0.1) 45%, rgba(255, 184, 88, 0));
+  mix-blend-mode: multiply;
+}
+
