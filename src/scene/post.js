@@ -56,3 +56,4 @@ const FinishShader = {
     tDiffuse: { value: null },
     uTime: { value: 0 },
     uGrain: { value: 0.035 },
+  },
