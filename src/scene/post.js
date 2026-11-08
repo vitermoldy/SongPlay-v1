@@ -52,3 +52,4 @@ const FocusBlurShader = {
 };
 
 const FinishShader = {
+  uniforms: {
