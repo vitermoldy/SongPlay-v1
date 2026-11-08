@@ -1412,3 +1412,4 @@ body.menu-open .site-header {
     bottom: calc(var(--frame) + 4px);
     width: 44px;
     padding: 0;
+    justify-content: center;
