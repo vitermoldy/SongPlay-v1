@@ -41,3 +41,5 @@ const ui = {
   sound: $('[data-sound-toggle]'),
 };
 
+// ---------- Time of day and season (per-browser preferences) ----------
+
