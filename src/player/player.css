@@ -58,3 +58,6 @@
 
 .sound-toggle[data-on='true'] {
   background: var(--cream);
+  color: var(--ink);
+}
+
