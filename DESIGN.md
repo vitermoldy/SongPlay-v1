@@ -82,3 +82,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
   or download). The speaker in the header opens a small panel with the switch and the volume, so
   one control holds both and the header stays one row on a phone. The sound dips while a song plays:
   the song comes first.
+- **Skies on the player page** (owner's request): Dusk is the brand sky; Night, Sunset and Dawn
