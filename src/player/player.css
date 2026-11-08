@@ -197,3 +197,4 @@
 
 .stage[data-theme='dawn'] .stage-shade {
   background:
+    linear-gradient(to bottom, rgba(16, 22, 92, 0.55), rgba(16, 22, 92, 0) 24%),
