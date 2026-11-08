@@ -133,3 +133,4 @@ button:disabled {
   z-index: 100;
   padding: 12px 18px;
   border-radius: var(--radius-m);
+  background: var(--cream);
