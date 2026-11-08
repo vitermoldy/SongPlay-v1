@@ -50,3 +50,4 @@ const VARIANTS = {
 // otherwise run into the page's controls (`frameArea`). The video covers VIDEO_FILL of the
 // glass; the thin rim left round it is the tube's dark edge, so it reads as sitting inside.
 const PLAYER_DISTANCE = 5.2;
+// How far the player's eye stands above the middle of the glass: the earlier, higher point of
