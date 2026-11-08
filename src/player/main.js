@@ -286,3 +286,4 @@ function nowLine() {
     case 'error':
       return state.message;
     default:
+      return state.items.length
