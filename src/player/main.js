@@ -797,3 +797,4 @@ document.addEventListener('keydown', (event) => {
   }
 });
 
+document.addEventListener('pointerdown', (event) => {
