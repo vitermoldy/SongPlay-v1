@@ -38,3 +38,4 @@ function levelsFor(time, season) {
     L.rain = 1;
     L.wind = 0.16;
     L.crickets *= 0.15;
+    L.birds = 0;
