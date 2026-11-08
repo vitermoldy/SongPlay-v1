@@ -814,3 +814,4 @@ body.menu-open .site-header {
   top: 50%;
   left: 50%;
   display: grid;
+  place-items: center;
