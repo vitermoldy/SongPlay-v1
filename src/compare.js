@@ -240,3 +240,4 @@ export function initCompare(root) {
     root.addEventListener(type, () => {
       dragging = false;
     });
+  }
