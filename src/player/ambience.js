@@ -226,3 +226,4 @@ export function createAmbience() {
       node.connect(next);
       node = next;
     }
+    src.start(0, rand() * buf.duration);
