@@ -644,3 +644,4 @@
 }
 
 .queue-list {
+  display: grid;
