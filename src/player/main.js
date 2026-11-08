@@ -535,3 +535,4 @@ function onPlayerError(event) {
       return;
     }
   } else if (item) {
+    item.problem = reason;
