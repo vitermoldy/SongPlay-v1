@@ -308,3 +308,6 @@ export function createAmbience() {
         scheduleThunder();
       },
       (12 + rand() * 22) * 1000,
+    );
+  }
+
