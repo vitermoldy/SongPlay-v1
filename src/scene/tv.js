@@ -153,3 +153,4 @@ export function createTV(shapeName = 'classic') {
     [-0.3, -0.06],
   ]) {
     const rod = new Mesh(rodGeometry, dark);
+    rod.position.set(0.02, bodyH + 0.04, -0.08);
