@@ -1011,3 +1011,6 @@ body.menu-open .site-header {
 
 .format p:last-child {
   margin-top: 6px;
+  color: var(--ink-soft);
+}
+
