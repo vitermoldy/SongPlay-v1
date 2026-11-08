@@ -580,3 +580,4 @@ body.menu-open .site-header {
   bottom: calc(var(--frame) + 16px);
   z-index: 3;
   display: inline-flex;
+  align-items: center;
