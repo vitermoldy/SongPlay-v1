@@ -264,3 +264,4 @@
   .pickers {
     position: absolute;
     top: calc(100% + 14px);
+    left: calc(var(--frame) + 14px);
