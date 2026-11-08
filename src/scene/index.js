@@ -351,3 +351,4 @@ export function createScene(
     post.setSize(width, height, pixelRatio);
     const aspect = width / height;
     camera.aspect = aspect;
+    camera.fov = aspect >= 1 ? 35 : 35 + (1 - aspect) * 10;
