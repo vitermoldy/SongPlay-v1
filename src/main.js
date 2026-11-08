@@ -142,3 +142,4 @@ async function initScene(compare) {
   document.addEventListener('visibilitychange', updateVisible);
 
   try {
+    compare.setSource(await scene.captureStill());
