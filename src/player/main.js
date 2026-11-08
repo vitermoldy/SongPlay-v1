@@ -710,3 +710,4 @@ ui.form.addEventListener('submit', (event) => {
     author: null,
     thumb: parsed.kind === 'video' ? `https://i.ytimg.com/vi/${parsed.id}/mqdefault.jpg` : null,
     problem: null,
+  };
