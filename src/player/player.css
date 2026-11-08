@@ -233,3 +233,4 @@
    under the header at the top left, one row or two as they fit, clear of the scene button. */
 .pickers {
   display: flex;
+  flex-wrap: wrap;
