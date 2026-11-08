@@ -156,3 +156,4 @@ export function createAmbience() {
       let phase = 0;
       for (let k = 0; k < n && s + k < d.length; k++) {
         const t = k / n;
+        const f = f1 + (f2 - f1) * t + Math.sin(k / sr * 2 * Math.PI * 28) * 60;
