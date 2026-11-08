@@ -1310,3 +1310,4 @@ body.menu-open .site-header {
   }
 
   .menu-toggle {
+    display: inline-flex;
