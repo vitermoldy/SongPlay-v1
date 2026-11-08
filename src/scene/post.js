@@ -91,3 +91,4 @@ export function createPost(renderer, scene, camera) {
   const finish = new ShaderPass(FinishShader);
 
   composer.addPass(renderPass);
+  composer.addPass(bloom);
