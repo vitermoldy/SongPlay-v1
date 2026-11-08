@@ -1219,3 +1219,6 @@ body.menu-open .site-header {
   margin-right: 10px;
   border: solid currentColor;
   border-width: 0 0 2px 2px;
+  transform: translateY(-2px) rotate(-45deg);
+}
+
