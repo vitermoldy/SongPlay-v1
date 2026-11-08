@@ -855,3 +855,4 @@ body.menu-open .site-header {
   pointer-events: none;
 }
 
+.compare-range::-webkit-slider-thumb {
