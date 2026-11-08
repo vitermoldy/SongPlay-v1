@@ -201,3 +201,4 @@
     linear-gradient(to top, rgba(5, 7, 24, 0.6), rgba(5, 7, 24, 0.2) 22%, rgba(5, 7, 24, 0) 38%);
 }
 
+/* Painted stills of each sky, shown while the scene loads or when WebGL is missing. */
