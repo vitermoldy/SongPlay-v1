@@ -89,3 +89,4 @@ function webglAvailable() {
 
 async function initScene(compare) {
   const hero = document.querySelector('[data-hero]');
+  const canvas = hero.querySelector('[data-scene]');
