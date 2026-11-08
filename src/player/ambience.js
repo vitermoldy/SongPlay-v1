@@ -286,3 +286,4 @@ export function createAmbience() {
     g.gain.setValueAtTime(0.0001, now);
     g.gain.exponentialRampToValueAtTime(peak, now + 0.25 + rand() * 0.4);
     g.gain.exponentialRampToValueAtTime(peak * 0.35, now + 1.6);
+    g.gain.exponentialRampToValueAtTime(0.0001, now + 4.5 + rand() * 1.5);
