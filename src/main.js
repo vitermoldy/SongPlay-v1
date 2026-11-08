@@ -70,3 +70,4 @@ function initAnchors() {
     if (!link || event.defaultPrevented || event.metaKey || event.ctrlKey || event.shiftKey) return;
     const id = link.getAttribute('href').slice(1);
     const target = id && document.getElementById(id);
+    if (!target) return;
