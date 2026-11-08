@@ -7,3 +7,4 @@ import {
   MeshStandardMaterial,
   PlaneGeometry,
   ShaderMaterial,
+  SphereGeometry,
