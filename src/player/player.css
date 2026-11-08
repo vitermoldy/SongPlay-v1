@@ -687,3 +687,4 @@
 }
 
 .queue-item.is-current .queue-sub {
+  color: var(--glow);
