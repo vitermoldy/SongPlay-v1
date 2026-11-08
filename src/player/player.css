@@ -373,3 +373,4 @@
   0%,
   35% {
     transform: scale(1, 0.006);
+    filter: brightness(4);
