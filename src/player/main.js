@@ -361,3 +361,4 @@ function render() {
   }
 
   const playingNow = state.status === 'playing' || state.status === 'loading';
+  ui.toggle.dataset.state = playingNow ? 'playing' : 'paused';
