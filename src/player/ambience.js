@@ -323,3 +323,4 @@ export function createAmbience() {
       applyMaster();
       scheduleThunder();
       if (!on) {
+        // Let the fade finish, then stop the audio thread altogether.
