@@ -22,3 +22,4 @@
   --wrap: 1200px;
   --gutter: clamp(16px, 4vw, 48px);
   --header-h: 56px;
+  --frame: 12px;
