@@ -1076,3 +1076,4 @@ body.menu-open .site-header {
   display: grid;
   gap: 8px;
   min-width: 0;
+  margin: 0;
