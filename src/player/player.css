@@ -741,3 +741,6 @@
 
 .stage .scene-toggle {
   top: calc(var(--header-h) + 20px);
+  bottom: auto;
+}
+
