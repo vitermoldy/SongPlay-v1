@@ -36,3 +36,6 @@ export function initRequestForm(form) {
       problems.push([email, 'That email looks incomplete. Check the @ and the part after it.']);
     else showError(email, '');
 
+    if (!formats.length) problems.push([formatSet, 'Pick at least one format.']);
+    else showError(formatSet, '');
+
