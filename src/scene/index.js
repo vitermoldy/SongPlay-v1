@@ -302,3 +302,4 @@ export function createScene(
         let a = prev;
         let b = t;
         for (let i = 0; i < 8; i++) {
+          const m = (a + b) / 2;
