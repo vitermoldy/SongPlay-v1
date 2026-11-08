@@ -39,3 +39,4 @@ export function initRequestForm(form) {
     if (!formats.length) problems.push([formatSet, 'Pick at least one format.']);
     else showError(formatSet, '');
 
+    for (const [field, message] of problems) showError(field, message);
