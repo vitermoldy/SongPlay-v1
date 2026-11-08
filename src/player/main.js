@@ -512,3 +512,4 @@ function onPlayerState(event) {
     if (state.status !== 'playing') state.status = 'loading';
   } else if (event.data === S.ENDED) {
     clearTimeout(autoplayCheck);
+    if (item?.kind === 'playlist') {
