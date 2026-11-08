@@ -104,3 +104,4 @@ export function createScene(
   });
 
   // Without a GPU the browser draws WebGL on the CPU; an animated scene would then hold the
+  // main thread for hundreds of milliseconds a frame. Such a machine gets the still frame.
