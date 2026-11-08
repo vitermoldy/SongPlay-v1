@@ -34,3 +34,4 @@ export function createSky(live, { forReflections = false } = {}) {
     vertexShader: /* glsl */ `
       varying vec3 vDir;
       void main() {
+        vDir = normalize(position);
