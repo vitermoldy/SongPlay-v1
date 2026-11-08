@@ -400,3 +400,4 @@ async function initScene() {
     ui.sceneLabel.textContent = playing ? 'Pause scene' : 'Play scene';
     scene.setPlaying(playing);
   };
+  try {
