@@ -29,3 +29,4 @@ const VARIANTS = {
     camera: new Vector3(0, -0.3, 7.6),
     look: new Vector3(0, 0.95, 0),
     tvYaw: -0.36,
+    parallax: [0.35, 0.12],
