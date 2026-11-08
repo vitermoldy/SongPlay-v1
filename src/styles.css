@@ -1158,3 +1158,4 @@ body.menu-open .site-header {
 
 .chips {
   display: flex;
+  flex-wrap: wrap;
