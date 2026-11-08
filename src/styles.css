@@ -1078,3 +1078,6 @@ body.menu-open .site-header {
   min-width: 0;
   margin: 0;
   padding: 0;
+  border: 0;
+}
+
