@@ -843,3 +843,4 @@ body.menu-open .site-header {
    nothing itself, and its focus ring outlines the whole frame. Pointer drags go to the frame. */
 .compare-range {
   position: absolute;
+  inset: 0;
