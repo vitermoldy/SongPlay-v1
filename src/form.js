@@ -40,3 +40,6 @@ export function initRequestForm(form) {
     else showError(formatSet, '');
 
     for (const [field, message] of problems) showError(field, message);
+    return problems;
+  }
+
