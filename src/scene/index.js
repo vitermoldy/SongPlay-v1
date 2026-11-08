@@ -191,3 +191,4 @@ export function createScene(
   hemi.color = live.color('lamps.hemiSky');
   hemi.groundColor = live.color('lamps.hemiGround');
   scene.add(hemi);
+  const sun = new DirectionalLight();
