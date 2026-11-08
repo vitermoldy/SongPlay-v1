@@ -70,3 +70,4 @@ function createLive(time, season) {
     numbers: look.numbers,
     sunDir: new Vector3(...look.sunDir).normalize(),
     u: {
+      time: { value: 0 },
