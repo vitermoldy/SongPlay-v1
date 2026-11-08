@@ -462,3 +462,4 @@ export function createScene(
     }
   }
 
+  function shouldRun() {
