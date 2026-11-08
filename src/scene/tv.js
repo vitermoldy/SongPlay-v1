@@ -136,3 +136,4 @@ export function createTV(shapeName = 'classic') {
   screen.position.set(screenX, midY, 0.476);
   group.add(screen);
 
+  const led = new Mesh(new SphereGeometry(0.014, 12, 8), new MeshBasicMaterial({ color: '#cfe4ff' }));
