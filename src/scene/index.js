@@ -158,3 +158,4 @@ export function createScene(
     uBase: { value: live.color('grass.base') },
     uMid: { value: live.color('grass.mid') },
     uTip: { value: live.color('grass.tip') },
+    uTipGold: { value: live.color('grass.tipGold') },
