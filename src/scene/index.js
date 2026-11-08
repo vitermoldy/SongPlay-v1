@@ -456,3 +456,4 @@ export function createScene(
     css?.renderer.render(css.scene, camera);
 
     if (pendingCapture && on >= 1) capture();
+    if (!readyFired) {
