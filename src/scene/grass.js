@@ -150,3 +150,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
         float fog = smoothstep(uFogNear, uFogFar, distance(cameraPosition, vWorld));
         c = mix(c, uFogColor, fog);
         gl_FragColor = vec4(c, 1.0);
+      }
