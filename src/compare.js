@@ -220,3 +220,4 @@ export function initCompare(root) {
     range.setAttribute('aria-valuetext', `Divider at ${Math.round(pos)} percent, corrected frame on the right`);
   };
 
+  const fromPointer = (event) => {
