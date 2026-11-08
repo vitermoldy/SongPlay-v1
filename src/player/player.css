@@ -748,3 +748,4 @@
   .deck {
     bottom: calc(var(--frame) + 8px);
     gap: 10px;
+    padding: 12px;
