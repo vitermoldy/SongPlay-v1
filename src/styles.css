@@ -911,3 +911,4 @@ body.menu-open .site-header {
 /* The same 12 columns: each format gets the width its drawing needs, and Hi8 starts on the
    line the lede and every split's right column start on. */
 .formats-list {
+  display: grid;
