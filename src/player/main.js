@@ -503,3 +503,4 @@ function onPlayerState(event) {
     if (event.data === S.PLAYING) {
       state.status = 'playing';
       state.videoTitle = yt.getVideoData?.()?.title || '';
+      scene?.setScreenMode('video');
