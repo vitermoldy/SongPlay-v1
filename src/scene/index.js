@@ -196,3 +196,6 @@ export function createScene(
   scene.add(sun);
   const fill = new DirectionalLight();
   fill.color = live.color('lamps.fill');
+  fill.position.set(-5, 4, 6);
+  scene.add(fill);
+
