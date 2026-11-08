@@ -32,3 +32,4 @@ const VARIANTS = {
     parallax: [0.35, 0.12],
     clearFront: false,
     framesScreen: false,
+  },
