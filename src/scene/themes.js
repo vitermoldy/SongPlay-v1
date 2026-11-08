@@ -154,3 +154,5 @@ export const NUMBER_PATHS = [
 
 const SEASON_PATHS = ['grass.base', 'grass.mid', 'grass.tip', 'grass.tipGold', 'ground.dark', 'ground.lit'];
 
+export const read = (theme, path) => path.split('.').reduce((o, k) => o?.[k], theme);
+
