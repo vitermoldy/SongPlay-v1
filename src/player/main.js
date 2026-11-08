@@ -660,3 +660,4 @@ function placeQueue() {
 
   if (sideSpace >= 300) {
     panel.dataset.place = 'side';
+    panel.style.width = `${Math.min(440, Math.floor(sideSpace))}px`;
