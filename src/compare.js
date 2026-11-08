@@ -244,3 +244,4 @@ export function initCompare(root) {
   range.addEventListener('input', () => set(Number(range.value)));
   set(50);
 
+  let version = 0;
