@@ -101,3 +101,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
         r.y -= abs(bend) * 0.3 * h;
 
         vec3 world = aOffset + r;
+        vH = h;
