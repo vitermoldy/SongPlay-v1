@@ -1401,3 +1401,4 @@ body.menu-open .site-header {
     bottom: var(--frame);
     justify-content: center;
     max-width: none;
+    padding: 14px 64px 14px 16px;
