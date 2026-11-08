@@ -147,3 +147,4 @@ function ridge(seed, width, base, peak) {
   const rand = mulberry32(seed);
   const shape = new Shape();
   shape.moveTo(-width / 2, -30);
+  const phases = [rand() * 6, rand() * 6, rand() * 6];
