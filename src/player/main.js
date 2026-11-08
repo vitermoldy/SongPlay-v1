@@ -193,3 +193,4 @@ function frameArea() {
     const r = el.getBoundingClientRect();
     return { left: r.left - stage.left, right: r.right - stage.left, top: r.top - stage.top, bottom: r.bottom - stage.top };
   };
+  const edge = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--frame')) || 12;
