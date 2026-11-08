@@ -16,3 +16,4 @@ function initHeader() {
   };
   window.addEventListener(
     'scroll',
+    () => {
