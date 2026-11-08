@@ -80,3 +80,4 @@ export const SEASONS = {
   },
   summer: {
     label: 'Summer',
+    grass: THEMES.dusk.grass,
