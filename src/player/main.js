@@ -296,3 +296,6 @@ function queueRow(item, index) {
   const li = document.createElement('li');
   li.className = 'queue-item';
   const current = index === state.current && state.status !== 'idle';
+  li.classList.toggle('is-current', current);
+  li.classList.toggle('has-problem', Boolean(item.problem));
+
