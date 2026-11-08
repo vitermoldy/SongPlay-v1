@@ -614,3 +614,6 @@ function stopAll(status, message) {
   state.message = message;
   state.videoTitle = '';
   scene?.setScreenMode('idle');
+  render();
+}
+
