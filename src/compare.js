@@ -239,3 +239,4 @@ export function initCompare(root) {
   for (const type of ['pointerup', 'pointercancel', 'lostpointercapture']) {
     root.addEventListener(type, () => {
       dragging = false;
+    });
