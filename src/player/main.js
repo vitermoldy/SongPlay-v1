@@ -514,3 +514,4 @@ function onPlayerState(event) {
     clearTimeout(autoplayCheck);
     if (item?.kind === 'playlist') {
       const list = yt.getPlaylist?.() || [];
+      const at = yt.getPlaylistIndex?.() ?? -1;
