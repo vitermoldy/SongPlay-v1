@@ -325,3 +325,4 @@ function queueRow(item, index) {
 
   const play = document.createElement('button');
   play.type = 'button';
+  play.className = 'icon-btn';
