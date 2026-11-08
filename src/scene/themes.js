@@ -101,3 +101,4 @@ export const SEASONS = {
     label: 'Rain',
     grass: { base: '#08130a', mid: '#1a3416', tip: '#3f6a34', tipGold: '#5c8048' },
     ground: { dark: '#0a120a', lit: '#1a2a16' },
+    overcast: { tint: '#5c6678', amount: 0.62 },
