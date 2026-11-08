@@ -456,3 +456,4 @@ function ensurePlayer() {
     .then(
       (YT) =>
         new Promise((resolve) => {
+          const player = new YT.Player('yt-player', {
