@@ -171,3 +171,4 @@ button:disabled {
   font: 600 19px/1.2 var(--font-sans);
   text-decoration: none;
   box-shadow: 0 10px 30px -12px rgba(4, 6, 24, 0.55);
+  transition:
