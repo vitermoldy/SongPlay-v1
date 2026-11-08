@@ -406,3 +406,4 @@ async function initScene() {
       variant: 'player',
       theme,
       season,
+      frameArea,
