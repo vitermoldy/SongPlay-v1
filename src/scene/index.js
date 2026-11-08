@@ -33,3 +33,4 @@ const VARIANTS = {
     clearFront: false,
     framesScreen: false,
   },
+  player: {
