@@ -80,3 +80,4 @@ export function createParticles(count, live) {
       varying float vSpin;
       void main() {
         vec2 c = gl_PointCoord - 0.5;
+        float soft = mix(0.16, 0.34, vBlur);
