@@ -148,3 +148,4 @@ soundSwitch.addEventListener('click', () => setSound(!soundOn));
 
 soundVolume.addEventListener('input', () => {
   volume = Number(soundVolume.value);
+  remember(VOLUME_KEY, String(volume));
