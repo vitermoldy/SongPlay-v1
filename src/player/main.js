@@ -649,3 +649,4 @@ function placeQueue() {
   panel.style.removeProperty('max-height');
   const deck = panel.offsetParent?.getBoundingClientRect();
   if (!deck) return;
+  const video = ui.video.getBoundingClientRect();
