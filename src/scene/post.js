@@ -42,3 +42,4 @@ const FocusBlurShader = {
       float total = 0.0;
       for (int i = -6; i <= 6; i++) {
         float f = float(i);
+        float w = exp(-f * f / 18.0);
