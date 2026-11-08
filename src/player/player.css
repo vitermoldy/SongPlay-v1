@@ -613,3 +613,6 @@
 }
 
 .queue-count.is-bumped {
+  animation: bump 420ms var(--ease);
+}
+
