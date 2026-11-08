@@ -97,3 +97,4 @@ export function createPost(renderer, scene, camera) {
   composer.addPass(output);
   composer.addPass(finish);
 
+  return {
