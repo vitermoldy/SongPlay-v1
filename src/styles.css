@@ -475,3 +475,4 @@ body.menu-open .site-header {
 }
 
 .viewfinder i:nth-child(1) {
+  top: -1px;
