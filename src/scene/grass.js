@@ -34,3 +34,6 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
 
     // Keep blades out of the television body.
     const lx = (x - tv.x) * cosY - (z - tv.z) * sinY;
+    const lz = (x - tv.x) * sinY + (z - tv.z) * cosY;
+    if (Math.abs(lx) < (tv.halfW ?? 0.62) && Math.abs(lz) < (tv.halfD ?? 0.5)) continue;
+
