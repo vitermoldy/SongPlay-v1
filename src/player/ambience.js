@@ -245,3 +245,4 @@ export function createAmbience() {
     osc.start();
   };
   const pan = (value) => {
+    const p = ctx.createStereoPanner();
