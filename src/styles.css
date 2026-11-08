@@ -538,3 +538,6 @@ body.menu-open .site-header {
   display: grid;
   justify-items: center;
   gap: 26px;
+  max-width: 44rem;
+}
+
