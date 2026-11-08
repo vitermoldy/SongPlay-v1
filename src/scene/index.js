@@ -280,3 +280,4 @@ export function createScene(
     }
   }
 
+  // ---------- Pointer: camera drift and the cursor's light on the grass ----------
