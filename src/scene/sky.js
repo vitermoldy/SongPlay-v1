@@ -109,3 +109,4 @@ export function createClouds(live) {
       },
       vertexShader: /* glsl */ `
         varying vec2 vUv;
+        void main() {
