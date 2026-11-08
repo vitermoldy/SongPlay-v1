@@ -46,3 +46,4 @@ function initMenu() {
     } else {
       menu.classList.remove('is-open');
       menu.hidden = true;
+      if (restoreFocus) toggle.focus();
