@@ -177,3 +177,6 @@ export function createAmbience() {
         note(t0 + 0.14, 0.12, 3800, 4300, amp);
       }
     }
+    return b;
+  }
+
