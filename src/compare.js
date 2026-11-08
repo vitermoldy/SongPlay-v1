@@ -151,3 +151,4 @@ export function vhsify(source, outW = W, outH = H) {
       const i = (y * w + x) * 4;
       const v = 225 + rand() * 30;
       d[i] = v;
+      d[i + 1] = v;
