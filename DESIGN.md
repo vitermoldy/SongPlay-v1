@@ -40,3 +40,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
 ## Motion (dial 2)
 
 - Hero scene: grass in wind, drifting dust, a CRT power-on at load. Purpose: the page opens like a
+  tape starting to play. It pauses with the "Pause scene" button, stops when the hero is off
