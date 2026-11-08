@@ -107,3 +107,4 @@ export function createScene(
   // main thread for hundreds of milliseconds a frame. Such a machine gets the still frame.
   const gl = renderer.getContext();
   const info = gl.getExtension('WEBGL_debug_renderer_info');
+  const rendererName = info ? String(gl.getParameter(info.UNMASKED_RENDERER_WEBGL)) : '';
