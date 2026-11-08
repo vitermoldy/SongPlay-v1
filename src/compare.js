@@ -71,3 +71,4 @@ export function paintStandIn() {
   g.stroke();
   g.fillStyle = '#1c2668';
   g.beginPath();
+  g.roundRect(tx, ty, tw, th, 22);
