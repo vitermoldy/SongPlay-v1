@@ -69,3 +69,4 @@ function createLive(time, season) {
     color: (path) => look.colors.get(path),
     numbers: look.numbers,
     sunDir: new Vector3(...look.sunDir).normalize(),
+    u: {
