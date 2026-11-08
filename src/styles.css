@@ -1168,3 +1168,4 @@ body.menu-open .site-header {
 }
 
 /* The real checkbox covers its chip and carries the focus ring; the span draws the state. */
+.chip input {
