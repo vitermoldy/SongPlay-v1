@@ -116,3 +116,6 @@ export function createTV(shapeName = 'classic') {
         vec3 warm = vec3(1.9, 0.95, 0.26);
         vec3 c = mix(hot, warm, smoothstep(0.08, 0.72, r));
         c *= 0.95 + 0.05 * sin(vUv.y * 420.0);
+        c *= 0.975 + 0.025 * sin(uTime * 31.0) * sin(uTime * 7.0);
+        c *= uLevel;
+
