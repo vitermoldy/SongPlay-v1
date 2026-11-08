@@ -18,3 +18,4 @@ function initHeader() {
     'scroll',
     () => {
       if (queued) return;
+      queued = true;
