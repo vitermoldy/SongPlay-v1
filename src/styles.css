@@ -1108,3 +1108,6 @@ body.menu-open .site-header {
   background: var(--night);
   color: var(--cream);
   font: 500 17px/1.4 var(--font-sans);
+  transition: border-color 160ms var(--ease);
+}
+
