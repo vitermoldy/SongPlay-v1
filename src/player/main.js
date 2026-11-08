@@ -273,3 +273,4 @@ function say(text) {
 
 function nowLine() {
   const item = state.items[state.current];
+  const title = state.videoTitle || titleOf(item);
