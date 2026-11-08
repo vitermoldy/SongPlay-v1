@@ -103,3 +103,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
         vec3 world = aOffset + r;
         vH = h;
         vSeed = seed;
+        vWorld = world;
