@@ -65,3 +65,4 @@ export function createSky(live, { forReflections = false } = {}) {
         c += uSunColor * smoothstep(0.99955, 0.9998, s) * 1.6;
 
         // Stars sit in cells on the sky sphere; large and bright enough to survive the soft
+        // focus the background gets, a few of them twinkling.
