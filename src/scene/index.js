@@ -85,3 +85,4 @@ export function createScene(
   canvas,
   {
     variant = 'hero',
+    theme = 'dusk',
