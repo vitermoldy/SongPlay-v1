@@ -581,3 +581,4 @@ async function playIndex(index) {
   clearTimeout(autoplayCheck);
   autoplayCheck = setTimeout(() => {
     if (state.status !== 'loading' || state.current !== index) return;
+    const listLoaded = yt.getPlaylistId?.() === item.list && (yt.getPlaylist?.() || []).length > 0;
