@@ -50,3 +50,6 @@ export function initRequestForm(form) {
     if (problems.length) {
       const [first] = problems[0];
       (first.matches('fieldset') ? first.querySelector('input') : first).focus();
+      return;
+    }
+
