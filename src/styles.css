@@ -1117,3 +1117,4 @@ body.menu-open .site-header {
 }
 
 .field select {
+  appearance: none;
