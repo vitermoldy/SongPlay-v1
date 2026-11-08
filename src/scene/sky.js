@@ -75,3 +75,4 @@ export function createSky(live, { forReflections = false } = {}) {
             float star = smoothstep(0.34, 0.0, r) * twinkle * (0.35 + 0.65 * (h - 0.982) / 0.018);
             c += vec3(0.85, 0.9, 1.0) * star * 4.0 * uStars * smoothstep(0.02, 0.22, y);
           }
+        }
