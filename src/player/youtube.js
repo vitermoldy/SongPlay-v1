@@ -55,3 +55,4 @@ export async function fetchInfo(item) {
 
 let apiPromise = null;
 
+// The IFrame API is fetched on the first play, never on page load.
