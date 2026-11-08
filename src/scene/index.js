@@ -355,3 +355,4 @@ export function createScene(
     camera.updateProjectionMatrix();
     if (setup.framesScreen) {
       // Fit the whole set (its front, the side panel the angle shows, a little air) into the
+      // free part of the stage between the pickers and the deck, then centre it there.
