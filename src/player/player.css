@@ -511,3 +511,4 @@
   background: rgba(118, 136, 255, 0.3);
   color: #fff;
   transition:
+    background-color 180ms var(--ease),
