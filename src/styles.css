@@ -944,3 +944,4 @@ body.menu-open .site-header {
 .format-art {
   display: flex;
   align-items: flex-end;
+  height: calc(103 * var(--mm));
