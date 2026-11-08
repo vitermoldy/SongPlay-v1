@@ -657,3 +657,4 @@
   border-radius: var(--radius-m);
 }
 
+.queue-item.is-current {
