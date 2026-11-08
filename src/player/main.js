@@ -72,3 +72,4 @@ ui.themes.addEventListener('change', (event) => {
   if (!THEME_NAMES.includes(name) || name === theme) return;
   theme = name;
   ui.stage.dataset.theme = name;
+  scene?.setTheme(name);
