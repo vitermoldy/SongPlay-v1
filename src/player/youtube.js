@@ -40,3 +40,4 @@ export function watchUrl(item) {
     : `https://www.youtube.com/watch?v=${item.id}`;
 }
 
+// Title, channel and thumbnail from YouTube's oEmbed endpoint, which answers cross-origin.
