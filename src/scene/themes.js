@@ -102,3 +102,4 @@ export const SEASONS = {
     grass: { base: '#08130a', mid: '#1a3416', tip: '#3f6a34', tipGold: '#5c8048' },
     ground: { dark: '#0a120a', lit: '#1a2a16' },
     overcast: { tint: '#5c6678', amount: 0.62 },
+    particles: { shape: 3, color: '#d8e6ff', color2: '#aabedf', opacity: 1, fall: 30, size: 3 },
