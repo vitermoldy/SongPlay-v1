@@ -552,3 +552,4 @@ export function createScene(
     captureStill() {
       return new Promise((resolve) => {
         pendingCapture = resolve;
+        kick();
