@@ -32,3 +32,4 @@ export function createSky(live, { forReflections = false } = {}) {
       uTime: live.u.time,
     },
     vertexShader: /* glsl */ `
+      varying vec3 vDir;
