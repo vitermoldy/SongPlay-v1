@@ -46,3 +46,4 @@ export async function fetchInfo(item) {
   const res = await fetch(`https://www.youtube.com/oembed?format=json&url=${encodeURIComponent(watchUrl(item))}`);
   if (!res.ok) {
     const error = new Error(`oEmbed ${res.status}`);
+    error.status = res.status;
