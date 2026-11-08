@@ -1474,3 +1474,4 @@ body.menu-open .site-header {
 }
 
 @media (max-height: 700px) and (min-width: 721px) {
+  .hero-inner {
