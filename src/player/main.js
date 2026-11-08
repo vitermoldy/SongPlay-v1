@@ -304,3 +304,4 @@ function queueRow(item, index) {
   thumb.width = 96;
   thumb.height = 54;
   thumb.alt = '';
+  thumb.loading = 'lazy';
