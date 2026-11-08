@@ -478,3 +478,6 @@ body.menu-open .site-header {
   top: -1px;
   left: -1px;
   border-top-width: 2px;
+  border-left-width: 2px;
+}
+
