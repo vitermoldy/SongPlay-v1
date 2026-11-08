@@ -423,3 +423,4 @@ export function createScene(
       if (sampled === 45 && slowFrames > 30) {
         slow = true;
         cursorWanted = 0;
+        onSlow?.();
