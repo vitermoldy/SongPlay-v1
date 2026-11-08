@@ -168,3 +168,4 @@ const OVERCAST_PATHS = [
   'mountains.farLow',
   'mountains.nearTop',
   'mountains.nearLow',
+  'light.sun',
