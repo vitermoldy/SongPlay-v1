@@ -90,3 +90,4 @@ export function createAmbience() {
   }
 
   // Brown noise for wind and thunder, with its drift taken out so the loop meets itself.
+  function brownNoise(seconds) {
