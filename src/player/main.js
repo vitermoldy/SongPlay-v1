@@ -629,3 +629,4 @@ function removeAt(index) {
     state.current -= 1;
     render();
   } else if (wasCurrent && wasActive) {
+    if (index < state.items.length) playIndex(index);
