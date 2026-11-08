@@ -221,3 +221,6 @@ const state = {
 function isValid(item) {
   if (!item || typeof item !== 'object') return false;
   if (item.kind === 'video') return /^[\w-]{11}$/.test(item.id);
+  return item.kind === 'playlist' && /^[\w-]{12,}$/.test(item.list);
+}
+
