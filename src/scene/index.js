@@ -413,3 +413,6 @@ export function createScene(
       time += dt;
       live.u.drift.value += dt * live.numbers['particles.fall'];
     }
+    // With no time step (a single frame for a paused scene) everything lands where it is going.
+    const ease = (rate) => (dt > 0 ? 1 - Math.exp(-dt * rate) : 1);
+
