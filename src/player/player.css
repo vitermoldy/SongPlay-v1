@@ -53,3 +53,6 @@
 }
 
 .sound-toggle[data-on='true'] .icon-sound-on {
+  display: block;
+}
+
