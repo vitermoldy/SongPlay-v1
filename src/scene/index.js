@@ -122,3 +122,4 @@ export function createScene(
   camera.lookAt(look);
 
   // Glossy surfaces reflect a plain version of the current sky, rebuilt when the theme settles.
+  const pmrem = new PMREMGenerator(renderer);
