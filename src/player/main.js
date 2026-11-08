@@ -127,3 +127,4 @@ async function setSound(on) {
     ambience ??= createAmbience();
     ambience.setScene(theme, season);
     ambience.setVolume(volume / 100);
+    ambience.setDucked(state.status === 'playing');
