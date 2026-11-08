@@ -127,3 +127,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
       varying float vH;
       varying float vSeed;
       varying vec3 vWorld;
+      void main() {
