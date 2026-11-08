@@ -622,3 +622,4 @@ function removeAt(index) {
   if (!item) return;
   const wasCurrent = index === state.current;
   const wasActive = ACTIVE.has(state.status);
+  state.items.splice(index, 1);
