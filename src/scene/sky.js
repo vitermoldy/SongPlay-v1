@@ -173,3 +173,4 @@ export function createMountains(live) {
       depthWrite: true,
       uniforms: {
         uTop: { value: live.color(top) },
+        uLow: { value: live.color(low) },
