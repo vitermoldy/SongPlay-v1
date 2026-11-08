@@ -13,3 +13,4 @@ export default defineConfig({
       input: {
         main: page('./index.html'),
         player: page('./player.html'),
+      },
