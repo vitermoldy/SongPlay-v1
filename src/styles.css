@@ -1100,3 +1100,4 @@ body.menu-open .site-header {
 .field input:not([type='checkbox']),
 .field select,
 .field textarea {
+  width: 100%;
