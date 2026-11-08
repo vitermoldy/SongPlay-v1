@@ -54,3 +54,4 @@ const FocusBlurShader = {
 const FinishShader = {
   uniforms: {
     tDiffuse: { value: null },
+    uTime: { value: 0 },
