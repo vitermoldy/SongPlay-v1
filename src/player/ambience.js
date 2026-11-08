@@ -303,3 +303,4 @@ export function createAmbience() {
     clearTimeout(thunderTimer);
     if (!enabled || hidden || thunderLevel <= 0) return;
     thunderTimer = setTimeout(
+      () => {
