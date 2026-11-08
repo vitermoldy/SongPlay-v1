@@ -37,3 +37,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
     const lz = (x - tv.x) * sinY + (z - tv.z) * cosY;
     if (Math.abs(lx) < (tv.halfW ?? 0.62) && Math.abs(lz) < (tv.halfD ?? 0.5)) continue;
 
+    // Thin out the grass right under the lens so the foreground stays a soft frame.
