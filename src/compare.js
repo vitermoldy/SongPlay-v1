@@ -253,3 +253,4 @@ export function initCompare(root) {
       if (mine !== version) {
         URL.revokeObjectURL(b);
         URL.revokeObjectURL(a);
+        return;
