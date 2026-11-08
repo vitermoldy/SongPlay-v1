@@ -201,3 +201,6 @@ button:disabled {
   fill: none;
   stroke: var(--glow);
   stroke-width: 1.7;
+  stroke-linecap: round;
+}
+
