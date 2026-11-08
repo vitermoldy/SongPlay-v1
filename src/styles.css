@@ -717,3 +717,4 @@ body.menu-open .site-header {
 }
 
 .passes {
+  display: grid;
