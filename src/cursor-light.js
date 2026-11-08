@@ -3,3 +3,4 @@
 // which lights its own grass) turn it off. Touch and pen get nothing: there is no hover.
 export function initCursorLight({ skip = [] } = {}) {
   const fine = window.matchMedia('(hover: hover) and (pointer: fine)');
+  const light = document.createElement('div');
