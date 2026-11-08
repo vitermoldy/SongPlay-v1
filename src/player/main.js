@@ -544,3 +544,6 @@ function onPlayerError(event) {
   clearTimeout(skipTimer);
   skipTimer = setTimeout(() => {
     if (state.current === failed) advance(`Couldn’t play ${titleOf(item)}: ${reason}.`);
+  }, 1200);
+}
+
