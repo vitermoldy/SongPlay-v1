@@ -105,3 +105,4 @@ export function paintStandIn() {
 // with a magenta cast and lifted blacks, noise, dropouts and a torn band at the bottom.
 export function vhsify(source, outW = W, outH = H) {
   const w = 640;
+  const h = 480;
