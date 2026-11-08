@@ -153,3 +153,4 @@ export function createAmbience() {
     const note = (start, dur, f1, f2, amp) => {
       const s = Math.round(start * sr);
       const n = Math.round(dur * sr);
+      let phase = 0;
