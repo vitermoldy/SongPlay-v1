@@ -291,3 +291,4 @@
   color: #fff;
   font: 600 14px/1 var(--font-sans);
   transition:
+    background-color 180ms var(--ease),
