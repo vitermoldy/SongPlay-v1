@@ -58,3 +58,4 @@ const FinishShader = {
     uGrain: { value: 0.035 },
   },
   vertexShader: passVertex,
+  fragmentShader: /* glsl */ `
