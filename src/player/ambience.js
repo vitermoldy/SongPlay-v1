@@ -244,3 +244,4 @@ export function createAmbience() {
     osc.connect(g).connect(target);
     osc.start();
   };
+  const pan = (value) => {
