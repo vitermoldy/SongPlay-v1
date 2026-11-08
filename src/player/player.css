@@ -779,3 +779,4 @@
   }
 
   .sound-panel {
+    right: var(--frame);
