@@ -549,3 +549,4 @@ body.menu-open .site-header {
 
 .privacy {
   position: absolute;
+  left: calc(var(--frame) + 18px);
