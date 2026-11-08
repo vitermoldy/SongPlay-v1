@@ -195,3 +195,4 @@ function outputSize(root) {
   return [w, Math.round((w * 3) / 4)];
 }
 
+function toUrl(canvas) {
