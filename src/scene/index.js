@@ -274,3 +274,4 @@ export function createScene(
     for (const path of NUMBER_PATHS) live.numbers[path] = MathUtils.lerp(s.fromNum[path], s.toNum[path], k);
     live.sunDir.lerpVectors(s.fromSun, s.toSun, k).normalize();
     applyNumbers();
+    if (s.t >= 1) {
