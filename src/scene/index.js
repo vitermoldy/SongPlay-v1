@@ -201,3 +201,4 @@ export function createScene(
 
   function applyNumbers() {
     const n = live.numbers;
+    live.u.stars.value = n.stars;
