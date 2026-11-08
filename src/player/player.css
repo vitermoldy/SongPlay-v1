@@ -347,3 +347,4 @@
   opacity: 0;
   visibility: hidden;
   transition:
+    opacity 400ms var(--ease),
