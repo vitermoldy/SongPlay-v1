@@ -648,3 +648,4 @@ body.menu-open .site-header {
     filter: blur(6px);
   }
   to {
+    opacity: 1;
