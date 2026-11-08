@@ -631,3 +631,4 @@
   max-height: min(56svh, 480px);
   overflow: auto;
   overscroll-behavior: contain;
+  padding: 8px;
