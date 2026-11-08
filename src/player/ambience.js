@@ -41,3 +41,6 @@ function levelsFor(time, season) {
     L.birds = 0;
     L.thunder = time === 'night' ? 0.9 : 0.55;
   }
+  return L;
+}
+
