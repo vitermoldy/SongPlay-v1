@@ -551,3 +551,6 @@
 }
 
 .icon-btn-main[data-state='playing'] .icon-pause {
+  display: block;
+}
+
