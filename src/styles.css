@@ -536,3 +536,4 @@ body.menu-open .site-header {
 
 .hero-foot {
   display: grid;
+  justify-items: center;
