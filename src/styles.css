@@ -1460,3 +1460,6 @@ body.menu-open .site-header {
   .header-play {
     width: 44px;
     padding: 0;
+    justify-content: center;
+  }
+
