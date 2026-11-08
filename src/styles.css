@@ -518,3 +518,4 @@ body.menu-open .site-header {
   display: grid;
   justify-items: center;
   gap: 0.1em;
+  font-weight: 600;
