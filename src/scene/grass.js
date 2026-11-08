@@ -107,3 +107,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
         gl_Position = projectionMatrix * viewMatrix * vec4(world, 1.0);
       }
     `,
+    fragmentShader: /* glsl */ `
