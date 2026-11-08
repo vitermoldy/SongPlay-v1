@@ -23,3 +23,4 @@ const ui = {
   form: $('[data-add]'),
   input: $('#song-link'),
   error: $('#song-link-error'),
+  prev: $('[data-prev]'),
