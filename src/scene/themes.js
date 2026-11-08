@@ -60,3 +60,4 @@ export const THEMES = {
     mountains: { farTop: '#8aa0d0', farLow: '#b2c6ea', nearTop: '#5874ae', nearLow: '#8aa4d6' },
     grass: { base: '#0a1607', mid: '#284812', tip: '#66962c', tipGold: '#a6b646', back: '#fff2a6' },
     ground: { dark: '#0c1a08', lit: '#243f18' },
+    light: { sun: '#fff0d2', sky: '#9ac0f0', particles: '#ffffff' },
