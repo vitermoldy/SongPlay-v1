@@ -4,3 +4,4 @@ import {
   InstancedBufferGeometry,
   Mesh,
   PlaneGeometry,
+  ShaderMaterial,
