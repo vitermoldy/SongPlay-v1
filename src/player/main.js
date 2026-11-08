@@ -26,3 +26,4 @@ const ui = {
   prev: $('[data-prev]'),
   toggle: $('[data-toggle]'),
   next: $('[data-next]'),
+  queueToggle: $('[data-queue-toggle]'),
