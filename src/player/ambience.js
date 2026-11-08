@@ -158,3 +158,4 @@ export function createAmbience() {
         const t = k / n;
         const f = f1 + (f2 - f1) * t + Math.sin(k / sr * 2 * Math.PI * 28) * 60;
         phase += (2 * Math.PI * f) / sr;
+        const env = Math.min(1, t * 12) * Math.min(1, (1 - t) * 6);
