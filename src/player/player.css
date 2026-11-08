@@ -527,3 +527,6 @@
 }
 
 .icon-btn:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
