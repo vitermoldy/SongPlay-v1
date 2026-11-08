@@ -293,3 +293,4 @@ function nowLine() {
 }
 
 function queueRow(item, index) {
+  const li = document.createElement('li');
