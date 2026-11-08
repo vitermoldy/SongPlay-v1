@@ -236,3 +236,4 @@ export function createAmbience() {
     f.Q.value = Q;
     return f;
   };
+  const lfo = (rate, depth, target) => {
