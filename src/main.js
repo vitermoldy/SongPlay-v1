@@ -39,3 +39,4 @@ function initMenu() {
     toggle.textContent = open ? 'Close' : 'Menu';
     document.body.classList.toggle('menu-open', open);
     for (const el of outside) el.inert = open;
+    if (open) {
