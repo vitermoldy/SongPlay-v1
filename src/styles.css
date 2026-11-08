@@ -704,3 +704,6 @@ body.menu-open .site-header {
 }
 
 .services-grid .compare {
+  grid-column: 7 / -1;
+}
+
