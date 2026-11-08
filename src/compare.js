@@ -208,3 +208,4 @@ function swap(img, url) {
 }
 
 export function initCompare(root) {
+  const before = root.querySelector('[data-before]');
