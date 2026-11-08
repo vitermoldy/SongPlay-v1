@@ -1112,3 +1112,4 @@ body.menu-open .site-header {
 }
 
 .field textarea {
+  resize: vertical;
