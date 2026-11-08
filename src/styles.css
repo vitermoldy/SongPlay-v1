@@ -591,3 +591,4 @@ body.menu-open .site-header {
   font: 600 14px/1 var(--font-sans);
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  transition:
