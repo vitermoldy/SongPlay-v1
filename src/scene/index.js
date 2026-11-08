@@ -217,3 +217,4 @@ export function createScene(
 
   // ---------- State ----------
   const still = reducedMotion || software;
+  let playing = !still;
