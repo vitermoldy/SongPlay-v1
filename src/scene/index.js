@@ -25,3 +25,4 @@ import { COLOR_PATHS, NUMBER_PATHS, SEASONS, THEMES, compose } from './themes.js
 // player: a 16:9 set, close enough that the video on its glass stays at least 200px tall.
 const VARIANTS = {
   hero: {
+    tv: 'classic',
