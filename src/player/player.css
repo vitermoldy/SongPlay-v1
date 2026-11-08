@@ -369,3 +369,4 @@
   animation: crt-on 650ms var(--ease) both;
 }
 
+@keyframes crt-on {
