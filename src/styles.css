@@ -216,3 +216,4 @@ button:disabled {
     transform: translateX(5px);
   }
   100% {
+    transform: translateX(0);
