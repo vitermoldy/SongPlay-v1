@@ -109,3 +109,6 @@ export function vhsify(source, outW = W, outH = H) {
   const small = makeCanvas(300, h);
   small.getContext('2d').drawImage(source, 0, 0, 300, h);
   const c = makeCanvas(w, h);
+  const g = c.getContext('2d', { willReadFrequently: true });
+  g.drawImage(small, 0, 0, w, h);
+
