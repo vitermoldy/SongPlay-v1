@@ -345,3 +345,4 @@ export function createScene(
 
   function resize() {
     const width = canvas.clientWidth;
+    const height = canvas.clientHeight;
