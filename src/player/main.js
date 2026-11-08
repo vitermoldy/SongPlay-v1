@@ -578,3 +578,4 @@ async function playIndex(index) {
   // Nothing heard back after a while means one of two things. A playlist that never loaded
   // is one YouTube keeps to itself (its own mixes and charts never play elsewhere, and send no
   // error to say so). Anything else is a browser holding back sound until a direct press.
+  clearTimeout(autoplayCheck);
