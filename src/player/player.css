@@ -692,3 +692,6 @@
 }
 
 .queue-item.has-problem .queue-sub {
+  color: var(--error);
+}
+
