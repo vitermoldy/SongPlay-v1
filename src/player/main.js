@@ -165,3 +165,6 @@ document.addEventListener('keydown', (event) => {
 });
 document.addEventListener('pointerdown', (event) => {
   if (!soundPanel.hidden && !event.target.closest('[data-sound]')) setSoundPanel(false);
+});
+syncSound();
+
