@@ -169,3 +169,4 @@ export function createTV(shapeName = 'classic') {
     // Where a flat element lies on the glass: just in front of its bulge.
     glassFront: new Vector3(screenX, midY, 0.476 + shape.bulge + 0.004),
   };
+}
