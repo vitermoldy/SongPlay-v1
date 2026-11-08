@@ -248,3 +248,4 @@ body.menu-open .site-header {
 .brand {
   display: inline-flex;
   align-items: center;
+  min-height: 44px;
