@@ -27,3 +27,4 @@ const FocusBlurShader = {
   vertexShader: passVertex,
   fragmentShader: /* glsl */ `
     uniform sampler2D tDiffuse;
+    uniform vec2 uResolution;
