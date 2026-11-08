@@ -292,3 +292,4 @@ export function createScene(
 
   // March along the ray until it drops under the blade tips (the tallest blades stand ~0.45
   // over the ground; stopping lower lets the light land behind the blades you see), then refine.
+  function hitGround(ray) {
