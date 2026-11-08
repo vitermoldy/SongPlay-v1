@@ -12,3 +12,4 @@ export function createParticles(count, live) {
   const positions = new Float32Array(count * 3);
   const data = new Float32Array(count * 4);
   for (let i = 0; i < count; i++) {
+    positions[i * 3] = -22 + rand() * 44;
