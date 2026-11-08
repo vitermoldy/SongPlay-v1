@@ -45,3 +45,4 @@ export function createSky(live, { forReflections = false } = {}) {
       uniform vec3 uHorizon;
       uniform vec3 uSunColor;
       uniform vec3 uSunDir;
+      uniform float uStars;
