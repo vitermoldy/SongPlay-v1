@@ -354,3 +354,4 @@ export function createAmbience() {
       else if (enabled) ctx.resume();
       scheduleThunder();
     },
+    get running() {
