@@ -177,3 +177,4 @@ if (soundOn) {
     document.removeEventListener('keydown', startOnFirstGesture);
     if (soundOn && !ambience?.running) setSound(true);
   };
+  document.addEventListener('pointerdown', startOnFirstGesture);
