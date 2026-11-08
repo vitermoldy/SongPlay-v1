@@ -28,3 +28,5 @@ tapes, in a cinematic dusk 3D style. Dial: ENERGY 3 / RHYTHM 2 / MOTION 2.
 | `--cream` | `#f4efe6` | Cassette label paper; the one contrasting ground (Formats) and the button fill. |
 | `--glow` | `#ffc56b` | The TV screen; one accent, used at the main action only. |
 
+The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a literal sky.
+
