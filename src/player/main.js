@@ -752,3 +752,6 @@ ui.toggle.addEventListener('click', () => {
   } else if (state.items.length) {
     const start = state.current >= 0 && state.current < state.items.length && state.status !== 'ended' ? state.current : 0;
     playIndex(start);
+  }
+});
+
