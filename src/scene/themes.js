@@ -61,3 +61,4 @@ export const THEMES = {
     grass: { base: '#0a1607', mid: '#284812', tip: '#66962c', tipGold: '#a6b646', back: '#fff2a6' },
     ground: { dark: '#0c1a08', lit: '#243f18' },
     light: { sun: '#fff0d2', sky: '#9ac0f0', particles: '#ffffff' },
+    lamps: { hemiSky: '#b0d0ff', hemiGround: '#20301a', hemi: 0.9, sun: '#fff0d0', sunI: 1, fill: '#c0d8ff', fillI: 0.4 },
