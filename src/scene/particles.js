@@ -120,3 +120,4 @@ export function createParticles(count, live) {
     setShape(shape) {
       live.u.particleShape.value = shape;
       material.blending = shape === 2 ? NormalBlending : AdditiveBlending;
+    },
