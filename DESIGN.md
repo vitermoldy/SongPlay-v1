@@ -55,3 +55,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
   stays small (0.04em).
 - **"GET STARTED" replaced** with "Start with one tape": the button says what happens (owner
   approved).
+- **No Pricing section**: no real prices yet, and made-up numbers would mislead (owner chose to
