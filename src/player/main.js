@@ -653,3 +653,4 @@ function placeQueue() {
   const margin = 12;
   const edge = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--frame')) || 12;
   const sideSpace = window.innerWidth - edge - 16 - (video.right + 24);
+  const ceiling = Math.max(
