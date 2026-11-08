@@ -75,3 +75,4 @@ export function loadYouTubeApi() {
     document.head.append(script);
     setTimeout(() => {
       if (!window.YT?.Player) {
+        apiPromise = null;
