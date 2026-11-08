@@ -471,3 +471,6 @@ body.menu-open .site-header {
   position: absolute;
   width: 22px;
   height: 22px;
+  border: 0 solid rgba(255, 255, 255, 0.85);
+}
+
