@@ -244,3 +244,4 @@ function saveQueue() {
       title,
       author,
       thumb,
+      problem,
