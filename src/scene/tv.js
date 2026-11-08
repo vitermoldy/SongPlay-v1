@@ -145,3 +145,4 @@ export function createTV(shapeName = 'classic') {
   group.add(dome);
 
   const ROD = 0.82;
+  const rodGeometry = new CylinderGeometry(0.0075, 0.011, ROD, 8);
