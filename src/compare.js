@@ -230,3 +230,4 @@ export function initCompare(root) {
     // A click on the "Drag to compare" label focuses the slider; it should not move the line.
     if (event.target.closest('label')) return;
     dragging = true;
+    root.setPointerCapture(event.pointerId);
