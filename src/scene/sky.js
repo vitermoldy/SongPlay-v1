@@ -198,3 +198,4 @@ export function createMountains(live) {
         }
       `,
     });
+    const mesh = new Mesh(ridge(seed, 320, base, peak), material);
