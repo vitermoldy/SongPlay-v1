@@ -14,3 +14,4 @@ export function createParticles(count, live) {
   for (let i = 0; i < count; i++) {
     positions[i * 3] = -22 + rand() * 44;
     positions[i * 3 + 1] = -1 + rand() * 12;
+    positions[i * 3 + 2] = -22 + rand() * 25;
