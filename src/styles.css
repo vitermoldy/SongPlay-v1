@@ -589,3 +589,4 @@ body.menu-open .site-header {
   background: rgba(118, 136, 255, 0.3);
   color: #fff;
   font: 600 14px/1 var(--font-sans);
+  letter-spacing: 0.04em;
