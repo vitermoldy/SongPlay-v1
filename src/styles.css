@@ -388,3 +388,4 @@ body.menu-open .site-header {
   gap: 32px;
   padding: calc(var(--header-h) + 32px) var(--gutter) max(32px, env(safe-area-inset-bottom));
   background: var(--night);
+  opacity: 0;
