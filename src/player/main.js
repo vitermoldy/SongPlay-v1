@@ -566,3 +566,4 @@ async function playIndex(index) {
   if (state.current !== index || !state.items.includes(item)) return; // another choice came first
 
   ui.video.classList.add('is-on');
+  // Stop first: a list YouTube refuses to load fails silently, and the last one would play on.
