@@ -86,3 +86,4 @@ export const SEASONS = {
   },
   autumn: {
     label: 'Autumn',
+    grass: { base: '#1a0e06', mid: '#4a2a0e', tip: '#b8642a', tipGold: '#d89a3a' },
