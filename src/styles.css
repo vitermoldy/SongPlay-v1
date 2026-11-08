@@ -228,3 +228,4 @@ button:disabled {
   z-index: 50;
   display: flex;
   align-items: center;
+  gap: 16px;
