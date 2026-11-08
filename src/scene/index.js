@@ -564,3 +564,4 @@ export function createScene(
       container.append(cssRenderer.domElement);
       element.style.width = `${width}px`;
       element.style.height = `${height}px`;
+      // Round the element's corners like the glass (the shader's radius is in screen heights).
