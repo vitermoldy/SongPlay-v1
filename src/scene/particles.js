@@ -122,3 +122,4 @@ export function createParticles(count, live) {
       material.blending = shape === 2 ? NormalBlending : AdditiveBlending;
     },
   };
+}
