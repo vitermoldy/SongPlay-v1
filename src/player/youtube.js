@@ -73,3 +73,4 @@ export function loadYouTubeApi() {
       reject(new Error('The YouTube player script did not load.'));
     };
     document.head.append(script);
+    setTimeout(() => {
