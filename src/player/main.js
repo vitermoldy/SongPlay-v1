@@ -424,3 +424,4 @@ async function initScene() {
     return;
   }
   playing = !scene.startsStill;
+  ui.sceneToggle.hidden = false;
