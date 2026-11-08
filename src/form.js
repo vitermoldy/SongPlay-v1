@@ -57,3 +57,4 @@ export function initRequestForm(form) {
     const nameValue = String(data.get('name')).trim();
     const body = [
       `Name: ${nameValue}`,
+      `Email: ${String(data.get('email')).trim()}`,
