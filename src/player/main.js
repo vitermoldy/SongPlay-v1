@@ -619,3 +619,4 @@ function stopAll(status, message) {
 
 function removeAt(index) {
   const item = state.items[index];
+  if (!item) return;
