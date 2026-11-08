@@ -34,3 +34,4 @@ const ui = {
   clear: $('[data-queue-clear]'),
   sceneToggle: $('[data-scene-toggle]'),
   sceneLabel: $('[data-scene-label]'),
+  themes: $('[data-themes]'),
