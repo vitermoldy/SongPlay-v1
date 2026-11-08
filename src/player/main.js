@@ -153,3 +153,4 @@ soundVolume.addEventListener('input', () => {
   if (volume > 0 && (!soundOn || !ambience?.running)) setSound(true);
   else {
     ambience?.setVolume(volume / 100);
+    syncSound();
