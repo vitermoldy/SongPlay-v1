@@ -103,3 +103,4 @@ export function createParticles(count, live) {
           q.y *= 1.0 + 0.8 * abs(sin(vSpin * 0.7));
           float e = length(q / vec2(0.46, 0.22));
           alpha = 1.0 - smoothstep(1.0 - soft * 1.6, 1.0, e);
+        }
