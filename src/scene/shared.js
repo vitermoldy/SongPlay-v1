@@ -22,3 +22,4 @@ export const PALETTE = {
 
 export const NOISE_GLSL = /* glsl */ `
   float hash12(vec2 p) {
+    vec3 p3 = fract(vec3(p.xyx) * 0.1031);
