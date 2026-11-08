@@ -109,3 +109,4 @@ async function initScene(compare) {
 
   try {
     const { createScene } = await import('./scene/index.js');
+    scene = createScene(canvas, {
