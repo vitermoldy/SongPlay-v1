@@ -117,3 +117,4 @@ export function createClouds(live) {
       fragmentShader: /* glsl */ `
         uniform float uTime;
         uniform float uSeed;
+        uniform float uOpacity;
