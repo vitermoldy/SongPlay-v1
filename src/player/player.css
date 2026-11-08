@@ -182,3 +182,6 @@
 }
 
 .stage.is-live .hero-canvas {
+  opacity: 1;
+}
+
