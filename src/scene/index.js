@@ -86,3 +86,4 @@ export function createScene(
   {
     variant = 'hero',
     theme = 'dusk',
+    season = 'summer',
