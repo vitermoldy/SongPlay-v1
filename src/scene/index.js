@@ -31,3 +31,4 @@ const VARIANTS = {
     tvYaw: -0.36,
     parallax: [0.35, 0.12],
     clearFront: false,
+    framesScreen: false,
