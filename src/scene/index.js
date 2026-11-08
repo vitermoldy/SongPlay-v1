@@ -240,3 +240,4 @@ export function createScene(
     // What falls changes form at once (snow, petals, leaves); its colour and speed ease over.
     live.shape = next.shape;
     particles.setShape(next.shape);
+    themeShift = {
