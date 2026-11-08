@@ -73,3 +73,4 @@ export const THEMES = {
 // time of day keeps its own motes (dust, or fireflies at night).
 export const SEASONS = {
   spring: {
+    label: 'Spring',
