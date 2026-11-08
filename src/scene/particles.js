@@ -67,3 +67,4 @@ export function createParticles(count, live) {
         vSpin = uTime * (0.6 + seed * 1.4) + seed * 6.2831;
         gl_Position = projectionMatrix * mv;
       }
+    `,
