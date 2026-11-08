@@ -24,3 +24,4 @@ const ui = {
   input: $('#song-link'),
   error: $('#song-link-error'),
   prev: $('[data-prev]'),
+  toggle: $('[data-toggle]'),
