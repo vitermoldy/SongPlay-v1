@@ -586,3 +586,4 @@ async function playIndex(index) {
       item.problem = 'YouTube only plays this list on its own site (or it is private)';
       saveQueue();
       say(`Skipped ${titleOf(item)}: ${item.problem}.`);
+      advance(`Couldn’t play ${titleOf(item)}: ${item.problem}.`);
