@@ -238,3 +238,4 @@ export function createScene(
   function retarget() {
     const next = compose(live.time, live.season);
     // What falls changes form at once (snow, petals, leaves); its colour and speed ease over.
+    live.shape = next.shape;
