@@ -822,3 +822,6 @@ body.menu-open .site-header {
   color: var(--ink);
   transform: translate(-50%, -50%);
   box-shadow: 0 6px 20px -6px rgba(0, 0, 0, 0.5);
+  transition: transform 180ms var(--ease);
+}
+
