@@ -177,3 +177,4 @@ const luma = (c) => 0.2126 * c.r + 0.7152 * c.g + 0.0722 * c.b;
 // Cloud cover over any time of day: each sky colour moves toward a cool grey of its own
 // brightness (a little darker), the sun goes behind the cloud, and the stars mostly go out.
 function overcastSky(colors, numbers, { tint, amount }) {
+  const grey = new Color(tint);
