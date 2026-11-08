@@ -276,3 +276,4 @@ function nowLine() {
   const title = state.videoTitle || titleOf(item);
   const fromList = item?.kind === 'playlist' && item.title && state.videoTitle ? ` · from ${item.title}` : '';
   switch (state.status) {
+    case 'loading':
