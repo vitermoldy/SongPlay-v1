@@ -745,3 +745,4 @@ ui.toggle.addEventListener('click', () => {
     yt?.pauseVideo();
     if (state.status === 'loading') {
       state.status = 'paused';
+      render();
