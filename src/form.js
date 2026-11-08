@@ -11,3 +11,4 @@ function showError(field, message) {
   } else {
     error.textContent = '';
     error.hidden = true;
+  }
