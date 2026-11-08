@@ -67,3 +67,4 @@ ui.stage.dataset.season = season;
 ui.themes.querySelector(`input[value="${theme}"]`).checked = true;
 ui.seasons.querySelector(`input[value="${season}"]`).checked = true;
 
+ui.themes.addEventListener('change', (event) => {
