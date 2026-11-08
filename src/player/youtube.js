@@ -11,3 +11,4 @@ export function parseYouTube(raw) {
   if (VIDEO_ID.test(text)) return { kind: 'video', id: text };
 
   let url;
+  try {
