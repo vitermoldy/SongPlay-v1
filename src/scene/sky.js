@@ -178,3 +178,4 @@ export function createMountains(live) {
         uTopY: { value: base + peak },
       },
       vertexShader: /* glsl */ `
+        varying float vY;
