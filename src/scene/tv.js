@@ -100,3 +100,4 @@ export function createTV(shapeName = 'classic') {
       uniform float uOn;
       uniform float uLevel;
       uniform float uAspect;
+      uniform float uCorner;
