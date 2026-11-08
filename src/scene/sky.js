@@ -158,3 +158,4 @@ function ridge(seed, width, base, peak) {
     shape.lineTo(x, y);
   }
   shape.lineTo(width / 2, -30);
+  shape.closePath();
