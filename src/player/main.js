@@ -366,3 +366,6 @@ function render() {
   ui.toggle.disabled = count === 0;
   ui.prev.disabled = count === 0 || !ACTIVE.has(state.status);
   ui.next.disabled = count === 0 || !ACTIVE.has(state.status);
+  ambience?.setDucked(state.status === 'playing');
+}
+
