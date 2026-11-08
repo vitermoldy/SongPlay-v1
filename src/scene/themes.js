@@ -68,3 +68,4 @@ export const THEMES = {
 };
 
 // Seasons paint the grass and the ground, and choose what falls through the air. Their colours
+// are given as they would look in the dusk light; each time of day then relights them.
