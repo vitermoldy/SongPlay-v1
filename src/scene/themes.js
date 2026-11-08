@@ -12,3 +12,4 @@ export const THEMES = {
     stars: 0,
     haze: '#6874c8',
     clouds: { lit: '#e9ecff', shade: '#f6b4a8', opacity: 1 },
+    mountains: { farTop: '#5866bb', farLow: '#8892d6', nearTop: '#2f3c8a', nearLow: '#5f6cbc' },
