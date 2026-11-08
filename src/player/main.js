@@ -501,3 +501,4 @@ function onPlayerState(event) {
     }
     clearTimeout(autoplayCheck);
     if (event.data === S.PLAYING) {
+      state.status = 'playing';
