@@ -119,3 +119,4 @@ export function vhsify(source, outW = W, outH = H) {
 
   for (let y = 0; y < h; y++) {
     const tail = y / h;
+    let shift = 0;
