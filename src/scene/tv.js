@@ -62,3 +62,4 @@ export function createTV(shapeName = 'classic') {
     roughness: 0.42,
     metalness: 0.0,
     clearcoat: 0.25,
+    clearcoatRoughness: 0.3,
