@@ -169,3 +169,4 @@ document.addEventListener('pointerdown', (event) => {
 syncSound();
 
 // Sound left on last visit starts with the first touch of the page: browsers allow sound only
+// after a gesture. The switch and the slider act for themselves.
