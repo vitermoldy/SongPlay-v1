@@ -18,3 +18,4 @@ export function createParticles(count, live) {
     data[i * 4] = 0.05 + Math.pow(rand(), 2.2) * 0.16;
     data[i * 4 + 1] = rand();
     data[i * 4 + 2] = rand() < 0.45 ? 1 : 0;
+    data[i * 4 + 3] = 0.35 + rand() * 0.65;
