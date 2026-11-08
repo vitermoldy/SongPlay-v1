@@ -567,3 +567,4 @@ async function playIndex(index) {
 
   ui.video.classList.add('is-on');
   // Stop first: a list YouTube refuses to load fails silently, and the last one would play on.
+  try {
