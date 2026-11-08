@@ -1103,3 +1103,4 @@ body.menu-open .site-header {
   width: 100%;
   min-height: 52px;
   padding: 12px 14px;
+  border: 1px solid rgba(244, 239, 230, 0.3);
