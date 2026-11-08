@@ -544,3 +544,6 @@ body.menu-open .site-header {
 .hero-foot p {
   font-size: clamp(17px, 1.35vw, 20px);
   line-height: 1.45;
+  text-shadow: 0 1px 14px rgba(0, 0, 16, 0.7);
+}
+
