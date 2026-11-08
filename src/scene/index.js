@@ -325,3 +325,4 @@ export function createScene(
       raycaster.setFromCamera(ndc, camera);
       hit = hitGround(raycaster.ray);
     }
+    cursorWanted = hit ? 1 : 0;
