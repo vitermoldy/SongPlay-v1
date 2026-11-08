@@ -447,3 +447,6 @@ body.menu-open .site-header {
 }
 
 .hero.is-live .hero-canvas {
+  opacity: 1;
+}
+
