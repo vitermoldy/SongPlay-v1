@@ -260,3 +260,4 @@ export function createAmbience() {
 
   // Rain: a hiss bed and the patter of drops.
   const bed = ctx.createGain();
+  bed.gain.value = 0.7;
