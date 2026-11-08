@@ -71,3 +71,4 @@ function initAnchors() {
     const id = link.getAttribute('href').slice(1);
     const target = id && document.getElementById(id);
     if (!target) return;
+    event.preventDefault();
