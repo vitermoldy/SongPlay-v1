@@ -44,3 +44,4 @@ function screenGeometry({ screenW, screenH, bulge }) {
   const pos = g.attributes.position;
   for (let i = 0; i < pos.count; i++) {
     const u = (pos.getX(i) / screenW) * 2;
+    const v = (pos.getY(i) / screenH) * 2;
