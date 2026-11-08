@@ -93,3 +93,4 @@ export function createParticles(count, live) {
           alpha *= 0.9;
         } else if (uShape > 2.5) {
           // Rain: a thin streak, slanted a little by the wind.
+          float x = c.x + c.y * 0.18;
