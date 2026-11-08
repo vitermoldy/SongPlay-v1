@@ -28,3 +28,4 @@ const ui = {
   next: $('[data-next]'),
   queueToggle: $('[data-queue-toggle]'),
   queuePanel: $('[data-queue-panel]'),
+  queueList: $('[data-queue-list]'),
