@@ -195,3 +195,4 @@
     linear-gradient(to top, rgba(5, 7, 24, 0.72), rgba(5, 7, 24, 0.28) 22%, rgba(5, 7, 24, 0) 38%);
 }
 
+.stage[data-theme='dawn'] .stage-shade {
