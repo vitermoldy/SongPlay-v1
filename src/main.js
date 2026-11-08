@@ -58,3 +58,4 @@ function initMenu() {
     if (event.key === 'Escape' && open) setOpen(false);
   });
   window.matchMedia('(min-width: 961px)').addEventListener('change', (event) => {
+    if (event.matches) setOpen(false, false);
