@@ -201,3 +201,4 @@ export function createAmbience() {
 
   // ---------- The graph ----------
 
+  const compressor = ctx.createDynamicsCompressor();
