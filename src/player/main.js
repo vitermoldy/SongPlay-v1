@@ -659,3 +659,4 @@ function placeQueue() {
   );
 
   if (sideSpace >= 300) {
+    panel.dataset.place = 'side';
