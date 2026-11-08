@@ -41,3 +41,4 @@ function initMenu() {
     for (const el of outside) el.inert = open;
     if (open) {
       menu.hidden = false;
+      requestAnimationFrame(() => menu.classList.add('is-open'));
