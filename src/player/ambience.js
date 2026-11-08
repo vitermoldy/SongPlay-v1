@@ -342,3 +342,4 @@ export function createAmbience() {
       applyMaster(0.05);
     },
     // Quieter while a video plays, so the song comes first.
+    setDucked(on) {
