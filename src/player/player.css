@@ -404,3 +404,4 @@
   bottom: calc(var(--frame) + 18px);
   z-index: 3;
   display: grid;
+  gap: 12px;
