@@ -143,3 +143,4 @@ async function initScene(compare) {
 
   try {
     compare.setSource(await scene.captureStill());
+  } catch (error) {
