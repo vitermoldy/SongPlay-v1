@@ -3,3 +3,4 @@ import { NOISE_GLSL } from './shared.js';
 
 // One height function feeds both the ground mesh and the grass scatter, so blades sit on the ground.
 export function heightAt(x, z) {
+  const crest = 1.7 * Math.exp(-(x * x) / 20 - (z * z) / 9) - 1.7;
