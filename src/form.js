@@ -44,3 +44,4 @@ export function initRequestForm(form) {
   }
 
   form.addEventListener('submit', (event) => {
+    event.preventDefault();
