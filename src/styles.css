@@ -735,3 +735,6 @@ body.menu-open .site-header {
 }
 
 .passes p {
+  color: var(--mist);
+}
+
