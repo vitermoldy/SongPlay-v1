@@ -487,3 +487,4 @@ export function createScene(
   function capture() {
     const resolve = pendingCapture;
     pendingCapture = null;
+    const w = canvas.width;
