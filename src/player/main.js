@@ -466,3 +466,4 @@ function ensurePlayer() {
                 yt = player;
                 resolve(player);
               },
+              onStateChange: onPlayerState,
