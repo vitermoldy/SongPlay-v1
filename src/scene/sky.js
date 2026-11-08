@@ -85,3 +85,4 @@ export function createSky(live, { forReflections = false } = {}) {
   return mesh;
 }
 
+const CLOUDS = [
