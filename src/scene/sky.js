@@ -57,3 +57,4 @@ export function createSky(live, { forReflections = false } = {}) {
         vec3 d = normalize(vDir);
         float y = d.y;
         vec3 c = mix(uHorizon, uLow, smoothstep(-0.01, 0.07, y));
+        c = mix(c, uMid, smoothstep(0.06, 0.26, y));
