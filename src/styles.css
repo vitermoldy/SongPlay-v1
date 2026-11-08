@@ -709,3 +709,6 @@ body.menu-open .site-header {
 
 .services-copy {
   display: grid;
+  gap: 24px;
+}
+
