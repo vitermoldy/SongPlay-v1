@@ -114,3 +114,4 @@ export function createScene(
   renderer.toneMapping = NeutralToneMapping;
 
   const live = createLive(theme, season);
+  const scene = new Scene();
