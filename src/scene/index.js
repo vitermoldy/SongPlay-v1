@@ -82,3 +82,4 @@ function createLive(time, season) {
 }
 
 export function createScene(
+  canvas,
