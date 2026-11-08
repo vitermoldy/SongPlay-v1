@@ -306,3 +306,6 @@ function queueRow(item, index) {
   thumb.alt = '';
   thumb.loading = 'lazy';
   thumb.decoding = 'async';
+  const src = safeThumb(item.thumb);
+  if (src) thumb.src = src;
+
