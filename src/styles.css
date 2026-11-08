@@ -1409,3 +1409,4 @@ body.menu-open .site-header {
 
   .scene-toggle {
     right: calc(var(--frame) + 6px);
+    bottom: calc(var(--frame) + 4px);
