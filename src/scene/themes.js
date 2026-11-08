@@ -5,3 +5,4 @@ import { Color } from 'three';
 // ground here are the summer colours as each light shows them; seasons repaint them (below).
 // `light.particles` tints a season's falling things (snow, petals, leaves) for this light.
 export const THEMES = {
+  dusk: {
