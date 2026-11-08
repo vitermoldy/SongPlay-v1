@@ -592,3 +592,4 @@ body.menu-open .site-header {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   transition:
+    background-color 200ms var(--ease),
