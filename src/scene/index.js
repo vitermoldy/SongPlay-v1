@@ -275,3 +275,4 @@ export function createScene(
     live.sunDir.lerpVectors(s.fromSun, s.toSun, k).normalize();
     applyNumbers();
     if (s.t >= 1) {
+      themeShift = null;
