@@ -562,3 +562,6 @@ async function playIndex(index) {
   } catch {
     stopAll('error', 'The YouTube player did not load. Check your connection or an ad blocker, then press play again.');
     return;
+  }
+  if (state.current !== index || !state.items.includes(item)) return; // another choice came first
+
