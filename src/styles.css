@@ -659,3 +659,4 @@ body.menu-open .site-header {
 .section {
   position: relative;
   display: flex;
+  align-items: center;
