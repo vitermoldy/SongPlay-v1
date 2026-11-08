@@ -177,3 +177,4 @@ export function createMountains(live) {
         uFog: { value: live.color('haze') },
         uTopY: { value: base + peak },
       },
+      vertexShader: /* glsl */ `
