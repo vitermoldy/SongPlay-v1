@@ -57,3 +57,4 @@ function initMenu() {
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' && open) setOpen(false);
   });
+  window.matchMedia('(min-width: 961px)').addEventListener('change', (event) => {
