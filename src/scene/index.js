@@ -502,3 +502,6 @@ export function createScene(
     const cursorPower = shared.uCursorPower.value;
     shared.uCursorPower.value = 0;
     post.renderPass.camera = shot;
+    updateFocus(shot);
+    post.composer.render(0);
+
