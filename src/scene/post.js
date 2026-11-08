@@ -87,3 +87,6 @@ export function createPost(renderer, scene, camera) {
   const blurX = new ShaderPass(FocusBlurShader);
   const blurY = new ShaderPass(FocusBlurShader);
   blurY.uniforms.uDir.value.set(0, 1);
+  const output = new OutputPass();
+  const finish = new ShaderPass(FinishShader);
+
