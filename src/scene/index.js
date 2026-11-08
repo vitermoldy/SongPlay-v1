@@ -72,3 +72,4 @@ function createLive(time, season) {
     u: {
       time: { value: 0 },
       drift: { value: 0 },
+      stars: { value: look.numbers.stars },
