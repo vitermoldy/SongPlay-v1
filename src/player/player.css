@@ -570,3 +570,4 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   transition:
+    background-color 180ms var(--ease),
