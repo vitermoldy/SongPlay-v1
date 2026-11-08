@@ -238,3 +238,4 @@ button:disabled {
 }
 
 .site-header.is-solid,
+body.menu-open .site-header {
