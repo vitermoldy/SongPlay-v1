@@ -1201,3 +1201,4 @@ body.menu-open .site-header {
     transform 160ms var(--ease);
 }
 
+.chip:hover span {
