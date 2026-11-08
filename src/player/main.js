@@ -319,3 +319,4 @@ function queueRow(item, index) {
   else if (current && state.status === 'paused') sub.textContent = 'Paused';
   else if (current && state.status === 'loading') sub.textContent = 'Tuning in';
   else if (item.problem) sub.textContent = `Can’t play: ${item.problem}`;
+  else if (item.kind === 'playlist') sub.textContent = item.author ? `Playlist · ${item.author}` : 'Playlist';
