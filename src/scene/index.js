@@ -219,3 +219,4 @@ export function createScene(
   const still = reducedMotion || software;
   let playing = !still;
   let visible = true;
+  let raf = 0;
