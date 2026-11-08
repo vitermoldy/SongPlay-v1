@@ -29,3 +29,4 @@ const ui = {
   queueToggle: $('[data-queue-toggle]'),
   queuePanel: $('[data-queue-panel]'),
   queueList: $('[data-queue-list]'),
+  queueEmpty: $('[data-queue-empty]'),
