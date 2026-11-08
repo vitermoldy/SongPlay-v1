@@ -118,3 +118,4 @@ export function createClouds(live) {
         uniform float uTime;
         uniform float uSeed;
         uniform float uOpacity;
+        uniform float uFade;
