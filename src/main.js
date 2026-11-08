@@ -125,3 +125,4 @@ async function initScene(compare) {
     return;
   }
 
+  playing = !scene.startsStill;
