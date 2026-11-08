@@ -102,3 +102,4 @@ export function createClouds(live) {
       uniforms: {
         uTime: live.u.time,
         uSeed: { value: seed },
+        uOpacity: { value: opacity },
