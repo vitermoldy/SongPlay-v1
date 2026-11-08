@@ -21,3 +21,4 @@ export function createTerrain(uniforms) {
   }
   geometry.computeVertexNormals();
 
+  const material = new ShaderMaterial({
