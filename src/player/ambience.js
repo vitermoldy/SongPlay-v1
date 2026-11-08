@@ -277,3 +277,4 @@ export function createAmbience() {
   let thunderLevel = 0;
   let thunderTimer = 0;
   function rumble() {
+    const src = ctx.createBufferSource();
