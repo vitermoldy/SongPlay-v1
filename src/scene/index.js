@@ -215,3 +215,4 @@ export function createScene(
 
   const post = createPost(renderer, scene, camera);
 
+  // ---------- State ----------
