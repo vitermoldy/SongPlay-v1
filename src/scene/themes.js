@@ -83,3 +83,4 @@ export const SEASONS = {
     grass: THEMES.dusk.grass,
     ground: THEMES.dusk.ground,
     particles: null,
+  },
