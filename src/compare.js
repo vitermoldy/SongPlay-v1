@@ -101,3 +101,4 @@ export function paintStandIn() {
   return c;
 }
 
+// What a worn tape does to the same frame: soft luma, chroma smeared sideways, faded colour
