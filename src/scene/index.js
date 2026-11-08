@@ -382,3 +382,4 @@ export function createScene(
         area.top = Math.max(area.top, ...hits.map((r) => r.bottom + 14));
       }
       const dist = MathUtils.clamp(height / (perUnit * 2 * tan), 2.2, 10);
+      const shiftX = (cx - width / 2) / perUnit;
