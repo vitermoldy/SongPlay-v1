@@ -339,3 +339,6 @@ function queueRow(item, index) {
   remove.addEventListener('click', () => removeAt(index));
 
   li.append(thumb, meta, play, remove);
+  return li;
+}
+
