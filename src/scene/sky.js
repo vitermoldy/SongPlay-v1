@@ -70,3 +70,4 @@ export function createSky(live, { forReflections = false } = {}) {
           vec3 g = d * 170.0;
           float h = hash13(floor(g));
           if (h > 0.982) {
+            float r = length(fract(g) - 0.5);
