@@ -770,3 +770,4 @@ ui.next.addEventListener('click', () => {
 
 ui.prev.addEventListener('click', () => {
   const item = state.items[state.current];
+  if (item?.kind === 'playlist' && yt && (yt.getPlaylistIndex?.() ?? 0) > 0) {
