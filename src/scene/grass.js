@@ -84,3 +84,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
         float width = aParams.z;
         float seed = aParams.w;
 
+        vec3 p = position;
