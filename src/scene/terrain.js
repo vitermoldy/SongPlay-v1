@@ -64,3 +64,4 @@ export function createTerrain(uniforms) {
         float dist = distance(cameraPosition, vWorld);
         float fog = smoothstep(uFogNear, uFogFar, dist);
         c = mix(c, uFogColor, fog);
+        gl_FragColor = vec4(c, 1.0);
