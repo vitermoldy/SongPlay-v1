@@ -416,3 +416,4 @@ async function initScene() {
         sync();
       },
     });
+    scene.mountScreen(ui.video, ui.stage, { width: 640 });
