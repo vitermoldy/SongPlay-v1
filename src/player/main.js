@@ -440,3 +440,6 @@ async function initScene() {
   }).observe(ui.queuePanel);
   // The deck slides in on load; measure again once it has landed.
   ui.deck.addEventListener('animationend', () => scene.relayout(), { once: true });
+  scene.relayout();
+}
+
