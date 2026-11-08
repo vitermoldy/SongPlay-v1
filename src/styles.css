@@ -1006,3 +1006,6 @@ body.menu-open .site-header {
   color: var(--ink-soft);
   font-size: 15px;
   font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
