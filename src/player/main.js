@@ -746,3 +746,4 @@ ui.toggle.addEventListener('click', () => {
     if (state.status === 'loading') {
       state.status = 'paused';
       render();
+    }
