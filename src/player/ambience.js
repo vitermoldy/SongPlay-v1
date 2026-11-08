@@ -268,3 +268,4 @@ export function createAmbience() {
 
   loop(crickets(), pan(0.3), layers.crickets);
   loop(birds(), pan(-0.3), layers.birds);
+  const leavesTone = filter('bandpass', 3200, 0.8);
