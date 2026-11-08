@@ -815,3 +815,4 @@ body.menu-open .site-header {
   left: 50%;
   display: grid;
   place-items: center;
+  width: 48px;
