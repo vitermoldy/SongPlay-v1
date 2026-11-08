@@ -100,3 +100,6 @@ button:disabled {
 }
 
 .on-light {
+  --focus: var(--ink);
+}
+
