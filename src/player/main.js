@@ -194,3 +194,4 @@ function frameArea() {
     return { left: r.left - stage.left, right: r.right - stage.left, top: r.top - stage.top, bottom: r.bottom - stage.top };
   };
   const edge = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--frame')) || 12;
+  const header = document.querySelector('.site-header').getBoundingClientRect().bottom - stage.top;
