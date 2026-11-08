@@ -14,3 +14,4 @@ export function parseYouTube(raw) {
   try {
     url = new URL(/^https?:\/\//i.test(text) ? text : `https://${text}`);
   } catch {
+    return null;
