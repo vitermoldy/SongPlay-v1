@@ -125,3 +125,4 @@ export function createScene(
   const pmrem = new PMREMGenerator(renderer);
   const envScene = new Scene();
   envScene.add(createSky(live, { forReflections: true }));
+  let envTarget = null;
