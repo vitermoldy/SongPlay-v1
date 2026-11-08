@@ -34,3 +34,4 @@ export function createParticles(count, live) {
       uShape: live.u.particleShape,
       uSize: live.u.particleSize,
       uProj: { value: 800 },
+      uColor: { value: live.color('particles.color') },
