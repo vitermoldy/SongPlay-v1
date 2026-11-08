@@ -272,3 +272,4 @@ export function createScene(
     const k = s.t * s.t * (3 - 2 * s.t);
     for (const path of COLOR_PATHS) live.color(path).lerpColors(s.from.get(path), s.to.get(path), k);
     for (const path of NUMBER_PATHS) live.numbers[path] = MathUtils.lerp(s.fromNum[path], s.toNum[path], k);
+    live.sunDir.lerpVectors(s.fromSun, s.toSun, k).normalize();
