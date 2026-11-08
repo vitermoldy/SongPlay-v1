@@ -136,3 +136,4 @@
 }
 
 .sound-switch[aria-pressed='true'] {
+  border-color: var(--cream);
