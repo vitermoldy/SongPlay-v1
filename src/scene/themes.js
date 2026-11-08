@@ -100,3 +100,4 @@ export const SEASONS = {
   rain: {
     label: 'Rain',
     grass: { base: '#08130a', mid: '#1a3416', tip: '#3f6a34', tipGold: '#5c8048' },
+    ground: { dark: '#0a120a', lit: '#1a2a16' },
