@@ -287,3 +287,4 @@ function nowLine() {
       return state.message;
     default:
       return state.items.length
+        ? `${state.items.length} in the queue. Press play to start.`
