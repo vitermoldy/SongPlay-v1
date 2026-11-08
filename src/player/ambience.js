@@ -243,3 +243,4 @@ export function createAmbience() {
     g.gain.value = depth;
     osc.connect(g).connect(target);
     osc.start();
+  };
