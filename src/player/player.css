@@ -73,3 +73,4 @@
 
 .sound-panel {
   position: absolute;
+  top: calc(100% + 12px);
