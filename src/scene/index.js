@@ -300,3 +300,4 @@ export function createScene(
     for (let t = 0.2; t < 90; t += t < 12 ? 0.12 : 0.5) {
       if (below(t)) {
         let a = prev;
+        let b = t;
