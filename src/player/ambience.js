@@ -206,3 +206,6 @@ export function createAmbience() {
   compressor.ratio.value = 3;
   compressor.connect(ctx.destination);
   const master = ctx.createGain();
+  master.gain.value = 0;
+  master.connect(compressor);
+
