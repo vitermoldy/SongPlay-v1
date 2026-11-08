@@ -17,3 +17,4 @@ export const THEMES = {
     ground: { dark: '#0d1409', lit: '#202c10' },
     light: { sun: '#ffbe8a', sky: '#6d7cf0', particles: '#ffffff' },
     lamps: { hemiSky: '#6f80ff', hemiGround: '#1c2612', hemi: 0.55, sun: '#ffb57e', sunI: 0.6, fill: '#8a98ff', fillI: 0.35 },
+    particles: { color: '#dfe5ff', color2: '#dfe5ff', opacity: 1, fall: 1, size: 1 },
