@@ -485,3 +485,4 @@ function playingMatches(item) {
     const id = yt.getVideoData?.()?.video_id;
     return !id || id === item.id;
   }
+  const list = yt.getPlaylistId?.();
