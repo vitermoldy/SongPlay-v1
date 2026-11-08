@@ -23,3 +23,4 @@ export function createTerrain(uniforms) {
 
   const material = new ShaderMaterial({
     uniforms,
+    vertexShader: /* glsl */ `
