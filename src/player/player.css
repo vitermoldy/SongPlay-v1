@@ -462,3 +462,4 @@
   border-color: rgba(244, 239, 230, 0.55);
 }
 
+.deck-row input:focus-visible {
