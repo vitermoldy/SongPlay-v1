@@ -241,3 +241,4 @@ button:disabled {
 body.menu-open .site-header {
   background: rgba(11, 16, 51, 0.86);
   border-color: var(--line);
+  -webkit-backdrop-filter: blur(14px) saturate(1.2);
