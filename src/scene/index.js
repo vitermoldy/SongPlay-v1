@@ -90,3 +90,4 @@ export function createScene(
     frameArea,
     lowPower = false,
     reducedMotion = false,
+    onReady,
