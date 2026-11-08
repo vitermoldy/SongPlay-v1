@@ -11,3 +11,6 @@ const SEASON_KEY = 'songlearn.season';
 const SOUND_KEY = 'songlearn.sound';
 const VOLUME_KEY = 'songlearn.volume';
 const SEASON_NAMES = ['spring', 'summer', 'autumn', 'winter', 'rain'];
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+const $ = (selector) => document.querySelector(selector);
+
