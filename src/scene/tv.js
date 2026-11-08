@@ -86,3 +86,4 @@ export function createTV(shapeName = 'classic') {
       uOn: { value: 0 },
       uLevel: { value: 1 },
       uAspect: { value: screenW / screenH },
+      uCorner: { value: shape.corner },
