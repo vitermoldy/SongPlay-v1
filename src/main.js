@@ -80,3 +80,4 @@ function initAnchors() {
 }
 
 function webglAvailable() {
+  try {
