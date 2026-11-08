@@ -18,3 +18,4 @@ const passVertex = /* glsl */ `
 const FocusBlurShader = {
   uniforms: {
     tDiffuse: { value: null },
+    uResolution: { value: new Vector2(1, 1) },
