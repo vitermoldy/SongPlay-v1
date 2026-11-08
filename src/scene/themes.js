@@ -226,3 +226,4 @@ export function compose(timeName, seasonName) {
     shape = season.particles.shape;
   }
 
+  return { colors, numbers, sunDir: time.sunDir, shape };
