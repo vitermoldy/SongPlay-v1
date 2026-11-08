@@ -100,3 +100,4 @@ async function initScene(compare) {
     window.matchMedia('(max-width: 720px)').matches || (navigator.hardwareConcurrency || 8) <= 4;
 
   let scene;
+  let playing = false;
