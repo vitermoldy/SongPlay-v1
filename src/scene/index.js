@@ -249,3 +249,4 @@ export function createScene(
       fromSun: live.sunDir.clone(),
       toSun: new Vector3(...next.sunDir).normalize(),
     };
+    if (still) stepTheme(0);
