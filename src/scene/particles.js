@@ -68,3 +68,4 @@ export function createParticles(count, live) {
         gl_Position = projectionMatrix * mv;
       }
     `,
+    fragmentShader: /* glsl */ `
