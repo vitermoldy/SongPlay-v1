@@ -349,3 +349,4 @@ export function createScene(
     if (!width || !height) return;
     renderer.setSize(width, height, false);
     post.setSize(width, height, pixelRatio);
+    const aspect = width / height;
