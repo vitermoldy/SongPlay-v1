@@ -28,3 +28,4 @@ const FocusBlurShader = {
   fragmentShader: /* glsl */ `
     uniform sampler2D tDiffuse;
     uniform vec2 uResolution;
+    uniform vec2 uDir;
