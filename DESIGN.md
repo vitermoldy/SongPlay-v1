@@ -32,3 +32,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
 
 ## Type
 
+- **Nunito Sans (variable):** rounded terminals sit well with the soft scene and stay legible for an
