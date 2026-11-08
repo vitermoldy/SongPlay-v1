@@ -521,3 +521,4 @@
   fill: currentColor;
 }
 
+.icon-btn:hover:not(:disabled) {
