@@ -563,3 +563,4 @@
   min-height: 44px;
   padding: 0 12px 0 16px;
   border: 0;
+  border-radius: var(--radius-s);
