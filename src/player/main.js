@@ -6,3 +6,4 @@ import { createAmbience } from './ambience.js';
 
 const STORE_KEY = 'songlearn.queue.v1';
 const THEME_KEY = 'songlearn.theme';
+const THEME_NAMES = ['dusk', 'night', 'sunset', 'dawn'];
