@@ -7,3 +7,4 @@ function showError(field, message) {
   const error = document.getElementById(`${field.id || field.dataset.errorFor}-error`);
   if (message) {
     error.textContent = message;
+    error.hidden = false;
