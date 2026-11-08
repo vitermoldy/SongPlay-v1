@@ -24,3 +24,4 @@ export function initRequestForm(form) {
 
   function validate() {
     const problems = [];
+    const nameValue = name.value.trim();
