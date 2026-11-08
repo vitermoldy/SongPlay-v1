@@ -87,3 +87,4 @@ export function paintStandIn() {
   g.restore();
 
   for (let i = 0; i < 2200; i++) {
+    const x = rand() * W;
