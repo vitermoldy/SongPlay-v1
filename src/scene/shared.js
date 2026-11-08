@@ -21,3 +21,4 @@ export const PALETTE = {
 };
 
 export const NOISE_GLSL = /* glsl */ `
+  float hash12(vec2 p) {
