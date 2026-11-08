@@ -290,3 +290,4 @@ export function createScene(
   const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
   const cursorAllowed = () => finePointer.matches && !software && !slow;
 
+  // March along the ray until it drops under the blade tips (the tallest blades stand ~0.45
