@@ -70,3 +70,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
     side: DoubleSide,
     vertexShader: /* glsl */ `
       attribute vec3 aOffset;
+      attribute vec4 aParams;
