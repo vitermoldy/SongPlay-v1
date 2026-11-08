@@ -109,3 +109,4 @@ export function createPost(renderer, scene, camera) {
         pass.uniforms.uMaxRadius.value = Math.min(12, 6 + width / 260) * pixelRatio;
       }
     },
+    setFocus(x, y) {
