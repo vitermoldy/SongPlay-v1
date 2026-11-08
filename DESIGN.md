@@ -51,3 +51,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
   a 3D scene, and the owner asked for this look.
 - **Blue-violet sky.** Violet reads as a template colour; the reference sky is periwinkle. Kept
   inside the scene only, never as a UI colour.
+- **Uppercase nav labels.** From the reference; they echo the PLAY / REW / FF keys on a VCR. Tracking
