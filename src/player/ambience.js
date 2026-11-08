@@ -341,3 +341,4 @@ export function createAmbience() {
       volume = next;
       applyMaster(0.05);
     },
+    // Quieter while a video plays, so the song comes first.
