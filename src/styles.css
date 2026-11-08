@@ -41,3 +41,4 @@ body {
   margin: 0;
   background: var(--night);
   color: var(--cream);
+  font-family: var(--font-sans);
