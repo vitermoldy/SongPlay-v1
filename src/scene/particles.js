@@ -10,3 +10,4 @@ import { mulberry32 } from './shared.js';
 export function createParticles(count, live) {
   const rand = mulberry32(42);
   const positions = new Float32Array(count * 3);
+  const data = new Float32Array(count * 4);
