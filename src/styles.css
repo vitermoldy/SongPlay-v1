@@ -1209,3 +1209,6 @@ body.menu-open .site-header {
 .chip input:checked + span {
   border-color: var(--cream);
   background: var(--cream);
+  color: var(--ink);
+}
+
