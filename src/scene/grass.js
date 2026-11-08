@@ -90,3 +90,6 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
         p.z += (0.12 + seed * 0.3) * height * h * h;
 
         float c = cos(yaw);
+        float s = sin(yaw);
+        vec3 r = vec3(p.x * c + p.z * s, p.y, -p.x * s + p.z * c);
+
