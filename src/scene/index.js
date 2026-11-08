@@ -368,3 +368,4 @@ export function createScene(
       let cy = height / 2;
       for (let pass = 0; pass < 3; pass++) {
         const freeW = Math.max(120, area.right - area.left);
+        const freeH = Math.max(120, area.bottom - area.top);
