@@ -84,3 +84,4 @@ export function createTV(shapeName = 'classic') {
     uniforms: {
       uTime: { value: 0 },
       uOn: { value: 0 },
+      uLevel: { value: 1 },
