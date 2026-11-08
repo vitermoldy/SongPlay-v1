@@ -65,3 +65,4 @@ function initMenu() {
 // In-page links glide to their section and hand it keyboard focus, so the next Tab starts
 // there. Done here rather than with CSS smooth scrolling, which also slows every Tab jump.
 function initAnchors() {
+  document.addEventListener('click', (event) => {
