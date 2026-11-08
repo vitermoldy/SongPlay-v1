@@ -51,3 +51,4 @@ export function createTerrain(uniforms) {
       varying vec3 vWorld;
       varying vec3 vNormal;
       ${NOISE_GLSL}
+      void main() {
