@@ -45,3 +45,5 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
 - Hero text enters once on load. No fade-in on scroll anywhere.
 - Hover: buttons lift 1px and press on click; links draw an underline.
 
+## Decisions taken against a rule, and why
+
