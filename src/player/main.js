@@ -705,3 +705,4 @@ ui.form.addEventListener('submit', (event) => {
 
   const item = {
     uid: makeUid(),
+    ...parsed,
