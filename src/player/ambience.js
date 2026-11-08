@@ -319,3 +319,4 @@ export function createAmbience() {
   return {
     async setEnabled(on) {
       enabled = on;
+      if (on && !hidden) await ctx.resume();
