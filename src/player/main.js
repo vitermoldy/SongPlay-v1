@@ -655,3 +655,6 @@ function placeQueue() {
   const sideSpace = window.innerWidth - edge - 16 - (video.right + 24);
   const ceiling = Math.max(
     document.querySelector('.site-header')?.getBoundingClientRect().bottom || 56,
+    ui.sceneToggle.hidden ? 0 : ui.sceneToggle.getBoundingClientRect().bottom,
+  );
+
