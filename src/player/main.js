@@ -331,3 +331,4 @@ function queueRow(item, index) {
   play.addEventListener('click', () => playIndex(index));
 
   const remove = document.createElement('button');
+  remove.type = 'button';
