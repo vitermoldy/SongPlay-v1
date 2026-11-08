@@ -186,3 +186,4 @@ document.addEventListener('visibilitychange', () => ambience?.setHidden(document
 // The free part of the stage the TV must fit in: under the header, over the deck, inside the
 // viewfinder frame, in the stage's own pixels. The pickers (when they hang under the header)
 // and the scene button are listed to avoid: the scene moves the set below them only if it
+// would run into them.
