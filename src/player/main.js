@@ -681,3 +681,4 @@ window.addEventListener('resize', () => {
   if (!ui.queuePanel.hidden) placeQueue();
 });
 
+function showError(message) {
