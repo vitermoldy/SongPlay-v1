@@ -69,3 +69,4 @@ export function createParticles(count, live) {
       }
     `,
     fragmentShader: /* glsl */ `
+      uniform vec3 uColor;
