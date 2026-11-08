@@ -74,3 +74,4 @@ export function paintStandIn() {
   g.roundRect(tx, ty, tw, th, 22);
   g.fill();
   g.save();
+  g.shadowColor = 'rgba(255, 197, 107, 0.95)';
