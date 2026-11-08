@@ -83,3 +83,6 @@
   border-radius: var(--radius-l);
   background: var(--night-2);
   box-shadow: 0 24px 48px -16px rgba(2, 4, 16, 0.7);
+  color: var(--cream);
+}
+
