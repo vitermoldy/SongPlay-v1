@@ -802,3 +802,4 @@ document.addEventListener('pointerdown', (event) => {
 });
 
 render();
+initScene();
