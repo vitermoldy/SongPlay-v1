@@ -378,3 +378,4 @@ export function createScene(
         const hits = area.avoid.filter(
           (r) => r.left < cx + half.w && r.right > cx - half.w && r.top < cy + half.h && r.bottom > cy - half.h,
         );
+        if (!hits.length) break;
