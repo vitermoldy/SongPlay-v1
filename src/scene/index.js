@@ -71,3 +71,4 @@ function createLive(time, season) {
     sunDir: new Vector3(...look.sunDir).normalize(),
     u: {
       time: { value: 0 },
+      drift: { value: 0 },
