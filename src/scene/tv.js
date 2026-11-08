@@ -29,3 +29,4 @@ export const TV_SHAPES = {
   wide: {
     bodyW: 1.38,
     bodyH: 0.86,
+    bezel: [1.32, 0.76],
