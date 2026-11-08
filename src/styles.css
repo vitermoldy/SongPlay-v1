@@ -204,3 +204,4 @@ button:disabled {
   stroke-linecap: round;
 }
 
+.cta:hover .cta-icon svg {
