@@ -253,3 +253,4 @@ export function createScene(
     kick();
   }
 
+  function setTheme(name) {
