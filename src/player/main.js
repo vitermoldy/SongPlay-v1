@@ -82,3 +82,4 @@ ui.seasons.addEventListener('change', (event) => {
   if (!SEASON_NAMES.includes(name) || name === season) return;
   season = name;
   ui.stage.dataset.season = name;
+  scene?.setSeason(name);
