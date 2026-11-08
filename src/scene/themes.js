@@ -111,3 +111,4 @@ export const SEASON_NAMES = Object.keys(SEASONS);
 
 // The colours the scene eases between, as paths into a theme.
 export const COLOR_PATHS = [
+  'sky.top',
