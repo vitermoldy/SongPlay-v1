@@ -508,3 +508,4 @@ function onPlayerState(event) {
       state.status = 'paused';
       scene?.setScreenMode('paused');
     }
+  } else if (event.data === S.BUFFERING) {
