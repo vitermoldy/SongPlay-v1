@@ -472,3 +472,4 @@ function ensurePlayer() {
           });
         }),
     )
+    .catch((error) => {
