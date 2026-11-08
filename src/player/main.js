@@ -652,3 +652,4 @@ function placeQueue() {
   const video = ui.video.getBoundingClientRect();
   const margin = 12;
   const edge = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--frame')) || 12;
+  const sideSpace = window.innerWidth - edge - 16 - (video.right + 24);
