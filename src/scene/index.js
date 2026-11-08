@@ -366,3 +366,4 @@ export function createScene(
       let perUnit = 1;
       let cx = width / 2;
       let cy = height / 2;
+      for (let pass = 0; pass < 3; pass++) {
