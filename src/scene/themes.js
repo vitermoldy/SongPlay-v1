@@ -43,3 +43,4 @@ export const THEMES = {
     haze: '#c98476',
     clouds: { lit: '#ffd3a2', shade: '#b8546a', opacity: 1 },
     mountains: { farTop: '#7a4a7e', farLow: '#b8727e', nearTop: '#4a2e5e', nearLow: '#86567a' },
+    grass: { base: '#140d05', mid: '#3a2a0c', tip: '#9a7426', tipGold: '#dca03c', back: '#ffa53a' },
