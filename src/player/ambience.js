@@ -218,3 +218,4 @@ export function createAmbience() {
   }
 
   const loop = (buf, ...chain) => {
+    const src = ctx.createBufferSource();
