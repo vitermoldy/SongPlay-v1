@@ -29,3 +29,4 @@ export function initCursorLight({ skip = [] } = {}) {
       x = event.clientX;
       y = event.clientY;
       const target = event.target instanceof Element ? event.target : null;
+      light.classList.toggle('is-on', !overSkipped(x, y));
