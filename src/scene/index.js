@@ -582,3 +582,4 @@ export function createScene(
       kick();
     },
     dispose() {
+      cancelAnimationFrame(raf);
