@@ -405,3 +405,4 @@
   z-index: 3;
   display: grid;
   gap: 12px;
+  width: min(100% - 2 * var(--gutter), 760px);
