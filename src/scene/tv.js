@@ -144,3 +144,4 @@ export function createTV(shapeName = 'classic') {
   dome.position.set(0.02, bodyH - 0.01, -0.08);
   group.add(dome);
 
+  const ROD = 0.82;
