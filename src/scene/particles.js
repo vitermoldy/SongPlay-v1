@@ -74,3 +74,4 @@ export function createParticles(count, live) {
       uniform float uOpacity;
       uniform float uShape;
       varying float vSeed;
+      varying float vStar;
