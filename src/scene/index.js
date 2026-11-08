@@ -509,3 +509,4 @@ export function createScene(
     let ch = w * 0.75;
     if (ch > h) {
       ch = h;
+      cw = h * (4 / 3);
