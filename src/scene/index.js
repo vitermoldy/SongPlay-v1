@@ -224,3 +224,4 @@ export function createScene(
   let last = 0;
   let readyFired = false;
   let pendingCapture = null;
+  let sampled = 0;
