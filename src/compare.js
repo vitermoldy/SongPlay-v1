@@ -234,3 +234,4 @@ export function initCompare(root) {
     fromPointer(event);
   });
   root.addEventListener('pointermove', (event) => {
+    if (dragging) fromPointer(event);
