@@ -157,3 +157,4 @@ function ridge(seed, width, base, peak) {
           0.15 * Math.sin(x * 0.27 + phases[2]));
     shape.lineTo(x, y);
   }
+  shape.lineTo(width / 2, -30);
