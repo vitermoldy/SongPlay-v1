@@ -504,3 +504,4 @@ function onPlayerState(event) {
       state.status = 'playing';
       state.videoTitle = yt.getVideoData?.()?.title || '';
       scene?.setScreenMode('video');
+    } else {
