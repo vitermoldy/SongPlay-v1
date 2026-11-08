@@ -80,3 +80,4 @@ export function paintStandIn() {
   screen.addColorStop(0, '#fffaf0');
   screen.addColorStop(0.55, '#ffe2a8');
   screen.addColorStop(1, '#ffab4a');
+  g.fillStyle = screen;
