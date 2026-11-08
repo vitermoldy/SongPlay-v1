@@ -210,3 +210,6 @@ export function createScene(
     fill.intensity = n['lamps.fillI'];
     sun.position.copy(live.sunDir).multiplyScalar(30);
     renderer.toneMappingExposure = n.exposure;
+  }
+  applyNumbers();
+
