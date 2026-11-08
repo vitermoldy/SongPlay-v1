@@ -470,3 +470,4 @@ export function createScene(
     return Boolean(pendingCapture) || (visible && (playing || settling || power(performance.now()) < 1));
   }
 
+  function loop(now) {
