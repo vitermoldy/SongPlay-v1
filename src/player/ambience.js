@@ -66,3 +66,4 @@ export function createAmbience() {
   // ---------- Sources, made once ----------
 
   function pinkNoise(seconds) {
+    const b = buffer(seconds);
