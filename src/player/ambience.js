@@ -240,3 +240,4 @@ export function createAmbience() {
     const osc = ctx.createOscillator();
     osc.frequency.value = rate;
     const g = ctx.createGain();
+    g.gain.value = depth;
