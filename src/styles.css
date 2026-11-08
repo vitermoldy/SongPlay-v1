@@ -747,3 +747,6 @@ body.menu-open .site-header {
   touch-action: pan-y;
   user-select: none;
   -webkit-user-select: none;
+  cursor: ew-resize;
+}
+
