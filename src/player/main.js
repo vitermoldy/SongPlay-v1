@@ -408,3 +408,4 @@ async function initScene() {
       season,
       frameArea,
       lowPower,
+      reducedMotion: reduceMotion.matches,
