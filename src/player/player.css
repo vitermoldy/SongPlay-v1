@@ -734,3 +734,6 @@
 }
 
 .text-btn[hidden] {
+  display: none;
+}
+
