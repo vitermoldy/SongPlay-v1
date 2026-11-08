@@ -489,3 +489,4 @@ export function createScene(
     pendingCapture = null;
     const w = canvas.width;
     const h = canvas.height;
+    const aspect = w / h;
