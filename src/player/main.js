@@ -534,3 +534,4 @@ function onPlayerError(event) {
       yt.nextVideo();
       return;
     }
+  } else if (item) {
