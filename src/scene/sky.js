@@ -99,3 +99,4 @@ export function createClouds(live) {
     const material = new ShaderMaterial({
       transparent: true,
       depthWrite: false,
+      uniforms: {
