@@ -7,3 +7,4 @@ import {
   PMREMGenerator,
   Raycaster,
   Scene,
+  Vector2,
