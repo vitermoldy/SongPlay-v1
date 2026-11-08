@@ -195,3 +195,4 @@ function frameArea() {
   };
   const edge = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--frame')) || 12;
   const header = document.querySelector('.site-header').getBoundingClientRect().bottom - stage.top;
+  // A dropdown open above the deck (phones) takes its room from the TV while it is open.
