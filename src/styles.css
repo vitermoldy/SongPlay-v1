@@ -411,3 +411,4 @@ body.menu-open .site-header {
 }
 
 .menu .cta {
+  align-self: stretch;
