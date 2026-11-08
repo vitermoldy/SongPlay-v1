@@ -586,3 +586,4 @@ export function createScene(
       resizeObserver.disconnect();
       window.removeEventListener('pointermove', onPointer);
       document.documentElement.removeEventListener('mouseleave', onLeave);
+      envTarget?.dispose();
