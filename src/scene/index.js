@@ -1,3 +1,4 @@
 import {
   DirectionalLight,
   HemisphereLight,
+  MathUtils,
