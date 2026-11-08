@@ -541,3 +541,4 @@ export function createScene(
       playing = next;
       kick();
     },
+    setVisible(next) {
