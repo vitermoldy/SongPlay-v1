@@ -86,3 +86,4 @@ export function createPost(renderer, scene, camera) {
   bloom.compositeMaterial.uniforms.bloomFactors.value = [1.0, 0.75, 0.38, 0.12, 0.03];
   const blurX = new ShaderPass(FocusBlurShader);
   const blurY = new ShaderPass(FocusBlurShader);
+  blurY.uniforms.uDir.value.set(0, 1);
