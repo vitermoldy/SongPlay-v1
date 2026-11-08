@@ -63,3 +63,4 @@ const SCREEN_LEVEL = { idle: 1, video: 0.22, paused: 0.18 };
 function createLive(time, season) {
   const look = compose(time, season);
   return {
+    time: THEMES[time] ? time : 'dusk',
