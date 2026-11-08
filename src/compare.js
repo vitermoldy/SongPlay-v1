@@ -133,3 +133,4 @@ export function vhsify(source, outW = W, outH = H) {
       let b = src[(row + sb) * 4 + 2];
       const l = 0.299 * r + 0.587 * gg + 0.114 * b;
       r = l + (r - l) * 0.6;
+      gg = l + (gg - l) * 0.6;
