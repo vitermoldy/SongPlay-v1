@@ -50,3 +50,4 @@ function initMenu() {
     }
   }
 
+  toggle.addEventListener('click', () => setOpen(!open));
