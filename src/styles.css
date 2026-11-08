@@ -1236,3 +1236,6 @@ body.menu-open .site-header {
   border-radius: 10px;
   background: rgba(244, 239, 230, 0.08);
   color: var(--cream);
+  font-weight: 600;
+}
+
