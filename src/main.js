@@ -33,3 +33,4 @@ function initMenu() {
   let open = false;
 
   function setOpen(next, restoreFocus = true) {
+    if (next === open) return;
