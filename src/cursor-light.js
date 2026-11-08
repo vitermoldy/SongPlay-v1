@@ -34,3 +34,4 @@ export function initCursorLight({ skip = [] } = {}) {
       if (!queued) {
         queued = true;
         requestAnimationFrame(place);
+      }
