@@ -235,3 +235,4 @@ export function createScene(
   const started = performance.now();
 
   // ---------- Time of day and season: every colour, light and number eases to the new look ----------
+  function retarget() {
