@@ -127,3 +127,4 @@ export const COLOR_PATHS = [
   'grass.mid',
   'grass.tip',
   'grass.tipGold',
+  'grass.back',
