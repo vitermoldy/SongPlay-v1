@@ -1143,3 +1143,6 @@ body.menu-open .site-header {
 }
 
 .field textarea::placeholder {
+  color: rgba(195, 200, 236, 0.75);
+}
+
