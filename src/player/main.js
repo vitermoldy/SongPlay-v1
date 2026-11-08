@@ -451,3 +451,4 @@ let autoplayCheck = 0;
 let skipTimer = 0;
 
 function ensurePlayer() {
+  if (ytReady) return ytReady;
