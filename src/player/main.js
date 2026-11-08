@@ -470,3 +470,4 @@ function ensurePlayer() {
               onError: onPlayerError,
             },
           });
+        }),
