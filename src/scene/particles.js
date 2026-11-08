@@ -38,3 +38,4 @@ export function createParticles(count, live) {
       uColor2: { value: live.color('particles.color2') },
       uOpacity: live.u.particleOpacity,
     },
+    vertexShader: /* glsl */ `
