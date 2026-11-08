@@ -110,3 +110,4 @@ function syncSound() {
   ui.sound.dataset.on = String(soundOn);
   ui.sound.title = `Ambient sound: ${soundOn ? `on, ${volume}%` : 'off'}`;
   soundSwitch.setAttribute('aria-pressed', String(soundOn));
+  soundVolume.value = String(volume);
