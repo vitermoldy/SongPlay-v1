@@ -772,3 +772,4 @@ body.menu-open .site-header {
 .compare-tag {
   position: absolute;
   bottom: 20px;
+  z-index: 2;
