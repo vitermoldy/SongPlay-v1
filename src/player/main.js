@@ -475,3 +475,4 @@ function ensurePlayer() {
     .catch((error) => {
       ytReady = null;
       throw error;
+    });
