@@ -782,3 +782,4 @@ ui.prev.addEventListener('click', () => {
 ui.queueToggle.addEventListener('click', () => setQueueOpen(ui.queuePanel.hidden));
 
 ui.clear.addEventListener('click', () => {
+  state.items = [];
