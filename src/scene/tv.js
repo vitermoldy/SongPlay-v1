@@ -101,3 +101,4 @@ export function createTV(shapeName = 'classic') {
       uniform float uLevel;
       uniform float uAspect;
       uniform float uCorner;
+      varying vec2 vUv;
