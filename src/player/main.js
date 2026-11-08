@@ -138,3 +138,4 @@ async function setSound(on) {
   }
 }
 
+function setSoundPanel(open) {
