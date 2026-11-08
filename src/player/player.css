@@ -454,3 +454,4 @@
   transition: border-color 160ms var(--ease);
 }
 
+.deck-row input::placeholder {
