@@ -164,3 +164,4 @@ export function vhsify(source, outW = W, outH = H) {
   g.shadowColor = 'rgba(0, 0, 0, 0.5)';
   g.shadowBlur = 4;
   g.font = '700 22px "Nunito Sans Variable", sans-serif';
+  g.fillText('PLAY', 34, 50);
