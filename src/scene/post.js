@@ -13,3 +13,4 @@ const passVertex = /* glsl */ `
   }
 `;
 
+// A separable blur whose radius grows away from the television, standing in for a shallow
