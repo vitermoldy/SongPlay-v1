@@ -12,3 +12,6 @@
   --line: rgba(244, 239, 230, 0.16);
   --focus: var(--glow);
 
+  --font-sans: 'Nunito Sans Variable', 'Nunito Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-script: 'Dancing Script', 'Brush Script MT', cursive;
+
