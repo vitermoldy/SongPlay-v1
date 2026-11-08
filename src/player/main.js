@@ -56,3 +56,4 @@ function remember(key, value) {
   try {
     localStorage.setItem(key, value);
   } catch {
+    // Storage blocked: the choice simply resets on the next visit.
