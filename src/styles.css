@@ -1459,3 +1459,4 @@ body.menu-open .site-header {
 @media (max-width: 440px) {
   .header-play {
     width: 44px;
+    padding: 0;
