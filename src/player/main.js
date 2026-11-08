@@ -609,3 +609,4 @@ function stopAll(status, message) {
   } catch {
     // The player may already be gone; nothing to stop.
   }
+  ui.video.classList.remove('is-on');
