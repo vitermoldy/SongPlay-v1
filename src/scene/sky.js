@@ -134,3 +134,4 @@ export function createClouds(live) {
           vec3 c = mix(uShade, uLit, smoothstep(0.2, 0.85, vUv.y + (n - 0.5) * 0.6));
           gl_FragColor = vec4(c * 0.92, dens * uOpacity * uFade);
         }
+      `,
