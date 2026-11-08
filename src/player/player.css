@@ -464,3 +464,6 @@
 
 .deck-row input:focus-visible {
   border-color: var(--glow);
+  outline-offset: 1px;
+}
+
