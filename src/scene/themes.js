@@ -20,3 +20,4 @@ export const THEMES = {
     particles: { color: '#dfe5ff', color2: '#dfe5ff', opacity: 1, fall: 1, size: 1 },
     exposure: 1,
   },
+  night: {
