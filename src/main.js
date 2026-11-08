@@ -137,3 +137,4 @@ async function initScene(compare) {
   const updateVisible = () => scene.setVisible(heroInView && !document.hidden);
   new IntersectionObserver(([entry]) => {
     heroInView = entry.isIntersecting;
+    updateVisible();
