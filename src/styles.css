@@ -625,3 +625,4 @@ body.menu-open .site-header {
   animation: enter 1000ms var(--ease) both;
 }
 
+[data-enter] .hero-title .enter:nth-child(1) {
