@@ -639,3 +639,4 @@ function removeAt(index) {
 
 // ---------- Controls ----------
 
+// YouTube asks that nothing covers an embedded player. On a wide screen the dropdown opens
