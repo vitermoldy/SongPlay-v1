@@ -479,3 +479,4 @@ function ensurePlayer() {
   return ytReady;
 }
 
+function playingMatches(item) {
