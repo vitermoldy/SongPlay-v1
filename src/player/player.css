@@ -699,3 +699,4 @@
   background: transparent;
 }
 
+.queue-item .icon-btn:hover:not(:disabled) {
