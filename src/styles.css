@@ -1067,3 +1067,4 @@ body.menu-open .site-header {
   display: grid;
   gap: 18px;
   padding: clamp(24px, 3.4vw, 44px);
+  border: 1px solid var(--line);
