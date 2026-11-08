@@ -67,3 +67,4 @@ function initMenu() {
 function initAnchors() {
   document.addEventListener('click', (event) => {
     const link = event.target.closest('a[href^="#"]');
+    if (!link || event.defaultPrevented || event.metaKey || event.ctrlKey || event.shiftKey) return;
