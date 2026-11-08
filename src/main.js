@@ -112,3 +112,4 @@ async function initScene(compare) {
     scene = createScene(canvas, {
       lowPower,
       reducedMotion: reduceMotion.matches,
+      onReady: () => hero.classList.add('is-live'),
