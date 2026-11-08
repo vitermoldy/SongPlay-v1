@@ -94,3 +94,4 @@ export function paintStandIn() {
     g.strokeStyle = `rgba(${tone + 60}, ${tone + 50}, ${tone * 0.4}, ${0.35 + rand() * 0.5})`;
     g.lineWidth = 1 + rand() * 1.5;
     g.beginPath();
+    g.moveTo(x, base);
