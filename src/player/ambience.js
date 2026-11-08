@@ -282,3 +282,4 @@ export function createAmbience() {
     const low = filter('lowpass', 130 + rand() * 60);
     const g = ctx.createGain();
     const now = ctx.currentTime;
+    const peak = thunderLevel * (0.5 + rand() * 0.5);
