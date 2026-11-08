@@ -202,3 +202,4 @@ export function createMountains(live) {
     mesh.position.z = z;
     return mesh;
   });
+}
