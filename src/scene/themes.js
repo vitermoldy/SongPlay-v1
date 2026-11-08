@@ -82,3 +82,4 @@ export const SEASONS = {
     label: 'Summer',
     grass: THEMES.dusk.grass,
     ground: THEMES.dusk.ground,
+    particles: null,
