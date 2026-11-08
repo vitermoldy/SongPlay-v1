@@ -5,3 +5,4 @@ import { describeError, fetchInfo, loadYouTubeApi, parseYouTube } from './youtub
 import { createAmbience } from './ambience.js';
 
 const STORE_KEY = 'songlearn.queue.v1';
+const THEME_KEY = 'songlearn.theme';
