@@ -173,3 +173,4 @@ export function createAmbience() {
       } else if (kind < 0.7) {
         for (let i = 0; i < 2; i++) note(t0 + i * 0.2, 0.16, 4600 - rand() * 400, 2600, amp);
       } else {
+        note(t0, 0.1, 2900, 3400, amp);
