@@ -81,3 +81,6 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
         float h = uv.y;
         float yaw = aParams.x;
         float height = aParams.y;
+        float width = aParams.z;
+        float seed = aParams.w;
+
