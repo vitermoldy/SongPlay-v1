@@ -41,3 +41,4 @@ export function createParticles(count, live) {
     vertexShader: /* glsl */ `
       attribute vec4 aData;
       uniform float uTime;
+      uniform float uDrift;
