@@ -111,3 +111,4 @@
   border-radius: 16px;
   background: var(--night);
   transition:
+    background-color 180ms var(--ease),
