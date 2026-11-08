@@ -49,3 +49,4 @@ const VARIANTS = {
 // window instead of the camera moving in). It only stands further back when the set would
 // otherwise run into the page's controls (`frameArea`). The video covers VIDEO_FILL of the
 // glass; the thin rim left round it is the tube's dark edge, so it reads as sitting inside.
+const PLAYER_DISTANCE = 5.2;
