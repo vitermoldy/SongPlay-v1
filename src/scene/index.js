@@ -6,3 +6,4 @@ import {
   PerspectiveCamera,
   PMREMGenerator,
   Raycaster,
+  Scene,
