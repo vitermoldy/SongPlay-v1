@@ -123,3 +123,4 @@ export function createTV(shapeName = 'classic') {
         float grow = smoothstep(0.0, 0.25, uOn);
         float open = smoothstep(0.22, 1.0, uOn);
         float halfH = mix(0.008, 0.52, open);
+        float halfW = mix(0.0, 0.52, grow);
