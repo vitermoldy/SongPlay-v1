@@ -87,3 +87,4 @@ export function createParticles(count, live) {
           float star = 0.3 + 0.14 * cos(a * 5.0 + vSeed * 6.2831);
           float edge = mix(0.46, star, vStar);
           alpha = 1.0 - smoothstep(edge - soft, edge, length(c));
+          alpha *= 0.75;
