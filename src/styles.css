@@ -1036,3 +1036,4 @@ body.menu-open .site-header {
   letter-spacing: 0;
 }
 
+.contacts-copy p:not(.lede) {
