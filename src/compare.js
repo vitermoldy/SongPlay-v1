@@ -41,3 +41,4 @@ export function paintStandIn() {
   g.fillStyle = sun;
   g.fillRect(0, 0, W, H);
 
+  g.fillStyle = '#5b62a8';
