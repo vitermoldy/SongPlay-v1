@@ -746,3 +746,4 @@
 
 @media (max-width: 720px) {
   .deck {
+    bottom: calc(var(--frame) + 8px);
