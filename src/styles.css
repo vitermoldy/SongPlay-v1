@@ -899,3 +899,6 @@ body.menu-open .site-header {
 }
 
 .formats-head h2 {
+  grid-column: 1 / span 6;
+}
+
