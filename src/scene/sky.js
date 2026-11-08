@@ -169,3 +169,4 @@ export function createMountains(live) {
   ];
   return layers.map(({ z, seed, base, peak, top, low }) => {
     const material = new ShaderMaterial({
+      side: DoubleSide,
