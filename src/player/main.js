@@ -632,3 +632,4 @@ function removeAt(index) {
     if (index < state.items.length) playIndex(index);
     else stopAll('ended', 'Removed the song that was on. The queue has ended.');
   } else {
+    if (wasCurrent) state.current = -1;
