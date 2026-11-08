@@ -708,3 +708,4 @@ body.menu-open .site-header {
 }
 
 .services-copy {
+  display: grid;
