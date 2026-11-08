@@ -398,3 +398,4 @@ export function createScene(
     particles.material.uniforms.uProj.value =
       (height * pixelRatio) / (2 * Math.tan(MathUtils.degToRad(camera.fov / 2)));
     updateFocus(camera);
+    css?.renderer.setSize(width, height);
