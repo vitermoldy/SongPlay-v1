@@ -313,3 +313,4 @@ export function createScene(
     return null;
   }
 
+  const onPointer = (event) => {
