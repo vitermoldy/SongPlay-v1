@@ -446,3 +446,4 @@ async function initScene() {
 // ---------- YouTube ----------
 
 let yt = null;
+let ytReady = null;
