@@ -124,3 +124,4 @@ export function vhsify(source, outW = W, outH = H) {
     else if (rand() < 0.006) shift = Math.round((rand() - 0.5) * 8);
     const wobble = Math.sin(y * 0.05) * 1.2;
     const row = y * w;
+    for (let x = 0; x < w; x++) {
