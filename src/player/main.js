@@ -557,3 +557,4 @@ async function playIndex(index) {
   render();
 
   let player;
+  try {
