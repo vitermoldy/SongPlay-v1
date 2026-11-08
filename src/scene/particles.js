@@ -17,3 +17,4 @@ export function createParticles(count, live) {
     positions[i * 3 + 2] = -22 + rand() * 25;
     data[i * 4] = 0.05 + Math.pow(rand(), 2.2) * 0.16;
     data[i * 4 + 1] = rand();
+    data[i * 4 + 2] = rand() < 0.45 ? 1 : 0;
