@@ -89,3 +89,4 @@ ui.seasons.addEventListener('change', (event) => {
 
 // ---------- Ambient sound for the scene (off until asked for) ----------
 
+// The speaker button in the header opens a small panel: an on/off switch and the volume.
