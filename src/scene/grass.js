@@ -50,3 +50,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
     offsets[i * 3 + 2] = z;
 
     const nearTv = Math.hypot(x - tv.x, z - tv.z) < 1.6;
+    // On the player page the camera looks at the screen from close by: keep the blades just in
