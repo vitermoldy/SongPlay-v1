@@ -126,3 +126,4 @@ export function vhsify(source, outW = W, outH = H) {
     const row = y * w;
     for (let x = 0; x < w; x++) {
       const sx = clamp(Math.round(x - shift - wobble), 0, w - 1);
+      const sr = clamp(sx - 5, 0, w - 1);
