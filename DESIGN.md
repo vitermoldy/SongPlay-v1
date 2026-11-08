@@ -87,3 +87,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
   translucent ground in every sky so their white labels stay readable on the bright Dawn sky.
 - **"Put a song on"** names the header button to the player page (the owner asked for a button
   like "Mendengar lagu"; the site is in English). YouTube only, the owner's choice.
+- **Glass on two surfaces per page**: the header once scrolled, and the player's control deck,
