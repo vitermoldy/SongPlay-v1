@@ -46,3 +46,4 @@ const FocusBlurShader = {
         sum += texture2D(tDiffuse, vUv + uDir * f * radius / (6.0 * uResolution)) * w;
         total += w;
       }
+      gl_FragColor = sum / total;
