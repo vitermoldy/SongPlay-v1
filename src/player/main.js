@@ -163,3 +163,4 @@ document.addEventListener('keydown', (event) => {
     ui.sound.focus();
   }
 });
+document.addEventListener('pointerdown', (event) => {
