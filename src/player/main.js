@@ -774,3 +774,4 @@ ui.prev.addEventListener('click', () => {
     yt.previousVideo();
   } else if (state.current > 0) {
     playIndex(state.current - 1);
+  } else {
