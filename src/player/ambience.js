@@ -234,3 +234,4 @@ export function createAmbience() {
     f.type = type;
     f.frequency.value = frequency;
     f.Q.value = Q;
+    return f;
