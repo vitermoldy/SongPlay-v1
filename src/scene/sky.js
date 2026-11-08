@@ -3,3 +3,4 @@ import {
   Color,
   DoubleSide,
   Mesh,
+  PlaneGeometry,
