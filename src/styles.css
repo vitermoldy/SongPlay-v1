@@ -1337,3 +1337,4 @@ body.menu-open .site-header {
   }
 
   .compare {
+    max-width: 720px;
