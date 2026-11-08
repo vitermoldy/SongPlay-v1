@@ -107,3 +107,4 @@ export function createTV(shapeName = 'classic') {
         return length(max(q, 0.0)) + min(max(q.x, q.y), 0.0) - r;
       }
       void main() {
+        vec2 p = (vUv - 0.5) * vec2(uAspect, 1.0);
