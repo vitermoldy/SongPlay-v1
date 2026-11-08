@@ -316,3 +316,4 @@ export function createAmbience() {
     master.gain.setTargetAtTime(target, ctx.currentTime, speed);
   }
 
+  return {
