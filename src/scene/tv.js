@@ -141,3 +141,6 @@ export function createTV(shapeName = 'classic') {
   group.add(led);
 
   const dome = new Mesh(new SphereGeometry(0.085, 20, 12, 0, Math.PI * 2, 0, Math.PI / 2), dark);
+  dome.position.set(0.02, bodyH - 0.01, -0.08);
+  group.add(dome);
+
