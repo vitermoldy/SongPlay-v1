@@ -669,3 +669,4 @@ body.menu-open .site-header {
 }
 
 .section h2 {
+  font-size: clamp(36px, 4.4vw, 60px);
