@@ -97,3 +97,4 @@ const CLOUDS = [
 export function createClouds(live) {
   return CLOUDS.map(([x, y, z, w, h, seed, opacity]) => {
     const material = new ShaderMaterial({
+      transparent: true,
