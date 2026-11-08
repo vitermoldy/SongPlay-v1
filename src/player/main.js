@@ -560,3 +560,4 @@ async function playIndex(index) {
   try {
     player = await ensurePlayer();
   } catch {
+    stopAll('error', 'The YouTube player did not load. Check your connection or an ad blocker, then press play again.');
