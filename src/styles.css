@@ -660,3 +660,4 @@ body.menu-open .site-header {
   position: relative;
   display: flex;
   align-items: center;
+  min-height: min(100svh, 980px);
