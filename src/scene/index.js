@@ -418,3 +418,4 @@ export function createScene(
 
     // Watch the first frames once; a machine that cannot hold ~15 fps gets the still frame.
     if (playing && raw > 0 && sampled < 45) {
+      sampled++;
