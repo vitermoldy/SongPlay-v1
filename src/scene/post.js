@@ -77,3 +77,4 @@ const FinishShader = {
   `,
 };
 
+export function createPost(renderer, scene, camera) {
