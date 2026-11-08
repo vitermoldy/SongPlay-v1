@@ -64,3 +64,4 @@ export function paintStandIn() {
   g.strokeStyle = '#14161f';
   g.lineWidth = 4;
   g.beginPath();
+  g.moveTo(W * 0.5, ty);
