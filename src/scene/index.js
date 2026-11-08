@@ -4,3 +4,4 @@ import {
   MathUtils,
   NeutralToneMapping,
   PerspectiveCamera,
+  PMREMGenerator,
