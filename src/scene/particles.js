@@ -57,3 +57,4 @@ export function createParticles(count, live) {
         float sway = uShape > 2.5 ? 0.04 : (uShape > 1.5 ? 0.9 : 0.5);
         p.x += sin(uTime * (0.25 + seed * 0.3) + seed * 6.2831) * sway;
         p.z += cos(uTime * 0.2 + seed * 4.0) * 0.3;
+        vec4 mv = modelViewMatrix * vec4(p, 1.0);
