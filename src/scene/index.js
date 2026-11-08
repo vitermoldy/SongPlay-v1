@@ -435,3 +435,4 @@ export function createScene(
     const glow = MathUtils.smoothstep(on, 0.2, 1);
     live.u.time.value = time;
     shared.uTvPower.value = glow * (0.55 + 0.45 * screenLevel) * flicker;
+    tv.screenMaterial.uniforms.uTime.value = time;
