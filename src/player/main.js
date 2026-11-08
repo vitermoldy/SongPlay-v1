@@ -538,3 +538,4 @@ function onPlayerError(event) {
     item.problem = reason;
     saveQueue();
     say(`Skipped ${titleOf(item)}: ${reason}.`);
+  }
