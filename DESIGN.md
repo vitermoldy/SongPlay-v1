@@ -61,3 +61,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
   white, "Learn" muted. The landing copy still describes the tape digitizing service.
 - **Player TV is 16:9** with a thin bezel (owner asked for the video to fill the TV): YouTube
   videos are 16:9, so a wide tube shows them edge to edge with no black bars. The landing page
+  keeps the classic 4:3 set of the reference.
