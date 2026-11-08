@@ -768,3 +768,4 @@ ui.next.addEventListener('click', () => {
   advance();
 });
 
+ui.prev.addEventListener('click', () => {
