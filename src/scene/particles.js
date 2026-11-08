@@ -42,3 +42,4 @@ export function createParticles(count, live) {
       attribute vec4 aData;
       uniform float uTime;
       uniform float uDrift;
+      uniform float uShape;
