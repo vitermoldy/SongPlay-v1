@@ -229,3 +229,4 @@ export function createAmbience() {
     src.start(0, rand() * buf.duration);
     return src;
   };
+  const filter = (type, frequency, Q = 0.7) => {
