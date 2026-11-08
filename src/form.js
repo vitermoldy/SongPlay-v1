@@ -23,3 +23,4 @@ export function initRequestForm(form) {
   const status = form.querySelector('[data-request-status]');
 
   function validate() {
+    const problems = [];
