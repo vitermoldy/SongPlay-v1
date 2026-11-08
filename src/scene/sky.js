@@ -31,3 +31,4 @@ export function createSky(live, { forReflections = false } = {}) {
       uStars: forReflections ? { value: 0 } : live.u.stars,
       uTime: live.u.time,
     },
+    vertexShader: /* glsl */ `
