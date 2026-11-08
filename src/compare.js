@@ -113,3 +113,4 @@ export function vhsify(source, outW = W, outH = H) {
   g.drawImage(small, 0, 0, w, h);
 
   const image = g.getImageData(0, 0, w, h);
+  const d = image.data;
