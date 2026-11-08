@@ -19,3 +19,4 @@ const ui = {
   canvas: $('[data-scene]'),
   video: $('[data-tv-video]'),
   now: $('[data-now]'),
+  announce: $('[data-announce]'),
