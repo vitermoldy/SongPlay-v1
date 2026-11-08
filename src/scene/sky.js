@@ -124,3 +124,4 @@ export function createClouds(live) {
         varying vec2 vUv;
         ${NOISE_GLSL}
         void main() {
+          vec2 q = (vUv - 0.5) * vec2(1.0, 1.9);
