@@ -60,3 +60,4 @@ export function createSky(live, { forReflections = false } = {}) {
         c = mix(c, uMid, smoothstep(0.06, 0.26, y));
         c = mix(c, uTop, smoothstep(0.28, 0.8, y));
         float s = max(dot(d, normalize(uSunDir)), 0.0);
+        c += uSunColor * (pow(s, 24.0) * 0.32 + pow(s, 220.0) * 0.8);
