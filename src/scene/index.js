@@ -579,3 +579,4 @@ export function createScene(
     setScreenMode(mode) {
       screenMode = mode;
       screenTarget = SCREEN_LEVEL[mode] ?? SCREEN_LEVEL.idle;
+      kick();
