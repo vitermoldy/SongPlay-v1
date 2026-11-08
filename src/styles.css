@@ -392,3 +392,4 @@ body.menu-open .site-header {
   transition: opacity 220ms var(--ease);
 }
 
+.menu.is-open {
