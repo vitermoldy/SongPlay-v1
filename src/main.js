@@ -111,3 +111,4 @@ async function initScene(compare) {
     const { createScene } = await import('./scene/index.js');
     scene = createScene(canvas, {
       lowPower,
+      reducedMotion: reduceMotion.matches,
