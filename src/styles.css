@@ -1270,3 +1270,4 @@ body.menu-open .site-header {
 
 .footer-base {
   display: flex;
+  flex-wrap: wrap;
