@@ -74,3 +74,6 @@ const FinishShader = {
       c.rgb *= mix(0.8, 1.0, smoothstep(0.86, 0.3, length(q * vec2(1.0, 1.1))));
       gl_FragColor = c;
     }
+  `,
+};
+
