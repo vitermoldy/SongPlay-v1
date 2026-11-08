@@ -458,3 +458,4 @@ export function createScene(
     if (pendingCapture && on >= 1) capture();
     if (!readyFired) {
       readyFired = true;
+      onReady?.();
