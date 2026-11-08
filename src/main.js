@@ -153,3 +153,4 @@ initMenu();
 initAnchors();
 // The hero's 3D scene lights its own grass under the cursor; everywhere else gets the 2D lamp.
 initCursorLight({ skip: [document.querySelector('[data-hero]')] });
+initRequestForm(document.querySelector('[data-request]'));
