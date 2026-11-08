@@ -360,3 +360,4 @@ export function createScene(
       // run into push the free area's top down.
       const area = { top: 0, bottom: height, left: 0, right: width, avoid: [], ...frameArea?.() };
       const setW = tv.shape.bodyW * Math.cos(setup.tvYaw) + 0.92 * Math.abs(Math.sin(setup.tvYaw)) + 0.06;
+      const setH = tv.shape.bodyH + 0.08;
