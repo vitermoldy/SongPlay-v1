@@ -154,3 +154,6 @@ export function vhsify(source, outW = W, outH = H) {
       d[i + 1] = v;
       d[i + 2] = v;
     }
+  }
+  g.putImageData(image, 0, 0);
+
