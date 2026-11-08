@@ -67,3 +67,4 @@ export function createSky(live, { forReflections = false } = {}) {
         // Stars sit in cells on the sky sphere; large and bright enough to survive the soft
         // focus the background gets, a few of them twinkling.
         if (uStars > 0.001) {
+          vec3 g = d * 170.0;
