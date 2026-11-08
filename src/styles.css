@@ -1042,3 +1042,4 @@ body.menu-open .site-header {
 
 .contacts-mail {
   margin-top: 8px;
+  font-size: clamp(20px, 1.8vw, 24px);
