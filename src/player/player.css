@@ -33,3 +33,4 @@
   color: #fff;
   transition:
     background-color 180ms var(--ease),
+    color 180ms var(--ease),
