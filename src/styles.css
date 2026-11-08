@@ -1223,3 +1223,4 @@ body.menu-open .site-header {
 }
 
 .cta-submit {
+  justify-self: start;
