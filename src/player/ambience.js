@@ -147,3 +147,4 @@ export function createAmbience() {
 
   // A few birds: trills, falling whistles and two-note calls, scattered over eight seconds.
   function birds() {
+    const seconds = 8;
