@@ -8,3 +8,4 @@ function makeCanvas(w, h) {
   return c;
 }
 
+function rng(seed) {
