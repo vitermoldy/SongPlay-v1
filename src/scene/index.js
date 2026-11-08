@@ -109,3 +109,4 @@ export function createScene(
   const info = gl.getExtension('WEBGL_debug_renderer_info');
   const rendererName = info ? String(gl.getParameter(info.UNMASKED_RENDERER_WEBGL)) : '';
   const software = /swiftshader|llvmpipe|software|basic render/i.test(rendererName);
+  const pixelRatio = Math.min(window.devicePixelRatio || 1, lowPower ? 1.25 : 1.6);
