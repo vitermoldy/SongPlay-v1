@@ -154,3 +154,6 @@ soundVolume.addEventListener('input', () => {
   else {
     ambience?.setVolume(volume / 100);
     syncSound();
+  }
+});
+
