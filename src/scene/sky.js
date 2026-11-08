@@ -121,3 +121,4 @@ export function createClouds(live) {
         uniform float uFade;
         uniform vec3 uLit;
         uniform vec3 uShade;
+        varying vec2 vUv;
