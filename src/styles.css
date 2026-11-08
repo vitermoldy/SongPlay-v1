@@ -821,3 +821,4 @@ body.menu-open .site-header {
   background: var(--cream);
   color: var(--ink);
   transform: translate(-50%, -50%);
+  box-shadow: 0 6px 20px -6px rgba(0, 0, 0, 0.5);
