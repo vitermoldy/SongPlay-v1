@@ -76,3 +76,4 @@ export function createAmbience() {
     let b5 = 0;
     let b6 = 0;
     for (let i = 0; i < d.length; i++) {
+      const w = rand() * 2 - 1;
