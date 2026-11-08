@@ -47,3 +47,4 @@ export function initRequestForm(form) {
     event.preventDefault();
     status.textContent = '';
     const problems = validate();
+    if (problems.length) {
