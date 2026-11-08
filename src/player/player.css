@@ -468,3 +468,6 @@
 }
 
 .deck-row input[aria-invalid='true'] {
+  border-color: var(--error);
+}
+
