@@ -100,3 +100,4 @@ export function createClouds(live) {
       transparent: true,
       depthWrite: false,
       uniforms: {
+        uTime: live.u.time,
