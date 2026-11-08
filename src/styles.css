@@ -596,3 +596,4 @@ body.menu-open .site-header {
     transform 180ms var(--ease);
 }
 
+.scene-toggle:hover {
