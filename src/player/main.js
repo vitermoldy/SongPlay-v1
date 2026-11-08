@@ -413,3 +413,4 @@ async function initScene() {
       onLost: () => ui.stage.classList.remove('is-live'),
       onSlow: () => {
         playing = false;
+        sync();
