@@ -182,3 +182,4 @@ export function createAmbience() {
 
   // Dry leaves: short bursts of noise, crackly inside, at random.
   function rustle() {
+    const seconds = 6;
