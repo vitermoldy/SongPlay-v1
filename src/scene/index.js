@@ -55,3 +55,4 @@ const PLAYER_DISTANCE = 5.2;
 const CAMERA_RISE = 0.4;
 const VIDEO_FILL = 0.97;
 const POWER_DELAY = 0.5;
+const POWER_TIME = 1.5;
