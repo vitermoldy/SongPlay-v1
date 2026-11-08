@@ -17,3 +17,6 @@ export const col = (hex) => new Color(hex);
 // Colours that stay the same in every theme (the sky's live in themes.js).
 export const PALETTE = {
   tv: '#ffbf6e',
+  cursor: '#ffc46a',
+};
+
