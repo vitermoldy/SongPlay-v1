@@ -241,3 +241,4 @@ export function createAmbience() {
     osc.frequency.value = rate;
     const g = ctx.createGain();
     g.gain.value = depth;
+    osc.connect(g).connect(target);
