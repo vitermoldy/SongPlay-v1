@@ -414,3 +414,4 @@ async function initScene() {
       onSlow: () => {
         playing = false;
         sync();
+      },
