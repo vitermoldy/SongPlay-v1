@@ -15,3 +15,4 @@ function initHeader() {
     header.classList.toggle('is-solid', window.scrollY > window.innerHeight * 0.5);
   };
   window.addEventListener(
+    'scroll',
