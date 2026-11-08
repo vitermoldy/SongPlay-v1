@@ -645,3 +645,4 @@ function removeAt(index) {
 function placeQueue() {
   const panel = ui.queuePanel;
   panel.style.removeProperty('right');
+  panel.style.removeProperty('width');
