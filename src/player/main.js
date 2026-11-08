@@ -327,3 +327,6 @@ function queueRow(item, index) {
   play.type = 'button';
   play.className = 'icon-btn';
   play.setAttribute('aria-label', `Play ${titleOf(item)}`);
+  play.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg>';
+  play.addEventListener('click', () => playIndex(index));
+
