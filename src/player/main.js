@@ -547,3 +547,4 @@ function onPlayerError(event) {
   }, 1200);
 }
 
+async function playIndex(index) {
