@@ -471,3 +471,4 @@ export function createScene(
   }
 
   function loop(now) {
+    raf = 0;
