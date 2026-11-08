@@ -169,3 +169,4 @@ export function vhsify(source, outW = W, outH = H) {
   g.moveTo(98, 32);
   g.lineTo(98, 52);
   g.lineTo(114, 42);
+  g.closePath();
