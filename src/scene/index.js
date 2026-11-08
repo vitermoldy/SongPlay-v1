@@ -309,3 +309,4 @@ export function createScene(
         return new Vector3(o.x + d.x * b, o.y + d.y * b, o.z + d.z * b);
       }
       prev = t;
+    }
