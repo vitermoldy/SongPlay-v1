@@ -43,3 +43,4 @@ const FocusBlurShader = {
       for (int i = -6; i <= 6; i++) {
         float f = float(i);
         float w = exp(-f * f / 18.0);
+        sum += texture2D(tDiffuse, vUv + uDir * f * radius / (6.0 * uResolution)) * w;
