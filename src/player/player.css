@@ -282,3 +282,4 @@
 
 .theme {
   position: relative;
+  display: inline-flex;
