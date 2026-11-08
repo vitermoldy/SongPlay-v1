@@ -1,3 +1,4 @@
 /* Put a song on: the TV on the hill, a YouTube queue at the bottom. */
 
 .player-page .header-back {
+  display: inline-flex;
