@@ -763,3 +763,4 @@ ui.next.addEventListener('click', () => {
     if (at >= 0 && at < list.length - 1) {
       yt.nextVideo();
       return;
+    }
