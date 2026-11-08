@@ -1164,3 +1164,6 @@ body.menu-open .site-header {
 
 .chip {
   position: relative;
+  display: inline-flex;
+}
+
