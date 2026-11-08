@@ -280,3 +280,4 @@ function nowLine() {
       return `Tuning in: ${titleOf(item)}`;
     case 'playing':
       return `Now playing: ${title}${fromList}`;
+    case 'paused':
