@@ -9,3 +9,6 @@ import {
   ShaderMaterial,
   SphereGeometry,
   Vector3,
+} from 'three';
+import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js';
+
