@@ -117,3 +117,4 @@ async function initScene(compare) {
       // Too slow to animate smoothly here: settle on the still frame, Play stays one click away.
       onSlow: () => {
         playing = false;
+        sync();
