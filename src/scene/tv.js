@@ -1,2 +1,3 @@
 import {
   CylinderGeometry,
+  Group,
