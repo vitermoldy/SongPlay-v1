@@ -102,3 +102,4 @@ async function initScene(compare) {
   let scene;
   let playing = false;
   const sync = () => {
+    toggle.dataset.paused = String(!playing);
