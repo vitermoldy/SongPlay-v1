@@ -130,3 +130,4 @@ export function createScene(
     const next = pmrem.fromScene(envScene, 0.03, 0.1, 1000);
     scene.environment = next.texture;
     envTarget?.dispose();
+    envTarget = next;
