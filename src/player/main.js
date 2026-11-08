@@ -423,3 +423,4 @@ async function initScene() {
     scene = null;
     return;
   }
+  playing = !scene.startsStill;
