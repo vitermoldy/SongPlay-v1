@@ -457,3 +457,4 @@ function ensurePlayer() {
       (YT) =>
         new Promise((resolve) => {
           const player = new YT.Player('yt-player', {
+            host: 'https://www.youtube-nocookie.com',
