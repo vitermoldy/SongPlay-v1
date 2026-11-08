@@ -26,3 +26,4 @@ export function createTerrain(uniforms) {
     vertexShader: /* glsl */ `
       varying vec3 vWorld;
       varying vec3 vNormal;
+      void main() {
