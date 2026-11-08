@@ -128,3 +128,4 @@ export function createTV(shapeName = 'classic') {
         c *= mask * mix(2.2, 1.0, open);
 
         vec3 glass = vec3(0.012, 0.014, 0.025);
+        gl_FragColor = vec4(mix(glass, c, mask), 1.0);
