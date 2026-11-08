@@ -26,3 +26,4 @@ export function createParticles(count, live) {
 
   const material = new ShaderMaterial({
     transparent: true,
+    depthWrite: false,
