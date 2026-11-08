@@ -189,3 +189,4 @@ document.addEventListener('visibilitychange', () => ambience?.setHidden(document
 // would run into them.
 function frameArea() {
   const stage = ui.stage.getBoundingClientRect();
+  const local = (el) => {
