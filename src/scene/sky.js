@@ -6,3 +6,4 @@ import {
   PlaneGeometry,
   ShaderMaterial,
   Shape,
+  ShapeGeometry,
