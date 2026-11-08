@@ -40,3 +40,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
     // Thin out the grass right under the lens so the foreground stays a soft frame.
     const dx = x - camera.x;
     const dz = z - camera.z;
+    const dCam = Math.hypot(dx, dz);
