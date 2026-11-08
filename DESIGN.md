@@ -16,3 +16,4 @@ tapes, in a cinematic dusk 3D style. Dial: ENERGY 3 / RHYTHM 2 / MOTION 2.
 - **Motif: the cursor is a lamp.** From the owner's reference, where the grass glows gold around
   the pointer. In the 3D scenes the pointer is cast onto the hill and lights the blades there; on
   the flat sections a warm pool follows the mouse (screen blend on night, multiply on paper). Mouse
+  only, never on touch, and off when the scene runs without a GPU.
