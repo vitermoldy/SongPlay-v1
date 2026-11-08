@@ -75,3 +75,4 @@ export function paintStandIn() {
   g.fill();
   g.save();
   g.shadowColor = 'rgba(255, 197, 107, 0.95)';
+  g.shadowBlur = 90;
