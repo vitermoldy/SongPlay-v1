@@ -88,3 +88,4 @@ export const SEASONS = {
     label: 'Autumn',
     grass: { base: '#1a0e06', mid: '#4a2a0e', tip: '#b8642a', tipGold: '#d89a3a' },
     ground: { dark: '#160c06', lit: '#3a2410' },
+    particles: { shape: 2, color: '#e0702a', color2: '#a63a18', opacity: 1, fall: 1.1, size: 1.8 },
