@@ -241,3 +241,4 @@ function saveQueue() {
       id,
       list,
       index,
+      title,
