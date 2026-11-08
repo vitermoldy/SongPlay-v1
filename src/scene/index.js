@@ -100,3 +100,6 @@ export function createScene(
     canvas,
     antialias: false,
     stencil: false,
+    powerPreference: 'high-performance',
+  });
+
