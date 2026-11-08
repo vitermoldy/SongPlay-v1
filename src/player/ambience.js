@@ -352,3 +352,4 @@ export function createAmbience() {
       hidden = on;
       if (on) ctx.suspend();
       else if (enabled) ctx.resume();
+      scheduleThunder();
