@@ -63,3 +63,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
   videos are 16:9, so a wide tube shows them edge to edge with no black bars. The landing page
   keeps the classic 4:3 set of the reference.
 - **The set always fits** (owner: "yang penting pas, ga berantakan"): the player TV is sized to
+  the free stage between header and deck, the video sits inside a thin dark rim of the glass, and
