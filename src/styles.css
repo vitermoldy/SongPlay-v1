@@ -463,3 +463,4 @@ body.menu-open .site-header {
 .viewfinder {
   position: absolute;
   inset: calc(var(--header-h) + 8px) var(--frame) var(--frame);
+  border: 1px solid rgba(255, 255, 255, 0.14);
