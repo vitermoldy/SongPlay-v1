@@ -49,3 +49,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
 
 - **WebGL on a service page.** 3D scenes usually belong to tech pages; the owner's reference is
   a 3D scene, and the owner asked for this look.
+- **Blue-violet sky.** Violet reads as a template colour; the reference sky is periwinkle. Kept
