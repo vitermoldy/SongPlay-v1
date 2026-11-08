@@ -684,3 +684,6 @@ window.addEventListener('resize', () => {
 function showError(message) {
   ui.error.textContent = message;
   ui.error.hidden = !message;
+  ui.input.setAttribute('aria-invalid', message ? 'true' : 'false');
+}
+
