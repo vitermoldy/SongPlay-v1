@@ -743,3 +743,4 @@ ui.input.addEventListener('input', () => {
 ui.toggle.addEventListener('click', () => {
   if (state.status === 'playing' || state.status === 'loading') {
     yt?.pauseVideo();
+    if (state.status === 'loading') {
