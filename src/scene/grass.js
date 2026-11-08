@@ -133,3 +133,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
         c = mix(c, tip, smoothstep(0.4, 1.0, vH) * (0.45 + vSeed * 0.55));
         c *= 0.62 + vSeed * 0.5;
 
+        vec3 v = normalize(vWorld - cameraPosition);
