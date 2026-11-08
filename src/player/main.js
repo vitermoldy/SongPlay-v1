@@ -690,3 +690,4 @@ function showError(message) {
 ui.form.addEventListener('submit', (event) => {
   event.preventDefault();
   const raw = ui.input.value;
+  if (!raw.trim()) {
