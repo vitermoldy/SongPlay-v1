@@ -658,3 +658,6 @@
 }
 
 .queue-item.is-current {
+  background: rgba(255, 197, 107, 0.12);
+}
+
