@@ -21,3 +21,6 @@ function levelsFor(time, season) {
     L.birds = 0.2;
     L.crickets = 0.08;
   } else if (time === 'dawn') {
+    L.birds = 0.5;
+  }
+
