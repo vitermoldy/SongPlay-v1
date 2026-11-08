@@ -7,3 +7,6 @@ const HOSTS = new Set(['youtube.com', 'youtu.be', 'youtube-nocookie.com']);
 // Auto-generated mixes (RD...), Watch later and Liked videos cannot be embedded as lists,
 // so a link carrying one plays its video alone.
 export function parseYouTube(raw) {
+  const text = raw.trim();
+  if (VIDEO_ID.test(text)) return { kind: 'video', id: text };
+
