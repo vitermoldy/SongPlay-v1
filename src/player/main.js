@@ -397,3 +397,4 @@ async function initScene() {
   let playing = false;
   const sync = () => {
     ui.sceneToggle.dataset.paused = String(!playing);
+    ui.sceneLabel.textContent = playing ? 'Pause scene' : 'Play scene';
