@@ -634,3 +634,6 @@ body.menu-open .site-header {
 }
 
 [data-enter] .hero-foot .enter:nth-child(1) {
+  animation-delay: 700ms;
+}
+
