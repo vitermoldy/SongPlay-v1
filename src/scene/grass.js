@@ -109,3 +109,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
     `,
     fragmentShader: /* glsl */ `
       uniform vec3 uBase;
+      uniform vec3 uMid;
