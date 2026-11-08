@@ -360,3 +360,4 @@
 .tv-video-inner,
 .tv-video-inner iframe {
   display: block;
+  width: 100%;
