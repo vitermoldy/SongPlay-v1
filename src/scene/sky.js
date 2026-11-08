@@ -103,3 +103,4 @@ export function createClouds(live) {
         uTime: live.u.time,
         uSeed: { value: seed },
         uOpacity: { value: opacity },
+        uFade: live.u.cloudOpacity,
