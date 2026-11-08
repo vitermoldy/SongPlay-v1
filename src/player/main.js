@@ -480,3 +480,4 @@ function ensurePlayer() {
 }
 
 function playingMatches(item) {
+  if (!item) return false;
