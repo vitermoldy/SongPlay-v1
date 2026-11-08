@@ -120,3 +120,4 @@ async function initScene(compare) {
         sync();
       },
     });
+  } catch (error) {
