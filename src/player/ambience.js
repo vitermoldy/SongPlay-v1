@@ -325,3 +325,4 @@ export function createAmbience() {
       if (!on) {
         // Let the fade finish, then stop the audio thread altogether.
         setTimeout(() => {
+          if (!enabled) ctx.suspend();
