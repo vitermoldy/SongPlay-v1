@@ -32,3 +32,4 @@ const ui = {
   queueEmpty: $('[data-queue-empty]'),
   queueCount: $('[data-queue-count]'),
   clear: $('[data-queue-clear]'),
+  sceneToggle: $('[data-scene-toggle]'),
