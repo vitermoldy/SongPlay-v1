@@ -231,3 +231,4 @@ button:disabled {
   gap: 16px;
   height: var(--header-h);
   padding: 0 var(--frame);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
