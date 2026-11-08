@@ -208,3 +208,4 @@ export function createScene(
     hemi.intensity = n['lamps.hemi'];
     sun.intensity = n['lamps.sunI'];
     fill.intensity = n['lamps.fillI'];
+    sun.position.copy(live.sunDir).multiplyScalar(30);
