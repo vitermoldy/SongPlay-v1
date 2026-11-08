@@ -131,3 +131,6 @@ async function initScene(compare) {
   sync();
   toggle.addEventListener('click', () => {
     playing = !playing;
+    sync();
+  });
+
