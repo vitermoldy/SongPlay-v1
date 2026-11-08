@@ -8,3 +8,4 @@ import { mulberry32 } from './shared.js';
 // uDrift is the fall distance so far, added up frame by frame, so a change of speed between
 // seasons never makes the flakes jump.
 export function createParticles(count, live) {
+  const rand = mulberry32(42);
