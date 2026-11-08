@@ -439,3 +439,4 @@ export function createScene(
     tv.screenMaterial.uniforms.uOn.value = on;
     tv.screenMaterial.uniforms.uLevel.value = screenLevel;
 
+    const cursorPos = shared.uCursorPos.value;
