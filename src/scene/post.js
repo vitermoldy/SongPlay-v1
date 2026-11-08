@@ -57,3 +57,4 @@ const FinishShader = {
     uTime: { value: 0 },
     uGrain: { value: 0.035 },
   },
+  vertexShader: passVertex,
