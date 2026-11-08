@@ -210,3 +210,6 @@ export function compose(timeName, seasonName) {
     colors.set(
       path,
       new Color(paint.r * relight(lit.r, dusk.r), paint.g * relight(lit.g, dusk.g), paint.b * relight(lit.b, dusk.b)),
+    );
+  }
+
