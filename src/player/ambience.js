@@ -254,3 +254,4 @@ export function createAmbience() {
   const windTone = filter('lowpass', 480);
   const gust = ctx.createGain();
   gust.gain.value = 0.75;
+  lfo(0.05, 260, windTone.frequency);
