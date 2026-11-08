@@ -745,3 +745,4 @@ body.menu-open .site-header {
   overflow: hidden;
   background: linear-gradient(#2232b8, #8d9cf2 60%, #2c3416 61%);
   touch-action: pan-y;
+  user-select: none;
