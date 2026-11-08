@@ -251,3 +251,4 @@ export function initCompare(root) {
       const [w, h] = outputSize(root);
       const [b, a] = await Promise.all([toUrl(vhsify(source, w, h)), toUrl(cleanCopy(source, w, h))]);
       if (mine !== version) {
+        URL.revokeObjectURL(b);
