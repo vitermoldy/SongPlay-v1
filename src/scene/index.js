@@ -205,3 +205,4 @@ export function createScene(
     live.u.cloudOpacity.value = n['clouds.opacity'];
     live.u.particleOpacity.value = n['particles.opacity'];
     live.u.particleSize.value = n['particles.size'];
+    hemi.intensity = n['lamps.hemi'];
