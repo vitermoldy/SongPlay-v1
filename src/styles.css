@@ -805,3 +805,4 @@ body.menu-open .site-header {
   z-index: 2;
   width: 2px;
   margin-left: -1px;
+  background: var(--cream);
