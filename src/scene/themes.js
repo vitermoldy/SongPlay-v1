@@ -200,3 +200,6 @@ const relight = (lit, dusk) => Math.min(3, (lit + 0.02) / (dusk + 0.02));
 export function compose(timeName, seasonName) {
   const time = THEMES[timeName] ?? THEMES.dusk;
   const season = SEASONS[seasonName] ?? SEASONS.summer;
+  const colors = new Map(COLOR_PATHS.map((path) => [path, new Color(read(time, path))]));
+  const numbers = Object.fromEntries(NUMBER_PATHS.map((path) => [path, read(time, path)]));
+
