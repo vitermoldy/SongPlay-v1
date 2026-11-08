@@ -547,3 +547,4 @@ export function createScene(
     },
     setTheme,
     setSeason,
+    // Re-fit the set when the page's own layout changes (the deck grows a line, say).
