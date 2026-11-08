@@ -22,3 +22,4 @@ function initHeader() {
       requestAnimationFrame(update);
     },
     { passive: true },
+  );
