@@ -11,3 +11,6 @@
 .player-page .header-back,
 .stage .scene-toggle,
 .sound-toggle {
+  background: rgba(8, 11, 36, 0.5);
+}
+
