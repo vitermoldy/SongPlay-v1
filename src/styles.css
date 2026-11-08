@@ -1097,3 +1097,4 @@ body.menu-open .site-header {
   font-weight: 500;
 }
 
+.field input:not([type='checkbox']),
