@@ -3,3 +3,4 @@
 // rustling leaves. Each time of day and season sets how loud each layer is; changes fade over.
 // The AudioContext is only made from a click (browsers allow sound after a user gesture).
 
+const LAYERS = ['wind', 'rain', 'crickets', 'birds', 'leaves'];
