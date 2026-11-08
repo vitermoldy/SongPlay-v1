@@ -41,3 +41,6 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
     const dx = x - camera.x;
     const dz = z - camera.z;
     const dCam = Math.hypot(dx, dz);
+    if (dCam < 1.1) continue;
+    if (dCam < 3 && rand() > (dCam - 1.1) / 1.9 + (x < -2 ? 0.45 : 0)) continue;
+
