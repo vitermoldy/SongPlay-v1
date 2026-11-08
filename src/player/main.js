@@ -352,3 +352,4 @@ function render() {
   // Rebuilding the list would drop focus from a row button; keep it on the same row if so.
   const focusedRow = ui.queueList.contains(document.activeElement)
     ? [...ui.queueList.children].indexOf(document.activeElement.closest('li'))
+    : -1;
