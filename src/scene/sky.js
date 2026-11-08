@@ -130,3 +130,4 @@ export function createClouds(live) {
           float warp = fbm(p * 0.7);
           float n = fbm(p + warp * 1.6);
           float dens = smoothstep(0.4, 0.74, n) * shape;
+          dens *= smoothstep(0.02, 0.38, vUv.y + (n - 0.5) * 0.3);
