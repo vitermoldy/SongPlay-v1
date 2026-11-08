@@ -78,3 +78,4 @@ export function createSky(live, { forReflections = false } = {}) {
         }
         gl_FragColor = vec4(c, 1.0);
       }
+    `,
