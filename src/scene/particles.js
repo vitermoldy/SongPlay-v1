@@ -118,3 +118,4 @@ export function createParticles(count, live) {
     // Light (motes, snow, rain catching the light) adds up; petals and leaves are solid things
     // in front of the sky.
     setShape(shape) {
+      live.u.particleShape.value = shape;
