@@ -517,3 +517,4 @@ function onPlayerState(event) {
       const at = yt.getPlaylistIndex?.() ?? -1;
       if (at >= 0 && at < list.length - 1) return; // the player moves to the next video itself
     }
+    advance();
