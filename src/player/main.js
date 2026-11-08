@@ -486,3 +486,6 @@ function playingMatches(item) {
     return !id || id === item.id;
   }
   const list = yt.getPlaylistId?.();
+  return !list || list === item.list;
+}
+
