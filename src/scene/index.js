@@ -180,3 +180,6 @@ export function createScene(
       camera: setup.camera,
       clearFront: setup.clearFront,
       uniforms: shared,
+    }),
+  );
+
