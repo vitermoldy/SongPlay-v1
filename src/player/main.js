@@ -506,3 +506,4 @@ function onPlayerState(event) {
       scene?.setScreenMode('video');
     } else {
       state.status = 'paused';
+      scene?.setScreenMode('paused');
