@@ -141,3 +141,4 @@ button:disabled {
 }
 
 .skip-link:focus-visible {
+  transform: none;
