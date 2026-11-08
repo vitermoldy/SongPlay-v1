@@ -177,3 +177,4 @@
   min-height: 560px;
   overflow: hidden;
   isolation: isolate;
+  background: var(--night);
