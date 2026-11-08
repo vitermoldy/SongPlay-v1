@@ -196,3 +196,4 @@ function outputSize(root) {
 }
 
 function toUrl(canvas) {
+  return new Promise((resolve, reject) => {
