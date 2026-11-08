@@ -192,3 +192,4 @@ export function createMountains(live) {
         varying float vY;
         void main() {
           float t = smoothstep(-3.0, uTopY, vY);
+          vec3 c = mix(uLow, uTop, t);
