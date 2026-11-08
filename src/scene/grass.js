@@ -49,3 +49,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
     offsets[i * 3 + 1] = y - 0.03;
     offsets[i * 3 + 2] = z;
 
+    const nearTv = Math.hypot(x - tv.x, z - tv.z) < 1.6;
