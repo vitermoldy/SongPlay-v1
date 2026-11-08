@@ -1113,3 +1113,6 @@ body.menu-open .site-header {
 
 .field textarea {
   resize: vertical;
+  min-height: 112px;
+}
+
