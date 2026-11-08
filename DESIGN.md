@@ -76,3 +76,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
   The set only moves off centre, by tilting the view, when it would meet the controls.
 - **Seasons** (owner's request) are a second choice beside the time of day: a season paints the
   grass and ground and picks what falls (petals, leaves, snow, rain); the time of day lights it.
+  Rain also clouds the sky over: sky, haze, clouds and mountains turn to a cool grey of their own
