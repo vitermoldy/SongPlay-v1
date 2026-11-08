@@ -213,3 +213,4 @@ export function createAmbience() {
   for (const name of LAYERS) {
     const g = ctx.createGain();
     g.gain.value = 0;
+    g.connect(master);
