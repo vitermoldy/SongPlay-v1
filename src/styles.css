@@ -806,3 +806,6 @@ body.menu-open .site-header {
   width: 2px;
   margin-left: -1px;
   background: var(--cream);
+  pointer-events: none;
+}
+
