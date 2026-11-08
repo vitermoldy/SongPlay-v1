@@ -72,3 +72,4 @@ export function createSky(live, { forReflections = false } = {}) {
           if (h > 0.982) {
             float r = length(fract(g) - 0.5);
             float twinkle = 0.6 + 0.4 * sin(uTime * (1.0 + h * 3.0) + h * 80.0);
+            float star = smoothstep(0.34, 0.0, r) * twinkle * (0.35 + 0.65 * (h - 0.982) / 0.018);
