@@ -204,3 +204,4 @@ export function compose(timeName, seasonName) {
   const numbers = Object.fromEntries(NUMBER_PATHS.map((path) => [path, read(time, path)]));
 
   for (const path of SEASON_PATHS) {
+    const paint = new Color(read(season, path));
