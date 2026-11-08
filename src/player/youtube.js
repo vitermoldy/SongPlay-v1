@@ -68,3 +68,4 @@ export function loadYouTubeApi() {
     const script = document.createElement('script');
     script.src = 'https://www.youtube.com/iframe_api';
     script.async = true;
+    script.onerror = () => {
