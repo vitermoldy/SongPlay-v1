@@ -8,3 +8,4 @@ function showError(field, message) {
   if (message) {
     error.textContent = message;
     error.hidden = false;
+  } else {
