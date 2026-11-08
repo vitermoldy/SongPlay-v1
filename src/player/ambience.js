@@ -346,3 +346,4 @@ export function createAmbience() {
       if (on === ducked) return;
       ducked = on;
       applyMaster();
+    },
