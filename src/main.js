@@ -156,3 +156,4 @@ initCursorLight({ skip: [document.querySelector('[data-hero]')] });
 initRequestForm(document.querySelector('[data-request]'));
 const compare = initCompare(document.querySelector('[data-compare]'));
 compare.setSource(paintStandIn());
+initScene(compare);
