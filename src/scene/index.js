@@ -89,3 +89,4 @@ export function createScene(
     season = 'summer',
     frameArea,
     lowPower = false,
+    reducedMotion = false,
