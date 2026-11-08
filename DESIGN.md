@@ -53,3 +53,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
   inside the scene only, never as a UI colour.
 - **Uppercase nav labels.** From the reference; they echo the PLAY / REW / FF keys on a VCR. Tracking
   stays small (0.04em).
+- **"GET STARTED" replaced** with "Start with one tape": the button says what happens (owner
