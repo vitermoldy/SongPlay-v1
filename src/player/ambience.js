@@ -285,3 +285,4 @@ export function createAmbience() {
     const peak = thunderLevel * (0.5 + rand() * 0.5);
     g.gain.setValueAtTime(0.0001, now);
     g.gain.exponentialRampToValueAtTime(peak, now + 0.25 + rand() * 0.4);
+    g.gain.exponentialRampToValueAtTime(peak * 0.35, now + 1.6);
