@@ -1139,3 +1139,6 @@ body.menu-open .site-header {
 .field select:focus-visible,
 .field textarea:focus-visible {
   border-color: var(--glow);
+  outline-offset: 1px;
+}
+
