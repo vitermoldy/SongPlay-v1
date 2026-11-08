@@ -62,3 +62,6 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
   }
 
   geometry.setAttribute('aOffset', new InstancedBufferAttribute(offsets, 3));
+  geometry.setAttribute('aParams', new InstancedBufferAttribute(params, 4));
+  geometry.instanceCount = i;
+
