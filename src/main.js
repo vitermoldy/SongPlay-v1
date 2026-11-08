@@ -116,3 +116,4 @@ async function initScene(compare) {
       onLost: () => hero.classList.remove('is-live'),
       // Too slow to animate smoothly here: settle on the still frame, Play stays one click away.
       onSlow: () => {
+        playing = false;
