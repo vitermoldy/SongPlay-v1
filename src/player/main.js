@@ -315,3 +315,4 @@ function queueRow(item, index) {
   title.textContent = titleOf(item);
   const sub = document.createElement('p');
   sub.className = 'queue-sub';
+  if (current && state.status === 'playing') sub.textContent = 'Now playing';
