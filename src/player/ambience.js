@@ -274,3 +274,4 @@ export function createAmbience() {
 
   // Thunder, now and then while it rains: a low rumble that swells and rolls away.
   const thunderNoise = brownNoise(6);
+  let thunderLevel = 0;
