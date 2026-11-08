@@ -44,3 +44,4 @@ export function initCursorLight({ skip = [] } = {}) {
     'scroll',
     () => {
       if (x < 0) return;
+      light.classList.toggle('is-on', !overSkipped(x, y));
