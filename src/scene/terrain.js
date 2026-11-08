@@ -50,3 +50,4 @@ export function createTerrain(uniforms) {
       uniform float uFogFar;
       varying vec3 vWorld;
       varying vec3 vNormal;
+      ${NOISE_GLSL}
