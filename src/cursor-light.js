@@ -8,3 +8,4 @@ export function initCursorLight({ skip = [] } = {}) {
   light.setAttribute('aria-hidden', 'true');
   document.body.append(light);
 
+  let x = -1000;
