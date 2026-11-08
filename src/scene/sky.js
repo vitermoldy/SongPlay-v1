@@ -197,3 +197,4 @@ export function createMountains(live) {
           gl_FragColor = vec4(c, 1.0);
         }
       `,
+    });
