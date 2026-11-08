@@ -18,3 +18,4 @@ function showError(field, message) {
 export function initRequestForm(form) {
   const name = form.querySelector('#f-name');
   const email = form.querySelector('#f-email');
+  const formatSet = form.querySelector('fieldset');
