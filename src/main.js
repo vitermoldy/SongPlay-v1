@@ -121,3 +121,4 @@ async function initScene(compare) {
       },
     });
   } catch (error) {
+    console.warn('The 3D scene could not start; keeping the still sky.', error);
