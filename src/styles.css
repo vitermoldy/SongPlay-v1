@@ -1398,3 +1398,4 @@ body.menu-open .site-header {
   .privacy {
     left: var(--frame);
     right: var(--frame);
+    bottom: var(--frame);
