@@ -348,3 +348,4 @@ export function createScene(
     const height = canvas.clientHeight;
     if (!width || !height) return;
     renderer.setSize(width, height, false);
+    post.setSize(width, height, pixelRatio);
