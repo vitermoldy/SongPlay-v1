@@ -163,3 +163,4 @@ export function createScene(
     uTvPos: { value: glowWorld },
     uTvColor: { value: col(PALETTE.tv) },
     uTvPower: { value: 0 },
+    uCursorPos: { value: new Vector3(0, -50, 0) },
