@@ -28,3 +28,4 @@ export function createTerrain(uniforms) {
       varying vec3 vNormal;
       void main() {
         vec4 w = modelMatrix * vec4(position, 1.0);
+        vWorld = w.xyz;
