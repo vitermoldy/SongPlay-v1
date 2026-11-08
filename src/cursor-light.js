@@ -43,3 +43,4 @@ export function initCursorLight({ skip = [] } = {}) {
   window.addEventListener(
     'scroll',
     () => {
+      if (x < 0) return;
