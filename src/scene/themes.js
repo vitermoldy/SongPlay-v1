@@ -156,3 +156,4 @@ const SEASON_PATHS = ['grass.base', 'grass.mid', 'grass.tip', 'grass.tipGold', '
 
 export const read = (theme, path) => path.split('.').reduce((o, k) => o?.[k], theme);
 
+const OVERCAST_PATHS = [
