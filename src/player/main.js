@@ -188,3 +188,4 @@ document.addEventListener('visibilitychange', () => ambience?.setHidden(document
 // and the scene button are listed to avoid: the scene moves the set below them only if it
 // would run into them.
 function frameArea() {
+  const stage = ui.stage.getBoundingClientRect();
