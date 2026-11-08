@@ -430,3 +430,4 @@ export function createScene(
     stepTheme(dt);
 
     const on = power(now);
+    screenLevel += (screenTarget - screenLevel) * ease(4);
