@@ -23,3 +23,4 @@ const FocusBlurShader = {
     uFocus: { value: new Vector2(0.5, 0.42) },
     uAspect: { value: 1.6 },
     uMaxRadius: { value: 9 },
+  },
