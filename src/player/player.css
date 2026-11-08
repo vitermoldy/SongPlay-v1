@@ -328,3 +328,6 @@
 
 .theme:has(input:checked) {
   background: var(--cream);
+  color: var(--ink);
+}
+
