@@ -793,3 +793,4 @@ ui.clear.addEventListener('click', () => {
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape' && !ui.queuePanel.hidden) {
     setQueueOpen(false);
+    ui.queueToggle.focus();
