@@ -571,3 +571,4 @@ export function createScene(
       object.rotation.set(0, setup.tvYaw, 0);
       object.scale.setScalar((tv.shape.screenW * VIDEO_FILL) / width);
       const cssScene = new Scene();
+      cssScene.add(object);
