@@ -528,3 +528,4 @@ function onPlayerError(event) {
   const reason = describeError(event.data);
   if (item?.kind === 'playlist') {
     const list = yt.getPlaylist?.() || [];
+    const at = yt.getPlaylistIndex?.() ?? -1;
