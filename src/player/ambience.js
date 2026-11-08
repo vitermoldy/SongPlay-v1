@@ -35,3 +35,4 @@ function levelsFor(time, season) {
     L.crickets = 0;
     L.birds *= 0.25;
   } else if (season === 'rain') {
+    L.rain = 1;
