@@ -665,3 +665,6 @@ body.menu-open .site-header {
 }
 
 .section > .wrap {
+  width: min(100% - 2 * var(--gutter), var(--wrap));
+}
+
