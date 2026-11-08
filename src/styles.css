@@ -864,3 +864,4 @@ body.menu-open .site-header {
 }
 
 .compare-range::-moz-range-thumb {
+  width: 1px;
