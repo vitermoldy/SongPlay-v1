@@ -399,3 +399,6 @@ export function createScene(
       (height * pixelRatio) / (2 * Math.tan(MathUtils.degToRad(camera.fov / 2)));
     updateFocus(camera);
     css?.renderer.setSize(width, height);
+    kick();
+  }
+
