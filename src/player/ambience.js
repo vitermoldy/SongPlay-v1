@@ -37,3 +37,4 @@ function levelsFor(time, season) {
   } else if (season === 'rain') {
     L.rain = 1;
     L.wind = 0.16;
+    L.crickets *= 0.15;
