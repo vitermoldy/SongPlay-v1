@@ -334,3 +334,4 @@
 /* CSS3DRenderer sizes this layer inline; it only needs to sit over the canvas. */
 .screen-layer {
   position: absolute;
+  inset: 0;
