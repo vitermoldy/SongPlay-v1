@@ -500,3 +500,4 @@ function onPlayerState(event) {
       return;
     }
     clearTimeout(autoplayCheck);
+    if (event.data === S.PLAYING) {
