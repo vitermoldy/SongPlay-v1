@@ -67,3 +67,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
 
   const material = new ShaderMaterial({
     uniforms,
+    side: DoubleSide,
