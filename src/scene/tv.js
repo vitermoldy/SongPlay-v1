@@ -18,3 +18,4 @@ export const TV_SHAPES = {
   classic: {
     bodyW: 1.34,
     bodyH: 1.0,
+    bezel: [1.24, 0.9],
