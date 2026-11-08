@@ -602,3 +602,6 @@ body.menu-open .site-header {
 }
 
 .scene-toggle:active {
+  transform: scale(0.97);
+}
+
