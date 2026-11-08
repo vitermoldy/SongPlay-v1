@@ -492,3 +492,6 @@ body.menu-open .site-header {
   bottom: -1px;
   left: -1px;
   border-bottom-width: 2px;
+  border-left-width: 2px;
+}
+
