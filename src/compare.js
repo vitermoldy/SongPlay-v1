@@ -256,3 +256,4 @@ export function initCompare(root) {
         return;
       }
       swap(before, b);
+      swap(after, a);
