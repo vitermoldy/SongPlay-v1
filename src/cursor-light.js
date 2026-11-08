@@ -33,3 +33,4 @@ export function initCursorLight({ skip = [] } = {}) {
       light.classList.toggle('is-paper', Boolean(target?.closest('.on-light')));
       if (!queued) {
         queued = true;
+        requestAnimationFrame(place);
