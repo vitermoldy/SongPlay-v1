@@ -15,3 +15,4 @@ import { NOISE_GLSL, mulberry32 } from './shared.js';
 // a few shared uniforms (live.u) and the sun direction. Materials hold those same objects, so a
 // theme change only has to update them.
 
+// `forReflections` drops the warm horizon, the sun and the stars, so glossy surfaces mirror
