@@ -922,3 +922,4 @@ body.menu-open .site-header {
   grid-column: 1 / span 2;
 }
 
+.format:nth-child(2) {
