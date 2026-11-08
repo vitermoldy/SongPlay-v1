@@ -268,3 +268,6 @@ body.menu-open .site-header {
 
 .site-nav ul {
   display: flex;
+  gap: 8px;
+}
+
