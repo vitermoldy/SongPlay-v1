@@ -192,3 +192,6 @@ button:disabled {
   height: 46px;
   border-radius: 12px;
   background: #0c0e1d;
+  overflow: hidden;
+}
+
