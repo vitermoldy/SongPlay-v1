@@ -45,3 +45,4 @@ const ui = {
 
 function saved(key, names, fallback) {
   try {
+    const name = localStorage.getItem(key);
