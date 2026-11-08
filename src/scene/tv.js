@@ -54,3 +54,6 @@ function screenGeometry({ screenW, screenH, bulge }) {
 export function createTV(shapeName = 'classic') {
   const shape = TV_SHAPES[shapeName];
   const { bodyW, bodyH, screenW, screenH, screenX } = shape;
+  const midY = bodyH / 2;
+  const group = new Group();
+
