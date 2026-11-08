@@ -578,3 +578,4 @@ export function createScene(
     // idle: the bare glowing tube; video: dimmer, with a light flicker on the grass; paused: low.
     setScreenMode(mode) {
       screenMode = mode;
+      screenTarget = SCREEN_LEVEL[mode] ?? SCREEN_LEVEL.idle;
