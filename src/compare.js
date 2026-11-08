@@ -69,3 +69,4 @@ export function paintStandIn() {
   g.moveTo(W * 0.5, ty);
   g.lineTo(W * 0.56, ty - H * 0.22);
   g.stroke();
+  g.fillStyle = '#1c2668';
