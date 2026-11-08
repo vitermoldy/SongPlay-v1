@@ -258,3 +258,4 @@ export function createAmbience() {
   lfo(0.13, 0.3, gust.gain);
   loop(brownNoise(9), windTone, gust, layers.wind);
 
+  // Rain: a hiss bed and the patter of drops.
