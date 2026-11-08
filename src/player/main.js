@@ -404,3 +404,4 @@ async function initScene() {
     const { createScene } = await import('../scene/index.js');
     scene = createScene(ui.canvas, {
       variant: 'player',
+      theme,
