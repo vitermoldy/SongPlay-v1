@@ -130,3 +130,4 @@ export function createAmbience() {
       { f: 4750, period: 0.8, offset: 0.33, amp: 0.14 },
       { f: 5150, period: 1.2, offset: 0.71, amp: 0.1 },
     ];
+    const pulse = Math.round(sr * 0.026);
