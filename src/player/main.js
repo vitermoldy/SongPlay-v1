@@ -126,3 +126,4 @@ async function setSound(on) {
   try {
     ambience ??= createAmbience();
     ambience.setScene(theme, season);
+    ambience.setVolume(volume / 100);
