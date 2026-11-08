@@ -783,3 +783,4 @@
     width: min(270px, calc(100vw - 2 * var(--frame)));
   }
 
+  .back-long {
