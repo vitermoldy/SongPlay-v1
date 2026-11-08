@@ -275,3 +275,4 @@ body.menu-open .site-header {
 .header-cta,
 .header-play {
   display: inline-flex;
+  align-items: center;
