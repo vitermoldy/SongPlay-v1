@@ -77,3 +77,4 @@ export function paintStandIn() {
   g.shadowColor = 'rgba(255, 197, 107, 0.95)';
   g.shadowBlur = 90;
   const screen = g.createRadialGradient(W * 0.5, ty + th / 2, 4, W * 0.5, ty + th / 2, tw * 0.45);
+  screen.addColorStop(0, '#fffaf0');
