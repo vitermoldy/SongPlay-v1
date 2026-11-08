@@ -139,3 +139,6 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
         c += uSkyColor * 0.08 * vH * (0.5 + vSeed);
 
         float d = distance(vWorld, uTvPos);
+        float lit = exp(-d * d / 1.1) * uTvPower;
+        c += uTvColor * lit * (0.15 + vH) * 1.2;
+
