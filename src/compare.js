@@ -65,3 +65,4 @@ export function paintStandIn() {
   g.lineWidth = 4;
   g.beginPath();
   g.moveTo(W * 0.5, ty);
+  g.lineTo(W * 0.42, ty - H * 0.24);
