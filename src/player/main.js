@@ -382,3 +382,4 @@ let scene = null;
 function webglAvailable() {
   try {
     return Boolean(document.createElement('canvas').getContext('webgl2'));
+  } catch {
