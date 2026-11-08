@@ -588,3 +588,4 @@ export function createScene(
       document.documentElement.removeEventListener('mouseleave', onLeave);
       envTarget?.dispose();
       pmrem.dispose();
+      renderer.dispose();
