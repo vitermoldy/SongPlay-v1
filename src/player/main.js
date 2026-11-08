@@ -357,3 +357,6 @@ function render() {
   ui.queueList.replaceChildren(...state.items.map(queueRow));
   if (focusedRow >= 0) {
     const row = ui.queueList.children[Math.min(focusedRow, count - 1)];
+    (row?.querySelectorAll('button')[focusedSlot] ?? ui.queueToggle).focus();
+  }
+
