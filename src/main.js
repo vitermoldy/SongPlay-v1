@@ -26,3 +26,4 @@ function initHeader() {
   update();
 }
 
+function initMenu() {
