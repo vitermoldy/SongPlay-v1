@@ -120,3 +120,4 @@ export const COLOR_PATHS = [
   'clouds.lit',
   'clouds.shade',
   'mountains.farTop',
+  'mountains.farLow',
