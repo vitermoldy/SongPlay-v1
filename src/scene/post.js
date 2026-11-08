@@ -107,3 +107,4 @@ export function createPost(renderer, scene, camera) {
         pass.uniforms.uResolution.value.set(width * pixelRatio, height * pixelRatio);
         pass.uniforms.uAspect.value = width / height;
         pass.uniforms.uMaxRadius.value = Math.min(12, 6 + width / 260) * pixelRatio;
+      }
