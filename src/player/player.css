@@ -595,3 +595,6 @@
 }
 
 .queue-toggle[aria-expanded='true'] svg {
+  transform: rotate(180deg);
+}
+
