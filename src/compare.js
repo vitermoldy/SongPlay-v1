@@ -114,3 +114,6 @@ export function vhsify(source, outW = W, outH = H) {
 
   const image = g.getImageData(0, 0, w, h);
   const d = image.data;
+  const src = new Uint8ClampedArray(d);
+  const rand = rng(1994);
+
