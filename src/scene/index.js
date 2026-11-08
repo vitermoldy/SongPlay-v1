@@ -572,3 +572,4 @@ export function createScene(
       object.scale.setScalar((tv.shape.screenW * VIDEO_FILL) / width);
       const cssScene = new Scene();
       cssScene.add(object);
+      css = { renderer: cssRenderer, scene: cssScene };
