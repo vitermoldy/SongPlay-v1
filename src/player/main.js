@@ -245,3 +245,4 @@ function saveQueue() {
       author,
       thumb,
       problem,
+    }));
