@@ -199,3 +199,4 @@ const relight = (lit, dusk) => Math.min(3, (lit + 0.02) / (dusk + 0.02));
 // One time of day and one season, as the colours and numbers the scene shows.
 export function compose(timeName, seasonName) {
   const time = THEMES[timeName] ?? THEMES.dusk;
+  const season = SEASONS[seasonName] ?? SEASONS.summer;
