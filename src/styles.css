@@ -852,3 +852,6 @@ body.menu-open .site-header {
   background: transparent;
   appearance: none;
   -webkit-appearance: none;
+  pointer-events: none;
+}
+
