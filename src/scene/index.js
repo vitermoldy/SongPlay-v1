@@ -67,3 +67,4 @@ function createLive(time, season) {
     season: SEASONS[season] ? season : 'summer',
     shape: look.shape,
     color: (path) => look.colors.get(path),
+    numbers: look.numbers,
