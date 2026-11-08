@@ -284,3 +284,4 @@ export function createScene(
   const pointer = new Vector2();
   const eased = new Vector2();
   const raycaster = new Raycaster();
+  const ndc = new Vector2();
