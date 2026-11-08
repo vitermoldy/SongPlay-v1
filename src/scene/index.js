@@ -452,3 +452,6 @@ export function createScene(
     }
 
     post.setTime(time);
+    post.composer.render(dt);
+    css?.renderer.render(css.scene, camera);
+
