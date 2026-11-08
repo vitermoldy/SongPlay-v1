@@ -157,3 +157,4 @@ soundVolume.addEventListener('input', () => {
   }
 });
 
+document.addEventListener('keydown', (event) => {
