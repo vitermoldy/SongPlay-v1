@@ -570,3 +570,4 @@ async function playIndex(index) {
   try {
     player.stopVideo();
   } catch {
+    // Nothing loaded yet.
