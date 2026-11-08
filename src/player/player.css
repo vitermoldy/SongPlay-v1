@@ -390,3 +390,4 @@
   z-index: 2;
   width: min(100% - 2 * var(--gutter), 640px);
   aspect-ratio: 16 / 9;
+  margin-inline: auto;
