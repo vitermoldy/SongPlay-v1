@@ -126,3 +126,4 @@ export function createScene(
   const envScene = new Scene();
   envScene.add(createSky(live, { forReflections: true }));
   let envTarget = null;
+  function refreshEnvironment() {
