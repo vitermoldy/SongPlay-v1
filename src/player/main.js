@@ -303,3 +303,4 @@ function queueRow(item, index) {
   thumb.className = 'queue-thumb';
   thumb.width = 96;
   thumb.height = 54;
+  thumb.alt = '';
