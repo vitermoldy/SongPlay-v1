@@ -379,3 +379,4 @@ export function createScene(
           (r) => r.left < cx + half.w && r.right > cx - half.w && r.top < cy + half.h && r.bottom > cy - half.h,
         );
         if (!hits.length) break;
+        area.top = Math.max(area.top, ...hits.map((r) => r.bottom + 14));
