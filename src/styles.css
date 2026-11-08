@@ -407,3 +407,6 @@ body.menu-open .site-header {
   font-size: 34px;
   font-weight: 700;
   line-height: 1.2;
+  text-decoration: none;
+}
+
