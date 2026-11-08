@@ -523,3 +523,4 @@ function onPlayerState(event) {
   render();
 }
 
+function onPlayerError(event) {
