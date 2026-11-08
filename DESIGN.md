@@ -57,3 +57,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
   approved).
 - **No Pricing section**: no real prices yet, and made-up numbers would mislead (owner chose to
   drop it).
+- **Name: SongLearn** (owner's request), set as a two-tone wordmark like the old one: "Song" in
