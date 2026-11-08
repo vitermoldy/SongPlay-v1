@@ -285,3 +285,4 @@ export function createScene(
   const eased = new Vector2();
   const raycaster = new Raycaster();
   const ndc = new Vector2();
+  const cursorTarget = new Vector3(0, -50, 0);
