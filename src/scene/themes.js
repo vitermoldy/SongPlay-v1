@@ -91,3 +91,4 @@ export const SEASONS = {
     particles: { shape: 2, color: '#e0702a', color2: '#a63a18', opacity: 1, fall: 1.1, size: 1.8 },
   },
   winter: {
+    label: 'Winter',
