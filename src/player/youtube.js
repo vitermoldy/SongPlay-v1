@@ -25,3 +25,4 @@ export function parseYouTube(raw) {
   else id = url.pathname.match(/^\/(?:shorts|embed|live|v)\/([\w-]{11})/)?.[1] ?? null;
 
   const list = url.searchParams.get('list');
+  const listUsable = list && LIST_ID.test(list) && !/^(RD|WL$|LL$|LM$)/.test(list);
