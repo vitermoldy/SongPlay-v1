@@ -305,3 +305,4 @@ export function createAmbience() {
     thunderTimer = setTimeout(
       () => {
         rumble();
+        scheduleThunder();
