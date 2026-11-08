@@ -318,3 +318,4 @@ export function createScene(
     if (event.pointerType === 'touch' || !cursorAllowed()) return;
     const rect = canvas.getBoundingClientRect();
     const x = event.clientX - rect.left;
+    const y = event.clientY - rect.top;
