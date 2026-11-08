@@ -52,3 +52,4 @@ function initMenu() {
 
   toggle.addEventListener('click', () => setOpen(!open));
   menu.addEventListener('click', (event) => {
+    if (event.target.closest('a')) setOpen(false, false);
