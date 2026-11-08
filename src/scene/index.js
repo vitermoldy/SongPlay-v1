@@ -320,3 +320,4 @@ export function createScene(
     const x = event.clientX - rect.left;
     const y = event.clientY - rect.top;
     let hit = null;
+    if (x >= 0 && y >= 0 && x <= rect.width && y <= rect.height) {
