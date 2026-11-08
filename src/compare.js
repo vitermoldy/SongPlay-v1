@@ -201,3 +201,4 @@ function toUrl(canvas) {
   });
 }
 
+function swap(img, url) {
