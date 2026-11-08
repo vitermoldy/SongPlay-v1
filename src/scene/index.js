@@ -446,3 +446,4 @@ export function createScene(
 
     if (playing) {
       eased.lerp(pointer, ease(2.5));
+      camera.position.set(base.x + eased.x * setup.parallax[0], base.y - eased.y * setup.parallax[1], base.z);
