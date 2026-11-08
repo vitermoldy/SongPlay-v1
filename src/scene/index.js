@@ -397,3 +397,4 @@ export function createScene(
     camera.lookAt(look);
     particles.material.uniforms.uProj.value =
       (height * pixelRatio) / (2 * Math.tan(MathUtils.degToRad(camera.fov / 2)));
+    updateFocus(camera);
