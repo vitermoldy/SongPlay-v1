@@ -168,3 +168,6 @@ export function createScene(
     uCursorPower: { value: 0 },
     uFogColor: { value: live.color('haze') },
     uFogNear: { value: 22 },
+    uFogFar: { value: 140 },
+  };
+
