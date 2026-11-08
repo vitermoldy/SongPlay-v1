@@ -241,3 +241,6 @@ export function initCompare(root) {
       dragging = false;
     });
   }
+  range.addEventListener('input', () => set(Number(range.value)));
+  set(50);
+
