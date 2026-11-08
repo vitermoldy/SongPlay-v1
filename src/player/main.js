@@ -360,3 +360,4 @@ function render() {
     (row?.querySelectorAll('button')[focusedSlot] ?? ui.queueToggle).focus();
   }
 
+  const playingNow = state.status === 'playing' || state.status === 'loading';
