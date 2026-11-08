@@ -180,3 +180,4 @@ export function vhsify(source, outW = W, outH = H) {
   return out;
 }
 
+function cleanCopy(source, outW, outH) {
