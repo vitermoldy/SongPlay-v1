@@ -42,3 +42,6 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
 - Hero scene: grass in wind, drifting dust, a CRT power-on at load. Purpose: the page opens like a
   tape starting to play. It pauses with the "Pause scene" button, stops when the hero is off
   screen, and starts paused under `prefers-reduced-motion`.
+- Hero text enters once on load. No fade-in on scroll anywhere.
+- Hover: buttons lift 1px and press on click; links draw an underline.
+
