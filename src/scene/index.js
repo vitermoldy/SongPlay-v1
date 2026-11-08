@@ -353,3 +353,4 @@ export function createScene(
     camera.aspect = aspect;
     camera.fov = aspect >= 1 ? 35 : 35 + (1 - aspect) * 10;
     camera.updateProjectionMatrix();
+    if (setup.framesScreen) {
