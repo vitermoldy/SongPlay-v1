@@ -13,3 +13,4 @@ function levelsFor(time, season) {
   const L = { wind: 0.22, rain: 0, crickets: 0, birds: 0, leaves: 0, thunder: 0 };
   if (time === 'night') {
     L.crickets = 0.55;
+    L.wind = 0.16;
