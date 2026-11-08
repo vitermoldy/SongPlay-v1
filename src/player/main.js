@@ -489,3 +489,4 @@ function playingMatches(item) {
   return !list || list === item.list;
 }
 
+function onPlayerState(event) {
