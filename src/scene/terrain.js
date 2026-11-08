@@ -60,3 +60,4 @@ export function createTerrain(uniforms) {
         float d = distance(vWorld, uTvPos);
         c += uTvColor * uTvPower * exp(-d * d / 1.4) * 0.35;
         float cd = distance(vWorld, uCursorPos);
+        c += uCursorColor * uCursorPower * exp(-cd * cd / 1.3) * 0.45;
