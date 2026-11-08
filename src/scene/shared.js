@@ -26,3 +26,4 @@ export const NOISE_GLSL = /* glsl */ `
     p3 += dot(p3, p3.yzx + 33.33);
     return fract((p3.x + p3.y) * p3.z);
   }
+  float vnoise(vec2 p) {
