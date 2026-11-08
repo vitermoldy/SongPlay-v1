@@ -147,3 +147,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
         float cursor = exp(-cd * cd / 1.3) * uCursorPower;
         c += uCursorColor * cursor * (0.35 + vH * vH * 4.2);
 
+        float fog = smoothstep(uFogNear, uFogFar, distance(cameraPosition, vWorld));
