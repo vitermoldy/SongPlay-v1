@@ -420,3 +420,4 @@ body.menu-open .site-header {
 .hero {
   position: relative;
   height: 100svh;
+  min-height: 620px;
