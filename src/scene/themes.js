@@ -63,3 +63,4 @@ export const THEMES = {
     light: { sun: '#fff0d2', sky: '#9ac0f0', particles: '#ffffff' },
     lamps: { hemiSky: '#b0d0ff', hemiGround: '#20301a', hemi: 0.9, sun: '#fff0d0', sunI: 1, fill: '#c0d8ff', fillI: 0.4 },
     particles: { color: '#ffffff', color2: '#ffffff', opacity: 0.6, fall: 1, size: 1 },
+    exposure: 1,
