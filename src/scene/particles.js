@@ -115,3 +115,4 @@ export function createParticles(count, live) {
   return {
     points,
     material,
+    // Light (motes, snow, rain catching the light) adds up; petals and leaves are solid things
