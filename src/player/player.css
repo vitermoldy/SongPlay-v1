@@ -473,3 +473,4 @@
 
 .deck-add-btn {
   flex: none;
+  min-height: 52px;
