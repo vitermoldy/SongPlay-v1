@@ -535,3 +535,4 @@ export function createScene(
 
   resize();
 
+  return {
