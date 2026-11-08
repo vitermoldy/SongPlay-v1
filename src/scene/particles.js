@@ -60,3 +60,4 @@ export function createParticles(count, live) {
         vec4 mv = modelViewMatrix * vec4(p, 1.0);
         float depth = -mv.z;
         gl_PointSize = clamp(aData.x * uSize * uProj / depth, 1.5, 72.0);
+        vSeed = seed;
