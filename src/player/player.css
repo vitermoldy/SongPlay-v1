@@ -32,3 +32,4 @@
   border-radius: var(--radius-s);
   color: #fff;
   transition:
+    background-color 180ms var(--ease),
