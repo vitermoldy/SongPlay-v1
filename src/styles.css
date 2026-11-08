@@ -942,3 +942,4 @@ body.menu-open .site-header {
 }
 
 .format-art {
+  display: flex;
