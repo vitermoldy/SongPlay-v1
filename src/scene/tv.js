@@ -121,3 +121,4 @@ export function createTV(shapeName = 'classic') {
 
         // Power-on: a bright line grows across, then the picture opens top to bottom.
         float grow = smoothstep(0.0, 0.25, uOn);
+        float open = smoothstep(0.22, 1.0, uOn);
