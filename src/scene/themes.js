@@ -130,3 +130,4 @@ export const COLOR_PATHS = [
   'grass.back',
   'ground.dark',
   'ground.lit',
+  'light.sun',
