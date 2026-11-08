@@ -505,3 +505,4 @@ function onPlayerState(event) {
       state.videoTitle = yt.getVideoData?.()?.title || '';
       scene?.setScreenMode('video');
     } else {
+      state.status = 'paused';
