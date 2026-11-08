@@ -489,3 +489,4 @@ body.menu-open .site-header {
 }
 
 .viewfinder i:nth-child(3) {
+  bottom: -1px;
