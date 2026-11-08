@@ -69,3 +69,6 @@ export function createTV(shapeName = 'classic') {
   const dark = new MeshStandardMaterial({ color: '#08090f', roughness: 0.5, metalness: 0.2, envMapIntensity: 0.25 });
 
   const body = new Mesh(new RoundedBoxGeometry(bodyW, bodyH, 0.92, 5, 0.12), shell);
+  body.position.y = midY;
+  group.add(body);
+
