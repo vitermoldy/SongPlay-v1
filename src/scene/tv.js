@@ -72,3 +72,4 @@ export function createTV(shapeName = 'classic') {
   body.position.y = midY;
   group.add(body);
 
+  const back = new Mesh(new RoundedBoxGeometry(bodyW * 0.75, bodyH * 0.76, 0.5, 4, 0.1), shell);
