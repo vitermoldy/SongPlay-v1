@@ -766,3 +766,6 @@ body.menu-open .site-header {
 .compare-after {
   position: absolute;
   inset: 0;
+  clip-path: inset(0 0 0 var(--pos));
+}
+
