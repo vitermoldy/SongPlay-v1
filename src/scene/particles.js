@@ -95,3 +95,4 @@ export function createParticles(count, live) {
           // Rain: a thin streak, slanted a little by the wind.
           float x = c.x + c.y * 0.18;
           alpha = 1.0 - smoothstep(0.016, 0.05 + vBlur * 0.06, abs(x));
+          alpha *= 1.0 - smoothstep(0.2, 0.5, abs(c.y));
