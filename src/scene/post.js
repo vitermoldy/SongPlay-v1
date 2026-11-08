@@ -40,3 +40,4 @@ const FocusBlurShader = {
       float radius = amount * uMaxRadius;
       vec4 sum = vec4(0.0);
       float total = 0.0;
+      for (int i = -6; i <= 6; i++) {
