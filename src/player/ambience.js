@@ -250,3 +250,4 @@ export function createAmbience() {
     return p;
   };
 
+  // Wind: brown noise through a low-pass that opens and closes, with slow gusts.
