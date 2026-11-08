@@ -559,3 +559,4 @@ export function createScene(
     // perspective. `width`/`height` are the element's own CSS pixels, in the glass's proportions.
     mountScreen(element, container, { width = 640 } = {}) {
       const height = Math.round((width * tv.shape.screenH) / tv.shape.screenW);
+      const cssRenderer = new CSS3DRenderer();
