@@ -591,3 +591,6 @@
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
+  transition: transform 200ms var(--ease);
+}
+
