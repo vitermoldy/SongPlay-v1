@@ -1357,3 +1357,4 @@ body.menu-open .site-header {
   }
 
   .section {
+    min-height: 0;
