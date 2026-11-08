@@ -117,3 +117,4 @@ button:disabled {
 
 .script {
   font-family: var(--font-script);
+  font-weight: 700;
