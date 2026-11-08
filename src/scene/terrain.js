@@ -12,3 +12,4 @@ export function heightAt(x, z) {
 }
 
 export function createTerrain(uniforms) {
+  const geometry = new PlaneGeometry(110, 80, 220, 160);
