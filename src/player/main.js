@@ -627,3 +627,4 @@ function removeAt(index) {
   say(`Removed ${titleOf(item)}.`);
   if (index < state.current) {
     state.current -= 1;
+    render();
