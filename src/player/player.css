@@ -571,3 +571,6 @@
   text-transform: uppercase;
   transition:
     background-color 180ms var(--ease),
+    transform 160ms var(--ease);
+}
+
