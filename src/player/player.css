@@ -117,3 +117,4 @@
 
 /* A 32px switch inside a 44px tap area. */
 .sound-switch::before {
+  content: '';
