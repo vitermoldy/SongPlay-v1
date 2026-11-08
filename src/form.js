@@ -28,3 +28,6 @@ export function initRequestForm(form) {
     const emailValue = email.value.trim();
     const formats = [...form.querySelectorAll('input[name="format"]:checked')];
 
+    if (!nameValue) problems.push([name, 'Add your name so we know who to reply to.']);
+    else showError(name, '');
+
