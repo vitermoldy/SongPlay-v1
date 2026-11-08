@@ -115,3 +115,4 @@ export function createClouds(live) {
         }
       `,
       fragmentShader: /* glsl */ `
+        uniform float uTime;
