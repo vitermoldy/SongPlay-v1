@@ -695,3 +695,4 @@ ui.form.addEventListener('submit', (event) => {
     ui.input.focus();
     return;
   }
+  const parsed = parseYouTube(raw);
