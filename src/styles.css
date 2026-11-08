@@ -1060,3 +1060,6 @@ body.menu-open .site-header {
   margin-top: 8px;
   padding-top: 20px;
   border-top: 1px solid var(--line);
+  font-size: 15px;
+}
+
