@@ -278,3 +278,4 @@ function nowLine() {
   switch (state.status) {
     case 'loading':
       return `Tuning in: ${titleOf(item)}`;
+    case 'playing':
