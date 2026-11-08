@@ -125,3 +125,4 @@ export function createClouds(live) {
         ${NOISE_GLSL}
         void main() {
           vec2 q = (vUv - 0.5) * vec2(1.0, 1.9);
+          float shape = smoothstep(0.56, 0.08, length(q));
