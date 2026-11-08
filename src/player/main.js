@@ -482,3 +482,4 @@ function ensurePlayer() {
 function playingMatches(item) {
   if (!item) return false;
   if (item.kind === 'video') {
+    const id = yt.getVideoData?.()?.video_id;
