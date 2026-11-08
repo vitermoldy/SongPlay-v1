@@ -48,3 +48,4 @@ export function createSky(live, { forReflections = false } = {}) {
       uniform float uStars;
       uniform float uTime;
       varying vec3 vDir;
+      float hash13(vec3 p) {
