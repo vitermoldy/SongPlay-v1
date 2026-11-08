@@ -154,3 +154,4 @@ function ridge(seed, width, base, peak) {
       peak *
         (0.55 * Math.sin(x * 0.045 + phases[0]) +
           0.3 * Math.sin(x * 0.11 + phases[1]) +
+          0.15 * Math.sin(x * 0.27 + phases[2]));
