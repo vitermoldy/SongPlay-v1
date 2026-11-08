@@ -71,3 +71,4 @@ ui.themes.addEventListener('change', (event) => {
   const name = event.target.value;
   if (!THEME_NAMES.includes(name) || name === theme) return;
   theme = name;
+  ui.stage.dataset.theme = name;
