@@ -330,3 +330,4 @@ export function createScene(
     // A paused scene still answers the cursor, one frame per move.
     if (visible && !playing) kick();
   };
+  const onLeave = () => {
