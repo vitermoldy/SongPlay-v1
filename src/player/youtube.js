@@ -65,3 +65,4 @@ export function loadYouTubeApi() {
       previous?.();
       resolve(window.YT);
     };
+    const script = document.createElement('script');
