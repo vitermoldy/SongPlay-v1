@@ -39,3 +39,4 @@ export const TV_SHAPES = {
   },
 };
 
+function screenGeometry({ screenW, screenH, bulge }) {
