@@ -213,3 +213,4 @@ export function initCompare(root) {
   const range = root.querySelector('[data-compare-range]');
   let dragging = false;
 
+  const set = (value) => {
