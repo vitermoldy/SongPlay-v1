@@ -1373,3 +1373,4 @@ body.menu-open .site-header {
 
   .formats-list {
     grid-template-columns: minmax(0, 1fr);
+    gap: 40px;
