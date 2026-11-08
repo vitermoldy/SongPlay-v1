@@ -142,3 +142,4 @@ export const COLOR_PATHS = [
 
 export const NUMBER_PATHS = [
   'stars',
+  'clouds.opacity',
