@@ -161,3 +161,4 @@ export function createTV(shapeName = 'classic') {
     group.add(tip);
   }
 
+  return {
