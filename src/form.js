@@ -76,3 +76,4 @@ export function initRequestForm(form) {
     if (target === email && EMAIL_PATTERN.test(email.value.trim())) showError(email, '');
     if (target.name === 'format' && form.querySelector('input[name="format"]:checked')) showError(formatSet, '');
   });
+}
