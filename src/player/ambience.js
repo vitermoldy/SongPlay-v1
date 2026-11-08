@@ -134,3 +134,4 @@ export function createAmbience() {
     for (const v of voices) {
       for (let t0 = v.offset; t0 < seconds - 0.2; t0 += v.period) {
         for (let p = 0; p < 3; p++) {
+          const start = Math.round((t0 + p / 22) * sr);
