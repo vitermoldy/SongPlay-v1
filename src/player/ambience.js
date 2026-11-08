@@ -94,3 +94,4 @@ export function createAmbience() {
     const b = buffer(seconds);
     const d = b.getChannelData(0);
     let last = 0;
+    for (let i = 0; i < d.length; i++) {
