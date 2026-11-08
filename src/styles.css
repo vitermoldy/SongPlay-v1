@@ -1453,3 +1453,6 @@ body.menu-open .site-header {
   .footer-row {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
