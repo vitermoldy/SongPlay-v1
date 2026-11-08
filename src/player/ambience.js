@@ -255,3 +255,6 @@ export function createAmbience() {
   const gust = ctx.createGain();
   gust.gain.value = 0.75;
   lfo(0.05, 260, windTone.frequency);
+  lfo(0.13, 0.3, gust.gain);
+  loop(brownNoise(9), windTone, gust, layers.wind);
+
