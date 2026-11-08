@@ -508,3 +508,4 @@ export function createScene(
     let cw = w;
     let ch = w * 0.75;
     if (ch > h) {
+      ch = h;
