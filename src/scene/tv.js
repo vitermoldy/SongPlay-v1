@@ -36,3 +36,6 @@ export const TV_SHAPES = {
     corner: 0.04,
     bulge: 0.012,
     led: [0.6, 0.026],
+  },
+};
+
