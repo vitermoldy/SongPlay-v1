@@ -237,3 +237,4 @@ export function createAmbience() {
     return f;
   };
   const lfo = (rate, depth, target) => {
+    const osc = ctx.createOscillator();
