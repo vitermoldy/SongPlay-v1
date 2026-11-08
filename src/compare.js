@@ -23,3 +23,4 @@ const clamp = (v, lo, hi) => (v < lo ? lo : v > hi ? hi : v);
 
 // Painted stand-in of the hero set, shown until the 3D still is ready or when WebGL is missing.
 export function paintStandIn() {
+  const c = makeCanvas(W, H);
