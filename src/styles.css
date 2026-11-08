@@ -1218,3 +1218,4 @@ body.menu-open .site-header {
   height: 6px;
   margin-right: 10px;
   border: solid currentColor;
+  border-width: 0 0 2px 2px;
