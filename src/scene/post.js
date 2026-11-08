@@ -31,3 +31,4 @@ const FocusBlurShader = {
     uniform vec2 uDir;
     uniform vec2 uFocus;
     uniform float uAspect;
+    uniform float uMaxRadius;
