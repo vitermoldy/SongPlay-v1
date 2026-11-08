@@ -230,3 +230,4 @@ export function createScene(
   let screenLevel = SCREEN_LEVEL.idle;
   let screenTarget = SCREEN_LEVEL.idle;
   let screenMode = 'idle';
+  let css = null;
