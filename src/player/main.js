@@ -696,3 +696,4 @@ ui.form.addEventListener('submit', (event) => {
     return;
   }
   const parsed = parseYouTube(raw);
+  if (!parsed) {
