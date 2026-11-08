@@ -10,3 +10,4 @@ function makeCanvas(w, h) {
 
 function rng(seed) {
   let a = seed >>> 0;
+  return () => {
