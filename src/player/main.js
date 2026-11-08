@@ -229,3 +229,4 @@ function loadQueue() {
     const items = JSON.parse(localStorage.getItem(STORE_KEY) || '[]');
     return Array.isArray(items) ? items.filter(isValid) : [];
   } catch {
+    return [];
