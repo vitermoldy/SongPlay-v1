@@ -136,3 +136,4 @@ export function createAmbience() {
         for (let p = 0; p < 3; p++) {
           const start = Math.round((t0 + p / 22) * sr);
           for (let k = 0; k < pulse && start + k < d.length; k++) {
+            const env = Math.sin((Math.PI * k) / pulse) ** 2;
