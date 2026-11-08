@@ -191,3 +191,4 @@ function frameArea() {
   const stage = ui.stage.getBoundingClientRect();
   const local = (el) => {
     const r = el.getBoundingClientRect();
+    return { left: r.left - stage.left, right: r.right - stage.left, top: r.top - stage.top, bottom: r.bottom - stage.top };
