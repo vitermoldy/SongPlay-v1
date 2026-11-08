@@ -74,3 +74,4 @@ export const THEMES = {
 export const SEASONS = {
   spring: {
     label: 'Spring',
+    grass: { base: '#0f1a0a', mid: '#2f5214', tip: '#7aa83a', tipGold: '#ec9cbc' },
