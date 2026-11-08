@@ -11,3 +11,6 @@ export function mulberry32(seed) {
   };
 }
 
+// Hex colours are written in sRGB; Color converts them to the linear working space.
+export const col = (hex) => new Color(hex);
+
