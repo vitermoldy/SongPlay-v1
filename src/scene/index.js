@@ -500,3 +500,4 @@ export function createScene(
     shot.lookAt(-0.15, 0.62, 0);
 
     const cursorPower = shared.uCursorPower.value;
+    shared.uCursorPower.value = 0;
