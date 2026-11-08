@@ -245,3 +245,4 @@ export function initCompare(root) {
   set(50);
 
   let version = 0;
+  return {
