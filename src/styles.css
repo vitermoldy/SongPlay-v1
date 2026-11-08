@@ -1283,3 +1283,4 @@ body.menu-open .site-header {
 /* ---------- Responsive ---------- */
 
 @media (max-width: 1180px) {
+  /* Two buttons on the right would run into the centred nav; the hero carries this one. */
