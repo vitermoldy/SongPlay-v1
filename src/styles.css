@@ -296,3 +296,6 @@ body.menu-open .site-header {
 
 .site-nav a:hover {
   background: rgba(150, 165, 255, 0.48);
+  transform: translateY(-1px);
+}
+
