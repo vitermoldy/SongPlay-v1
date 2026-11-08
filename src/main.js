@@ -12,3 +12,4 @@ function initHeader() {
   let queued = false;
   const update = () => {
     queued = false;
+    header.classList.toggle('is-solid', window.scrollY > window.innerHeight * 0.5);
