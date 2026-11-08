@@ -45,3 +45,4 @@ function levelsFor(time, season) {
 }
 
 function rng(seed) {
+  let a = seed >>> 0;
