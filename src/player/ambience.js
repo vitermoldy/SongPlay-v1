@@ -155,3 +155,4 @@ export function createAmbience() {
       const n = Math.round(dur * sr);
       let phase = 0;
       for (let k = 0; k < n && s + k < d.length; k++) {
+        const t = k / n;
