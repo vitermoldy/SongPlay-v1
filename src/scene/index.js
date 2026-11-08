@@ -226,3 +226,4 @@ export function createScene(
   let pendingCapture = null;
   let sampled = 0;
   let slowFrames = 0;
+  let slow = false;
