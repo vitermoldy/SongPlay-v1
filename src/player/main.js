@@ -471,3 +471,4 @@ function ensurePlayer() {
             },
           });
         }),
+    )
