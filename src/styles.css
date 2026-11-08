@@ -375,3 +375,6 @@ body.menu-open .site-header {
 }
 
 .menu-toggle:active {
+  transform: scale(0.97);
+}
+
