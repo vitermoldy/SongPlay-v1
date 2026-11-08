@@ -272,3 +272,4 @@ export function createAmbience() {
   lfo(0.09, 900, leavesTone.frequency);
   loop(rustle(), leavesTone, pan(0.15), layers.leaves);
 
+  // Thunder, now and then while it rains: a low rumble that swells and rolls away.
