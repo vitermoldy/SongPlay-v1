@@ -107,3 +107,4 @@ async function initScene(compare) {
     scene.setPlaying(playing);
   };
 
+  try {
