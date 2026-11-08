@@ -188,3 +188,4 @@ function cleanCopy(source, outW, outH) {
   return out;
 }
 
+// Make the pictures as wide as the frame is drawn on this screen, never more than the source.
