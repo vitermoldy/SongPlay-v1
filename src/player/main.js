@@ -628,3 +628,4 @@ function removeAt(index) {
   if (index < state.current) {
     state.current -= 1;
     render();
+  } else if (wasCurrent && wasActive) {
