@@ -214,3 +214,4 @@ export function initCompare(root) {
   let dragging = false;
 
   const set = (value) => {
+    const pos = clamp(value, 0, 100);
