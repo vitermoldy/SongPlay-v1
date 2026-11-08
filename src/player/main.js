@@ -254,3 +254,6 @@ function saveQueue() {
 
 let uidCount = 0;
 const makeUid = () => `${Date.now().toString(36)}${(uidCount++).toString(36)}`;
+const titleOf = (item) => item?.title || (item?.kind === 'playlist' ? 'YouTube playlist' : 'YouTube video');
+const safeThumb = (url) => (typeof url === 'string' && /^https:\/\/i\d?\.ytimg\.com\//.test(url) ? url : '');
+
