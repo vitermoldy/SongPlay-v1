@@ -11,3 +11,4 @@ export const THEMES = {
     sunDir: [0.85, 0.04, -1],
     stars: 0,
     haze: '#6874c8',
+    clouds: { lit: '#e9ecff', shade: '#f6b4a8', opacity: 1 },
