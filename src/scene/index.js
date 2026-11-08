@@ -138,3 +138,4 @@ export function createScene(
   createClouds(live).forEach((cloud) => scene.add(cloud));
   createMountains(live).forEach((ridge) => scene.add(ridge));
 
+  const tv = createTV(setup.tv);
