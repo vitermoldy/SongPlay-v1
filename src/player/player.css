@@ -49,3 +49,6 @@
 
 .sound-toggle .icon-sound-on,
 .sound-toggle[data-on='true'] .icon-sound-off {
+  display: none;
+}
+
