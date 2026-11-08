@@ -582,3 +582,4 @@ body.menu-open .site-header {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  min-height: 44px;
