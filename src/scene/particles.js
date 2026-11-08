@@ -29,3 +29,4 @@ export function createParticles(count, live) {
     depthWrite: false,
     blending: AdditiveBlending,
     uniforms: {
+      uTime: live.u.time,
