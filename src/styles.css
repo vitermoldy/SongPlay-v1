@@ -661,3 +661,6 @@ body.menu-open .site-header {
   display: flex;
   align-items: center;
   min-height: min(100svh, 980px);
+  padding-block: clamp(72px, 9vh, 120px);
+}
+
