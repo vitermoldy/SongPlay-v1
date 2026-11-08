@@ -674,3 +674,6 @@ function setQueueOpen(open) {
   ui.queueToggle.setAttribute('aria-expanded', String(open));
   ui.queuePanel.hidden = !open;
   if (open) placeQueue();
+  else scene?.relayout();
+}
+
