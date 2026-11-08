@@ -329,3 +329,4 @@ export function createAmbience() {
         }, 1500);
       }
     },
+    setScene(time, season) {
