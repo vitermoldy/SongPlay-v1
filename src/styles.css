@@ -962,3 +962,6 @@ body.menu-open .site-header {
 }
 
 .art-hi8 {
+  width: calc(95 * var(--mm));
+}
+
