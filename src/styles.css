@@ -765,3 +765,4 @@ body.menu-open .site-header {
 
 .compare-after {
   position: absolute;
+  inset: 0;
