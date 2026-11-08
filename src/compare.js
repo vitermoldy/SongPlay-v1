@@ -79,3 +79,4 @@ export function paintStandIn() {
   const screen = g.createRadialGradient(W * 0.5, ty + th / 2, 4, W * 0.5, ty + th / 2, tw * 0.45);
   screen.addColorStop(0, '#fffaf0');
   screen.addColorStop(0.55, '#ffe2a8');
+  screen.addColorStop(1, '#ffab4a');
