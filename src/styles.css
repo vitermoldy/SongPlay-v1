@@ -1244,3 +1244,6 @@ body.menu-open .site-header {
 .site-footer {
   padding: 48px 0 36px;
   background: var(--night);
+  border-top: 1px solid var(--line);
+}
+
