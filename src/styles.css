@@ -523,3 +523,4 @@ body.menu-open .site-header {
 }
 
 .hero-title .script {
+  font-size: clamp(58px, 7.4vw, 108px);
