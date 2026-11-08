@@ -28,3 +28,4 @@ function initHeader() {
 
 function initMenu() {
   const toggle = document.querySelector('[data-menu-toggle]');
+  const menu = document.querySelector('[data-menu]');
