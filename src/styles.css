@@ -1023,3 +1023,6 @@ body.menu-open .site-header {
 .contacts-copy {
   grid-column: 1 / span 5;
   display: grid;
+  gap: 18px;
+}
+
