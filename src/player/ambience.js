@@ -304,3 +304,4 @@ export function createAmbience() {
     if (!enabled || hidden || thunderLevel <= 0) return;
     thunderTimer = setTimeout(
       () => {
+        rumble();
