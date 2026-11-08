@@ -509,3 +509,4 @@ function onPlayerState(event) {
       scene?.setScreenMode('paused');
     }
   } else if (event.data === S.BUFFERING) {
+    if (state.status !== 'playing') state.status = 'loading';
