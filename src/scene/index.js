@@ -343,3 +343,4 @@ export function createScene(
     post.setFocus(projected.x * 0.5 + 0.5, projected.y * 0.5 + 0.5);
   }
 
+  function resize() {
