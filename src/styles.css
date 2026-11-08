@@ -393,3 +393,6 @@ body.menu-open .site-header {
 }
 
 .menu.is-open {
+  opacity: 1;
+}
+
