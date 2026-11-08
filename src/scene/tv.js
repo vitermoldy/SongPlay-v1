@@ -42,3 +42,4 @@ export const TV_SHAPES = {
 function screenGeometry({ screenW, screenH, bulge }) {
   const g = new PlaneGeometry(screenW, screenH, 28, 22);
   const pos = g.attributes.position;
+  for (let i = 0; i < pos.count; i++) {
