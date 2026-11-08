@@ -1054,3 +1054,4 @@ body.menu-open .site-header {
 }
 
 .contacts-privacy {
+  display: flex;
