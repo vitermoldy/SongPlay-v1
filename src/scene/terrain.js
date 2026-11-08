@@ -55,3 +55,4 @@ export function createTerrain(uniforms) {
         vec3 n = normalize(vNormal);
         float k = vnoise(vWorld.xz * 1.4) * 0.6 + vnoise(vWorld.xz * 5.0) * 0.4;
         vec3 base = mix(uGround, uGroundLit, k * 0.7);
+        float sun = max(dot(n, uSunDir), 0.0);
