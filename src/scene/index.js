@@ -9,3 +9,4 @@ import {
   Scene,
   Vector2,
   Vector3,
+  WebGLRenderer,
