@@ -53,3 +53,4 @@ export function createTerrain(uniforms) {
       ${NOISE_GLSL}
       void main() {
         vec3 n = normalize(vNormal);
+        float k = vnoise(vWorld.xz * 1.4) * 0.6 + vnoise(vWorld.xz * 5.0) * 0.4;
