@@ -915,3 +915,6 @@ body.menu-open .site-header {
   grid-template-columns: repeat(12, minmax(0, 1fr));
   column-gap: 24px;
   row-gap: 48px;
+  margin-top: clamp(56px, 10vh, 104px);
+}
+
