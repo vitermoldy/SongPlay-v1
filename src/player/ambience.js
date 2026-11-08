@@ -332,3 +332,4 @@ export function createAmbience() {
     setScene(time, season) {
       const L = levelsFor(time, season);
       const now = ctx.currentTime;
+      for (const name of LAYERS) layers[name].gain.setTargetAtTime(L[name], now, 1.1);
