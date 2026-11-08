@@ -17,3 +17,4 @@ import { createGrass } from './grass.js';
 import { createTV } from './tv.js';
 import { createClouds, createMountains, createSky } from './sky.js';
 import { createParticles } from './particles.js';
+import { createPost } from './post.js';
