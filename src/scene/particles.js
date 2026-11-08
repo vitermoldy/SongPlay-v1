@@ -21,3 +21,6 @@ export function createParticles(count, live) {
     data[i * 4 + 3] = 0.35 + rand() * 0.65;
   }
   const geometry = new BufferGeometry();
+  geometry.setAttribute('position', new BufferAttribute(positions, 3));
+  geometry.setAttribute('aData', new BufferAttribute(data, 4));
+
