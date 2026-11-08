@@ -311,3 +311,4 @@ export function createAmbience() {
     );
   }
 
+  function applyMaster(speed = enabled ? 0.5 : 0.25) {
