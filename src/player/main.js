@@ -606,3 +606,4 @@ function stopAll(status, message) {
   clearTimeout(skipTimer);
   try {
     yt?.stopVideo();
+  } catch {
