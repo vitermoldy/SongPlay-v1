@@ -38,3 +38,6 @@ export function paintStandIn() {
   const sun = g.createRadialGradient(W * 0.85, H * 0.72, 0, W * 0.85, H * 0.72, W * 0.4);
   sun.addColorStop(0, 'rgba(255, 196, 140, 0.7)');
   sun.addColorStop(1, 'rgba(255, 196, 140, 0)');
+  g.fillStyle = sun;
+  g.fillRect(0, 0, W, H);
+
