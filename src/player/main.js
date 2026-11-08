@@ -230,3 +230,6 @@ function loadQueue() {
     return Array.isArray(items) ? items.filter(isValid) : [];
   } catch {
     return [];
+  }
+}
+
