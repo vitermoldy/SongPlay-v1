@@ -15,3 +15,4 @@ function showError(field, message) {
   if (field.matches('input, select, textarea')) field.setAttribute('aria-invalid', message ? 'true' : 'false');
 }
 
+export function initRequestForm(form) {
