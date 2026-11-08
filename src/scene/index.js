@@ -390,3 +390,4 @@ export function createScene(
       base.set(screenWorld.x - shiftX, screenWorld.y + CAMERA_RISE, screenWorld.z + dist);
       look.set(screenWorld.x - shiftX, screenWorld.y + shiftY, screenWorld.z);
     } else {
+      base.copy(setup.camera);
