@@ -59,3 +59,4 @@ export const THEMES = {
     clouds: { lit: '#ffffff', shade: '#f1c9c6', opacity: 0.9 },
     mountains: { farTop: '#8aa0d0', farLow: '#b2c6ea', nearTop: '#5874ae', nearLow: '#8aa4d6' },
     grass: { base: '#0a1607', mid: '#284812', tip: '#66962c', tipGold: '#a6b646', back: '#fff2a6' },
+    ground: { dark: '#0c1a08', lit: '#243f18' },
