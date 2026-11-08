@@ -248,3 +248,4 @@ function saveQueue() {
     }));
     localStorage.setItem(STORE_KEY, JSON.stringify(keep));
   } catch {
+    // Private windows and blocked storage: the queue simply lasts for this visit.
