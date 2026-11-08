@@ -37,3 +37,4 @@ const ui = {
   themes: $('[data-themes]'),
   seasons: $('[data-seasons]'),
   pickers: $('[data-pickers]'),
+  deck: $('.deck'),
