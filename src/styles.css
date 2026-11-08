@@ -439,3 +439,4 @@ body.menu-open .site-header {
 
 .hero-canvas {
   position: absolute;
+  inset: 0;
