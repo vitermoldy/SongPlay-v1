@@ -723,3 +723,4 @@ body.menu-open .site-header {
 
 .passes li {
   display: grid;
+  gap: 6px;
