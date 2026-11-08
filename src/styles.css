@@ -199,3 +199,4 @@ button:disabled {
   width: 26px;
   height: 26px;
   fill: none;
+  stroke: var(--glow);
