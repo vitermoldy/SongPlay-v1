@@ -18,3 +18,6 @@ import { createTV } from './tv.js';
 import { createClouds, createMountains, createSky } from './sky.js';
 import { createParticles } from './particles.js';
 import { createPost } from './post.js';
+import { col, PALETTE } from './shared.js';
+import { COLOR_PATHS, NUMBER_PATHS, SEASONS, THEMES, compose } from './themes.js';
+
