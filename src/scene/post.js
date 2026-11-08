@@ -79,3 +79,4 @@ const FinishShader = {
 
 export function createPost(renderer, scene, camera) {
   const composer = new EffectComposer(renderer);
+  const renderPass = new RenderPass(scene, camera);
