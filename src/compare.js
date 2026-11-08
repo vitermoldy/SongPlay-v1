@@ -175,3 +175,4 @@ export function vhsify(source, outW = W, outH = H) {
 
   const out = makeCanvas(outW, outH);
   const og = out.getContext('2d');
+  og.imageSmoothingQuality = 'high';
