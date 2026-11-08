@@ -147,3 +147,4 @@ ui.sound.addEventListener('click', () => setSoundPanel(soundPanel.hidden));
 soundSwitch.addEventListener('click', () => setSound(!soundOn));
 
 soundVolume.addEventListener('input', () => {
+  volume = Number(soundVolume.value);
