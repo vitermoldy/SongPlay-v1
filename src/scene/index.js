@@ -282,3 +282,4 @@ export function createScene(
 
   // ---------- Pointer: camera drift and the cursor's light on the grass ----------
   const pointer = new Vector2();
+  const eased = new Vector2();
