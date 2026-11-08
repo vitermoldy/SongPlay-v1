@@ -116,3 +116,4 @@ export function createScene(
   const live = createLive(theme, season);
   const scene = new Scene();
   const camera = new PerspectiveCamera(35, 1, 0.1, 1200);
+  const base = setup.camera.clone();
