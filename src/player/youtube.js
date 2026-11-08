@@ -57,3 +57,4 @@ let apiPromise = null;
 
 // The IFrame API is fetched on the first play, never on page load.
 export function loadYouTubeApi() {
+  if (window.YT?.Player) return Promise.resolve(window.YT);
