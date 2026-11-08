@@ -541,3 +541,4 @@
   color: var(--ink);
 }
 
+.icon-btn-main:hover:not(:disabled) {
