@@ -301,3 +301,4 @@
 
 .theme input {
   position: absolute;
+  inset: 0;
