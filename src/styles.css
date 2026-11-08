@@ -877,3 +877,4 @@ body.menu-open .site-header {
 
 .viewfinder-small {
   inset: 10px;
+  z-index: 1;
