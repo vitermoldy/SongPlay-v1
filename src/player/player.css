@@ -271,3 +271,4 @@
 
 .themes {
   display: flex;
+  flex-wrap: wrap;
