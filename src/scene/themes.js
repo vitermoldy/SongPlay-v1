@@ -215,3 +215,4 @@ export function compose(timeName, seasonName) {
 
   if (season.overcast) overcastSky(colors, numbers, season.overcast);
 
+  let shape = 0;
