@@ -790,3 +790,4 @@ ui.clear.addEventListener('click', () => {
   ui.queueToggle.focus();
 });
 
+document.addEventListener('keydown', (event) => {
