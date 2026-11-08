@@ -394,3 +394,4 @@ async function initScene() {
   }
   const lowPower =
     window.matchMedia('(max-width: 720px)').matches || (navigator.hardwareConcurrency || 8) <= 4;
+  let playing = false;
