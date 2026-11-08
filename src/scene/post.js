@@ -102,3 +102,4 @@ export function createPost(renderer, scene, camera) {
     renderPass,
     setSize(width, height, pixelRatio) {
       composer.setPixelRatio(pixelRatio);
+      composer.setSize(width, height);
