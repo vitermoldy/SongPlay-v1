@@ -15,3 +15,4 @@ const passVertex = /* glsl */ `
 
 // A separable blur whose radius grows away from the television, standing in for a shallow
 // depth of field: the set is sharp, the near grass and the far sky go soft.
+const FocusBlurShader = {
