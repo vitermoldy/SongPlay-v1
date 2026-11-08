@@ -21,3 +21,4 @@ const ui = {
   now: $('[data-now]'),
   announce: $('[data-announce]'),
   form: $('[data-add]'),
+  input: $('#song-link'),
