@@ -649,3 +649,4 @@ body.menu-open .site-header {
   }
   to {
     opacity: 1;
+    transform: none;
