@@ -601,3 +601,4 @@
 .queue-count {
   display: inline-grid;
   place-items: center;
+  min-width: 24px;
