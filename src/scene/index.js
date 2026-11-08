@@ -339,3 +339,4 @@ export function createScene(
 
   const projected = new Vector3();
   function updateFocus(cam) {
+    projected.copy(screenWorld).project(cam);
