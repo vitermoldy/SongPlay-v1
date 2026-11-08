@@ -187,3 +187,4 @@ function overcastSky(colors, numbers, { tint, amount }) {
   colors.get('sky.sun').multiplyScalar(0.2);
   colors.get('grass.back').multiplyScalar(0.35);
   numbers.stars *= 0.1;
+  numbers['clouds.opacity'] = 1;
