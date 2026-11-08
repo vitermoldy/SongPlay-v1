@@ -376,3 +376,4 @@ export function createScene(
         cx = MathUtils.clamp(width / 2, area.left + half.w, area.right - half.w);
         cy = MathUtils.clamp(height / 2, area.top + half.h, area.bottom - half.h);
         const hits = area.avoid.filter(
+          (r) => r.left < cx + half.w && r.right > cx - half.w && r.top < cy + half.h && r.bottom > cy - half.h,
