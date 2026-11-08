@@ -45,3 +45,4 @@ function initMenu() {
       menu.querySelector('a').focus();
     } else {
       menu.classList.remove('is-open');
+      menu.hidden = true;
