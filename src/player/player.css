@@ -512,3 +512,6 @@
   color: #fff;
   transition:
     background-color 180ms var(--ease),
+    transform 160ms var(--ease);
+}
+
