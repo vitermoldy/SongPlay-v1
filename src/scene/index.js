@@ -493,3 +493,4 @@ export function createScene(
     const shot = new PerspectiveCamera(30, aspect, 0.1, 1200);
     if (aspect < 4 / 3) {
       const half = Math.tan(MathUtils.degToRad(15)) * (4 / 3);
+      shot.fov = MathUtils.radToDeg(2 * Math.atan(half / aspect));
