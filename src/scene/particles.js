@@ -82,3 +82,4 @@ export function createParticles(count, live) {
         vec2 c = gl_PointCoord - 0.5;
         float soft = mix(0.16, 0.34, vBlur);
         float alpha;
+        if (uShape < 0.5) {
