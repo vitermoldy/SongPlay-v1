@@ -48,3 +48,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
 ## Decisions taken against a rule, and why
 
 - **WebGL on a service page.** 3D scenes usually belong to tech pages; the owner's reference is
+  a 3D scene, and the owner asked for this look.
