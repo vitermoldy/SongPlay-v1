@@ -553,3 +553,4 @@ body.menu-open .site-header {
   bottom: calc(var(--frame) + 14px);
   z-index: 2;
   display: flex;
+  align-items: center;
