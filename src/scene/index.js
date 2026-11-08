@@ -473,3 +473,6 @@ export function createScene(
   function loop(now) {
     raf = 0;
     render(now);
+    if (shouldRun()) raf = requestAnimationFrame(loop);
+  }
+
