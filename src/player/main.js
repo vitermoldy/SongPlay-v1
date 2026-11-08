@@ -346,3 +346,6 @@ function render() {
   setText(ui.now, nowLine());
   const count = state.items.length;
   setText(ui.queueCount, String(count));
+  ui.queueEmpty.hidden = count > 0;
+  ui.clear.hidden = count === 0;
+
