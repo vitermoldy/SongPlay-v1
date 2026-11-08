@@ -496,3 +496,6 @@ export function createScene(
       shot.fov = MathUtils.radToDeg(2 * Math.atan(half / aspect));
     }
     shot.updateProjectionMatrix();
+    shot.position.set(-1.7, 0.25, 4.5);
+    shot.lookAt(-0.15, 0.62, 0);
+
