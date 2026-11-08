@@ -286,3 +286,4 @@ body.menu-open .site-header {
   text-transform: uppercase;
   text-decoration: none;
   transition:
+    background-color 200ms var(--ease),
