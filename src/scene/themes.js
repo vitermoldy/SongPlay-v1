@@ -222,3 +222,4 @@ export function compose(timeName, seasonName) {
     colors.set('particles.color2', new Color(season.particles.color2).multiply(tint));
     numbers['particles.opacity'] = season.particles.opacity;
     numbers['particles.fall'] = season.particles.fall;
+    numbers['particles.size'] = season.particles.size;
