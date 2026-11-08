@@ -61,3 +61,5 @@ export function createAmbience() {
   const sr = ctx.sampleRate;
   const rand = rng(2026);
 
+  const buffer = (seconds) => ctx.createBuffer(1, Math.round(sr * seconds), sr);
+
