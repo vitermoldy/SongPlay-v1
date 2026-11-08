@@ -51,3 +51,4 @@ export function createParticles(count, live) {
       varying float vBlur;
       varying float vSpin;
       void main() {
+        vec3 p = position;
