@@ -65,3 +65,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
   geometry.setAttribute('aParams', new InstancedBufferAttribute(params, 4));
   geometry.instanceCount = i;
 
+  const material = new ShaderMaterial({
