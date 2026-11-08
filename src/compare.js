@@ -58,3 +58,4 @@ export function paintStandIn() {
   g.fill();
 
   const tw = W * 0.26;
+  const th = tw * 0.75;
