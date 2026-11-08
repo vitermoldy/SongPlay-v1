@@ -117,3 +117,4 @@ export function vhsify(source, outW = W, outH = H) {
   const src = new Uint8ClampedArray(d);
   const rand = rng(1994);
 
+  for (let y = 0; y < h; y++) {
