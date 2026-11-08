@@ -83,3 +83,4 @@ export function createParticles(count, live) {
         float soft = mix(0.16, 0.34, vBlur);
         float alpha;
         if (uShape < 0.5) {
+          float a = atan(c.y, c.x);
