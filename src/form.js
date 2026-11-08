@@ -73,3 +73,4 @@ export function initRequestForm(form) {
   form.addEventListener('input', (event) => {
     const target = event.target;
     if (target === name && name.value.trim()) showError(name, '');
+    if (target === email && EMAIL_PATTERN.test(email.value.trim())) showError(email, '');
