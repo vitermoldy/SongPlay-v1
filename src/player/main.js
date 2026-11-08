@@ -158,3 +158,4 @@ soundVolume.addEventListener('input', () => {
 });
 
 document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && !soundPanel.hidden) {
