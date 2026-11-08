@@ -508,3 +508,4 @@ body.menu-open .site-header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
