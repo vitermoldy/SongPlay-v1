@@ -88,3 +88,4 @@ export function paintStandIn() {
 
   for (let i = 0; i < 2200; i++) {
     const x = rand() * W;
+    const base = H * 0.7 + Math.abs(x - W / 2) * 0.12 + rand() * H * 0.3;
