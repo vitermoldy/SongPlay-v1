@@ -9,3 +9,4 @@ function showError(field, message) {
     error.textContent = message;
     error.hidden = false;
   } else {
+    error.textContent = '';
