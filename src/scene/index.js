@@ -143,3 +143,6 @@ export function createScene(
   tv.group.rotation.y = setup.tvYaw;
   scene.add(tv.group);
   tv.group.updateMatrixWorld(true);
+  const screenWorld = tv.screenCenter.clone().applyMatrix4(tv.group.matrixWorld);
+  const glowWorld = new Vector3(tv.shape.screenX, 0.3, 0.95).applyMatrix4(tv.group.matrixWorld);
+
