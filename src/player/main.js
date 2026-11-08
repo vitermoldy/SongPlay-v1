@@ -203,3 +203,4 @@ function frameArea() {
     bottom: floor - stage.top - 18,
     left: edge + 6,
     right: stage.width - edge - 6,
+    avoid: [ui.pickers, ui.sceneToggle].filter((el) => el && !el.hidden).map(local),
