@@ -747,3 +747,4 @@ ui.toggle.addEventListener('click', () => {
       state.status = 'paused';
       render();
     }
+  } else if (state.status === 'paused' && yt) {
