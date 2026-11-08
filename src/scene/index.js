@@ -190,3 +190,4 @@ export function createScene(
   const hemi = new HemisphereLight();
   hemi.color = live.color('lamps.hemiSky');
   hemi.groundColor = live.color('lamps.hemiGround');
+  scene.add(hemi);
