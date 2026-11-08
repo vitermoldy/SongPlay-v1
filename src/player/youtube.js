@@ -24,3 +24,4 @@ export function parseYouTube(raw) {
   else if (url.pathname === '/watch') id = url.searchParams.get('v');
   else id = url.pathname.match(/^\/(?:shorts|embed|live|v)\/([\w-]{11})/)?.[1] ?? null;
 
+  const list = url.searchParams.get('list');
