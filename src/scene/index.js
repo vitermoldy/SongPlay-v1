@@ -241,3 +241,4 @@ export function createScene(
     live.shape = next.shape;
     particles.setShape(next.shape);
     themeShift = {
+      t: still ? 1 : 0,
