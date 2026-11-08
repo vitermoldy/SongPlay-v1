@@ -467,3 +467,4 @@ function ensurePlayer() {
                 resolve(player);
               },
               onStateChange: onPlayerState,
+              onError: onPlayerError,
