@@ -265,3 +265,4 @@ export function createScene(
     retarget();
   }
 
+  function stepTheme(dt) {
