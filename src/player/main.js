@@ -699,3 +699,4 @@ ui.form.addEventListener('submit', (event) => {
   if (!parsed) {
     showError('That isn’t a YouTube video or playlist link. It should start with youtube.com or youtu.be.');
     ui.input.focus();
+    return;
