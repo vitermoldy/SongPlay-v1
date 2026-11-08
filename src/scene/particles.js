@@ -78,3 +78,4 @@ export function createParticles(count, live) {
       varying float vAlpha;
       varying float vBlur;
       varying float vSpin;
+      void main() {
