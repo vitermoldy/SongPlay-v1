@@ -56,3 +56,4 @@ function rng(seed) {
 }
 
 export function createAmbience() {
+  const Ctx = window.AudioContext || window.webkitAudioContext;
