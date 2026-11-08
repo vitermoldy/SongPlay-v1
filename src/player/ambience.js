@@ -108,3 +108,4 @@ export function createAmbience() {
     const b = buffer(seconds);
     const d = b.getChannelData(0);
     const count = Math.round(seconds * 260);
+    const len = Math.round(sr * 0.012);
