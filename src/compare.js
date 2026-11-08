@@ -50,3 +50,4 @@ export function paintStandIn() {
   g.fill();
 
   const hill = g.createLinearGradient(0, H * 0.7, 0, H);
+  hill.addColorStop(0, '#3a4a1c');
