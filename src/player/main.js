@@ -427,3 +427,4 @@ async function initScene() {
   ui.sceneToggle.hidden = false;
   sync();
   ui.sceneToggle.addEventListener('click', () => {
+    playing = !playing;
