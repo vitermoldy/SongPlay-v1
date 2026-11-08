@@ -143,3 +143,4 @@ export function vhsify(source, outW = W, outH = H) {
     }
   }
 
+  for (let k = 0; k < 18; k++) {
