@@ -337,3 +337,4 @@ export function createScene(
   window.addEventListener('pointermove', onPointer, { passive: true });
   document.documentElement.addEventListener('mouseleave', onLeave);
 
+  const projected = new Vector3();
