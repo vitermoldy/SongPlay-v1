@@ -100,3 +100,6 @@ export function createAmbience() {
     }
     const drift = d[d.length - 1] - d[0];
     for (let i = 0; i < d.length; i++) d[i] -= (drift * i) / (d.length - 1);
+    return b;
+  }
+
