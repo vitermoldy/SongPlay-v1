@@ -186,3 +186,4 @@ export function createAmbience() {
     const b = buffer(seconds);
     const d = b.getChannelData(0);
     for (let n = 0; n < 34; n++) {
+      const start = Math.floor(rand() * (d.length - sr * 0.4));
