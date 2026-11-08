@@ -112,3 +112,6 @@ function syncSound() {
   soundSwitch.setAttribute('aria-pressed', String(soundOn));
   soundVolume.value = String(volume);
   soundVolume.setAttribute('aria-valuetext', `${volume} percent`);
+  soundValue.textContent = `${volume}%`;
+}
+
