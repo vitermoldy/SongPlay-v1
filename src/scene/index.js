@@ -171,3 +171,4 @@ export function createScene(
     uFogFar: { value: 140 },
   };
 
+  scene.add(createTerrain(shared));
