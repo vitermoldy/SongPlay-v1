@@ -383,3 +383,4 @@ export function createScene(
       }
       const dist = MathUtils.clamp(height / (perUnit * 2 * tan), 2.2, 10);
       const shiftX = (cx - width / 2) / perUnit;
+      const shiftY = (cy - height / 2) / perUnit;
