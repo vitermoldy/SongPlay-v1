@@ -62,3 +62,4 @@ const FinishShader = {
     uniform sampler2D tDiffuse;
     uniform float uTime;
     uniform float uGrain;
+    varying vec2 vUv;
