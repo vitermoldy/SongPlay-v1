@@ -20,3 +20,4 @@ import { NOISE_GLSL, mulberry32 } from './shared.js';
 export function createSky(live, { forReflections = false } = {}) {
   const material = new ShaderMaterial({
     side: BackSide,
+    depthWrite: false,
