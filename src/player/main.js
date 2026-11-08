@@ -301,3 +301,4 @@ function queueRow(item, index) {
 
   const thumb = document.createElement('img');
   thumb.className = 'queue-thumb';
+  thumb.width = 96;
