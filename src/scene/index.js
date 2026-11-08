@@ -374,3 +374,4 @@ export function createScene(
         // The middle of the window, as the original framing had it (horizon behind the set,
         // sky above); moved only as far as it takes to stay clear of the controls.
         cx = MathUtils.clamp(width / 2, area.left + half.w, area.right - half.w);
+        cy = MathUtils.clamp(height / 2, area.top + half.h, area.bottom - half.h);
