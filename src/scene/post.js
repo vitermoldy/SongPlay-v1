@@ -47,3 +47,4 @@ const FocusBlurShader = {
         total += w;
       }
       gl_FragColor = sum / total;
+    }
