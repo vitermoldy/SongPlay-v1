@@ -369,3 +369,4 @@ function render() {
   ambience?.setDucked(state.status === 'playing');
 }
 
+function bumpCount() {
