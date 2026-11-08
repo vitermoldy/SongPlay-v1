@@ -227,3 +227,4 @@ export function compose(timeName, seasonName) {
   }
 
   return { colors, numbers, sunDir: time.sunDir, shape };
+}
