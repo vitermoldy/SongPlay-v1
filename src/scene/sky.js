@@ -144,3 +144,4 @@ export function createClouds(live) {
 }
 
 function ridge(seed, width, base, peak) {
+  const rand = mulberry32(seed);
