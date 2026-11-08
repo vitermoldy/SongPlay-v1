@@ -96,3 +96,4 @@ export function createTV(shapeName = 'classic') {
       }
     `,
     fragmentShader: /* glsl */ `
+      uniform float uTime;
