@@ -732,3 +732,4 @@ ui.form.addEventListener('submit', (event) => {
     say(`Added to the queue. ${state.items.length} in the queue.`);
     render();
   } else {
+    playIndex(state.items.length - 1);
