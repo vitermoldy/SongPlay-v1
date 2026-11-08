@@ -324,3 +324,4 @@ export function createScene(
       ndc.set((x / rect.width) * 2 - 1, -(y / rect.height) * 2 + 1);
       raycaster.setFromCamera(ndc, camera);
       hit = hitGround(raycaster.ray);
+    }
