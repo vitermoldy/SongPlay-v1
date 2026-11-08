@@ -145,3 +145,6 @@ async function initScene(compare) {
     compare.setSource(await scene.captureStill());
   } catch (error) {
     console.warn('Could not take the still for the before/after frame.', error);
+  }
+}
+
