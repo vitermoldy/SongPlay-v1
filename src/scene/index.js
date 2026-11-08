@@ -268,3 +268,4 @@ export function createScene(
   function stepTheme(dt) {
     if (!themeShift) return;
     const s = themeShift;
+    s.t = Math.min(1, s.t + dt / THEME_TIME);
