@@ -106,3 +106,6 @@ export const SEASONS = {
   },
 };
 
+export const THEME_NAMES = Object.keys(THEMES);
+export const SEASON_NAMES = Object.keys(SEASONS);
+
