@@ -172,3 +172,4 @@ syncSound();
 // after a gesture. The switch and the slider act for themselves.
 if (soundOn) {
   const startOnFirstGesture = (event) => {
+    if (event.target.closest?.('[data-sound-switch], [data-sound-volume]')) return;
