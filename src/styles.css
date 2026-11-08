@@ -579,3 +579,4 @@ body.menu-open .site-header {
   right: calc(var(--frame) + 14px);
   bottom: calc(var(--frame) + 16px);
   z-index: 3;
+  display: inline-flex;
