@@ -553,3 +553,6 @@ async function playIndex(index) {
   clearTimeout(skipTimer);
   state.current = index;
   state.status = 'loading';
+  state.videoTitle = '';
+  render();
+
