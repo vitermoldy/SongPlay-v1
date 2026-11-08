@@ -430,3 +430,4 @@ async function initScene() {
     playing = !playing;
     sync();
   });
+  document.addEventListener('visibilitychange', () => scene.setVisible(!document.hidden));
