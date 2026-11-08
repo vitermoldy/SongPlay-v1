@@ -401,3 +401,4 @@
   position: absolute;
   left: 0;
   right: 0;
+  bottom: calc(var(--frame) + 18px);
