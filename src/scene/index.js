@@ -386,3 +386,4 @@ export function createScene(
       const shiftY = (cy - height / 2) / perUnit;
       // The eye stays a little above the set, looking down onto the hill, so the horizon and the
       // mountains show behind the TV. Placing the set higher or lower in the frame tilts the view
+      // a touch instead of lowering the eye, which would hide the mountains behind the crest.
