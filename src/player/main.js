@@ -198,3 +198,4 @@ function frameArea() {
   // A dropdown open above the deck (phones) takes its room from the TV while it is open.
   const panelAbove = !ui.queuePanel.hidden && ui.queuePanel.dataset.place === 'above';
   const floor = (panelAbove ? ui.queuePanel : ui.deck).getBoundingClientRect().top;
+  return {
