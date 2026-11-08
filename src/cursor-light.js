@@ -13,3 +13,6 @@ export function initCursorLight({ skip = [] } = {}) {
   let queued = false;
   const place = () => {
     queued = false;
+    light.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+  };
+
