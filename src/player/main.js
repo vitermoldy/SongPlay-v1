@@ -314,3 +314,4 @@ function queueRow(item, index) {
   title.className = 'queue-title';
   title.textContent = titleOf(item);
   const sub = document.createElement('p');
+  sub.className = 'queue-sub';
