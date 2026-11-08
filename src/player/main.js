@@ -576,3 +576,4 @@ async function playIndex(index) {
   else player.loadPlaylist({ list: item.list, listType: 'playlist', index: item.index || 0 });
 
   // Nothing heard back after a while means one of two things. A playlist that never loaded
+  // is one YouTube keeps to itself (its own mixes and charts never play elsewhere, and send no
