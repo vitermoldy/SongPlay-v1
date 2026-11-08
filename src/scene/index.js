@@ -420,3 +420,4 @@ export function createScene(
     if (playing && raw > 0 && sampled < 45) {
       sampled++;
       if (raw > 0.066) slowFrames++;
+      if (sampled === 45 && slowFrames > 30) {
