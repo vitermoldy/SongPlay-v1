@@ -35,3 +35,4 @@ const VARIANTS = {
   },
   player: {
     tv: 'wide',
+    camera: new Vector3(0, 0.6, 5),
