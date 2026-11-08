@@ -346,3 +346,4 @@ body.menu-open .site-header {
   mix-blend-mode: screen;
   opacity: 0;
   pointer-events: none;
+  transition: opacity 350ms var(--ease);
