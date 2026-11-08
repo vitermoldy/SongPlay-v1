@@ -122,3 +122,4 @@ button:disabled {
 }
 
 .wrap {
+  width: min(100% - 2 * var(--gutter), var(--wrap));
