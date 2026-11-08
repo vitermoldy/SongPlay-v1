@@ -276,3 +276,4 @@ body.menu-open .site-header {
 .header-play {
   display: inline-flex;
   align-items: center;
+  height: 40px;
