@@ -23,3 +23,4 @@ export function createSky(live, { forReflections = false } = {}) {
     depthWrite: false,
     uniforms: {
       uTop: { value: live.color('sky.top') },
+      uMid: { value: live.color('sky.mid') },
