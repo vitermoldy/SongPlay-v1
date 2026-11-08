@@ -783,3 +783,4 @@ ui.queueToggle.addEventListener('click', () => setQueueOpen(ui.queuePanel.hidden
 
 ui.clear.addEventListener('click', () => {
   state.items = [];
+  state.current = -1;
