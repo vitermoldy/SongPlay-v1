@@ -371,3 +371,4 @@ export function createScene(
         const freeH = Math.max(120, area.bottom - area.top);
         perUnit = Math.min(freeW / setW, freeH / setH, shotPerUnit);
         const half = { w: (setW * perUnit) / 2, h: (setH * perUnit) / 2 };
+        // The middle of the window, as the original framing had it (horizon behind the set,
