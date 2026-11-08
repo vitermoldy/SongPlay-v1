@@ -84,3 +84,4 @@ export function loadYouTubeApi() {
 }
 
 // Why a video was refused, in the visitor's words (IFrame API error codes).
+export function describeError(code) {
