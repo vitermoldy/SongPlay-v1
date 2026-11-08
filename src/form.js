@@ -62,3 +62,6 @@ export function initRequestForm(form) {
       `How many: ${data.get('count')}`,
       '',
       String(data.get('notes') || '').trim(),
+    ].join('\n');
+    const href = `mailto:${REQUEST_EMAIL}?subject=${encodeURIComponent(`Tapes from ${nameValue}`)}&body=${encodeURIComponent(body)}`;
+
