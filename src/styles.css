@@ -1228,3 +1228,6 @@ body.menu-open .site-header {
 }
 
 .request-status:empty {
+  display: none;
+}
+
