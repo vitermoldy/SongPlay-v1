@@ -464,3 +464,4 @@ function ensurePlayer() {
             events: {
               onReady: () => {
                 yt = player;
+                resolve(player);
