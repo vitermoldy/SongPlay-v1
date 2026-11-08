@@ -127,3 +127,4 @@ export function createTV(shapeName = 'classic') {
         float mask = step(abs(vUv.y - 0.5), halfH) * step(abs(vUv.x - 0.5), halfW);
         c *= mask * mix(2.2, 1.0, open);
 
+        vec3 glass = vec3(0.012, 0.014, 0.025);
