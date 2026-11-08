@@ -18,3 +18,6 @@ export function createTerrain(uniforms) {
   const pos = geometry.attributes.position;
   for (let i = 0; i < pos.count; i++) {
     pos.setY(i, heightAt(pos.getX(i), pos.getZ(i)));
+  }
+  geometry.computeVertexNormals();
+
