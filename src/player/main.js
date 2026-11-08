@@ -246,3 +246,4 @@ function saveQueue() {
       thumb,
       problem,
     }));
+    localStorage.setItem(STORE_KEY, JSON.stringify(keep));
