@@ -151,3 +151,4 @@ function ridge(seed, width, base, peak) {
   for (let x = -width / 2; x <= width / 2; x += 1.5) {
     const y =
       base +
+      peak *
