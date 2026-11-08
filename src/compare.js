@@ -215,3 +215,4 @@ export function initCompare(root) {
 
   const set = (value) => {
     const pos = clamp(value, 0, 100);
+    root.style.setProperty('--pos', `${pos}%`);
