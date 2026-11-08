@@ -60,3 +60,4 @@ export function paintStandIn() {
   const tw = W * 0.26;
   const th = tw * 0.75;
   const tx = W * 0.5 - tw / 2;
+  const ty = H * 0.72 - th;
