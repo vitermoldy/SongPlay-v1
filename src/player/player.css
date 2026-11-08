@@ -688,3 +688,6 @@
 
 .queue-item.is-current .queue-sub {
   color: var(--glow);
+  font-weight: 700;
+}
+
