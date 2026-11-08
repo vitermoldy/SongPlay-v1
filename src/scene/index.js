@@ -495,3 +495,4 @@ export function createScene(
       const half = Math.tan(MathUtils.degToRad(15)) * (4 / 3);
       shot.fov = MathUtils.radToDeg(2 * Math.atan(half / aspect));
     }
+    shot.updateProjectionMatrix();
