@@ -434,3 +434,4 @@ async function initScene() {
   scene.setScreenMode(ACTIVE.has(state.status) ? 'video' : 'idle');
   // The deck grows when the title wraps; the pickers rewrap on narrow screens. Re-fit the TV.
   new ResizeObserver(() => scene.relayout()).observe(ui.deck);
+  new ResizeObserver(() => scene.relayout()).observe(ui.pickers);
