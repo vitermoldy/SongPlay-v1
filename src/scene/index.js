@@ -533,3 +533,5 @@ export function createScene(
     onLost?.();
   });
 
+  resize();
+
