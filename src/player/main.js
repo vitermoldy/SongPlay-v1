@@ -342,3 +342,4 @@ function queueRow(item, index) {
   return li;
 }
 
+function render() {
