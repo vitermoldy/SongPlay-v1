@@ -48,3 +48,6 @@ export function initCursorLight({ skip = [] } = {}) {
       const under = document.elementFromPoint(x, y);
       light.classList.toggle('is-paper', Boolean(under?.closest('.on-light')));
     },
+    { passive: true },
+  );
+
