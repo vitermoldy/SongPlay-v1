@@ -161,3 +161,4 @@ document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape' && !soundPanel.hidden) {
     setSoundPanel(false);
     ui.sound.focus();
+  }
