@@ -1152,3 +1152,4 @@ body.menu-open .site-header {
 
 .field-error {
   color: var(--error);
+  font-size: 15px;
