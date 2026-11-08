@@ -718,3 +718,6 @@ body.menu-open .site-header {
 
 .passes {
   display: grid;
+  margin-top: 8px;
+}
+
