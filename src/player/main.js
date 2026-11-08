@@ -624,3 +624,4 @@ function removeAt(index) {
   const wasActive = ACTIVE.has(state.status);
   state.items.splice(index, 1);
   saveQueue();
+  say(`Removed ${titleOf(item)}.`);
