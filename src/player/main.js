@@ -491,3 +491,4 @@ function playingMatches(item) {
 
 function onPlayerState(event) {
   const S = window.YT.PlayerState;
+  const item = state.items[state.current];
