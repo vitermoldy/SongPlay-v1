@@ -227,3 +227,4 @@ export function createAmbience() {
       node = next;
     }
     src.start(0, rand() * buf.duration);
+    return src;
