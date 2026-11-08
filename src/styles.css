@@ -850,3 +850,4 @@ body.menu-open .site-header {
   margin: 0;
   border-radius: inherit;
   background: transparent;
+  appearance: none;
