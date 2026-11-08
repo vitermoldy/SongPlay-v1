@@ -650,3 +650,4 @@ function placeQueue() {
   const deck = panel.offsetParent?.getBoundingClientRect();
   if (!deck) return;
   const video = ui.video.getBoundingClientRect();
+  const margin = 12;
