@@ -21,3 +21,4 @@ function initHeader() {
       queued = true;
       requestAnimationFrame(update);
     },
+    { passive: true },
