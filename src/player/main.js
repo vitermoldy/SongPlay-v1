@@ -713,3 +713,6 @@ ui.form.addEventListener('submit', (event) => {
   };
   state.items.push(item);
   saveQueue();
+  ui.input.value = '';
+  bumpCount();
+
