@@ -1214,3 +1214,4 @@ body.menu-open .site-header {
 
 .chip input:checked + span::before {
   content: '';
+  width: 10px;
