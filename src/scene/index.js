@@ -248,3 +248,4 @@ export function createScene(
       toNum: next.numbers,
       fromSun: live.sunDir.clone(),
       toSun: new Vector3(...next.sunDir).normalize(),
+    };
