@@ -83,3 +83,6 @@ export function paintStandIn() {
   g.fillStyle = screen;
   g.beginPath();
   g.roundRect(tx + tw * 0.08, ty + th * 0.1, tw * 0.78, th * 0.8, 18);
+  g.fill();
+  g.restore();
+
