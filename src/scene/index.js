@@ -147,3 +147,4 @@ export function createScene(
   const glowWorld = new Vector3(tv.shape.screenX, 0.3, 0.95).applyMatrix4(tv.group.matrixWorld);
 
   const shared = {
+    uTime: live.u.time,
