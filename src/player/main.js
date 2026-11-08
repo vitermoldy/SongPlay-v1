@@ -640,3 +640,4 @@ function removeAt(index) {
 // ---------- Controls ----------
 
 // YouTube asks that nothing covers an embedded player. On a wide screen the dropdown opens
+// beside the TV, under the scene button. Where there is no room beside it (phones), it opens
