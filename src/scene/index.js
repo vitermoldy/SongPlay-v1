@@ -394,3 +394,4 @@ export function createScene(
       look.copy(setup.look);
     }
     camera.position.set(base.x + eased.x * setup.parallax[0], base.y - eased.y * setup.parallax[1], base.z);
+    camera.lookAt(look);
