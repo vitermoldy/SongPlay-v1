@@ -300,3 +300,4 @@ function queueRow(item, index) {
   li.classList.toggle('has-problem', Boolean(item.problem));
 
   const thumb = document.createElement('img');
+  thumb.className = 'queue-thumb';
