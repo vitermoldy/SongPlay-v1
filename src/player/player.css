@@ -224,3 +224,6 @@
 }
 
 .stage .viewfinder {
+  z-index: 1;
+}
+
