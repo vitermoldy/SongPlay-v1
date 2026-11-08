@@ -299,3 +299,4 @@ function queueRow(item, index) {
   li.classList.toggle('is-current', current);
   li.classList.toggle('has-problem', Boolean(item.problem));
 
+  const thumb = document.createElement('img');
