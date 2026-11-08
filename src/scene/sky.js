@@ -174,3 +174,4 @@ export function createMountains(live) {
       uniforms: {
         uTop: { value: live.color(top) },
         uLow: { value: live.color(low) },
+        uFog: { value: live.color('haze') },
