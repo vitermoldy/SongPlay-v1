@@ -179,3 +179,4 @@ const luma = (c) => 0.2126 * c.r + 0.7152 * c.g + 0.0722 * c.b;
 function overcastSky(colors, numbers, { tint, amount }) {
   const grey = new Color(tint);
   const greyLuma = luma(grey);
+  for (const path of OVERCAST_PATHS) {
