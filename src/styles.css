@@ -230,3 +230,4 @@ button:disabled {
   align-items: center;
   gap: 16px;
   height: var(--header-h);
+  padding: 0 var(--frame);
