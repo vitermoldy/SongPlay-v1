@@ -422,3 +422,4 @@ async function initScene() {
     ui.video.classList.add('is-flat');
     scene = null;
     return;
+  }
