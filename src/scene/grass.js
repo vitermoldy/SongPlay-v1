@@ -73,3 +73,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
       attribute vec4 aParams;
       uniform float uTime;
       uniform vec2 uWindDir;
+      uniform float uWind;
