@@ -172,3 +172,5 @@ const OVERCAST_PATHS = [
   'light.sky',
 ];
 
+const luma = (c) => 0.2126 * c.r + 0.7152 * c.g + 0.0722 * c.b;
+
