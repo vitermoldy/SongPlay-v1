@@ -55,3 +55,4 @@ export const THEMES = {
     sky: { top: '#3f6fd8', mid: '#86aff0', low: '#c6dbf6', horizon: '#ffe2cc', sun: '#fff0c4' },
     sunDir: [-0.8, 0.08, -1],
     stars: 0,
+    haze: '#b4c6e8',
