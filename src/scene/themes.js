@@ -67,3 +67,4 @@ export const THEMES = {
   },
 };
 
+// Seasons paint the grass and the ground, and choose what falls through the air. Their colours
