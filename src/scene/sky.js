@@ -61,3 +61,6 @@ export function createSky(live, { forReflections = false } = {}) {
         c = mix(c, uTop, smoothstep(0.28, 0.8, y));
         float s = max(dot(d, normalize(uSunDir)), 0.0);
         c += uSunColor * (pow(s, 24.0) * 0.32 + pow(s, 220.0) * 0.8);
+        // The disc itself: the sun low on the horizon, or the moon at night.
+        c += uSunColor * smoothstep(0.99955, 0.9998, s) * 1.6;
+
