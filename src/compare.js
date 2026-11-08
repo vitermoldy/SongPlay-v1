@@ -73,3 +73,4 @@ export function paintStandIn() {
   g.beginPath();
   g.roundRect(tx, ty, tw, th, 22);
   g.fill();
+  g.save();
