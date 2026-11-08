@@ -707,3 +707,4 @@ ui.form.addEventListener('submit', (event) => {
     uid: makeUid(),
     ...parsed,
     title: null,
+    author: null,
