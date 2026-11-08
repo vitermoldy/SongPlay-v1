@@ -37,3 +37,4 @@ export function createParticles(count, live) {
       uColor: { value: live.color('particles.color') },
       uColor2: { value: live.color('particles.color2') },
       uOpacity: live.u.particleOpacity,
+    },
