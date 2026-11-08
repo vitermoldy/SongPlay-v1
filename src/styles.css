@@ -453,3 +453,4 @@ body.menu-open .site-header {
 .hero-shade {
   position: absolute;
   inset: 0;
+  pointer-events: none;
