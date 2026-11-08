@@ -402,3 +402,6 @@ export function createScene(
     kick();
   }
 
+  const power = (now) =>
+    still ? 1 : MathUtils.clamp(((now - started) / 1000 - POWER_DELAY) / POWER_TIME, 0, 1);
+
