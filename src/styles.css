@@ -1132,3 +1132,6 @@ body.menu-open .site-header {
 .field input:hover,
 .field select:hover,
 .field textarea:hover {
+  border-color: rgba(244, 239, 230, 0.55);
+}
+
