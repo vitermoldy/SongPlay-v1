@@ -749,3 +749,6 @@
     bottom: calc(var(--frame) + 8px);
     gap: 10px;
     padding: 12px;
+    width: calc(100% - 2 * var(--frame) - 12px);
+  }
+
