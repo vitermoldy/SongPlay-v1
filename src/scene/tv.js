@@ -88,3 +88,4 @@ export function createTV(shapeName = 'classic') {
       uAspect: { value: screenW / screenH },
       uCorner: { value: shape.corner },
     },
+    vertexShader: /* glsl */ `
