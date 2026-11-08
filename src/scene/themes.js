@@ -53,3 +53,4 @@ export const THEMES = {
   dawn: {
     label: 'Dawn',
     sky: { top: '#3f6fd8', mid: '#86aff0', low: '#c6dbf6', horizon: '#ffe2cc', sun: '#fff0c4' },
+    sunDir: [-0.8, 0.08, -1],
