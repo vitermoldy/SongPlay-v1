@@ -39,3 +39,4 @@ const VARIANTS = {
     look: new Vector3(0, 0.43, 0),
     tvYaw: -0.2,
     parallax: [0.1, 0.04],
+    clearFront: true,
