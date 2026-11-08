@@ -604,3 +604,4 @@ function advance(note = '') {
 function stopAll(status, message) {
   clearTimeout(autoplayCheck);
   clearTimeout(skipTimer);
+  try {
