@@ -444,3 +444,4 @@ export function createScene(
     else cursorPos.lerp(cursorTarget, ease(12));
     shared.uCursorPower.value += (cursorWanted - shared.uCursorPower.value) * ease(6);
 
+    if (playing) {
