@@ -119,3 +119,4 @@ export function createClouds(live) {
         uniform float uSeed;
         uniform float uOpacity;
         uniform float uFade;
+        uniform vec3 uLit;
