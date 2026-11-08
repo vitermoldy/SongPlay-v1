@@ -29,3 +29,4 @@
   height: 44px;
   padding: 0;
   border: 0;
+  border-radius: var(--radius-s);
