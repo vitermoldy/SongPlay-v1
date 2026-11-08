@@ -20,3 +20,4 @@ const ui = {
   video: $('[data-tv-video]'),
   now: $('[data-now]'),
   announce: $('[data-announce]'),
+  form: $('[data-add]'),
