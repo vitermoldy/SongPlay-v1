@@ -546,3 +546,4 @@
 }
 
 .icon-btn-main .icon-pause,
+.icon-btn-main[data-state='playing'] .icon-play {
