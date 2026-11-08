@@ -90,3 +90,4 @@ export function createParticles(count, live) {
           alpha *= 0.75;
         } else if (uShape < 1.5) {
           alpha = 1.0 - smoothstep(0.46 - soft, 0.46, length(c));
+          alpha *= 0.9;
