@@ -551,3 +551,4 @@ export function createScene(
     relayout: resize,
     captureStill() {
       return new Promise((resolve) => {
+        pendingCapture = resolve;
