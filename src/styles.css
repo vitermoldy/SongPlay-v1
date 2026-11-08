@@ -820,3 +820,4 @@ body.menu-open .site-header {
   border-radius: 50%;
   background: var(--cream);
   color: var(--ink);
+  transform: translate(-50%, -50%);
