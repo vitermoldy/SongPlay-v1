@@ -504,3 +504,4 @@ body.menu-open .site-header {
 
 .hero-inner {
   position: relative;
+  z-index: 2;
