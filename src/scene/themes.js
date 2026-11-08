@@ -113,3 +113,4 @@ export const SEASON_NAMES = Object.keys(SEASONS);
 export const COLOR_PATHS = [
   'sky.top',
   'sky.mid',
+  'sky.low',
