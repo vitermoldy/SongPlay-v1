@@ -122,3 +122,4 @@ async function setSound(on) {
   if (!on) {
     ambience?.setEnabled(false);
     return;
+  }
