@@ -222,3 +222,6 @@ export function initCompare(root) {
 
   const fromPointer = (event) => {
     const rect = root.getBoundingClientRect();
+    set(((event.clientX - rect.left) / rect.width) * 100);
+  };
+
