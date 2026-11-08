@@ -135,3 +135,4 @@ export function createClouds(live) {
           gl_FragColor = vec4(c * 0.92, dens * uOpacity * uFade);
         }
       `,
+    });
