@@ -28,3 +28,4 @@ export function createParticles(count, live) {
     transparent: true,
     depthWrite: false,
     blending: AdditiveBlending,
+    uniforms: {
