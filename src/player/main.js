@@ -94,3 +94,4 @@ let ambience = null;
 let soundOn = saved(SOUND_KEY, ['on', 'off'], 'off') === 'on';
 let volume = (() => {
   try {
+    const v = Number(localStorage.getItem(VOLUME_KEY));
