@@ -135,3 +135,4 @@
     background-color 180ms var(--ease);
 }
 
+.sound-switch[aria-pressed='true'] {
