@@ -10,3 +10,4 @@ const loudness = (volume) => MAX_GAIN * Math.max(0, Math.min(1, volume)) ** 1.6;
 const DUCKED = 0.4;
 
 function levelsFor(time, season) {
+  const L = { wind: 0.22, rain: 0, crickets: 0, birds: 0, leaves: 0, thunder: 0 };
