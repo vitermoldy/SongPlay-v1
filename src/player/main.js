@@ -344,3 +344,4 @@ function queueRow(item, index) {
 
 function render() {
   setText(ui.now, nowLine());
+  const count = state.items.length;
