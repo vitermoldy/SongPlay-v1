@@ -569,3 +569,4 @@ async function playIndex(index) {
   // Stop first: a list YouTube refuses to load fails silently, and the last one would play on.
   try {
     player.stopVideo();
+  } catch {
