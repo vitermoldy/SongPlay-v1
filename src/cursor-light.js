@@ -42,3 +42,4 @@ export function initCursorLight({ skip = [] } = {}) {
   // Scrolling moves the page under a still cursor: re-check whether it now sits over a scene.
   window.addEventListener(
     'scroll',
+    () => {
