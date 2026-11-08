@@ -209,3 +209,4 @@ function frameArea() {
 
 // ---------- Queue state ----------
 
+const ACTIVE = new Set(['loading', 'playing', 'paused']);
