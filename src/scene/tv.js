@@ -165,3 +165,4 @@ export function createTV(shapeName = 'classic') {
     group,
     shape,
     screenMaterial,
+    screenCenter: new Vector3(screenX, midY, 0.5),
