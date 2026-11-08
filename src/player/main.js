@@ -375,3 +375,5 @@ function bumpCount() {
   ui.queueCount.classList.add('is-bumped');
 }
 
+// ---------- The scene ----------
+
