@@ -69,3 +69,4 @@ export function createTerrain(uniforms) {
     `,
   });
 
+  return new Mesh(geometry, material);
