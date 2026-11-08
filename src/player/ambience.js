@@ -196,3 +196,6 @@ export function createAmbience() {
         d[start + k] += amp * env * crackle * (rand() * 2 - 1);
       }
     }
+    return b;
+  }
+
