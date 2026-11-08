@@ -776,3 +776,6 @@ ui.prev.addEventListener('click', () => {
     playIndex(state.current - 1);
   } else {
     yt?.seekTo(0, true);
+  }
+});
+
