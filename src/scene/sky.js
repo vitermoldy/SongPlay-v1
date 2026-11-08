@@ -8,3 +8,6 @@ import {
   Shape,
   ShapeGeometry,
   SphereGeometry,
+} from 'three';
+import { NOISE_GLSL, mulberry32 } from './shared.js';
+
