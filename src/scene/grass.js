@@ -46,3 +46,6 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
 
     const y = heightAt(x, z);
     offsets[i * 3] = x;
+    offsets[i * 3 + 1] = y - 0.03;
+    offsets[i * 3 + 2] = z;
+
