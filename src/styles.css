@@ -160,3 +160,4 @@ button:disabled {
 
 .cta {
   display: inline-flex;
+  align-items: center;
