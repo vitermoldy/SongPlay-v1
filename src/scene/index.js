@@ -512,3 +512,4 @@ export function createScene(
       cw = h * (4 / 3);
     }
     const out = document.createElement('canvas');
+    out.width = 1200;
