@@ -187,3 +187,4 @@ button:disabled {
 
 .cta-icon {
   display: grid;
+  place-items: center;
