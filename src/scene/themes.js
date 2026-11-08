@@ -206,3 +206,4 @@ export function compose(timeName, seasonName) {
   for (const path of SEASON_PATHS) {
     const paint = new Color(read(season, path));
     const lit = new Color(read(time, path));
+    const dusk = new Color(read(THEMES.dusk, path));
