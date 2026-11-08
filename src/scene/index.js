@@ -152,3 +152,4 @@ export function createScene(
     uWind: { value: 0.55 },
     uSunDir: { value: live.sunDir },
     uSunColor: { value: live.color('light.sun') },
+    uSkyColor: { value: live.color('light.sky') },
