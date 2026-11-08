@@ -38,3 +38,4 @@ export const NOISE_GLSL = /* glsl */ `
   }
   float fbm(vec2 p) {
     float v = 0.0;
+    float a = 0.5;
