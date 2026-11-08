@@ -21,3 +21,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
 
   const offsets = new Float32Array(count * 3);
   const params = new Float32Array(count * 4);
+  const rand = mulberry32(1987);
