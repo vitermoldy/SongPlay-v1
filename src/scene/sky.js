@@ -190,3 +190,4 @@ export function createMountains(live) {
         uniform vec3 uFog;
         uniform float uTopY;
         varying float vY;
+        void main() {
