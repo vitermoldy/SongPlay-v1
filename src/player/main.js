@@ -798,3 +798,6 @@ document.addEventListener('keydown', (event) => {
 });
 
 document.addEventListener('pointerdown', (event) => {
+  if (!ui.queuePanel.hidden && !event.target.closest('[data-queue]')) setQueueOpen(false);
+});
+
