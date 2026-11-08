@@ -252,3 +252,4 @@ export function createAmbience() {
 
   // Wind: brown noise through a low-pass that opens and closes, with slow gusts.
   const windTone = filter('lowpass', 480);
+  const gust = ctx.createGain();
