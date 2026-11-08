@@ -25,3 +25,4 @@ const FocusBlurShader = {
     uMaxRadius: { value: 9 },
   },
   vertexShader: passVertex,
+  fragmentShader: /* glsl */ `
