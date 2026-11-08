@@ -149,3 +149,4 @@ soundSwitch.addEventListener('click', () => setSound(!soundOn));
 soundVolume.addEventListener('input', () => {
   volume = Number(soundVolume.value);
   remember(VOLUME_KEY, String(volume));
+  // Turning the volume up from silence is a way of asking for sound.
