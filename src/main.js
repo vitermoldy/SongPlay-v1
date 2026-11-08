@@ -118,3 +118,4 @@ async function initScene(compare) {
       onSlow: () => {
         playing = false;
         sync();
+      },
