@@ -1488,3 +1488,4 @@ body.menu-open .site-header {
   *,
   *::before,
   *::after {
+    animation-duration: 0.01ms !important;
