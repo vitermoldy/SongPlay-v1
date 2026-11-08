@@ -234,3 +234,4 @@ function loadQueue() {
 }
 
 function saveQueue() {
+  try {
