@@ -128,3 +128,4 @@ async function initScene(compare) {
   playing = !scene.startsStill;
   let heroInView = true;
   toggle.hidden = false;
+  sync();
