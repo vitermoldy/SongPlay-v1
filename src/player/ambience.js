@@ -169,3 +169,4 @@ export function createAmbience() {
       if (kind < 0.35) {
         const f = 3600 + rand() * 1400;
         const notes = 6 + Math.floor(rand() * 5);
+        for (let i = 0; i < notes; i++) note(t0 + i * 0.065, 0.045, f, f + 300, amp);
