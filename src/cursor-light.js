@@ -36,3 +36,6 @@ export function initCursorLight({ skip = [] } = {}) {
         requestAnimationFrame(place);
       }
     },
+    { passive: true },
+  );
+
