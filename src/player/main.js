@@ -704,3 +704,4 @@ ui.form.addEventListener('submit', (event) => {
   showError('');
 
   const item = {
+    uid: makeUid(),
