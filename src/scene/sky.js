@@ -4,3 +4,4 @@ import {
   DoubleSide,
   Mesh,
   PlaneGeometry,
+  ShaderMaterial,
