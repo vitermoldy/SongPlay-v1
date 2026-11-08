@@ -149,3 +149,4 @@ async function initScene(compare) {
 }
 
 initHeader();
+initMenu();
