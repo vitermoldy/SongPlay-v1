@@ -134,3 +134,4 @@ export function createScene(
   }
   refreshEnvironment();
 
+  scene.add(createSky(live));
