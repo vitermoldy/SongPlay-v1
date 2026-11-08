@@ -49,3 +49,4 @@ export async function fetchInfo(item) {
     error.status = res.status;
     throw error;
   }
+  const data = await res.json();
