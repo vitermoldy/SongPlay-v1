@@ -322,3 +322,4 @@ export function createAmbience() {
       if (on && !hidden) await ctx.resume();
       applyMaster();
       scheduleThunder();
+      if (!on) {
