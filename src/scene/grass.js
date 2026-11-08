@@ -151,3 +151,6 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
         c = mix(c, uFogColor, fog);
         gl_FragColor = vec4(c, 1.0);
       }
+    `,
+  });
+
