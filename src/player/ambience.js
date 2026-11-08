@@ -74,3 +74,4 @@ export function createAmbience() {
     let b3 = 0;
     let b4 = 0;
     let b5 = 0;
+    let b6 = 0;
