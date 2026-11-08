@@ -312,3 +312,6 @@ body.menu-open .site-header {
   gap: 8px;
   margin-left: auto;
   padding-left: 14px;
+  background: rgba(118, 136, 255, 0.3);
+}
+
