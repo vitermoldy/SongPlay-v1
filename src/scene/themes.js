@@ -125,3 +125,4 @@ export const COLOR_PATHS = [
   'mountains.nearLow',
   'grass.base',
   'grass.mid',
+  'grass.tip',
