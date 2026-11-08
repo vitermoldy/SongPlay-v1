@@ -1250,3 +1250,4 @@ body.menu-open .site-header {
 .footer-row {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
