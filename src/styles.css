@@ -950,3 +950,6 @@ body.menu-open .site-header {
 
 .format-art svg {
   height: auto;
+  filter: drop-shadow(0 10px 14px rgba(20, 26, 58, 0.22));
+}
+
