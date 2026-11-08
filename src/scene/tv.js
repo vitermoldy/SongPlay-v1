@@ -80,3 +80,4 @@ export function createTV(shapeName = 'classic') {
   bezel.position.set(screenX, midY, 0.445);
   group.add(bezel);
 
+  const screenMaterial = new ShaderMaterial({
