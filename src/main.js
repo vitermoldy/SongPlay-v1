@@ -8,3 +8,4 @@ import { initCursorLight } from './cursor-light.js';
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
 function initHeader() {
+  const header = document.querySelector('[data-header]');
