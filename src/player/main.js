@@ -558,3 +558,4 @@ async function playIndex(index) {
 
   let player;
   try {
+    player = await ensurePlayer();
