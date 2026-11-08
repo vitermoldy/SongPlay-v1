@@ -580,3 +580,4 @@ async function playIndex(index) {
   // error to say so). Anything else is a browser holding back sound until a direct press.
   clearTimeout(autoplayCheck);
   autoplayCheck = setTimeout(() => {
+    if (state.status !== 'loading' || state.current !== index) return;
