@@ -85,3 +85,4 @@ export const SEASONS = {
     particles: null,
   },
   autumn: {
+    label: 'Autumn',
