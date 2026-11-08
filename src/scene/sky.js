@@ -172,3 +172,4 @@ export function createMountains(live) {
       side: DoubleSide,
       depthWrite: true,
       uniforms: {
+        uTop: { value: live.color(top) },
