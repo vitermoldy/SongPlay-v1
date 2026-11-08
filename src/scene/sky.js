@@ -168,3 +168,4 @@ export function createMountains(live) {
     { z: -78, seed: 97, base: -1.2, peak: 2.4, top: 'mountains.nearTop', low: 'mountains.nearLow' },
   ];
   return layers.map(({ z, seed, base, peak, top, low }) => {
+    const material = new ShaderMaterial({
