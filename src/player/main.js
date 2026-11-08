@@ -49,3 +49,6 @@ function saved(key, names, fallback) {
     return names.includes(name) ? name : fallback;
   } catch {
     return fallback;
+  }
+}
+
