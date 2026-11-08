@@ -366,3 +366,6 @@
 }
 
 .tv-video.is-on .tv-video-inner {
+  animation: crt-on 650ms var(--ease) both;
+}
+
