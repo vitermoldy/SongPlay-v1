@@ -5,3 +5,4 @@ const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 function showError(field, message) {
   const error = document.getElementById(`${field.id || field.dataset.errorFor}-error`);
+  if (message) {
