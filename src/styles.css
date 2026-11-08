@@ -1272,3 +1272,4 @@ body.menu-open .site-header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 8px 24px;
