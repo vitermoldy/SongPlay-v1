@@ -584,3 +584,4 @@ export function createScene(
     dispose() {
       cancelAnimationFrame(raf);
       resizeObserver.disconnect();
+      window.removeEventListener('pointermove', onPointer);
