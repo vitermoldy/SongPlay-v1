@@ -107,3 +107,4 @@ export function createAmbience() {
   function droplets(seconds) {
     const b = buffer(seconds);
     const d = b.getChannelData(0);
+    const count = Math.round(seconds * 260);
