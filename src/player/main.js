@@ -625,3 +625,4 @@ function removeAt(index) {
   state.items.splice(index, 1);
   saveQueue();
   say(`Removed ${titleOf(item)}.`);
+  if (index < state.current) {
