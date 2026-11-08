@@ -24,3 +24,4 @@ function levelsFor(time, season) {
     L.birds = 0.5;
   }
 
+  if (season === 'spring') {
