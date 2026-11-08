@@ -580,3 +580,4 @@ export function createScene(
       screenMode = mode;
       screenTarget = SCREEN_LEVEL[mode] ?? SCREEN_LEVEL.idle;
       kick();
+    },
