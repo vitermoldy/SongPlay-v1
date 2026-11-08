@@ -51,3 +51,4 @@ export function initCursorLight({ skip = [] } = {}) {
     { passive: true },
   );
 
+  document.documentElement.addEventListener('mouseleave', () => light.classList.remove('is-on'));
