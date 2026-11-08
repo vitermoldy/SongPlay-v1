@@ -34,3 +34,4 @@ const VARIANTS = {
     framesScreen: false,
   },
   player: {
+    tv: 'wide',
