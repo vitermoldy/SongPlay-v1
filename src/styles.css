@@ -954,3 +954,6 @@ body.menu-open .site-header {
 }
 
 .art-reel {
+  width: calc(76 * var(--mm));
+}
+
