@@ -162,3 +162,4 @@ function ridge(seed, width, base, peak) {
   return new ShapeGeometry(shape);
 }
 
+export function createMountains(live) {
