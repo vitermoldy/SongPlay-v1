@@ -61,3 +61,4 @@ export function paintStandIn() {
   const th = tw * 0.75;
   const tx = W * 0.5 - tw / 2;
   const ty = H * 0.72 - th;
+  g.strokeStyle = '#14161f';
