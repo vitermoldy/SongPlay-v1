@@ -137,3 +137,6 @@ export const COLOR_PATHS = [
   'lamps.sun',
   'lamps.fill',
   'particles.color',
+  'particles.color2',
+];
+
