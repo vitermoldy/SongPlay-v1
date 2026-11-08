@@ -53,3 +53,4 @@ export function createParticles(count, live) {
       void main() {
         vec3 p = position;
         float seed = aData.y;
+        p.y = mod(p.y + 1.0 - uDrift * (0.06 + seed * 0.08), 12.0) - 1.0;
