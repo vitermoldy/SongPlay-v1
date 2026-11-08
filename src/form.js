@@ -60,3 +60,4 @@ export function initRequestForm(form) {
       `Email: ${String(data.get('email')).trim()}`,
       `Formats: ${data.getAll('format').join(', ')}`,
       `How many: ${data.get('count')}`,
+      '',
