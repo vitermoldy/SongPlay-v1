@@ -613,3 +613,6 @@ body.menu-open .site-header {
 
 .scene-toggle .icon-play,
 .scene-toggle[data-paused='true'] .icon-pause {
+  display: none;
+}
+
