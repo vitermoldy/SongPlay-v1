@@ -498,3 +498,4 @@ function onPlayerState(event) {
     if (!playingMatches(item)) {
       if (event.data === S.PLAYING) yt.stopVideo();
       return;
+    }
