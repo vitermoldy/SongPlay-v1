@@ -103,3 +103,6 @@ let volume = (() => {
 
 const soundPanel = $('[data-sound-panel]');
 const soundSwitch = $('[data-sound-switch]');
+const soundVolume = $('[data-sound-volume]');
+const soundValue = $('[data-sound-value]');
+
