@@ -407,3 +407,4 @@ export function createScene(
 
   function render(now) {
     const raw = last ? (now - last) / 1000 : 0;
+    const dt = Math.min(raw, 0.05);
