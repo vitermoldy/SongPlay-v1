@@ -587,3 +587,4 @@ async function playIndex(index) {
       saveQueue();
       say(`Skipped ${titleOf(item)}: ${item.problem}.`);
       advance(`Couldn’t play ${titleOf(item)}: ${item.problem}.`);
+      return;
