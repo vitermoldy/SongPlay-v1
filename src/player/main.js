@@ -93,3 +93,4 @@ ui.seasons.addEventListener('change', (event) => {
 let ambience = null;
 let soundOn = saved(SOUND_KEY, ['on', 'off'], 'off') === 'on';
 let volume = (() => {
+  try {
