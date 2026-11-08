@@ -65,3 +65,4 @@ export function createAmbience() {
 
   // ---------- Sources, made once ----------
 
+  function pinkNoise(seconds) {
