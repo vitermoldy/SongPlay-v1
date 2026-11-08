@@ -191,3 +191,4 @@ function cleanCopy(source, outW, outH) {
 // Make the pictures as wide as the frame is drawn on this screen, never more than the source.
 function outputSize(root) {
   const px = Math.round(root.clientWidth * Math.min(window.devicePixelRatio || 1, 2));
+  const w = Math.max(480, Math.min(W, px || W));
