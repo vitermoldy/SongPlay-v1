@@ -774,3 +774,4 @@ body.menu-open .site-header {
   bottom: 20px;
   z-index: 2;
   padding: 6px 12px;
+  border-radius: var(--radius-s);
