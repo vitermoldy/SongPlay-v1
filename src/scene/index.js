@@ -220,3 +220,4 @@ export function createScene(
   let playing = !still;
   let visible = true;
   let raf = 0;
+  let time = 0;
