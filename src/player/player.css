@@ -649,3 +649,4 @@
 }
 
 .queue-item {
+  display: grid;
