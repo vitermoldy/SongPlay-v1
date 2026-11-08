@@ -490,3 +490,4 @@ export function createScene(
     const w = canvas.width;
     const h = canvas.height;
     const aspect = w / h;
+    const shot = new PerspectiveCamera(30, aspect, 0.1, 1200);
