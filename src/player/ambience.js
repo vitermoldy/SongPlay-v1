@@ -295,3 +295,4 @@ export function createAmbience() {
   // ---------- State ----------
 
   let enabled = false;
+  let ducked = false;
