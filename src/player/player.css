@@ -523,3 +523,6 @@
 
 .icon-btn:hover:not(:disabled) {
   background: rgba(150, 165, 255, 0.48);
+  transform: translateY(-1px);
+}
+
