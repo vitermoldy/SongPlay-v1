@@ -39,3 +39,4 @@ export const THEMES = {
     label: 'Sunset',
     sky: { top: '#24379a', mid: '#d0607a', low: '#ff9058', horizon: '#ffd07a', sun: '#ff8a3a' },
     sunDir: [0.55, 0.05, -1],
+    stars: 0,
