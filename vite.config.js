@@ -12,3 +12,4 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: page('./index.html'),
+        player: page('./player.html'),
