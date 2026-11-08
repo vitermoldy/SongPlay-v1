@@ -102,3 +102,4 @@ export function paintStandIn() {
 }
 
 // What a worn tape does to the same frame: soft luma, chroma smeared sideways, faded colour
+// with a magenta cast and lifted blacks, noise, dropouts and a torn band at the bottom.
