@@ -75,3 +75,4 @@ function initAnchors() {
     target.scrollIntoView({ behavior: reduceMotion.matches ? 'auto' : 'smooth', block: 'start' });
     if (!target.hasAttribute('tabindex')) target.setAttribute('tabindex', '-1');
     target.focus({ preventScroll: true });
+    history.pushState(null, '', `#${id}`);
