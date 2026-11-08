@@ -409,3 +409,4 @@ export function createScene(
     const raw = last ? (now - last) / 1000 : 0;
     const dt = Math.min(raw, 0.05);
     last = now;
+    if (playing) {
