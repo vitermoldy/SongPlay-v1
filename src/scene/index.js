@@ -465,3 +465,4 @@ export function createScene(
   function shouldRun() {
     const settling =
       Boolean(themeShift) ||
+      Math.abs(screenTarget - screenLevel) > 0.01 ||
