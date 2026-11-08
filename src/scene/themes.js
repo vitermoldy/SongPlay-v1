@@ -78,3 +78,4 @@ export const SEASONS = {
     ground: { dark: '#101c0a', lit: '#28401a' },
     particles: { shape: 2, color: '#ffb6cf', color2: '#ffe3ee', opacity: 0.95, fall: 0.6, size: 1.35 },
   },
+  summer: {
