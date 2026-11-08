@@ -297,3 +297,4 @@ export function createScene(
     const d = ray.direction;
     const below = (t) => o.y + d.y * t < heightAt(o.x + d.x * t, o.z + d.z * t) + 0.4;
     let prev = 0.2;
+    for (let t = 0.2; t < 90; t += t < 12 ? 0.12 : 0.5) {
