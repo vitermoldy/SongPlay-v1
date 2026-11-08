@@ -152,3 +152,5 @@ export const NUMBER_PATHS = [
   'exposure',
 ];
 
+const SEASON_PATHS = ['grass.base', 'grass.mid', 'grass.tip', 'grass.tipGold', 'ground.dark', 'ground.lit'];
+
