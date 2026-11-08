@@ -46,3 +46,4 @@ function screenGeometry({ screenW, screenH, bulge }) {
     const u = (pos.getX(i) / screenW) * 2;
     const v = (pos.getY(i) / screenH) * 2;
     pos.setZ(i, bulge * (1 - u * u * 0.85) * (1 - v * v * 0.85));
+  }
