@@ -532,3 +532,4 @@ function onPlayerError(event) {
     say(`Skipped one video in ${titleOf(item)}: ${reason}.`);
     if (at >= 0 && at < list.length - 1) {
       yt.nextVideo();
+      return;
