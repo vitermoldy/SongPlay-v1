@@ -124,3 +124,4 @@ async function setSound(on) {
     return;
   }
   try {
+    ambience ??= createAmbience();
