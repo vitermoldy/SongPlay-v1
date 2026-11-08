@@ -5,3 +5,4 @@ import {
   NeutralToneMapping,
   PerspectiveCamera,
   PMREMGenerator,
+  Raycaster,
