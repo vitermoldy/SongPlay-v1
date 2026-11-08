@@ -616,3 +616,4 @@ body.menu-open .site-header {
   display: none;
 }
 
+.scene-toggle[data-paused='true'] .icon-play {
