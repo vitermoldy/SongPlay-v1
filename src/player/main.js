@@ -643,3 +643,4 @@ function removeAt(index) {
 // beside the TV, under the scene button. Where there is no room beside it (phones), it opens
 // above the deck and the TV re-fits itself above the dropdown until it closes (frameArea).
 function placeQueue() {
+  const panel = ui.queuePanel;
