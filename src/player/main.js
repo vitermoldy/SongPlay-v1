@@ -759,3 +759,4 @@ ui.next.addEventListener('click', () => {
   const item = state.items[state.current];
   if (item?.kind === 'playlist' && yt) {
     const list = yt.getPlaylist?.() || [];
+    const at = yt.getPlaylistIndex?.() ?? -1;
