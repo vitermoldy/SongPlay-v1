@@ -1107,3 +1107,4 @@ body.menu-open .site-header {
   border-radius: 10px;
   background: var(--night);
   color: var(--cream);
+  font: 500 17px/1.4 var(--font-sans);
