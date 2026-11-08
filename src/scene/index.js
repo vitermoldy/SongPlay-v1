@@ -370,3 +370,4 @@ export function createScene(
         const freeW = Math.max(120, area.right - area.left);
         const freeH = Math.max(120, area.bottom - area.top);
         perUnit = Math.min(freeW / setW, freeH / setH, shotPerUnit);
+        const half = { w: (setW * perUnit) / 2, h: (setH * perUnit) / 2 };
