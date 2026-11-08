@@ -222,3 +222,4 @@ export function createScene(
   let raf = 0;
   let time = 0;
   let last = 0;
+  let readyFired = false;
