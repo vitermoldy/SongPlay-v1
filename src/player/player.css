@@ -142,3 +142,6 @@
 
 .sound-switch[aria-pressed='true'] .sound-switch-knob {
   background: var(--night);
+  transform: translateX(24px);
+}
+
