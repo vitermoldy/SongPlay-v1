@@ -564,3 +564,4 @@ body.menu-open .site-header {
 .privacy svg,
 .contacts-privacy svg {
   flex: none;
+  width: 22px;
