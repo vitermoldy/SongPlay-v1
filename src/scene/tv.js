@@ -3,3 +3,4 @@ import {
   Group,
   Mesh,
   MeshBasicMaterial,
+  MeshPhysicalMaterial,
