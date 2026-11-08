@@ -84,3 +84,4 @@ export function createParticles(count, live) {
         float alpha;
         if (uShape < 0.5) {
           float a = atan(c.y, c.x);
+          float star = 0.3 + 0.14 * cos(a * 5.0 + vSeed * 6.2831);
