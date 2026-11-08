@@ -476,3 +476,6 @@ function ensurePlayer() {
       ytReady = null;
       throw error;
     });
+  return ytReady;
+}
+
