@@ -904,3 +904,4 @@ body.menu-open .site-header {
 
 .formats-head .lede {
   grid-column: 7 / -1;
+  max-width: 34em;
