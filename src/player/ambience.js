@@ -110,3 +110,4 @@ export function createAmbience() {
     const count = Math.round(seconds * 260);
     const len = Math.round(sr * 0.012);
     for (let n = 0; n < count; n++) {
+      const start = Math.floor(rand() * (d.length - len));
