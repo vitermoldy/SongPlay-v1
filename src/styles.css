@@ -1202,3 +1202,4 @@ body.menu-open .site-header {
 }
 
 .chip:hover span {
+  border-color: rgba(244, 239, 230, 0.6);
