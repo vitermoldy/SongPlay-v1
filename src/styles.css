@@ -1005,3 +1005,4 @@ body.menu-open .site-header {
 .format-year {
   color: var(--ink-soft);
   font-size: 15px;
+  font-weight: 700;
