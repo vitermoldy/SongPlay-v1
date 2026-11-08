@@ -131,3 +131,4 @@
   border-radius: 50%;
   background: var(--mist);
   transition:
+    transform 200ms var(--ease),
