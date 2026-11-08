@@ -389,3 +389,4 @@ export function createScene(
       // a touch instead of lowering the eye, which would hide the mountains behind the crest.
       base.set(screenWorld.x - shiftX, screenWorld.y + CAMERA_RISE, screenWorld.z + dist);
       look.set(screenWorld.x - shiftX, screenWorld.y + shiftY, screenWorld.z);
+    } else {
