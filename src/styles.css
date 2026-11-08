@@ -1291,3 +1291,6 @@ body.menu-open .site-header {
 
 @media (max-width: 1100px) {
   .formats {
+    --mm: 1.7px;
+  }
+
