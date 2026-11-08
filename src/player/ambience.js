@@ -222,3 +222,4 @@ export function createAmbience() {
     src.buffer = buf;
     src.loop = true;
     let node = src;
+    for (const next of chain) {
