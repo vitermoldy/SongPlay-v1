@@ -301,3 +301,4 @@ export function createScene(
       if (below(t)) {
         let a = prev;
         let b = t;
+        for (let i = 0; i < 8; i++) {
