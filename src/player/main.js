@@ -693,3 +693,4 @@ ui.form.addEventListener('submit', (event) => {
   if (!raw.trim()) {
     showError('Paste a YouTube link first.');
     ui.input.focus();
+    return;
