@@ -340,3 +340,6 @@ export function createScene(
   const projected = new Vector3();
   function updateFocus(cam) {
     projected.copy(screenWorld).project(cam);
+    post.setFocus(projected.x * 0.5 + 0.5, projected.y * 0.5 + 0.5);
+  }
+
