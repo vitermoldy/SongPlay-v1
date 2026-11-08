@@ -24,3 +24,4 @@ export const THEMES = {
     label: 'Night',
     sky: { top: '#03061c', mid: '#081040', low: '#16225e', horizon: '#2b3a78', sun: '#b9c8ff' },
     sunDir: [-0.36, 0.2, -1],
+    stars: 1,
