@@ -330,3 +330,4 @@ export function createAmbience() {
       }
     },
     setScene(time, season) {
+      const L = levelsFor(time, season);
