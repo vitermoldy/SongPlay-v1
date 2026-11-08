@@ -19,3 +19,6 @@ export function initCursorLight({ skip = [] } = {}) {
   const overSkipped = (px, py) =>
     skip.some((el) => {
       const r = el.getBoundingClientRect();
+      return px >= r.left && px <= r.right && py >= r.top && py <= r.bottom;
+    });
+
