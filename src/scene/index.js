@@ -563,3 +563,4 @@ export function createScene(
       cssRenderer.domElement.classList.add('screen-layer');
       container.append(cssRenderer.domElement);
       element.style.width = `${width}px`;
+      element.style.height = `${height}px`;
