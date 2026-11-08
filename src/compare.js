@@ -226,3 +226,4 @@ export function initCompare(root) {
   };
 
   root.addEventListener('pointerdown', (event) => {
+    if (event.pointerType === 'mouse' && event.button !== 0) return;
