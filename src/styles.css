@@ -1263,3 +1263,4 @@ body.menu-open .site-header {
 
 .footer-row a {
   display: inline-flex;
+  align-items: center;
