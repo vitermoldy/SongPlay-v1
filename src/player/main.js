@@ -556,3 +556,4 @@ async function playIndex(index) {
   state.videoTitle = '';
   render();
 
+  let player;
