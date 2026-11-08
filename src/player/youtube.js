@@ -53,3 +53,5 @@ export async function fetchInfo(item) {
   return { title: data.title, author: data.author_name, thumb: data.thumbnail_url };
 }
 
+let apiPromise = null;
+
