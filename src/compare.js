@@ -96,3 +96,4 @@ export function paintStandIn() {
     g.beginPath();
     g.moveTo(x, base);
     g.lineTo(x + (rand() - 0.3) * 10, base - len);
+    g.stroke();
