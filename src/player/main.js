@@ -647,3 +647,4 @@ function placeQueue() {
   panel.style.removeProperty('right');
   panel.style.removeProperty('width');
   panel.style.removeProperty('max-height');
+  const deck = panel.offsetParent?.getBoundingClientRect();
