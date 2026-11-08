@@ -68,3 +68,4 @@ ui.themes.querySelector(`input[value="${theme}"]`).checked = true;
 ui.seasons.querySelector(`input[value="${season}"]`).checked = true;
 
 ui.themes.addEventListener('change', (event) => {
+  const name = event.target.value;
