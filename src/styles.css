@@ -287,3 +287,6 @@ body.menu-open .site-header {
   text-decoration: none;
   transition:
     background-color 200ms var(--ease),
+    transform 180ms var(--ease);
+}
+
