@@ -72,3 +72,4 @@ function initAnchors() {
     const target = id && document.getElementById(id);
     if (!target) return;
     event.preventDefault();
+    target.scrollIntoView({ behavior: reduceMotion.matches ? 'auto' : 'smooth', block: 'start' });
