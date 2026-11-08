@@ -510,3 +510,4 @@ function onPlayerState(event) {
     }
   } else if (event.data === S.BUFFERING) {
     if (state.status !== 'playing') state.status = 'loading';
+  } else if (event.data === S.ENDED) {
