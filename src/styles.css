@@ -91,3 +91,6 @@ input[type='range'] {
 }
 
 button:disabled {
+  cursor: not-allowed;
+}
+
