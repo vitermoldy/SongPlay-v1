@@ -39,3 +39,4 @@ export function createParticles(count, live) {
       uOpacity: live.u.particleOpacity,
     },
     vertexShader: /* glsl */ `
+      attribute vec4 aData;
