@@ -25,3 +25,4 @@ export function createParticles(count, live) {
   geometry.setAttribute('aData', new BufferAttribute(data, 4));
 
   const material = new ShaderMaterial({
+    transparent: true,
