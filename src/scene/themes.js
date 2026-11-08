@@ -189,3 +189,4 @@ function overcastSky(colors, numbers, { tint, amount }) {
   numbers.stars *= 0.1;
   numbers['clouds.opacity'] = 1;
   numbers['lamps.sunI'] *= 0.35;
+  numbers['lamps.hemi'] *= 0.85;
