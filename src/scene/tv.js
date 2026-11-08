@@ -8,3 +8,4 @@ import {
   PlaneGeometry,
   ShaderMaterial,
   SphereGeometry,
+  Vector3,
