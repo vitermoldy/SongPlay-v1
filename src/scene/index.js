@@ -338,3 +338,4 @@ export function createScene(
   document.documentElement.addEventListener('mouseleave', onLeave);
 
   const projected = new Vector3();
+  function updateFocus(cam) {
