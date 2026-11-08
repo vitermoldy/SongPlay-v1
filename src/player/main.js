@@ -226,3 +226,4 @@ function isValid(item) {
 
 function loadQueue() {
   try {
+    const items = JSON.parse(localStorage.getItem(STORE_KEY) || '[]');
