@@ -140,3 +140,6 @@ export function createClouds(live) {
     mesh.position.set(x, y, z);
     mesh.renderOrder = -5;
     return mesh;
+  });
+}
+
