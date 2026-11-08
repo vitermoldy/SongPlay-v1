@@ -758,3 +758,4 @@ ui.toggle.addEventListener('click', () => {
 ui.next.addEventListener('click', () => {
   const item = state.items[state.current];
   if (item?.kind === 'playlist' && yt) {
+    const list = yt.getPlaylist?.() || [];
