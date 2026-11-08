@@ -28,3 +28,4 @@ export function createSky(live, { forReflections = false } = {}) {
       uHorizon: { value: live.color(forReflections ? 'sky.low' : 'sky.horizon') },
       uSunColor: { value: forReflections ? new Color(0, 0, 0) : live.color('sky.sun') },
       uSunDir: { value: live.sunDir },
+      uStars: forReflections ? { value: 0 } : live.u.stars,
