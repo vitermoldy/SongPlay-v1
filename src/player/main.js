@@ -437,3 +437,4 @@ async function initScene() {
   new ResizeObserver(() => scene.relayout()).observe(ui.pickers);
   new ResizeObserver(() => {
     if (!ui.queuePanel.hidden) scene.relayout();
+  }).observe(ui.queuePanel);
