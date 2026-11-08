@@ -97,3 +97,4 @@ export function createParticles(count, live) {
           alpha = 1.0 - smoothstep(0.016, 0.05 + vBlur * 0.06, abs(x));
           alpha *= 1.0 - smoothstep(0.2, 0.5, abs(c.y));
         } else {
+          float s = sin(vSpin);
