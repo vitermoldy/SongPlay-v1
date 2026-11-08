@@ -114,3 +114,4 @@ export function createPost(renderer, scene, camera) {
       blurY.uniforms.uFocus.value.set(x, y);
     },
     setTime(t) {
+      finish.uniforms.uTime.value = t;
