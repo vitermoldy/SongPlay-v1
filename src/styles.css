@@ -1172,3 +1172,4 @@ body.menu-open .site-header {
   position: absolute;
   inset: 0;
   z-index: 1;
+  width: 100%;
