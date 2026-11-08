@@ -91,3 +91,4 @@ export function createScene(
     lowPower = false,
     reducedMotion = false,
     onReady,
+    onLost,
