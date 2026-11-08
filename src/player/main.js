@@ -107,3 +107,4 @@ const soundVolume = $('[data-sound-volume]');
 const soundValue = $('[data-sound-value]');
 
 function syncSound() {
+  ui.sound.dataset.on = String(soundOn);
