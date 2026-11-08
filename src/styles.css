@@ -86,3 +86,4 @@ select,
 label[for],
 .chip,
 input[type='checkbox'],
+input[type='range'] {
