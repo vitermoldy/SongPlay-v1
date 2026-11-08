@@ -36,3 +36,4 @@ const FocusBlurShader = {
     void main() {
       vec2 d = (vUv - uFocus) * vec2(uAspect * 0.75, 1.1);
       float amount = smoothstep(0.2, 0.75, length(d));
+      amount = max(amount, smoothstep(0.32, 0.0, vUv.y) * 0.95);
