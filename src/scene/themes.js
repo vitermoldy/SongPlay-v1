@@ -185,3 +185,4 @@ function overcastSky(colors, numbers, { tint, amount }) {
     c.lerp(target, amount);
   }
   colors.get('sky.sun').multiplyScalar(0.2);
+  colors.get('grass.back').multiplyScalar(0.35);
