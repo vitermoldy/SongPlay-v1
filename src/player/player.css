@@ -526,3 +526,4 @@
   transform: translateY(-1px);
 }
 
+.icon-btn:active:not(:disabled) {
