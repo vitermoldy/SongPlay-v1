@@ -151,3 +151,4 @@ export function createScene(
     uWindDir: { value: new Vector2(0.92, 0.38).normalize() },
     uWind: { value: 0.55 },
     uSunDir: { value: live.sunDir },
+    uSunColor: { value: live.color('light.sun') },
