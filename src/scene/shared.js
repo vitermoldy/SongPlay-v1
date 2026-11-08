@@ -20,3 +20,4 @@ export const PALETTE = {
   cursor: '#ffc46a',
 };
 
+export const NOISE_GLSL = /* glsl */ `
