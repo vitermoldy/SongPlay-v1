@@ -749,3 +749,4 @@ ui.toggle.addEventListener('click', () => {
     }
   } else if (state.status === 'paused' && yt) {
     yt.playVideo();
+  } else if (state.items.length) {
