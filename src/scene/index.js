@@ -183,3 +183,4 @@ export function createScene(
     }),
   );
 
+  const particles = createParticles(lowPower ? 260 : 520, live);
