@@ -304,3 +304,4 @@ export function createScene(
         for (let i = 0; i < 8; i++) {
           const m = (a + b) / 2;
           if (below(m)) b = m;
+          else a = m;
