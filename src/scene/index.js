@@ -546,3 +546,4 @@ export function createScene(
       if (next) kick();
     },
     setTheme,
+    setSeason,
