@@ -773,3 +773,4 @@ ui.prev.addEventListener('click', () => {
   if (item?.kind === 'playlist' && yt && (yt.getPlaylistIndex?.() ?? 0) > 0) {
     yt.previousVideo();
   } else if (state.current > 0) {
+    playIndex(state.current - 1);
