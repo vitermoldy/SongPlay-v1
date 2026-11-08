@@ -48,3 +48,4 @@ export async function fetchInfo(item) {
     const error = new Error(`oEmbed ${res.status}`);
     error.status = res.status;
     throw error;
+  }
