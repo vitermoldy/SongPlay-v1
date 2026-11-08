@@ -459,3 +459,4 @@ function ensurePlayer() {
           const player = new YT.Player('yt-player', {
             host: 'https://www.youtube-nocookie.com',
             width: 640,
+            height: 360,
