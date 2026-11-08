@@ -90,3 +90,4 @@ input[type='range'] {
   cursor: pointer;
 }
 
+button:disabled {
