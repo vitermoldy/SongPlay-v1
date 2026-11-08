@@ -149,3 +149,4 @@ export function createScene(
   const shared = {
     uTime: live.u.time,
     uWindDir: { value: new Vector2(0.92, 0.38).normalize() },
+    uWind: { value: 0.55 },
