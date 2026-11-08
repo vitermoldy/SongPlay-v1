@@ -93,3 +93,4 @@ export function createAmbience() {
   function brownNoise(seconds) {
     const b = buffer(seconds);
     const d = b.getChannelData(0);
+    let last = 0;
