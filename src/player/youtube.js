@@ -35,3 +35,4 @@ export function parseYouTube(raw) {
 }
 
 export function watchUrl(item) {
+  return item.kind === 'playlist'
