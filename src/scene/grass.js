@@ -104,3 +104,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
         vH = h;
         vSeed = seed;
         vWorld = world;
+        gl_Position = projectionMatrix * viewMatrix * vec4(world, 1.0);
