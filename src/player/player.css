@@ -310,3 +310,6 @@
   border-radius: inherit;
   background: transparent;
   appearance: none;
+  -webkit-appearance: none;
+}
+
