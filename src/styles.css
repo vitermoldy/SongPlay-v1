@@ -1037,3 +1037,6 @@ body.menu-open .site-header {
 }
 
 .contacts-copy p:not(.lede) {
+  color: var(--mist);
+}
+
