@@ -121,3 +121,4 @@ async function setSound(on) {
   remember(SOUND_KEY, on ? 'on' : 'off');
   if (!on) {
     ambience?.setEnabled(false);
+    return;
