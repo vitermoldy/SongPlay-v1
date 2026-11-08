@@ -139,3 +139,4 @@ export function createScene(
   createMountains(live).forEach((ridge) => scene.add(ridge));
 
   const tv = createTV(setup.tv);
+  tv.group.position.set(0, heightAt(0, 0) - 0.1, 0);
