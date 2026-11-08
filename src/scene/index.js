@@ -54,3 +54,4 @@ const PLAYER_DISTANCE = 5.2;
 // view the owner wants back, which keeps the mountains in sight over the crest.
 const CAMERA_RISE = 0.4;
 const VIDEO_FILL = 0.97;
+const POWER_DELAY = 0.5;
