@@ -1182,3 +1182,4 @@ body.menu-open .site-header {
   -webkit-appearance: none;
 }
 
+.chip input:focus-visible {
