@@ -24,3 +24,4 @@ const FocusBlurShader = {
     uAspect: { value: 1.6 },
     uMaxRadius: { value: 9 },
   },
+  vertexShader: passVertex,
