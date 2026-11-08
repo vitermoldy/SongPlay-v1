@@ -110,3 +110,4 @@ export function createParticles(count, live) {
     `,
   });
 
+  const points = new Points(geometry, material);
