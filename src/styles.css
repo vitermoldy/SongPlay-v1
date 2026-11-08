@@ -1192,3 +1192,4 @@ body.menu-open .site-header {
   align-items: center;
   min-height: 44px;
   padding: 0 18px;
+  border: 1px solid rgba(244, 239, 230, 0.3);
