@@ -306,3 +306,4 @@ export function createAmbience() {
       () => {
         rumble();
         scheduleThunder();
+      },
