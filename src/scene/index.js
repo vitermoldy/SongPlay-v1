@@ -207,3 +207,4 @@ export function createScene(
     live.u.particleSize.value = n['particles.size'];
     hemi.intensity = n['lamps.hemi'];
     sun.intensity = n['lamps.sunI'];
+    fill.intensity = n['lamps.fillI'];
