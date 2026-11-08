@@ -307,3 +307,4 @@ export function createAmbience() {
         rumble();
         scheduleThunder();
       },
+      (12 + rand() * 22) * 1000,
