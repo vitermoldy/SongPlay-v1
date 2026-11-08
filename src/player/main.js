@@ -497,3 +497,4 @@ function onPlayerState(event) {
     // and events from stopping it arrive late. Those must not settle the new item's wait.
     if (!playingMatches(item)) {
       if (event.data === S.PLAYING) yt.stopVideo();
+      return;
