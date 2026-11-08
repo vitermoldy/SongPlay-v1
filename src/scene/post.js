@@ -94,3 +94,6 @@ export function createPost(renderer, scene, camera) {
   composer.addPass(bloom);
   composer.addPass(blurX);
   composer.addPass(blurY);
+  composer.addPass(output);
+  composer.addPass(finish);
+
