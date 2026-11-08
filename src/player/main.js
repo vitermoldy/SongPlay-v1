@@ -370,3 +370,4 @@ function render() {
 }
 
 function bumpCount() {
+  ui.queueCount.classList.remove('is-bumped');
