@@ -202,3 +202,4 @@ export function createAmbience() {
   // ---------- The graph ----------
 
   const compressor = ctx.createDynamicsCompressor();
+  compressor.threshold.value = -18;
