@@ -26,3 +26,4 @@ export const TV_SHAPES = {
     bulge: 0.05,
     led: [0.53, 0.16],
   },
+  wide: {
