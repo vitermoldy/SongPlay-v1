@@ -331,3 +331,4 @@ export function createScene(
     if (visible && !playing) kick();
   };
   const onLeave = () => {
+    cursorWanted = 0;
