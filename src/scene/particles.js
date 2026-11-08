@@ -99,3 +99,4 @@ export function createParticles(count, live) {
         } else {
           float s = sin(vSpin);
           float k = cos(vSpin);
+          vec2 q = vec2(c.x * k - c.y * s, c.x * s + c.y * k);
