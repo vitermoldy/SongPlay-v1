@@ -16,3 +16,4 @@ function showError(field, message) {
 }
 
 export function initRequestForm(form) {
+  const name = form.querySelector('#f-name');
