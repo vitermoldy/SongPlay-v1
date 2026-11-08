@@ -8,3 +8,4 @@ import {
   Raycaster,
   Scene,
   Vector2,
+  Vector3,
