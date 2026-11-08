@@ -670,3 +670,4 @@ function placeQueue() {
   scene?.relayout();
 }
 
+function setQueueOpen(open) {
