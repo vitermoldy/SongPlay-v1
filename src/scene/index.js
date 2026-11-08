@@ -451,3 +451,4 @@ export function createScene(
       updateFocus(camera);
     }
 
+    post.setTime(time);
