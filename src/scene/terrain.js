@@ -57,3 +57,4 @@ export function createTerrain(uniforms) {
         vec3 base = mix(uGround, uGroundLit, k * 0.7);
         float sun = max(dot(n, uSunDir), 0.0);
         vec3 c = base * (uSunColor * (0.25 + sun * 0.9) + uSkyColor * (0.28 + 0.2 * n.y));
+        float d = distance(vWorld, uTvPos);
