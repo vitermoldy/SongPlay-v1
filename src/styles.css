@@ -753,3 +753,4 @@ body.menu-open .site-header {
 .compare-img {
   position: absolute;
   inset: 0;
+  width: 100%;
