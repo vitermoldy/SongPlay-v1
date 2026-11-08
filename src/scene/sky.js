@@ -188,3 +188,4 @@ export function createMountains(live) {
         uniform vec3 uTop;
         uniform vec3 uLow;
         uniform vec3 uFog;
+        uniform float uTopY;
