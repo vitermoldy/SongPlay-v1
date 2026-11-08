@@ -35,3 +35,4 @@ const ui = {
   sceneToggle: $('[data-scene-toggle]'),
   sceneLabel: $('[data-scene-label]'),
   themes: $('[data-themes]'),
+  seasons: $('[data-seasons]'),
