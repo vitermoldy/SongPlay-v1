@@ -1197,3 +1197,4 @@ body.menu-open .site-header {
   font-weight: 700;
   transition:
     background-color 160ms var(--ease),
+    border-color 160ms var(--ease),
