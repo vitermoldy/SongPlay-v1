@@ -43,3 +43,4 @@ export function paintStandIn() {
 
   g.fillStyle = '#5b62a8';
   g.beginPath();
+  g.moveTo(0, H * 0.74);
