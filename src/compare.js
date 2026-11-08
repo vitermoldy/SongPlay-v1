@@ -53,3 +53,4 @@ export function paintStandIn() {
   hill.addColorStop(0, '#3a4a1c');
   hill.addColorStop(1, '#10170c');
   g.fillStyle = hill;
+  g.beginPath();
