@@ -1358,3 +1358,6 @@ body.menu-open .site-header {
 
   .section {
     min-height: 0;
+    padding-block: 72px;
+  }
+
