@@ -538,3 +538,6 @@
 .icon-btn-main {
   width: 52px;
   background: var(--cream);
+  color: var(--ink);
+}
+
