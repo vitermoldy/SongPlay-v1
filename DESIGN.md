@@ -20,3 +20,5 @@ tapes, in a cinematic dusk 3D style. Dial: ENERGY 3 / RHYTHM 2 / MOTION 2.
 - **One accent: tube glow amber `#ffc56b`.** It is the colour of the lit screen in the scene, so it
   marks only the main action (the wave icon on the button) and keyboard focus on dark grounds.
 
+## Palette (2 cores + 1 accent)
+
