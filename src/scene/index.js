@@ -127,3 +127,4 @@ export function createScene(
   envScene.add(createSky(live, { forReflections: true }));
   let envTarget = null;
   function refreshEnvironment() {
+    const next = pmrem.fromScene(envScene, 0.03, 0.1, 1000);
