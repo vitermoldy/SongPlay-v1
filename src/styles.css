@@ -49,3 +49,6 @@ body {
 }
 
 body.menu-open {
+  overflow: hidden;
+}
+
