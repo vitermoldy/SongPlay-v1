@@ -211,3 +211,4 @@ function frameArea() {
 
 const ACTIVE = new Set(['loading', 'playing', 'paused']);
 const state = {
+  items: loadQueue(),
