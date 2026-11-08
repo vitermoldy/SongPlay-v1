@@ -16,3 +16,4 @@ import { NOISE_GLSL, mulberry32 } from './shared.js';
 // theme change only has to update them.
 
 // `forReflections` drops the warm horizon, the sun and the stars, so glossy surfaces mirror
+// plain sky (the TV's side panel stays blue) instead of a peach band.
