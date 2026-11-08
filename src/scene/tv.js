@@ -57,3 +57,4 @@ export function createTV(shapeName = 'classic') {
   const midY = bodyH / 2;
   const group = new Group();
 
+  const shell = new MeshPhysicalMaterial({
