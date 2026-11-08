@@ -70,3 +70,4 @@ export const THEMES = {
 // Seasons paint the grass and the ground, and choose what falls through the air. Their colours
 // are given as they would look in the dusk light; each time of day then relights them.
 // particles.shape: 1 = round snowflakes, 2 = spinning petals or leaves, 3 = rain. No particles: the
+// time of day keeps its own motes (dust, or fireflies at night).
