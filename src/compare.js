@@ -232,3 +232,4 @@ export function initCompare(root) {
     dragging = true;
     root.setPointerCapture(event.pointerId);
     fromPointer(event);
+  });
