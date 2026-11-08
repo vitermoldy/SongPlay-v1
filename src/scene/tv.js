@@ -148,3 +148,4 @@ export function createTV(shapeName = 'classic') {
   const rodGeometry = new CylinderGeometry(0.0075, 0.011, ROD, 8);
   rodGeometry.translate(0, ROD / 2, 0);
   const tipGeometry = new SphereGeometry(0.016, 10, 8);
+  for (const [tiltZ, tiltX] of [
