@@ -619,3 +619,4 @@
 @keyframes bump {
   40% {
     transform: scale(1.35);
+    background: var(--glow);
