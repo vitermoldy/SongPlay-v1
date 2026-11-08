@@ -31,3 +31,4 @@ export function initCursorLight({ skip = [] } = {}) {
       const target = event.target instanceof Element ? event.target : null;
       light.classList.toggle('is-on', !overSkipped(x, y));
       light.classList.toggle('is-paper', Boolean(target?.closest('.on-light')));
+      if (!queued) {
