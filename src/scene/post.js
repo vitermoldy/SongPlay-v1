@@ -7,3 +7,4 @@ import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
 
 const passVertex = /* glsl */ `
   varying vec2 vUv;
+  void main() {
