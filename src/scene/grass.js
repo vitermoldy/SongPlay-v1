@@ -134,3 +134,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
         c *= 0.62 + vSeed * 0.5;
 
         vec3 v = normalize(vWorld - cameraPosition);
+        float back = pow(max(dot(v, uSunDir), 0.0), 14.0);
