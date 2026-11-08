@@ -396,3 +396,4 @@ async function initScene() {
     window.matchMedia('(max-width: 720px)').matches || (navigator.hardwareConcurrency || 8) <= 4;
   let playing = false;
   const sync = () => {
+    ui.sceneToggle.dataset.paused = String(!playing);
