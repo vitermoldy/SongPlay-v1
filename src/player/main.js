@@ -36,3 +36,4 @@ const ui = {
   sceneLabel: $('[data-scene-label]'),
   themes: $('[data-themes]'),
   seasons: $('[data-seasons]'),
+  pickers: $('[data-pickers]'),
