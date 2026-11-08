@@ -327,3 +327,4 @@ export function createAmbience() {
         setTimeout(() => {
           if (!enabled) ctx.suspend();
         }, 1500);
+      }
