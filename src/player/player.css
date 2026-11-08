@@ -211,3 +211,4 @@
 
 .stage[data-theme='sunset'] .hero-sky {
   background:
+    radial-gradient(14% 11% at 50% 58%, rgba(255, 244, 214, 0.9), rgba(255, 197, 107, 0.5) 45%, transparent 100%),
