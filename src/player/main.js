@@ -309,3 +309,4 @@ function queueRow(item, index) {
   const src = safeThumb(item.thumb);
   if (src) thumb.src = src;
 
+  const meta = document.createElement('div');
