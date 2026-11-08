@@ -28,3 +28,4 @@ const VARIANTS = {
     tv: 'classic',
     camera: new Vector3(0, -0.3, 7.6),
     look: new Vector3(0, 0.95, 0),
+    tvYaw: -0.36,
