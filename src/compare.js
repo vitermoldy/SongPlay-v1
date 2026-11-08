@@ -231,3 +231,4 @@ export function initCompare(root) {
     if (event.target.closest('label')) return;
     dragging = true;
     root.setPointerCapture(event.pointerId);
+    fromPointer(event);
