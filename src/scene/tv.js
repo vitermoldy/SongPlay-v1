@@ -14,3 +14,4 @@ import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeom
 
 // classic: the boxy 4:3 set of the landing page.
 // wide: the player's set, a 16:9 tube with a thin bezel so a video fills the glass edge to edge.
+export const TV_SHAPES = {
