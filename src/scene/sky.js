@@ -69,3 +69,4 @@ export function createSky(live, { forReflections = false } = {}) {
         if (uStars > 0.001) {
           vec3 g = d * 170.0;
           float h = hash13(floor(g));
+          if (h > 0.982) {
