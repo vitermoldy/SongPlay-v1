@@ -93,3 +93,6 @@ async function initScene(compare) {
   const toggle = hero.querySelector('[data-scene-toggle]');
   const label = toggle.querySelector('[data-scene-label]');
 
+  // Without WebGL the painted CSS sky stays as the hero's still.
+  if (!webglAvailable()) return;
+
