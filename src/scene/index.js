@@ -530,3 +530,6 @@ export function createScene(
     event.preventDefault();
     cancelAnimationFrame(raf);
     raf = 0;
+    onLost?.();
+  });
+
