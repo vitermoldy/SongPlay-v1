@@ -4,3 +4,4 @@
 export function initCursorLight({ skip = [] } = {}) {
   const fine = window.matchMedia('(hover: hover) and (pointer: fine)');
   const light = document.createElement('div');
+  light.className = 'cursor-light';
