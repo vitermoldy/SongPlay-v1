@@ -670,3 +670,4 @@
 }
 
 .queue-title {
+  display: -webkit-box;
