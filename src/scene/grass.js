@@ -14,3 +14,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
   const blade = new PlaneGeometry(1, 1, 1, 5);
   blade.translate(0, 0.5, 0);
 
+  const geometry = new InstancedBufferGeometry();
