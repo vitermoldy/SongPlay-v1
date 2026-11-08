@@ -432,3 +432,4 @@ export function createScene(
     const on = power(now);
     screenLevel += (screenTarget - screenLevel) * ease(4);
     const flicker = screenMode === 'video' ? 0.9 + 0.1 * Math.sin(time * 13.1) * Math.sin(time * 7.3) : 1;
+    const glow = MathUtils.smoothstep(on, 0.2, 1);
