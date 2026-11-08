@@ -16,3 +16,4 @@ export function initCursorLight({ skip = [] } = {}) {
     light.style.transform = `translate3d(${x}px, ${y}px, 0)`;
   };
 
+  const overSkipped = (px, py) =>
