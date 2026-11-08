@@ -597,3 +597,4 @@ async function playIndex(index) {
 
 // `note` explains a skip, so the end-of-queue line does not hide why the last one stopped.
 function advance(note = '') {
+  if (state.current + 1 < state.items.length) playIndex(state.current + 1);
