@@ -143,3 +143,4 @@ export function createClouds(live) {
   });
 }
 
+function ridge(seed, width, base, peak) {
