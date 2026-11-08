@@ -64,3 +64,4 @@ export function createParticles(count, live) {
         vStar = aData.z;
         vAlpha = aData.w * smoothstep(1.5, 4.0, depth);
         vBlur = 1.0 - smoothstep(3.0, 12.0, depth);
+        vSpin = uTime * (0.6 + seed * 1.4) + seed * 6.2831;
