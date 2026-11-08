@@ -34,3 +34,6 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
 
 - **Nunito Sans (variable):** rounded terminals sit well with the soft scene and stay legible for an
   older audience reading about their parents' tapes.
+- **Dancing Script 700:** handwriting on a tape label (see motif).
+- Fonts are self-hosted through Fontsource: a privacy-first service should not call a font CDN.
+
