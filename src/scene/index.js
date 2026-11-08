@@ -176,3 +176,4 @@ export function createScene(
     createGrass({
       count: lowPower ? 30000 : 80000,
       heightAt,
+      tv: { x: 0, z: 0, yaw: setup.tvYaw, halfW: tv.shape.bodyW / 2 - 0.05, halfD: 0.5 },
