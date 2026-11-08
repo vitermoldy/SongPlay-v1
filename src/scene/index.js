@@ -103,3 +103,4 @@ export function createScene(
     powerPreference: 'high-performance',
   });
 
+  // Without a GPU the browser draws WebGL on the CPU; an animated scene would then hold the
