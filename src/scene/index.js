@@ -187,3 +187,4 @@ export function createScene(
   particles.setShape(live.shape);
   scene.add(particles.points);
 
+  const hemi = new HemisphereLight();
