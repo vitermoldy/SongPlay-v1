@@ -5,3 +5,4 @@ import {
   MeshBasicMaterial,
   MeshPhysicalMaterial,
   MeshStandardMaterial,
+  PlaneGeometry,
