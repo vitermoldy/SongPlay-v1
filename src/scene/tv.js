@@ -150,3 +150,4 @@ export function createTV(shapeName = 'classic') {
   const tipGeometry = new SphereGeometry(0.016, 10, 8);
   for (const [tiltZ, tiltX] of [
     [0.4, -0.1],
+    [-0.3, -0.06],
