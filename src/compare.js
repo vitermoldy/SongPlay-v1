@@ -183,3 +183,4 @@ export function vhsify(source, outW = W, outH = H) {
 function cleanCopy(source, outW, outH) {
   const out = makeCanvas(outW, outH);
   const og = out.getContext('2d');
+  og.imageSmoothingQuality = 'high';
