@@ -162,3 +162,4 @@ const OVERCAST_PATHS = [
   'sky.low',
   'sky.horizon',
   'haze',
+  'clouds.lit',
