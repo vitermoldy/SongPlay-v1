@@ -60,3 +60,4 @@ export function createTV(shapeName = 'classic') {
   const shell = new MeshPhysicalMaterial({
     color: '#1830d8',
     roughness: 0.42,
+    metalness: 0.0,
