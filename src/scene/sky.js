@@ -30,3 +30,4 @@ export function createSky(live, { forReflections = false } = {}) {
       uSunDir: { value: live.sunDir },
       uStars: forReflections ? { value: 0 } : live.u.stars,
       uTime: live.u.time,
+    },
