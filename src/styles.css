@@ -777,3 +777,4 @@ body.menu-open .site-header {
   border-radius: var(--radius-s);
   background: rgba(8, 11, 36, 0.72);
   color: #fff;
+  font-size: 14px;
