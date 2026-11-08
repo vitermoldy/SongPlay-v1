@@ -130,3 +130,6 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
       void main() {
         vec3 tip = mix(uTip, uTipGold, step(0.62, fract(vSeed * 7.31)));
         vec3 c = mix(uBase, uMid, smoothstep(0.0, 0.55, vH));
+        c = mix(c, tip, smoothstep(0.4, 1.0, vH) * (0.45 + vSeed * 0.55));
+        c *= 0.62 + vSeed * 0.5;
+
