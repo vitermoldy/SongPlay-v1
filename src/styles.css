@@ -424,3 +424,6 @@ body.menu-open .site-header {
   overflow: hidden;
   isolation: isolate;
   color: #fff;
+  background: var(--night);
+}
+
