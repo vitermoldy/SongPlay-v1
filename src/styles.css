@@ -153,3 +153,6 @@ button:disabled {
 }
 
 .text-link:hover {
+  background-size: 100% 1.5px;
+}
+
