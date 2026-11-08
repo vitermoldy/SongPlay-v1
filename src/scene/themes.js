@@ -149,3 +149,6 @@ export const NUMBER_PATHS = [
   'particles.opacity',
   'particles.fall',
   'particles.size',
+  'exposure',
+];
+
