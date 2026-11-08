@@ -364,3 +364,4 @@ function render() {
   ui.toggle.dataset.state = playingNow ? 'playing' : 'paused';
   ui.toggle.setAttribute('aria-label', playingNow ? 'Pause' : 'Play');
   ui.toggle.disabled = count === 0;
+  ui.prev.disabled = count === 0 || !ACTIVE.has(state.status);
