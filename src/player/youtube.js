@@ -50,3 +50,6 @@ export async function fetchInfo(item) {
     throw error;
   }
   const data = await res.json();
+  return { title: data.title, author: data.author_name, thumb: data.thumbnail_url };
+}
+
