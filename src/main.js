@@ -55,3 +55,4 @@ function initMenu() {
     if (event.target.closest('a')) setOpen(false, false);
   });
   document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && open) setOpen(false);
