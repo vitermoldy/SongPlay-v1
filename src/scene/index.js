@@ -93,3 +93,4 @@ export function createScene(
     onReady,
     onLost,
     onSlow,
+  } = {},
