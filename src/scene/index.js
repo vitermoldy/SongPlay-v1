@@ -45,3 +45,4 @@ const VARIANTS = {
 };
 
 // The player's camera stands PLAYER_DISTANCE from the TV's glass on every screen: a wide shot
+// with plenty of hill and sky, the same composition at any window size (the set scales with the
