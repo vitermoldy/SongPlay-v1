@@ -1420,3 +1420,4 @@ body.menu-open .site-header {
   .scene-toggle [data-scene-label] {
     position: absolute;
     width: 1px;
+    height: 1px;
