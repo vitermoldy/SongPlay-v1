@@ -187,3 +187,4 @@ document.addEventListener('visibilitychange', () => ambience?.setHidden(document
 // viewfinder frame, in the stage's own pixels. The pickers (when they hang under the header)
 // and the scene button are listed to avoid: the scene moves the set below them only if it
 // would run into them.
+function frameArea() {
