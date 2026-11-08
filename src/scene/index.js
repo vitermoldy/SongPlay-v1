@@ -73,3 +73,4 @@ function createLive(time, season) {
       time: { value: 0 },
       drift: { value: 0 },
       stars: { value: look.numbers.stars },
+      cloudOpacity: { value: look.numbers['clouds.opacity'] },
