@@ -267,3 +267,4 @@ export function createAmbience() {
   loop(droplets(4), filter('highpass', 900), patter, layers.rain);
 
   loop(crickets(), pan(0.3), layers.crickets);
+  loop(birds(), pan(-0.3), layers.birds);
