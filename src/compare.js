@@ -225,3 +225,4 @@ export function initCompare(root) {
     set(((event.clientX - rect.left) / rect.width) * 100);
   };
 
+  root.addEventListener('pointerdown', (event) => {
