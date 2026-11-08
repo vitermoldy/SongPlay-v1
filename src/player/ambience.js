@@ -128,3 +128,4 @@ export function createAmbience() {
     const voices = [
       { f: 4300, period: 0.6, offset: 0.05, amp: 0.2 },
       { f: 4750, period: 0.8, offset: 0.33, amp: 0.14 },
+      { f: 5150, period: 1.2, offset: 0.71, amp: 0.1 },
