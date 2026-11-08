@@ -146,3 +146,4 @@ export const NUMBER_PATHS = [
   'lamps.hemi',
   'lamps.sunI',
   'lamps.fillI',
+  'particles.opacity',
