@@ -520,3 +520,6 @@ export function createScene(
     post.renderPass.camera = camera;
     updateFocus(camera);
     post.composer.render(0);
+    resolve(out);
+  }
+
