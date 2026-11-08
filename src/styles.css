@@ -895,3 +895,6 @@ body.menu-open .site-header {
 }
 
 .formats-head {
+  row-gap: 20px;
+}
+
