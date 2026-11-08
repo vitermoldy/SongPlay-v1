@@ -16,3 +16,4 @@ export function createTerrain(uniforms) {
   geometry.rotateX(-Math.PI / 2);
   geometry.translate(0, 0, -28);
   const pos = geometry.attributes.position;
+  for (let i = 0; i < pos.count; i++) {
