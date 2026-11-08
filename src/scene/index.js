@@ -259,3 +259,4 @@ export function createScene(
     retarget();
   }
 
+  function setSeason(name) {
