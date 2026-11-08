@@ -673,3 +673,6 @@ body.menu-open .site-header {
   font-weight: 750;
   line-height: 1.04;
   letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
