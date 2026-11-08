@@ -99,3 +99,4 @@ export function createPost(renderer, scene, camera) {
 
   return {
     composer,
+    renderPass,
