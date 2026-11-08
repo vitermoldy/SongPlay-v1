@@ -408,3 +408,4 @@
   width: min(100% - 2 * var(--gutter), 760px);
   margin-inline: auto;
   padding: 16px 18px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
