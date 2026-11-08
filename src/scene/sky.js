@@ -81,3 +81,4 @@ export function createSky(live, { forReflections = false } = {}) {
     `,
   });
   const mesh = new Mesh(new SphereGeometry(500, 48, 24), material);
+  mesh.renderOrder = -10;
