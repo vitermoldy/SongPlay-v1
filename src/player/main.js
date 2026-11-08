@@ -473,3 +473,4 @@ function ensurePlayer() {
         }),
     )
     .catch((error) => {
+      ytReady = null;
