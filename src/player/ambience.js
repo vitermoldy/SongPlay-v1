@@ -55,3 +55,4 @@ function rng(seed) {
   };
 }
 
+export function createAmbience() {
