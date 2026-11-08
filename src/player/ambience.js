@@ -340,3 +340,4 @@ export function createAmbience() {
     setVolume(next) {
       volume = next;
       applyMaster(0.05);
+    },
