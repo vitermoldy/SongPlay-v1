@@ -185,3 +185,4 @@ export function createMountains(live) {
         }
       `,
       fragmentShader: /* glsl */ `
+        uniform vec3 uTop;
