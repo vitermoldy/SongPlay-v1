@@ -132,3 +132,4 @@ export function createAmbience() {
     ];
     const pulse = Math.round(sr * 0.026);
     for (const v of voices) {
+      for (let t0 = v.offset; t0 < seconds - 0.2; t0 += v.period) {
