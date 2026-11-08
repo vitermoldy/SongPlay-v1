@@ -46,3 +46,4 @@ export const NOISE_GLSL = /* glsl */ `
     }
     return v;
   }
+`;
