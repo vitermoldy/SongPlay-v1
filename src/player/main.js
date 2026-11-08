@@ -748,3 +748,4 @@ ui.toggle.addEventListener('click', () => {
       render();
     }
   } else if (state.status === 'paused' && yt) {
+    yt.playVideo();
