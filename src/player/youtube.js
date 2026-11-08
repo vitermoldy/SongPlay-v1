@@ -37,3 +37,6 @@ export function parseYouTube(raw) {
 export function watchUrl(item) {
   return item.kind === 'playlist'
     ? `https://www.youtube.com/playlist?list=${item.list}`
+    : `https://www.youtube.com/watch?v=${item.id}`;
+}
+
