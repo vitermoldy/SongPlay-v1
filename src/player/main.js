@@ -550,3 +550,4 @@ function onPlayerError(event) {
 async function playIndex(index) {
   const item = state.items[index];
   if (!item) return;
+  clearTimeout(skipTimer);
