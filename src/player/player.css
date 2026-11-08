@@ -629,3 +629,4 @@
   bottom: calc(100% + 12px);
   width: min(460px, 100%);
   max-height: min(56svh, 480px);
+  overflow: auto;
