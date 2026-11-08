@@ -426,3 +426,4 @@
 }
 
 .deck-add {
+  display: grid;
