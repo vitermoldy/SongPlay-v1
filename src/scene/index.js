@@ -97,3 +97,4 @@ export function createScene(
 ) {
   const setup = VARIANTS[variant];
   const renderer = new WebGLRenderer({
+    canvas,
