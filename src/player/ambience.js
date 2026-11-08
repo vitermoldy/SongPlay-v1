@@ -166,3 +166,4 @@ export function createAmbience() {
     for (const t0 of starts) {
       const kind = rand();
       const amp = 0.08 + rand() * 0.1;
+      if (kind < 0.35) {
