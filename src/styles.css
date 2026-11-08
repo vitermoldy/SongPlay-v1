@@ -20,3 +20,4 @@
   --radius-l: 20px;
 
   --wrap: 1200px;
+  --gutter: clamp(16px, 4vw, 48px);
