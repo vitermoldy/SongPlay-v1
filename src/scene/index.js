@@ -326,3 +326,4 @@ export function createScene(
       hit = hitGround(raycaster.ray);
     }
     cursorWanted = hit ? 1 : 0;
+    if (hit) cursorTarget.copy(hit);
