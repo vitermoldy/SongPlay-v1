@@ -247,3 +247,4 @@ export function initCompare(root) {
   let version = 0;
   return {
     async setSource(source) {
+      const mine = ++version;
