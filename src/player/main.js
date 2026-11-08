@@ -264,3 +264,4 @@ function setText(el, text) {
 }
 
 function say(text) {
+  // Re-set even the same words so a screen reader hears a repeat.
