@@ -70,3 +70,4 @@ export function initRequestForm(form) {
   });
 
   // Clear a field's error as soon as it is fixed, not on every keystroke before submit.
+  form.addEventListener('input', (event) => {
