@@ -31,3 +31,6 @@ export function parseYouTube(raw) {
     return { kind: 'playlist', list, index };
   }
   if (id && VIDEO_ID.test(id)) return { kind: 'video', id };
+  return null;
+}
+
