@@ -149,3 +149,6 @@ button:disabled {
   text-decoration: none;
   background: linear-gradient(currentColor, currentColor) left bottom / 0% 1.5px no-repeat;
   padding-bottom: 2px;
+  transition: background-size 260ms var(--ease);
+}
+
