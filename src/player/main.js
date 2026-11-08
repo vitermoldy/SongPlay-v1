@@ -30,3 +30,4 @@ const ui = {
   queuePanel: $('[data-queue-panel]'),
   queueList: $('[data-queue-list]'),
   queueEmpty: $('[data-queue-empty]'),
+  queueCount: $('[data-queue-count]'),
