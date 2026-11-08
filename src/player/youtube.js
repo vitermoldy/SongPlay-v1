@@ -6,3 +6,4 @@ const HOSTS = new Set(['youtube.com', 'youtu.be', 'youtube-nocookie.com']);
 // { kind: 'playlist', list, index }, or null when it is not a YouTube video or playlist.
 // Auto-generated mixes (RD...), Watch later and Liked videos cannot be embedded as lists,
 // so a link carrying one plays its video alone.
+export function parseYouTube(raw) {
