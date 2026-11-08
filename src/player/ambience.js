@@ -239,3 +239,4 @@ export function createAmbience() {
   const lfo = (rate, depth, target) => {
     const osc = ctx.createOscillator();
     osc.frequency.value = rate;
+    const g = ctx.createGain();
