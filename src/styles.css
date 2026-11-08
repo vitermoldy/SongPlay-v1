@@ -1387,3 +1387,6 @@ body.menu-open .site-header {
   }
 
   .hero-foot {
+    gap: 22px;
+  }
+
