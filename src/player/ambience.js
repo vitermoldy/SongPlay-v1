@@ -184,3 +184,4 @@ export function createAmbience() {
   function rustle() {
     const seconds = 6;
     const b = buffer(seconds);
+    const d = b.getChannelData(0);
