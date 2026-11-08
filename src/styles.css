@@ -323,3 +323,6 @@ body.menu-open .site-header {
 
 .header-play:hover {
   background: rgba(150, 165, 255, 0.48);
+  transform: translateY(-1px);
+}
+
