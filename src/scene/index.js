@@ -44,3 +44,4 @@ const VARIANTS = {
   },
 };
 
+// The player's camera stands PLAYER_DISTANCE from the TV's glass on every screen: a wide shot
