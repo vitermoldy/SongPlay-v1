@@ -347,3 +347,4 @@ export function createScene(
     const width = canvas.clientWidth;
     const height = canvas.clientHeight;
     if (!width || !height) return;
+    renderer.setSize(width, height, false);
