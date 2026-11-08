@@ -644,3 +644,4 @@ function removeAt(index) {
 // above the deck and the TV re-fits itself above the dropdown until it closes (frameArea).
 function placeQueue() {
   const panel = ui.queuePanel;
+  panel.style.removeProperty('right');
