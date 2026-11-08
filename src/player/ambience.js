@@ -180,3 +180,4 @@ export function createAmbience() {
     return b;
   }
 
+  // Dry leaves: short bursts of noise, crackly inside, at random.
