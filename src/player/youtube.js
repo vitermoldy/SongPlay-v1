@@ -26,3 +26,4 @@ export function parseYouTube(raw) {
 
   const list = url.searchParams.get('list');
   const listUsable = list && LIST_ID.test(list) && !/^(RD|WL$|LL$|LM$)/.test(list);
+  if (listUsable) {
