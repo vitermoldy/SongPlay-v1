@@ -32,3 +32,6 @@ export function paintStandIn() {
   sky.addColorStop(0.4, '#4a5fe4');
   sky.addColorStop(0.6, '#8d9cf2');
   sky.addColorStop(0.74, '#f1bfa6');
+  g.fillStyle = sky;
+  g.fillRect(0, 0, W, H);
+
