@@ -383,3 +383,4 @@ body.menu-open .site-header {
   inset: 0;
   z-index: 40;
   display: flex;
+  flex-direction: column;
