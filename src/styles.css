@@ -367,3 +367,4 @@ body.menu-open .site-header {
   padding: 0 16px;
   border: 0;
   border-radius: var(--radius-s);
+  background: rgba(118, 136, 255, 0.3);
