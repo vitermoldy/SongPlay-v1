@@ -558,3 +558,4 @@ export function createScene(
     // Lays an HTML element (the video player) over the TV's whole glass, in the scene's
     // perspective. `width`/`height` are the element's own CSS pixels, in the glass's proportions.
     mountScreen(element, container, { width = 640 } = {}) {
+      const height = Math.round((width * tv.shape.screenH) / tv.shape.screenW);
