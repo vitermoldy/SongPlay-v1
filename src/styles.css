@@ -552,3 +552,4 @@ body.menu-open .site-header {
   left: calc(var(--frame) + 18px);
   bottom: calc(var(--frame) + 14px);
   z-index: 2;
+  display: flex;
