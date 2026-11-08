@@ -107,3 +107,4 @@ export function createClouds(live) {
         uLit: { value: live.color('clouds.lit') },
         uShade: { value: live.color('clouds.shade') },
       },
+      vertexShader: /* glsl */ `
