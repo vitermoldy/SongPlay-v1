@@ -583,3 +583,4 @@ async function playIndex(index) {
     if (state.status !== 'loading' || state.current !== index) return;
     const listLoaded = yt.getPlaylistId?.() === item.list && (yt.getPlaylist?.() || []).length > 0;
     if (item.kind === 'playlist' && !listLoaded) {
+      item.problem = 'YouTube only plays this list on its own site (or it is private)';
