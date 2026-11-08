@@ -396,3 +396,4 @@ export function createScene(
     camera.position.set(base.x + eased.x * setup.parallax[0], base.y - eased.y * setup.parallax[1], base.z);
     camera.lookAt(look);
     particles.material.uniforms.uProj.value =
+      (height * pixelRatio) / (2 * Math.tan(MathUtils.degToRad(camera.fov / 2)));
