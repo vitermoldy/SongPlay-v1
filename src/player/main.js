@@ -716,3 +716,4 @@ ui.form.addEventListener('submit', (event) => {
   ui.input.value = '';
   bumpCount();
 
+  fetchInfo(item)
