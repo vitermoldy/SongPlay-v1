@@ -117,3 +117,4 @@ function syncSound() {
 
 async function setSound(on) {
   soundOn = on;
+  syncSound();
