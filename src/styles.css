@@ -1224,3 +1224,6 @@ body.menu-open .site-header {
 
 .cta-submit {
   justify-self: start;
+  margin-top: 4px;
+}
+
