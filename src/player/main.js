@@ -552,3 +552,4 @@ async function playIndex(index) {
   if (!item) return;
   clearTimeout(skipTimer);
   state.current = index;
+  state.status = 'loading';
