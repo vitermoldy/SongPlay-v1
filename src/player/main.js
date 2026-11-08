@@ -579,3 +579,4 @@ async function playIndex(index) {
   // is one YouTube keeps to itself (its own mixes and charts never play elsewhere, and send no
   // error to say so). Anything else is a browser holding back sound until a direct press.
   clearTimeout(autoplayCheck);
+  autoplayCheck = setTimeout(() => {
