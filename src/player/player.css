@@ -372,3 +372,4 @@
 @keyframes crt-on {
   0%,
   35% {
+    transform: scale(1, 0.006);
