@@ -104,3 +104,4 @@ export function createParticles(count, live) {
           float e = length(q / vec2(0.46, 0.22));
           alpha = 1.0 - smoothstep(1.0 - soft * 1.6, 1.0, e);
         }
+        vec3 col = mix(uColor, uColor2, vSeed);
