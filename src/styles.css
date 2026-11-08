@@ -1311,3 +1311,4 @@ body.menu-open .site-header {
 
   .menu-toggle {
     display: inline-flex;
+    align-items: center;
