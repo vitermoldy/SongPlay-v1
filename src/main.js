@@ -20,3 +20,4 @@ function initHeader() {
       if (queued) return;
       queued = true;
       requestAnimationFrame(update);
+    },
