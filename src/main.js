@@ -35,3 +35,4 @@ function initMenu() {
   function setOpen(next, restoreFocus = true) {
     if (next === open) return;
     open = next;
+    toggle.setAttribute('aria-expanded', String(open));
