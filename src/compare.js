@@ -192,3 +192,6 @@ function cleanCopy(source, outW, outH) {
 function outputSize(root) {
   const px = Math.round(root.clientWidth * Math.min(window.devicePixelRatio || 1, 2));
   const w = Math.max(480, Math.min(W, px || W));
+  return [w, Math.round((w * 3) / 4)];
+}
+
