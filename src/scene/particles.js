@@ -88,3 +88,4 @@ export function createParticles(count, live) {
           float edge = mix(0.46, star, vStar);
           alpha = 1.0 - smoothstep(edge - soft, edge, length(c));
           alpha *= 0.75;
+        } else if (uShape < 1.5) {
