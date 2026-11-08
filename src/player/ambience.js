@@ -149,3 +149,4 @@ export function createAmbience() {
   function birds() {
     const seconds = 8;
     const b = buffer(seconds);
+    const d = b.getChannelData(0);
