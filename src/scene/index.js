@@ -245,3 +245,4 @@ export function createScene(
       from: new Map(COLOR_PATHS.map((path) => [path, live.color(path).clone()])),
       to: next.colors,
       fromNum: { ...live.numbers },
+      toNum: next.numbers,
