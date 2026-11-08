@@ -1048,3 +1048,4 @@ body.menu-open .site-header {
 
 .contacts-mail a {
   display: inline-block;
+  padding-block: 8px;
