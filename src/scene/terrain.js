@@ -63,3 +63,4 @@ export function createTerrain(uniforms) {
         c += uCursorColor * uCursorPower * exp(-cd * cd / 1.3) * 0.45;
         float dist = distance(cameraPosition, vWorld);
         float fog = smoothstep(uFogNear, uFogFar, dist);
+        c = mix(c, uFogColor, fog);
