@@ -634,3 +634,6 @@ function removeAt(index) {
   } else {
     if (wasCurrent) state.current = -1;
     render();
+  }
+}
+
