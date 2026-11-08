@@ -116,3 +116,4 @@ button:disabled {
 }
 
 .script {
+  font-family: var(--font-script);
