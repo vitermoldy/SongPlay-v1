@@ -89,3 +89,4 @@ export function createTV(shapeName = 'classic') {
       uCorner: { value: shape.corner },
     },
     vertexShader: /* glsl */ `
+      varying vec2 vUv;
