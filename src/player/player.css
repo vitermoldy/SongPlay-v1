@@ -203,3 +203,4 @@
 
 /* Painted stills of each sky, shown while the scene loads or when WebGL is missing. */
 .stage[data-theme='night'] .hero-sky {
+  background:
