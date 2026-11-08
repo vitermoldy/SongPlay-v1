@@ -259,3 +259,4 @@ export function initCompare(root) {
       swap(after, a);
     },
   };
+}
