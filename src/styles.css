@@ -178,3 +178,6 @@ button:disabled {
 
 .cta:hover {
   transform: translateY(-1px);
+  background: #fffaf2;
+}
+
