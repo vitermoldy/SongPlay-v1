@@ -135,3 +135,4 @@ export function vhsify(source, outW = W, outH = H) {
       r = l + (r - l) * 0.6;
       gg = l + (gg - l) * 0.6;
       b = l + (b - l) * 0.6;
+      const n = (rand() - 0.5) * 30;
