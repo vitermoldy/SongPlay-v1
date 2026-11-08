@@ -155,3 +155,4 @@ export function createScene(
     uSkyColor: { value: live.color('light.sky') },
     uGround: { value: live.color('ground.dark') },
     uGroundLit: { value: live.color('ground.lit') },
+    uBase: { value: live.color('grass.base') },
