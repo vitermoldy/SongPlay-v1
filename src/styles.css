@@ -722,3 +722,4 @@ body.menu-open .site-header {
 }
 
 .passes li {
+  display: grid;
