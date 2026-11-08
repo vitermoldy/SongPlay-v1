@@ -294,3 +294,4 @@ export function createScene(
   // over the ground; stopping lower lets the light land behind the blades you see), then refine.
   function hitGround(ray) {
     const o = ray.origin;
+    const d = ray.direction;
