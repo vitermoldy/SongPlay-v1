@@ -268,3 +268,6 @@ function say(text) {
   ui.announce.textContent = '';
   requestAnimationFrame(() => {
     ui.announce.textContent = text;
+  });
+}
+
