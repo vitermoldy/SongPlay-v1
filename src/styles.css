@@ -344,3 +344,4 @@ body.menu-open .site-header {
   border-radius: 50%;
   background: radial-gradient(closest-side, rgba(255, 196, 106, 0.28), rgba(255, 196, 106, 0.1) 45%, rgba(255, 196, 106, 0));
   mix-blend-mode: screen;
+  opacity: 0;
