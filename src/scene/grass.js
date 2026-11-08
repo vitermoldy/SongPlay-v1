@@ -16,3 +16,6 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
 
   const geometry = new InstancedBufferGeometry();
   geometry.setIndex(blade.getIndex());
+  geometry.setAttribute('position', blade.getAttribute('position'));
+  geometry.setAttribute('uv', blade.getAttribute('uv'));
+
