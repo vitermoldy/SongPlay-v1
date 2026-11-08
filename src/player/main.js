@@ -311,3 +311,4 @@ function queueRow(item, index) {
 
   const meta = document.createElement('div');
   const title = document.createElement('p');
+  title.className = 'queue-title';
