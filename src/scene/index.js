@@ -562,3 +562,4 @@ export function createScene(
       const cssRenderer = new CSS3DRenderer();
       cssRenderer.domElement.classList.add('screen-layer');
       container.append(cssRenderer.domElement);
+      element.style.width = `${width}px`;
