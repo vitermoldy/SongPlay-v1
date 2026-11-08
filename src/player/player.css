@@ -459,3 +459,6 @@
 }
 
 .deck-row input:hover {
+  border-color: rgba(244, 239, 230, 0.55);
+}
+
