@@ -320,3 +320,4 @@ export function createAmbience() {
     async setEnabled(on) {
       enabled = on;
       if (on && !hidden) await ctx.resume();
+      applyMaster();
