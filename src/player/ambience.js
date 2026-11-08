@@ -4,3 +4,4 @@
 // The AudioContext is only made from a click (browsers allow sound after a user gesture).
 
 const LAYERS = ['wind', 'rain', 'crickets', 'birds', 'leaves'];
+// The volume slider runs 0 to 1; a curve makes its middle sound like the middle.
