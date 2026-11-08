@@ -490,3 +490,4 @@ function playingMatches(item) {
 }
 
 function onPlayerState(event) {
+  const S = window.YT.PlayerState;
