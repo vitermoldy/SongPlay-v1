@@ -528,3 +528,4 @@ export function createScene(
 
   canvas.addEventListener('webglcontextlost', (event) => {
     event.preventDefault();
+    cancelAnimationFrame(raf);
