@@ -388,3 +388,4 @@ function webglAvailable() {
 }
 
 async function initScene() {
+  if (!webglAvailable()) {
