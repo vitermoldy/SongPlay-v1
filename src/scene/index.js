@@ -160,3 +160,4 @@ export function createScene(
     uTip: { value: live.color('grass.tip') },
     uTipGold: { value: live.color('grass.tipGold') },
     uBack: { value: live.color('grass.back') },
+    uTvPos: { value: glowWorld },
