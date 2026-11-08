@@ -162,3 +162,4 @@ export function createAmbience() {
         d[s + k] += amp * env * Math.sin(phase);
       }
     };
+    const starts = [0.3, 1.5, 2.4, 3.6, 4.7, 5.5, 6.6];
