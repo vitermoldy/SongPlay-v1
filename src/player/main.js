@@ -537,3 +537,4 @@ function onPlayerError(event) {
   } else if (item) {
     item.problem = reason;
     saveQueue();
+    say(`Skipped ${titleOf(item)}: ${reason}.`);
