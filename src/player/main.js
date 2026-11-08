@@ -387,3 +387,4 @@ function webglAvailable() {
   }
 }
 
+async function initScene() {
