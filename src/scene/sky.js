@@ -36,3 +36,4 @@ export function createSky(live, { forReflections = false } = {}) {
       void main() {
         vDir = normalize(position);
         gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+      }
