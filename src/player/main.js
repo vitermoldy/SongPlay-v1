@@ -25,3 +25,4 @@ const ui = {
   error: $('#song-link-error'),
   prev: $('[data-prev]'),
   toggle: $('[data-toggle]'),
+  next: $('[data-next]'),
