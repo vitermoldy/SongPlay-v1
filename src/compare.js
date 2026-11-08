@@ -118,3 +118,4 @@ export function vhsify(source, outW = W, outH = H) {
   const rand = rng(1994);
 
   for (let y = 0; y < h; y++) {
+    const tail = y / h;
