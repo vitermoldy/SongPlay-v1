@@ -919,3 +919,6 @@ body.menu-open .site-header {
 }
 
 .format:nth-child(1) {
+  grid-column: 1 / span 2;
+}
+
