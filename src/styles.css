@@ -842,3 +842,4 @@ body.menu-open .site-header {
 /* The native range is the keyboard and screen-reader control: it covers the frame, draws
    nothing itself, and its focus ring outlines the whole frame. Pointer drags go to the frame. */
 .compare-range {
+  position: absolute;
