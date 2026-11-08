@@ -335,3 +335,4 @@ body.menu-open .site-header {
 /* The cursor's lamp (cursor-light.js): screen-blended on night grounds, a warm multiply on paper. */
 .cursor-light {
   position: fixed;
+  top: 0;
