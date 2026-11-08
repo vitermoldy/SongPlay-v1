@@ -595,3 +595,4 @@ async function playIndex(index) {
   }, 7000);
 }
 
+// `note` explains a skip, so the end-of-queue line does not hide why the last one stopped.
