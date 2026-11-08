@@ -87,3 +87,6 @@
 }
 
 .sound-panel[hidden] {
+  display: none;
+}
+
