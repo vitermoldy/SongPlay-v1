@@ -405,3 +405,4 @@ async function initScene() {
     scene = createScene(ui.canvas, {
       variant: 'player',
       theme,
+      season,
