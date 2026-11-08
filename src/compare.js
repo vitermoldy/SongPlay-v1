@@ -120,3 +120,4 @@ export function vhsify(source, outW = W, outH = H) {
   for (let y = 0; y < h; y++) {
     const tail = y / h;
     let shift = 0;
+    if (tail > 0.9) shift = Math.round((rand() - 0.5) * 10 + (tail - 0.9) * 170);
