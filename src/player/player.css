@@ -650,3 +650,4 @@
 
 .queue-item {
   display: grid;
+  grid-template-columns: 96px minmax(0, 1fr) auto auto;
