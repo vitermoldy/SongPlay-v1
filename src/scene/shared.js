@@ -45,3 +45,4 @@ export const NOISE_GLSL = /* glsl */ `
       a *= 0.5;
     }
     return v;
+  }
