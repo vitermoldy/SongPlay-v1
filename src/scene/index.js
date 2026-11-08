@@ -165,3 +165,4 @@ export function createScene(
     uTvPower: { value: 0 },
     uCursorPos: { value: new Vector3(0, -50, 0) },
     uCursorColor: { value: col(PALETTE.cursor) },
+    uCursorPower: { value: 0 },
