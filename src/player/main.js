@@ -44,3 +44,4 @@ const ui = {
 // ---------- Time of day and season (per-browser preferences) ----------
 
 function saved(key, names, fallback) {
+  try {
