@@ -19,3 +19,4 @@ export function parseYouTube(raw) {
   const host = url.hostname.toLowerCase().replace(/^(www|m|music)\./, '');
   if (!HOSTS.has(host)) return null;
 
+  let id = null;
