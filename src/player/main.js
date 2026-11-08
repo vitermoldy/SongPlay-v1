@@ -128,3 +128,4 @@ async function setSound(on) {
     ambience.setScene(theme, season);
     ambience.setVolume(volume / 100);
     ambience.setDucked(state.status === 'playing');
+    ambience.setHidden(document.hidden);
