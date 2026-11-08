@@ -569,3 +569,4 @@ export function createScene(
       const object = new CSS3DObject(element);
       object.position.copy(tv.glassFront.clone().applyMatrix4(tv.group.matrixWorld));
       object.rotation.set(0, setup.tvYaw, 0);
+      object.scale.setScalar((tv.shape.screenW * VIDEO_FILL) / width);
