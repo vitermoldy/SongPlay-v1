@@ -8,3 +8,4 @@ export const THEMES = {
   dusk: {
     label: 'Dusk',
     sky: { top: '#1226c4', mid: '#2f4ae8', low: '#6a80f2', horizon: '#f0ae9c', sun: '#ff9f6a' },
+    sunDir: [0.85, 0.04, -1],
