@@ -143,3 +143,6 @@ function setSoundPanel(open) {
   soundPanel.hidden = !open;
 }
 
+ui.sound.addEventListener('click', () => setSoundPanel(soundPanel.hidden));
+soundSwitch.addEventListener('click', () => setSound(!soundOn));
+
