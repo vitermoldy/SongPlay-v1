@@ -231,3 +231,4 @@ export function createAmbience() {
   };
   const filter = (type, frequency, Q = 0.7) => {
     const f = ctx.createBiquadFilter();
+    f.type = type;
