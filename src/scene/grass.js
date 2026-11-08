@@ -79,3 +79,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
       varying vec3 vWorld;
       void main() {
         float h = uv.y;
+        float yaw = aParams.x;
