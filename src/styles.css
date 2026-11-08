@@ -1050,3 +1050,6 @@ body.menu-open .site-header {
   display: inline-block;
   padding-block: 8px;
   color: var(--cream);
+  overflow-wrap: anywhere;
+}
+
