@@ -542,3 +542,6 @@
 }
 
 .icon-btn-main:hover:not(:disabled) {
+  background: #fffaf2;
+}
+
