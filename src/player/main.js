@@ -284,3 +284,4 @@ function nowLine() {
       return `Paused: ${title}${fromList}`;
     case 'ended':
     case 'error':
+      return state.message;
