@@ -59,3 +59,4 @@ let apiPromise = null;
 export function loadYouTubeApi() {
   if (window.YT?.Player) return Promise.resolve(window.YT);
   if (apiPromise) return apiPromise;
+  apiPromise = new Promise((resolve, reject) => {
