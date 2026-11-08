@@ -203,3 +203,4 @@ export function createAmbience() {
 
   const compressor = ctx.createDynamicsCompressor();
   compressor.threshold.value = -18;
+  compressor.ratio.value = 3;
