@@ -140,3 +140,6 @@ async function setSound(on) {
 
 function setSoundPanel(open) {
   ui.sound.setAttribute('aria-expanded', String(open));
+  soundPanel.hidden = !open;
+}
+
