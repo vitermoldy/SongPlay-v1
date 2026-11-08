@@ -53,3 +53,4 @@ export function initRequestForm(form) {
       return;
     }
 
+    const data = new FormData(form);
