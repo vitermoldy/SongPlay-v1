@@ -179,3 +179,4 @@ export function createMountains(live) {
       },
       vertexShader: /* glsl */ `
         varying float vY;
+        void main() {
