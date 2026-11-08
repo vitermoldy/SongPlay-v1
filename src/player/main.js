@@ -401,3 +401,4 @@ async function initScene() {
     scene.setPlaying(playing);
   };
   try {
+    const { createScene } = await import('../scene/index.js');
