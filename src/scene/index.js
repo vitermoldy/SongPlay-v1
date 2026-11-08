@@ -505,3 +505,4 @@ export function createScene(
     updateFocus(shot);
     post.composer.render(0);
 
+    let cw = w;
