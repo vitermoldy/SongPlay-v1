@@ -677,3 +677,4 @@ function setQueueOpen(open) {
   else scene?.relayout();
 }
 
+window.addEventListener('resize', () => {
