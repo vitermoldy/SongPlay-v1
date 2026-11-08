@@ -486,3 +486,4 @@ export function createScene(
   // cropped to 4:3 from the canvas right after it is drawn.
   function capture() {
     const resolve = pendingCapture;
+    pendingCapture = null;
