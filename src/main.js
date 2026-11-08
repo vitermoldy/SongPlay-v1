@@ -43,3 +43,4 @@ function initMenu() {
       menu.hidden = false;
       requestAnimationFrame(() => menu.classList.add('is-open'));
       menu.querySelector('a').focus();
+    } else {
