@@ -24,3 +24,4 @@ export function initCursorLight({ skip = [] } = {}) {
 
   window.addEventListener(
     'pointermove',
+    (event) => {
