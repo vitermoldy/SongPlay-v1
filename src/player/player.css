@@ -112,3 +112,6 @@
   background: var(--night);
   transition:
     background-color 180ms var(--ease),
+    border-color 180ms var(--ease);
+}
+
