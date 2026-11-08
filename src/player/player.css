@@ -671,3 +671,4 @@
 
 .queue-title {
   display: -webkit-box;
+  overflow: hidden;
