@@ -1480,3 +1480,4 @@ body.menu-open .site-header {
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
