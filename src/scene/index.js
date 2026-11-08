@@ -118,3 +118,6 @@ export function createScene(
   const camera = new PerspectiveCamera(35, 1, 0.1, 1200);
   const base = setup.camera.clone();
   const look = setup.look.clone();
+  camera.position.copy(base);
+  camera.lookAt(look);
+
