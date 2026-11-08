@@ -48,3 +48,4 @@ function saved(key, names, fallback) {
     const name = localStorage.getItem(key);
     return names.includes(name) ? name : fallback;
   } catch {
+    return fallback;
