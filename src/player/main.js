@@ -356,3 +356,4 @@ function render() {
   const focusedSlot = focusedRow >= 0 ? [...document.activeElement.closest('li').querySelectorAll('button')].indexOf(document.activeElement) : -1;
   ui.queueList.replaceChildren(...state.items.map(queueRow));
   if (focusedRow >= 0) {
+    const row = ui.queueList.children[Math.min(focusedRow, count - 1)];
