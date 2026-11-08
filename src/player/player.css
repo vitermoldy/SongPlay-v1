@@ -339,3 +339,4 @@
   pointer-events: none;
 }
 
+/* The player on the tube. Nothing is drawn over it: YouTube asks embeds to keep it clear. */
