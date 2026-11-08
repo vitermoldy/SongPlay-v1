@@ -126,3 +126,4 @@ export function createAmbience() {
     const b = buffer(seconds);
     const d = b.getChannelData(0);
     const voices = [
+      { f: 4300, period: 0.6, offset: 0.05, amp: 0.2 },
