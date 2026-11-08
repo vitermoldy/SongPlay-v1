@@ -410,3 +410,4 @@ export function createScene(
     const dt = Math.min(raw, 0.05);
     last = now;
     if (playing) {
+      time += dt;
