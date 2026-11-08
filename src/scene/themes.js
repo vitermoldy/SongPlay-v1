@@ -36,3 +36,4 @@ export const THEMES = {
     exposure: 1,
   },
   sunset: {
+    label: 'Sunset',
