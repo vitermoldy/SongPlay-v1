@@ -55,3 +55,4 @@ function saved(key, names, fallback) {
 function remember(key, value) {
   try {
     localStorage.setItem(key, value);
+  } catch {
