@@ -32,3 +32,4 @@ function initMenu() {
   const outside = [document.querySelector('main'), document.querySelector('.site-footer')];
   let open = false;
 
+  function setOpen(next, restoreFocus = true) {
