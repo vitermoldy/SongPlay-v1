@@ -77,3 +77,4 @@ function createLive(time, season) {
       particleOpacity: { value: look.numbers['particles.opacity'] },
       particleSize: { value: look.numbers['particles.size'] },
       particleShape: { value: look.shape },
+    },
