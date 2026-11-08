@@ -351,3 +351,6 @@ body.menu-open .site-header {
 }
 
 .cursor-light.is-on {
+  opacity: 1;
+}
+
