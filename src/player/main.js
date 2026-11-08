@@ -109,3 +109,4 @@ const soundValue = $('[data-sound-value]');
 function syncSound() {
   ui.sound.dataset.on = String(soundOn);
   ui.sound.title = `Ambient sound: ${soundOn ? `on, ${volume}%` : 'off'}`;
+  soundSwitch.setAttribute('aria-pressed', String(soundOn));
