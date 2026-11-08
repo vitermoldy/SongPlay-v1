@@ -1123,3 +1123,4 @@ body.menu-open .site-header {
     linear-gradient(45deg, transparent 50%, var(--cream) 50%),
     linear-gradient(135deg, var(--cream) 50%, transparent 50%);
   background-position:
+    calc(100% - 22px) 50%,
