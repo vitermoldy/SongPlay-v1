@@ -121,3 +121,4 @@ export function vhsify(source, outW = W, outH = H) {
     const tail = y / h;
     let shift = 0;
     if (tail > 0.9) shift = Math.round((rand() - 0.5) * 10 + (tail - 0.9) * 170);
+    else if (rand() < 0.006) shift = Math.round((rand() - 0.5) * 8);
