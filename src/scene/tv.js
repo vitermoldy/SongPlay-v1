@@ -131,3 +131,4 @@ export function createTV(shapeName = 'classic') {
         gl_FragColor = vec4(mix(glass, c, mask), 1.0);
       }
     `,
+  });
