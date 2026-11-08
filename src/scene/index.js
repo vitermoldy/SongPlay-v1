@@ -21,3 +21,4 @@ import { createPost } from './post.js';
 import { col, PALETTE } from './shared.js';
 import { COLOR_PATHS, NUMBER_PATHS, SEASONS, THEMES, compose } from './themes.js';
 
+// hero: the landing page, a low wide view with room for the headline above a classic 4:3 set.
