@@ -27,3 +27,4 @@ export const TV_SHAPES = {
     led: [0.53, 0.16],
   },
   wide: {
+    bodyW: 1.38,
