@@ -28,3 +28,4 @@ export function paintStandIn() {
   const rand = rng(7);
 
   const sky = g.createLinearGradient(0, 0, 0, H);
+  sky.addColorStop(0, '#2232b8');
