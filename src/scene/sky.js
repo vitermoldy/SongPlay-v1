@@ -52,3 +52,4 @@ export function createSky(live, { forReflections = false } = {}) {
         p = fract(p * 0.1031);
         p += dot(p, p.zyx + 31.32);
         return fract((p.x + p.y) * p.z);
+      }
