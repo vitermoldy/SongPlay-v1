@@ -146,3 +146,4 @@ export function createClouds(live) {
 function ridge(seed, width, base, peak) {
   const rand = mulberry32(seed);
   const shape = new Shape();
+  shape.moveTo(-width / 2, -30);
