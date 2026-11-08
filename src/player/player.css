@@ -176,3 +176,4 @@
   height: 100svh;
   min-height: 560px;
   overflow: hidden;
+  isolation: isolate;
