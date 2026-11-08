@@ -34,3 +34,6 @@
 
 html {
   scroll-padding-top: calc(var(--header-h) + 8px);
+  -webkit-text-size-adjust: 100%;
+}
+
