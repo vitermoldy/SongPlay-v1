@@ -92,3 +92,4 @@ ui.seasons.addEventListener('change', (event) => {
 // The speaker button in the header opens a small panel: an on/off switch and the volume.
 let ambience = null;
 let soundOn = saved(SOUND_KEY, ['on', 'off'], 'off') === 'on';
+let volume = (() => {
