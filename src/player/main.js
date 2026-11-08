@@ -407,3 +407,4 @@ async function initScene() {
       theme,
       season,
       frameArea,
+      lowPower,
