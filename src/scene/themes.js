@@ -223,3 +223,6 @@ export function compose(timeName, seasonName) {
     numbers['particles.opacity'] = season.particles.opacity;
     numbers['particles.fall'] = season.particles.fall;
     numbers['particles.size'] = season.particles.size;
+    shape = season.particles.shape;
+  }
+
