@@ -633,3 +633,4 @@
   overscroll-behavior: contain;
   padding: 8px;
   border: 1px solid var(--line);
+  border-radius: var(--radius-l);
