@@ -455,3 +455,6 @@
 }
 
 .deck-row input::placeholder {
+  color: rgba(195, 200, 236, 0.75);
+}
+
