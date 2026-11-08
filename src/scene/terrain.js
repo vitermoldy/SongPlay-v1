@@ -40,3 +40,4 @@ export function createTerrain(uniforms) {
       uniform vec3 uGround;
       uniform vec3 uGroundLit;
       uniform vec3 uFogColor;
+      uniform vec3 uTvPos;
