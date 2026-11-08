@@ -356,3 +356,4 @@ export function createScene(
     if (setup.framesScreen) {
       // Fit the whole set (its front, the side panel the angle shows, a little air) into the
       // free part of the stage between the pickers and the deck, then centre it there.
+      // `avoid` lists page controls floating over the stage; only those the set would actually
