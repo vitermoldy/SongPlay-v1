@@ -90,3 +90,6 @@ function webglAvailable() {
 async function initScene(compare) {
   const hero = document.querySelector('[data-hero]');
   const canvas = hero.querySelector('[data-scene]');
+  const toggle = hero.querySelector('[data-scene-toggle]');
+  const label = toggle.querySelector('[data-scene-label]');
+
