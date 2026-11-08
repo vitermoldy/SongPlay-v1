@@ -120,3 +120,4 @@ export function createAmbience() {
     return b;
   }
 
+  // Three crickets with their own pitch and rhythm; 2.4 s holds a whole number of each cycle.
