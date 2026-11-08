@@ -589,3 +589,4 @@ async function playIndex(index) {
       advance(`Couldn’t play ${titleOf(item)}: ${item.problem}.`);
       return;
     }
+    state.status = 'paused';
