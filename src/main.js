@@ -141,3 +141,4 @@ async function initScene(compare) {
   }).observe(hero);
   document.addEventListener('visibilitychange', updateVisible);
 
+  try {
