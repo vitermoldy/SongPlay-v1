@@ -903,3 +903,4 @@ body.menu-open .site-header {
 }
 
 .formats-head .lede {
+  grid-column: 7 / -1;
