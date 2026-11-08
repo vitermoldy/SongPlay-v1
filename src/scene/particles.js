@@ -31,3 +31,4 @@ export function createParticles(count, live) {
     uniforms: {
       uTime: live.u.time,
       uDrift: live.u.drift,
+      uShape: live.u.particleShape,
