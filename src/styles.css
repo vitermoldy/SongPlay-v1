@@ -382,3 +382,4 @@ body.menu-open .site-header {
   position: fixed;
   inset: 0;
   z-index: 40;
+  display: flex;
