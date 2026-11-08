@@ -626,3 +626,6 @@ body.menu-open .site-header {
 }
 
 [data-enter] .hero-title .enter:nth-child(1) {
+  animation-delay: 250ms;
+}
+
