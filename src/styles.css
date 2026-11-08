@@ -993,3 +993,6 @@ body.menu-open .site-header {
   display: inline-block;
   padding-block: 10px;
   color: var(--ink);
+  font-weight: 700;
+}
+
