@@ -499,3 +499,4 @@ function onPlayerState(event) {
       if (event.data === S.PLAYING) yt.stopVideo();
       return;
     }
+    clearTimeout(autoplayCheck);
