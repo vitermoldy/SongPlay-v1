@@ -429,3 +429,4 @@ export function createScene(
 
     stepTheme(dt);
 
+    const on = power(now);
