@@ -276,3 +276,4 @@ export function createScene(
     applyNumbers();
     if (s.t >= 1) {
       themeShift = null;
+      refreshEnvironment();
