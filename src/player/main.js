@@ -31,3 +31,4 @@ const ui = {
   queueList: $('[data-queue-list]'),
   queueEmpty: $('[data-queue-empty]'),
   queueCount: $('[data-queue-count]'),
+  clear: $('[data-queue-clear]'),
