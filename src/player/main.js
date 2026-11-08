@@ -332,3 +332,4 @@ function queueRow(item, index) {
 
   const remove = document.createElement('button');
   remove.type = 'button';
+  remove.className = 'icon-btn';
