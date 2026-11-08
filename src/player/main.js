@@ -671,3 +671,4 @@ function placeQueue() {
 }
 
 function setQueueOpen(open) {
+  ui.queueToggle.setAttribute('aria-expanded', String(open));
