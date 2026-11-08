@@ -345,3 +345,4 @@
   border-radius: var(--glass-radius, 0);
   background: #000;
   opacity: 0;
+  visibility: hidden;
