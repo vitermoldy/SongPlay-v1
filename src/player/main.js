@@ -722,3 +722,4 @@ ui.form.addEventListener('submit', (event) => {
       if (error.status === 401 || error.status === 403) item.problem = 'its owner does not allow it to play on other sites';
       else if (error.status === 400 || error.status === 404) item.problem = 'it is private or was removed';
     })
+    .finally(() => {
