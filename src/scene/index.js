@@ -227,3 +227,4 @@ export function createScene(
   let sampled = 0;
   let slowFrames = 0;
   let slow = false;
+  let screenLevel = SCREEN_LEVEL.idle;
