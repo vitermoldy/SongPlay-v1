@@ -61,3 +61,4 @@ export function initRequestForm(form) {
       `Formats: ${data.getAll('format').join(', ')}`,
       `How many: ${data.get('count')}`,
       '',
+      String(data.get('notes') || '').trim(),
