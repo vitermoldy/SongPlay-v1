@@ -282,3 +282,4 @@ function nowLine() {
       return `Now playing: ${title}${fromList}`;
     case 'paused':
       return `Paused: ${title}${fromList}`;
+    case 'ended':
