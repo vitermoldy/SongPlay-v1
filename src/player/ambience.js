@@ -25,3 +25,4 @@ function levelsFor(time, season) {
   }
 
   if (season === 'spring') {
+    if (time !== 'night') L.birds = Math.min(0.75, Math.max(L.birds, 0.28) * 1.4);
