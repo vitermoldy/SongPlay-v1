@@ -21,3 +21,4 @@ export const THEMES = {
     exposure: 1,
   },
   night: {
+    label: 'Night',
