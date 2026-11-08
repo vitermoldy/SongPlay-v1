@@ -255,3 +255,4 @@ export function initCompare(root) {
         URL.revokeObjectURL(a);
         return;
       }
+      swap(before, b);
