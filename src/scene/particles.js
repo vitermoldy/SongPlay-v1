@@ -43,3 +43,4 @@ export function createParticles(count, live) {
       uniform float uTime;
       uniform float uDrift;
       uniform float uShape;
+      uniform float uSize;
