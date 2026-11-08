@@ -483,3 +483,4 @@ export function createScene(
   }
 
   // A still for the before/after frame: a closer, home-video framing of the same set,
+  // cropped to 4:3 from the canvas right after it is drawn.
