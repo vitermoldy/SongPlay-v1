@@ -47,3 +47,4 @@ export function initCursorLight({ skip = [] } = {}) {
       light.classList.toggle('is-on', !overSkipped(x, y));
       const under = document.elementFromPoint(x, y);
       light.classList.toggle('is-paper', Boolean(under?.closest('.on-light')));
+    },
