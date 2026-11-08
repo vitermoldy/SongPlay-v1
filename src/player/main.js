@@ -372,3 +372,6 @@ function render() {
 function bumpCount() {
   ui.queueCount.classList.remove('is-bumped');
   void ui.queueCount.offsetWidth;
+  ui.queueCount.classList.add('is-bumped');
+}
+
