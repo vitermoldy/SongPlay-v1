@@ -688,3 +688,4 @@ function showError(message) {
 }
 
 ui.form.addEventListener('submit', (event) => {
+  event.preventDefault();
