@@ -392,3 +392,4 @@ async function initScene() {
     ui.video.classList.add('is-flat');
     return;
   }
+  const lowPower =
