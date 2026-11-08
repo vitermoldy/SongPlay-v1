@@ -209,3 +209,4 @@ export function createAmbience() {
   master.gain.value = 0;
   master.connect(compressor);
 
+  const layers = {};
