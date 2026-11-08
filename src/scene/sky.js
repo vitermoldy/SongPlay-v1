@@ -138,3 +138,4 @@ export function createClouds(live) {
     });
     const mesh = new Mesh(new PlaneGeometry(w, h), material);
     mesh.position.set(x, y, z);
+    mesh.renderOrder = -5;
