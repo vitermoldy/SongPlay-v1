@@ -56,3 +56,4 @@ export function createParticles(count, live) {
         p.y = mod(p.y + 1.0 - uDrift * (0.06 + seed * 0.08), 12.0) - 1.0;
         float sway = uShape > 2.5 ? 0.04 : (uShape > 1.5 ? 0.9 : 0.5);
         p.x += sin(uTime * (0.25 + seed * 0.3) + seed * 6.2831) * sway;
+        p.z += cos(uTime * 0.2 + seed * 4.0) * 0.3;
