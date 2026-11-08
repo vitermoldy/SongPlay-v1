@@ -146,3 +146,4 @@ export function createScene(
   const screenWorld = tv.screenCenter.clone().applyMatrix4(tv.group.matrixWorld);
   const glowWorld = new Vector3(tv.shape.screenX, 0.3, 0.95).applyMatrix4(tv.group.matrixWorld);
 
+  const shared = {
