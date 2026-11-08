@@ -168,3 +168,4 @@ button:disabled {
   border-radius: 16px;
   background: var(--cream);
   color: var(--ink);
+  font: 600 19px/1.2 var(--font-sans);
