@@ -192,3 +192,4 @@ export function createAmbience() {
       for (let k = 0; k < len; k++) {
         const t = k / len;
         const env = Math.min(1, t * 20) * (1 - t) ** 2;
+        const crackle = rand() < 0.02 ? 3 : 1;
