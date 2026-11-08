@@ -1396,3 +1396,4 @@ body.menu-open .site-header {
   }
 
   .privacy {
+    left: var(--frame);
