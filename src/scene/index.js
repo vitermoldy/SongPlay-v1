@@ -482,3 +482,4 @@ export function createScene(
     raf = requestAnimationFrame(loop);
   }
 
+  // A still for the before/after frame: a closer, home-video framing of the same set,
