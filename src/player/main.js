@@ -18,3 +18,4 @@ const ui = {
   stage: $('[data-stage]'),
   canvas: $('[data-scene]'),
   video: $('[data-tv-video]'),
+  now: $('[data-now]'),
