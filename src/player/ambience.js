@@ -114,3 +114,4 @@ export function createAmbience() {
       const f = 1400 + rand() * 4200;
       const amp = 0.03 + rand() * 0.16;
       for (let k = 0; k < len; k++) {
+        d[start + k] += amp * Math.exp(-k / (len * 0.18)) * Math.sin((2 * Math.PI * f * k) / sr);
