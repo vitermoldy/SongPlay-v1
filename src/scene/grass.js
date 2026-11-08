@@ -25,3 +25,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
   const cosY = Math.cos(-tv.yaw);
   const sinY = Math.sin(-tv.yaw);
 
+  let i = 0;
