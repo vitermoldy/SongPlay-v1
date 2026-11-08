@@ -539,3 +539,4 @@ function onPlayerError(event) {
     saveQueue();
     say(`Skipped ${titleOf(item)}: ${reason}.`);
   }
+  // Skip after a beat, unless the visitor has already picked something else by then.
