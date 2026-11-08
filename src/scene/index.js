@@ -540,3 +540,4 @@ export function createScene(
     setPlaying(next) {
       playing = next;
       kick();
+    },
