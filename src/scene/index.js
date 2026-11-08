@@ -334,3 +334,6 @@ export function createScene(
     cursorWanted = 0;
     if (visible && !playing) kick();
   };
+  window.addEventListener('pointermove', onPointer, { passive: true });
+  document.documentElement.addEventListener('mouseleave', onLeave);
+
