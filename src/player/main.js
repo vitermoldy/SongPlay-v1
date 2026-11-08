@@ -411,3 +411,4 @@ async function initScene() {
       reducedMotion: reduceMotion.matches,
       onReady: () => ui.stage.classList.add('is-live'),
       onLost: () => ui.stage.classList.remove('is-live'),
+      onSlow: () => {
