@@ -63,3 +63,4 @@ const FinishShader = {
     uniform float uTime;
     uniform float uGrain;
     varying vec2 vUv;
+    float hash(vec2 p) {
