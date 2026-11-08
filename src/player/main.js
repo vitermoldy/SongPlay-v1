@@ -431,3 +431,4 @@ async function initScene() {
     sync();
   });
   document.addEventListener('visibilitychange', () => scene.setVisible(!document.hidden));
+  scene.setScreenMode(ACTIVE.has(state.status) ? 'video' : 'idle');
