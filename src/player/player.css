@@ -52,3 +52,4 @@
   display: none;
 }
 
+.sound-toggle[data-on='true'] .icon-sound-on {
