@@ -117,3 +117,4 @@ export function createPost(renderer, scene, camera) {
       finish.uniforms.uTime.value = t;
     },
   };
+}
