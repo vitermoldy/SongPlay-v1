@@ -240,3 +240,4 @@ function saveQueue() {
       kind,
       id,
       list,
+      index,
