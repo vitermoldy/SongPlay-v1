@@ -1142,3 +1142,4 @@ body.menu-open .site-header {
   outline-offset: 1px;
 }
 
+.field textarea::placeholder {
