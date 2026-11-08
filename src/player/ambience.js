@@ -124,3 +124,4 @@ export function createAmbience() {
   function crickets() {
     const seconds = 2.4;
     const b = buffer(seconds);
+    const d = b.getChannelData(0);
