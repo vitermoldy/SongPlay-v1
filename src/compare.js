@@ -29,3 +29,4 @@ export function paintStandIn() {
 
   const sky = g.createLinearGradient(0, 0, 0, H);
   sky.addColorStop(0, '#2232b8');
+  sky.addColorStop(0.4, '#4a5fe4');
