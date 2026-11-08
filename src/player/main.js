@@ -9,3 +9,4 @@ const THEME_KEY = 'songlearn.theme';
 const THEME_NAMES = ['dusk', 'night', 'sunset', 'dawn'];
 const SEASON_KEY = 'songlearn.season';
 const SOUND_KEY = 'songlearn.sound';
+const VOLUME_KEY = 'songlearn.volume';
