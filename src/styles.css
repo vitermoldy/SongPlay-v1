@@ -380,3 +380,4 @@ body.menu-open .site-header {
 
 .menu {
   position: fixed;
+  inset: 0;
