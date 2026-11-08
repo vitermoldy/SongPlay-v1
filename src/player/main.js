@@ -646,3 +646,4 @@ function placeQueue() {
   const panel = ui.queuePanel;
   panel.style.removeProperty('right');
   panel.style.removeProperty('width');
+  panel.style.removeProperty('max-height');
