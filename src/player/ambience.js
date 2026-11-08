@@ -300,3 +300,4 @@ export function createAmbience() {
   let volume = 0.7;
 
   function scheduleThunder() {
+    clearTimeout(thunderTimer);
