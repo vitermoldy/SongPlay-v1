@@ -41,3 +41,4 @@ export const NOISE_GLSL = /* glsl */ `
     float a = 0.5;
     for (int i = 0; i < 5; i++) {
       v += a * vnoise(p);
+      p = p * 2.03 + vec2(17.1, 9.2);
