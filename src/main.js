@@ -113,3 +113,4 @@ async function initScene(compare) {
       lowPower,
       reducedMotion: reduceMotion.matches,
       onReady: () => hero.classList.add('is-live'),
+      onLost: () => hero.classList.remove('is-live'),
