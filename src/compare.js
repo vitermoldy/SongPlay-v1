@@ -166,3 +166,4 @@ export function vhsify(source, outW = W, outH = H) {
   g.font = '700 22px "Nunito Sans Variable", sans-serif';
   g.fillText('PLAY', 34, 50);
   g.beginPath();
+  g.moveTo(98, 32);
