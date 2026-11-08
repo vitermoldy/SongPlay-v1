@@ -263,3 +263,4 @@ function setText(el, text) {
   if (el.textContent !== text) el.textContent = text;
 }
 
+function say(text) {
