@@ -135,3 +135,6 @@ async function setSound(on) {
     soundOn = false;
     syncSound();
     say('Ambient sound could not start in this browser.');
+  }
+}
+
