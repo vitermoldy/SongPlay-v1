@@ -594,3 +594,4 @@
   transition: transform 200ms var(--ease);
 }
 
+.queue-toggle[aria-expanded='true'] svg {
