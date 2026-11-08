@@ -142,3 +142,4 @@ export function createScene(
   tv.group.position.set(0, heightAt(0, 0) - 0.1, 0);
   tv.group.rotation.y = setup.tvYaw;
   scene.add(tv.group);
+  tv.group.updateMatrixWorld(true);
