@@ -541,3 +541,4 @@ function onPlayerError(event) {
   }
   // Skip after a beat, unless the visitor has already picked something else by then.
   const failed = state.current;
+  clearTimeout(skipTimer);
