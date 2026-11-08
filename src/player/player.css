@@ -91,3 +91,4 @@
 }
 
 .sound-row {
+  display: flex;
