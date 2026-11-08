@@ -9,3 +9,4 @@ export function initCursorLight({ skip = [] } = {}) {
   document.body.append(light);
 
   let x = -1000;
+  let y = -1000;
