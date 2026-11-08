@@ -765,3 +765,6 @@ ui.next.addEventListener('click', () => {
       return;
     }
   }
+  advance();
+});
+
