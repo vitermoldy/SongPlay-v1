@@ -576,3 +576,4 @@ export function createScene(
       resize();
     },
     // idle: the bare glowing tube; video: dimmer, with a light flicker on the grass; paused: low.
+    setScreenMode(mode) {
