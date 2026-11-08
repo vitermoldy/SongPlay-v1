@@ -167,3 +167,4 @@ button:disabled {
   border: 0;
   border-radius: 16px;
   background: var(--cream);
+  color: var(--ink);
