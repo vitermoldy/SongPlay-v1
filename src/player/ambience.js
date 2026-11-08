@@ -223,3 +223,4 @@ export function createAmbience() {
     src.loop = true;
     let node = src;
     for (const next of chain) {
+      node.connect(next);
