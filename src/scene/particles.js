@@ -62,3 +62,4 @@ export function createParticles(count, live) {
         gl_PointSize = clamp(aData.x * uSize * uProj / depth, 1.5, 72.0);
         vSeed = seed;
         vStar = aData.z;
+        vAlpha = aData.w * smoothstep(1.5, 4.0, depth);
