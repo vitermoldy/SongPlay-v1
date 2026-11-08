@@ -6,3 +6,6 @@
 const LAYERS = ['wind', 'rain', 'crickets', 'birds', 'leaves'];
 // The volume slider runs 0 to 1; a curve makes its middle sound like the middle.
 const MAX_GAIN = 0.8;
+const loudness = (volume) => MAX_GAIN * Math.max(0, Math.min(1, volume)) ** 1.6;
+const DUCKED = 0.4;
+
