@@ -249,3 +249,4 @@ export function initCompare(root) {
     async setSource(source) {
       const mine = ++version;
       const [w, h] = outputSize(root);
+      const [b, a] = await Promise.all([toUrl(vhsify(source, w, h)), toUrl(cleanCopy(source, w, h))]);
