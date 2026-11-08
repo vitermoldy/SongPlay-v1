@@ -1047,3 +1047,4 @@ body.menu-open .site-header {
 }
 
 .contacts-mail a {
+  display: inline-block;
