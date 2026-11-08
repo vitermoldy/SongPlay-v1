@@ -110,3 +110,4 @@ export function createPost(renderer, scene, camera) {
       }
     },
     setFocus(x, y) {
+      blurX.uniforms.uFocus.value.set(x, y);
