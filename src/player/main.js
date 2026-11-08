@@ -181,3 +181,5 @@ if (soundOn) {
   document.addEventListener('keydown', startOnFirstGesture);
 }
 
+document.addEventListener('visibilitychange', () => ambience?.setHidden(document.hidden));
+
