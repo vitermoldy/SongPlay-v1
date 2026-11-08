@@ -27,3 +27,4 @@ export function paintStandIn() {
   const g = c.getContext('2d');
   const rand = rng(7);
 
+  const sky = g.createLinearGradient(0, 0, 0, H);
