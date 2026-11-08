@@ -1333,3 +1333,6 @@ body.menu-open .site-header {
   .formats-head h2,
   .formats-head .lede {
     grid-column: 1 / -1;
+    padding-right: 0;
+  }
+
