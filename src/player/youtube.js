@@ -30,3 +30,4 @@ export function parseYouTube(raw) {
     const index = Math.max(0, Number(url.searchParams.get('index') || 1) - 1) || 0;
     return { kind: 'playlist', list, index };
   }
+  if (id && VIDEO_ID.test(id)) return { kind: 'video', id };
