@@ -162,3 +162,4 @@ button:disabled {
   display: inline-flex;
   align-items: center;
   gap: 20px;
+  min-height: 56px;
