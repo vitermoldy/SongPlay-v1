@@ -336,3 +336,4 @@ export function createAmbience() {
       thunderLevel = L.thunder;
       scheduleThunder();
     },
+    // 0 to 1, from the volume slider; follows the slider closely.
