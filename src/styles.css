@@ -858,3 +858,4 @@ body.menu-open .site-header {
 .compare-range::-webkit-slider-thumb {
   appearance: none;
   -webkit-appearance: none;
+  width: 1px;
