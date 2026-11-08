@@ -129,3 +129,4 @@ async function initScene(compare) {
   let heroInView = true;
   toggle.hidden = false;
   sync();
+  toggle.addEventListener('click', () => {
