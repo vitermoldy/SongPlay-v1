@@ -132,3 +132,4 @@ export function createTV(shapeName = 'classic') {
       }
     `,
   });
+  const screen = new Mesh(screenGeometry(shape), screenMaterial);
