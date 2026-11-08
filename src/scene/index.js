@@ -566,3 +566,4 @@ export function createScene(
       element.style.height = `${height}px`;
       // Round the element's corners like the glass (the shader's radius is in screen heights).
       element.style.setProperty('--glass-radius', `${Math.round(tv.shape.corner * height)}px`);
+      const object = new CSS3DObject(element);
