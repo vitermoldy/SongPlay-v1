@@ -643,3 +643,4 @@ body.menu-open .site-header {
 
 @keyframes enter {
   from {
+    opacity: 0;
