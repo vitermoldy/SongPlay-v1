@@ -1368,3 +1368,6 @@ body.menu-open .site-header {
   .hero-shade {
     background:
       linear-gradient(to bottom, rgba(16, 22, 92, 0.38), rgba(16, 22, 92, 0) 26%),
+      linear-gradient(to top, rgba(5, 7, 24, 0.9), rgba(5, 7, 24, 0.72) 31%, rgba(5, 7, 24, 0) 45%);
+  }
+
