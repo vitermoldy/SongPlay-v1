@@ -44,3 +44,4 @@ function levelsFor(time, season) {
   return L;
 }
 
+function rng(seed) {
