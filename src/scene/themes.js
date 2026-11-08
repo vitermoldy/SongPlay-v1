@@ -103,3 +103,6 @@ export const SEASONS = {
     ground: { dark: '#0a120a', lit: '#1a2a16' },
     overcast: { tint: '#5c6678', amount: 0.62 },
     particles: { shape: 3, color: '#d8e6ff', color2: '#aabedf', opacity: 1, fall: 30, size: 3 },
+  },
+};
+
