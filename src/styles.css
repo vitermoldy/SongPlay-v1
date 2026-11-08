@@ -794,3 +794,6 @@ body.menu-open .site-header {
   top: 20px;
   right: 22px;
   bottom: auto;
+  cursor: ew-resize;
+}
+
