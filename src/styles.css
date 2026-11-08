@@ -1411,3 +1411,4 @@ body.menu-open .site-header {
     right: calc(var(--frame) + 6px);
     bottom: calc(var(--frame) + 4px);
     width: 44px;
+    padding: 0;
