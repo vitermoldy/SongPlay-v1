@@ -172,3 +172,4 @@ export function createScene(
   };
 
   scene.add(createTerrain(shared));
+  scene.add(
