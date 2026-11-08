@@ -88,3 +88,4 @@ function webglAvailable() {
 }
 
 async function initScene(compare) {
+  const hero = document.querySelector('[data-hero]');
