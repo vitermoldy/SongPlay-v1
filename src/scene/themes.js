@@ -188,3 +188,4 @@ function overcastSky(colors, numbers, { tint, amount }) {
   colors.get('grass.back').multiplyScalar(0.35);
   numbers.stars *= 0.1;
   numbers['clouds.opacity'] = 1;
+  numbers['lamps.sunI'] *= 0.35;
