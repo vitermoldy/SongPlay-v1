@@ -935,3 +935,4 @@ body.menu-open .site-header {
 }
 
 .format {
+  display: grid;
