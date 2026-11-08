@@ -231,3 +231,6 @@ export function createScene(
   let screenTarget = SCREEN_LEVEL.idle;
   let screenMode = 'idle';
   let css = null;
+  let themeShift = null;
+  const started = performance.now();
+
