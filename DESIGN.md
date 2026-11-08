@@ -79,3 +79,4 @@ The hero sky (periwinkle to peach) lives only inside the 3D scene, where it is a
   Rain also clouds the sky over: sky, haze, clouds and mountains turn to a cool grey of their own
   brightness, the sun goes in and the stars go out.
 - **Ambient sound** (owner's request): off by default, made in the browser (no files to license
+  or download). The speaker in the header opens a small panel with the switch and the volume, so
