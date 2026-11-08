@@ -485,3 +485,6 @@ body.menu-open .site-header {
   top: -1px;
   right: -1px;
   border-top-width: 2px;
+  border-right-width: 2px;
+}
+
