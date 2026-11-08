@@ -8,3 +8,4 @@ tapes, in a cinematic dusk 3D style. Dial: ENERGY 3 / RHYTHM 2 / MOTION 2.
 
 ## Identity
 
+- **Motif: the camcorder viewfinder.** Thin corner brackets frame the hero and the before/after
