@@ -497,3 +497,6 @@
 
 .transport {
   display: flex;
+  gap: 8px;
+}
+
