@@ -5,3 +5,4 @@ import {
   Mesh,
   PlaneGeometry,
   ShaderMaterial,
+  Shape,
