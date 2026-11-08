@@ -15,3 +15,4 @@ import { CSS3DObject, CSS3DRenderer } from 'three/examples/jsm/renderers/CSS3DRe
 import { createTerrain, heightAt } from './terrain.js';
 import { createGrass } from './grass.js';
 import { createTV } from './tv.js';
+import { createClouds, createMountains, createSky } from './sky.js';
