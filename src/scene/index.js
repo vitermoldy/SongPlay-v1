@@ -41,3 +41,6 @@ const VARIANTS = {
     parallax: [0.1, 0.04],
     clearFront: true,
     framesScreen: true,
+  },
+};
+
