@@ -355,3 +355,4 @@ export function createAmbience() {
       scheduleThunder();
     },
     get running() {
+      return ctx.state === 'running';
