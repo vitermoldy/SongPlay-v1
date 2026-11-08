@@ -432,3 +432,4 @@ async function initScene() {
   });
   document.addEventListener('visibilitychange', () => scene.setVisible(!document.hidden));
   scene.setScreenMode(ACTIVE.has(state.status) ? 'video' : 'idle');
+  // The deck grows when the title wraps; the pickers rewrap on narrow screens. Re-fit the TV.
