@@ -441,3 +441,6 @@ export function createScene(
 
     const cursorPos = shared.uCursorPos.value;
     if (shared.uCursorPower.value < 0.02) cursorPos.copy(cursorTarget);
+    else cursorPos.lerp(cursorTarget, ease(12));
+    shared.uCursorPower.value += (cursorWanted - shared.uCursorPower.value) * ease(6);
+
