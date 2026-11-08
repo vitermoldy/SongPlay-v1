@@ -421,3 +421,4 @@ body.menu-open .site-header {
   position: relative;
   height: 100svh;
   min-height: 620px;
+  overflow: hidden;
