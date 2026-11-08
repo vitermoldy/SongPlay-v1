@@ -79,3 +79,4 @@ function initAnchors() {
   });
 }
 
+function webglAvailable() {
