@@ -310,3 +310,4 @@ function queueRow(item, index) {
   if (src) thumb.src = src;
 
   const meta = document.createElement('div');
+  const title = document.createElement('p');
