@@ -32,3 +32,4 @@ export function createParticles(count, live) {
       uTime: live.u.time,
       uDrift: live.u.drift,
       uShape: live.u.particleShape,
+      uSize: live.u.particleSize,
