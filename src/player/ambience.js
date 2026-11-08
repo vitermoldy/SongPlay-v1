@@ -68,3 +68,4 @@ export function createAmbience() {
   function pinkNoise(seconds) {
     const b = buffer(seconds);
     const d = b.getChannelData(0);
+    let b0 = 0;
