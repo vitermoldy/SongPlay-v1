@@ -565,3 +565,4 @@ export function createScene(
       element.style.width = `${width}px`;
       element.style.height = `${height}px`;
       // Round the element's corners like the glass (the shader's radius is in screen heights).
+      element.style.setProperty('--glass-radius', `${Math.round(tv.shape.corner * height)}px`);
