@@ -362,3 +362,4 @@ export function createScene(
       const setW = tv.shape.bodyW * Math.cos(setup.tvYaw) + 0.92 * Math.abs(Math.sin(setup.tvYaw)) + 0.06;
       const setH = tv.shape.bodyH + 0.08;
       const tan = Math.tan(MathUtils.degToRad(camera.fov / 2));
+      const shotPerUnit = height / (2 * PLAYER_DISTANCE * tan);
