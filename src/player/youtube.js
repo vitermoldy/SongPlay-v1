@@ -80,3 +80,6 @@ export function loadYouTubeApi() {
       }
     }, 15000);
   });
+  return apiPromise;
+}
+
