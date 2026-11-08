@@ -334,3 +334,4 @@ function queueRow(item, index) {
   remove.type = 'button';
   remove.className = 'icon-btn';
   remove.setAttribute('aria-label', `Remove ${titleOf(item)} from the queue`);
+  remove.innerHTML =
