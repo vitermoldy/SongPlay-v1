@@ -1467,3 +1467,4 @@ body.menu-open .site-header {
     position: absolute;
     width: 1px;
     height: 1px;
+    overflow: hidden;
