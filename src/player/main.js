@@ -468,3 +468,4 @@ function ensurePlayer() {
               },
               onStateChange: onPlayerState,
               onError: onPlayerError,
+            },
