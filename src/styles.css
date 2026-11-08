@@ -360,3 +360,4 @@ body.menu-open .site-header {
 }
 
 .menu-toggle {
+  display: none;
