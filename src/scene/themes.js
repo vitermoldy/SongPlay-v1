@@ -117,3 +117,4 @@ export const COLOR_PATHS = [
   'sky.horizon',
   'sky.sun',
   'haze',
+  'clouds.lit',
