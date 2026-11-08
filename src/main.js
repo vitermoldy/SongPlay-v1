@@ -134,3 +134,4 @@ async function initScene(compare) {
     sync();
   });
 
+  const updateVisible = () => scene.setVisible(heroInView && !document.hidden);
