@@ -364,3 +364,4 @@ export function createScene(
       const tan = Math.tan(MathUtils.degToRad(camera.fov / 2));
       const shotPerUnit = height / (2 * PLAYER_DISTANCE * tan);
       let perUnit = 1;
+      let cx = width / 2;
