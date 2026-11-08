@@ -218,3 +218,4 @@ const state = {
   videoTitle: '',
 };
 
+function isValid(item) {
