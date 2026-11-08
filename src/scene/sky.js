@@ -64,3 +64,4 @@ export function createSky(live, { forReflections = false } = {}) {
         // The disc itself: the sun low on the horizon, or the moon at night.
         c += uSunColor * smoothstep(0.99955, 0.9998, s) * 1.6;
 
+        // Stars sit in cells on the sky sphere; large and bright enough to survive the soft
