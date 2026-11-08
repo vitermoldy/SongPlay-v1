@@ -239,3 +239,4 @@ button:disabled {
 
 .site-header.is-solid,
 body.menu-open .site-header {
+  background: rgba(11, 16, 51, 0.86);
