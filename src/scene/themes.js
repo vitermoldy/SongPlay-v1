@@ -208,3 +208,4 @@ export function compose(timeName, seasonName) {
     const lit = new Color(read(time, path));
     const dusk = new Color(read(THEMES.dusk, path));
     colors.set(
+      path,
