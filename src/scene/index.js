@@ -488,3 +488,4 @@ export function createScene(
     const resolve = pendingCapture;
     pendingCapture = null;
     const w = canvas.width;
+    const h = canvas.height;
