@@ -22,3 +22,4 @@ export function createSky(live, { forReflections = false } = {}) {
     side: BackSide,
     depthWrite: false,
     uniforms: {
+      uTop: { value: live.color('sky.top') },
