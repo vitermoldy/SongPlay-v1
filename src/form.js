@@ -22,3 +22,4 @@ export function initRequestForm(form) {
   formatSet.dataset.errorFor = 'f-format';
   const status = form.querySelector('[data-request-status]');
 
+  function validate() {
