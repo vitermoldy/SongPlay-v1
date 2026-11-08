@@ -91,3 +91,4 @@ export function paintStandIn() {
     const base = H * 0.7 + Math.abs(x - W / 2) * 0.12 + rand() * H * 0.3;
     const len = 12 + rand() * 34;
     const tone = 40 + rand() * 90;
+    g.strokeStyle = `rgba(${tone + 60}, ${tone + 50}, ${tone * 0.4}, ${0.35 + rand() * 0.5})`;
