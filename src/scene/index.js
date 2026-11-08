@@ -162,3 +162,4 @@ export function createScene(
     uBack: { value: live.color('grass.back') },
     uTvPos: { value: glowWorld },
     uTvColor: { value: col(PALETTE.tv) },
+    uTvPower: { value: 0 },
