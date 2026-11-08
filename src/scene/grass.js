@@ -27,3 +27,4 @@ export function createGrass({ count, heightAt, tv, camera, clearFront = false, u
 
   let i = 0;
   let guard = 0;
+  while (i < count && guard++ < count * 20) {
