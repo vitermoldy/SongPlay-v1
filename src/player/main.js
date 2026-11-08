@@ -651,3 +651,4 @@ function placeQueue() {
   if (!deck) return;
   const video = ui.video.getBoundingClientRect();
   const margin = 12;
+  const edge = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--frame')) || 12;
