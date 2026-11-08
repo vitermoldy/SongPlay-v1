@@ -205,3 +205,6 @@ button:disabled {
 }
 
 .cta:hover .cta-icon svg {
+  animation: wave 900ms var(--ease);
+}
+
