@@ -116,3 +116,4 @@ export function createAmbience() {
       for (let k = 0; k < len; k++) {
         d[start + k] += amp * Math.exp(-k / (len * 0.18)) * Math.sin((2 * Math.PI * f * k) / sr);
       }
+    }
