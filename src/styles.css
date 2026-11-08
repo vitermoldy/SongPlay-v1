@@ -104,3 +104,4 @@ button:disabled {
 }
 
 .visually-hidden {
+  position: absolute !important;
