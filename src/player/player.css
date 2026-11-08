@@ -343,3 +343,4 @@
 .tv-video {
   overflow: hidden;
   border-radius: var(--glass-radius, 0);
+  background: #000;
