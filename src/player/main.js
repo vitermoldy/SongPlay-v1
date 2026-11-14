@@ -3,6 +3,8 @@ import '../styles.css';
 import './player.css';
 import { describeError, fetchInfo, loadYouTubeApi, parseYouTube } from './youtube.js';
 import { createAmbience } from './ambience.js';
+import { logEvent, mirrorSave } from './cloud.js';
+import { mountHistory } from './history.js';
 
 const STORE_KEY = 'songlearn.queue.v1';
 const THEME_KEY = 'songlearn.theme';
@@ -55,6 +57,7 @@ function saved(key, names, fallback) {
 function remember(key, value) {
   try {
     localStorage.setItem(key, value);
+    mirror();
   } catch {
     // Storage blocked: the choice simply resets on the next visit.
   }
@@ -247,8 +250,34 @@ function saveQueue() {
       problem,
     }));
     localStorage.setItem(STORE_KEY, JSON.stringify(keep));
+    mirror();
   } catch {
     // Private windows and blocked storage: the queue simply lasts for this visit.
+  }
+}
+
+/** A function, not a constant: remember() may run before this part of the file has. */
+function prefKeys() {
+  return [THEME_KEY, SEASON_KEY, SOUND_KEY, VOLUME_KEY];
+}
+
+/** The queue and the preferences, as the copy the server keeps for this browser. */
+function mirror() {
+  try {
+    const prefs = Object.fromEntries(prefKeys().map((k) => [k, localStorage.getItem(k)]).filter(([, v]) => v !== null));
+    mirrorSave(JSON.stringify({ queue: JSON.parse(localStorage.getItem(STORE_KEY) || '[]'), prefs }));
+  } catch {
+    // Nothing readable to mirror.
+  }
+}
+
+/** Another browser's queue and preferences, restored by recovery code; the page reloads after. */
+function restoreSaved(data) {
+  const queue = Array.isArray(data?.queue) ? data.queue.filter(isValid) : [];
+  localStorage.setItem(STORE_KEY, JSON.stringify(queue));
+  for (const k of prefKeys()) {
+    const v = data?.prefs?.[k];
+    if (typeof v === 'string') localStorage.setItem(k, v);
   }
 }
 
@@ -504,6 +533,12 @@ function onPlayerState(event) {
       state.status = 'playing';
       state.videoTitle = yt.getVideoData?.()?.title || '';
       scene?.setScreenMode('video');
+      const videoId = yt.getVideoData?.()?.video_id || (item.kind === 'video' ? item.id : '');
+      if (videoId && countedPlay !== `${item.uid}:${videoId}`) {
+        countedPlay = `${item.uid}:${videoId}`;
+        logEvent('play', { id: videoId, kind: 'video', title: state.videoTitle || item.title || '' });
+        played?.refreshSoon();
+      }
     } else {
       state.status = 'paused';
       scene?.setScreenMode('paused');
@@ -512,6 +547,7 @@ function onPlayerState(event) {
     if (state.status !== 'playing') state.status = 'loading';
   } else if (event.data === S.ENDED) {
     clearTimeout(autoplayCheck);
+    countedPlay = '';
     if (item?.kind === 'playlist') {
       const list = yt.getPlaylist?.() || [];
       const at = yt.getPlaylistIndex?.() ?? -1;
@@ -547,9 +583,13 @@ function onPlayerError(event) {
   }, 1200);
 }
 
+/** The song that already counted as a play, so a pause and resume does not count twice. */
+let countedPlay = '';
+
 async function playIndex(index) {
   const item = state.items[index];
   if (!item) return;
+  countedPlay = '';
   clearTimeout(skipTimer);
   state.current = index;
   state.status = 'loading';
@@ -702,7 +742,12 @@ ui.form.addEventListener('submit', (event) => {
     return;
   }
   showError('');
+  enqueue(parsed);
+  ui.input.value = '';
+});
 
+/** Adds a parsed link to the queue: from the link form, or from "Played most". */
+function enqueue(parsed) {
   const item = {
     uid: makeUid(),
     ...parsed,
@@ -713,7 +758,6 @@ ui.form.addEventListener('submit', (event) => {
   };
   state.items.push(item);
   saveQueue();
-  ui.input.value = '';
   bumpCount();
 
   fetchInfo(item)
@@ -734,7 +778,9 @@ ui.form.addEventListener('submit', (event) => {
   } else {
     playIndex(state.items.length - 1);
   }
-});
+}
+
+const played = mountHistory({ enqueue, restore: restoreSaved, say });
 
 ui.input.addEventListener('input', () => {
   if (!ui.error.hidden) showError('');
