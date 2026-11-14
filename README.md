@@ -31,6 +31,29 @@ npm run preview   # serve dist/ locally
 
 `dist/` uses relative paths, so it can be uploaded to any static host as is.
 
+## Server and database
+
+A small server (Express and MySQL) keeps the play history behind "Played most" and a copy of the queue and
+settings. The player works without it: the queue stays in the browser, and plays wait in a local outbox until
+the server answers.
+
+```bash
+cp .env.example .env   # fill in DB_USER and DB_PASSWORD of your MySQL account
+npm run server         # API on http://localhost:8792; creates the songplay_v1 database and its tables
+npm run dev            # /api is forwarded to the server
+```
+
+The server needs Node 22 or newer and MySQL 8. After `npm run build`, `npm start` serves `dist/` and the
+API on one port. On a static host without the server, the player works as before and "Played most" says the
+server is not reachable.
+
+There are no accounts. Each browser gets a 12-character recovery code, under "Played most" in the queue panel;
+typed into another browser, it brings the queue and settings there. Tables: `devices` (one row per code),
+`saves` (the latest queue copy) and `events` (one row per song that started playing).
+
+v1 and v2 each have their own port and database (8792 with `songplay_v1`, 8793 with `songplay_v2`), so both
+run side by side.
+
 ## Structure
 
 ```
@@ -46,6 +69,8 @@ src/player/           the player page
   youtube.js          link parsing, titles from oEmbed, the IFrame API loader
   ambience.js         the ambient sound, made with the Web Audio API (no audio files)
   player.css          stage, deck and dropdown
+  history.js          "Played most" and the recovery code
+  cloud.js            link to the server: recovery code, outbox, queue copy
 src/scene/            the 3D scene, used by both pages ("hero" and "player" variants)
   index.js            renderer, camera, loop, pause, cursor light, video on the screen (CSS3D)
   terrain.js          hill shape shared by ground and grass
@@ -55,6 +80,7 @@ src/scene/            the 3D scene, used by both pages ("hero" and "player" vari
   sky.js              sky, clouds, mountains
   particles.js        what drifts: dust, fireflies, snow, petals, leaves
   post.js             bloom, focus blur, grain and vignette
+server/               Express and MySQL: API, tables, play statistics (project.js)
 DESIGN.md             design direction and the reason behind each choice
 ```
 
