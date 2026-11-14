@@ -72,3 +72,45 @@ export function createApi(getPool) {
     res.json({ ok: true, savedAt: new Date().toISOString() })
   })
 
+  api.get('/save/:device', async (req, res) => {
+    const device = String(req.params.device).toUpperCase().replace(/[^A-Z0-9]/g, '')
+    if (!CODE.test(device)) return res.status(400).json({ error: 'A recovery code has 12 letters and digits.' })
+    const [rows] = await getPool().query('SELECT data, updated_at AS updatedAt FROM saves WHERE device_id = ?', [device])
+    if (!rows[0]) return res.status(404).json({ error: 'Nothing is saved under this code.' })
+    res.json({ data: rows[0].data, updatedAt: rows[0].updatedAt })
+  })
+
+  api.post('/events', async (req, res) => {
+    const { device, events } = req.body ?? {}
+    if (!CODE.test(device ?? '')) return res.status(400).json({ error: 'Unknown device code.' })
+    if (!Array.isArray(events) || events.length === 0 || events.length > 200) return res.status(400).json({ error: 'Send 1 to 200 events.' })
+    const now = Date.now()
+    const rows = []
+    for (const e of events) {
+      const clean = project.events[e?.kind]?.(e?.data)
+      const at = Number(e?.at)
+      // A malformed event is dropped, not the whole batch: one bad entry must not block a queue forever.
+      if (!clean || !Number.isFinite(at) || at < now - YEAR || at > now + 86_400_000 || !DAY.test(e?.day ?? '')) continue
+      rows.push([device, e.kind, new Date(at), e.day, JSON.stringify(clean)])
+    }
+    await touch(device)
+    if (rows.length) await getPool().query('INSERT INTO events (device_id, kind, at, day, data) VALUES ?', [rows])
+    res.json({ ok: true, stored: rows.length, dropped: events.length - rows.length })
+  })
+
+  api.get('/stats/:device', async (req, res) => {
+    const device = String(req.params.device)
+    if (!CODE.test(device)) return res.status(400).json({ error: 'Unknown device code.' })
+    const days = Math.min(60, Math.max(1, Number(req.query.days) || 14))
+    const today = DAY.test(String(req.query.today ?? '')) ? String(req.query.today) : new Date().toISOString().slice(0, 10)
+    res.json(await project.stats(getPool(), device, { days, today }))
+  })
+
+  api.use((err, _req, res, _next) => {
+    if (err?.type === 'entity.too.large') return res.status(413).json({ error: 'The request is too large.' })
+    if (err?.type === 'entity.parse.failed') return res.status(400).json({ error: 'The JSON could not be read.' })
+    console.error(err)
+    res.status(500).json({ error: 'Server error.' })
+  })
+  return api
+}
