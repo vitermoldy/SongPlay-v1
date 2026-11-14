@@ -68,3 +68,57 @@ export function mountHistory({ enqueue, restore, say }) {
     if (stats && top.length === 0) ui.empty.textContent = 'Songs you play show up here, most played first.';
   }
 
+  let pending = 0;
+  async function refresh() {
+    stats = await fetchStats(14);
+    render();
+  }
+  /** After a play, the counts change; one refresh a moment later covers a burst of them. */
+  function refreshSoon() {
+    clearTimeout(pending);
+    pending = setTimeout(refresh, 1500);
+  }
+
+  onCloud((state) => render(state));
+  $('[data-queue-toggle]')?.addEventListener('click', () => void refresh());
+
+  ui.copy.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(recoveryCode());
+      say('Recovery code copied.');
+      ui.copy.textContent = 'Copied';
+      setTimeout(() => (ui.copy.textContent = 'Copy code'), 1600);
+    } catch {
+      say(`Your recovery code is ${recoveryCode()}.`);
+    }
+  });
+
+  ui.input.addEventListener('input', () => {
+    ui.error.hidden = true;
+    ui.input.removeAttribute('aria-invalid');
+  });
+
+  ui.form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    try {
+      const data = JSON.parse(await restoreFrom(ui.input.value));
+      restore(data);
+      location.reload();
+    } catch (e) {
+      ui.input.setAttribute('aria-invalid', 'true');
+      ui.error.textContent =
+        e.code === 'format' || e.status === 400
+          ? 'A recovery code has 12 letters and digits.'
+          : e.code === 'offline'
+            ? 'The server is not reachable. Start it, then try again.'
+            : e.status === 404
+              ? 'Nothing is saved under that code.'
+              : 'That code could not be used. Try again in a moment.';
+      ui.error.hidden = false;
+    }
+  });
+
+  render();
+  void refresh();
+  return { refreshSoon };
+}
