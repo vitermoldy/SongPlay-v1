@@ -708,6 +708,92 @@
   height: 18px;
 }
 
+/* "Played most": the same rows as the queue, then the recovery code. */
+.history {
+  margin-top: 6px;
+  padding: 12px 8px 4px;
+  border-top: 1px solid var(--line);
+}
+
+.history-title {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.history-note {
+  margin-top: 4px;
+  color: var(--mist);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.history-note[hidden] {
+  display: none;
+}
+
+.history .queue-list {
+  margin-top: 6px;
+}
+
+.history-item {
+  grid-template-columns: 96px minmax(0, 1fr) auto;
+}
+
+.history-field {
+  display: grid;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.history-label {
+  color: var(--mist);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.history-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.history-code {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font: 600 15px/1 ui-monospace, 'SFMono-Regular', Consolas, monospace;
+  letter-spacing: 0.08em;
+}
+
+.history-row input {
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid rgba(244, 239, 230, 0.3);
+  border-radius: 10px;
+  background: var(--night);
+  color: var(--cream);
+  font: 500 15px/1.4 var(--font-sans);
+}
+
+.history-row input:hover {
+  border-color: rgba(244, 239, 230, 0.55);
+}
+
+.history-row input:focus-visible {
+  border-color: var(--glow);
+  outline-offset: 1px;
+}
+
+.history-row input[aria-invalid='true'] {
+  border-color: var(--error);
+}
+
 .queue-foot {
   display: grid;
   gap: 4px;
