@@ -123,3 +123,63 @@ export function mirrorSave(text) {
   saveTimer = setTimeout(pushSave, 2000);
 }
 
+/** `leaving`: the tab is being hidden or closed, so the request must outlive the page (keepalive). */
+async function pushSave(leaving = false) {
+  if (!saveText || frozen) return;
+  clearTimeout(saveTimer);
+  try {
+    await api('/save', { method: 'PUT', body: JSON.stringify({ device: code, data: saveText }), keepalive: leaving });
+    lastSaved = Date.now();
+    write(SAVED_KEY, String(lastSaved));
+    setStatus('online');
+    notify();
+  } catch (err) {
+    setStatus(err.status ? 'online' : 'offline');
+  }
+}
+
+/** This visit's totals from the server, or null when it cannot be reached. */
+export async function fetchStats(days = 14) {
+  try {
+    const stats = await api(`/stats/${code}?days=${days}&today=${localDay()}`);
+    setStatus('online');
+    return stats;
+  } catch (err) {
+    setStatus(err.status ? 'online' : 'offline');
+    return null;
+  }
+}
+
+let frozen = false;
+/**
+ * Brings the save stored under another recovery code into this browser: the
+ * caller writes `data` over its own save key and reloads. From then on this
+ * browser shares that code. Nothing is mirrored after this point, so the old
+ * save cannot overwrite the restored one on the way out.
+ */
+export async function restoreFrom(input) {
+  const wanted = String(input).toUpperCase().replace(/[^A-Z0-9]/g, '');
+  if (!/^[A-HJ-NP-Z2-9]{12}$/.test(wanted)) throw Object.assign(new Error('Kode pemulihan terdiri dari 12 huruf dan angka.'), { code: 'format' });
+  const body = await api(`/save/${wanted}`).catch((err) => {
+    if (err.status) throw err;
+    throw Object.assign(new Error('Server tidak terhubung. Jalankan server dulu, lalu coba lagi.'), { code: 'offline' });
+  });
+  frozen = true;
+  clearTimeout(saveTimer);
+  code = wanted;
+  write(ID_KEY, code);
+  return body.data;
+}
+
+addEventListener('online', () => flushEvents());
+addEventListener('pagehide', () => {
+  if (saveText && !frozen) pushSave(true);
+});
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'hidden' && saveText && !frozen) pushSave(true);
+  else flushEvents();
+});
+setInterval(() => {
+  if (outbox().length > 0) flushEvents();
+}, 60_000);
+flushEvents();
