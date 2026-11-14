@@ -62,3 +62,64 @@ export function onCloud(fn) {
   return () => listeners.delete(fn);
 }
 
+async function api(path, init) {
+  const res = await fetch(`/api${path}`, { ...init, headers: { 'Content-Type': 'application/json', ...init?.headers } });
+  const body = await res.json().catch(() => ({}));
+  if (!res.ok) throw Object.assign(new Error(body.error || `HTTP ${res.status}`), { status: res.status });
+  return body;
+}
+
+function outbox() {
+  try {
+    const list = JSON.parse(read(OUTBOX_KEY) || '[]');
+    return Array.isArray(list) ? list : [];
+  } catch {
+    return [];
+  }
+}
+
+const localDay = (t = new Date()) =>
+  `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, '0')}-${String(t.getDate()).padStart(2, '0')}`;
+
+/** Records something that happened; it is sent now, or later if the server is away. */
+export function logEvent(kind, data) {
+  const list = outbox();
+  list.push({ kind, at: Date.now(), day: localDay(), data });
+  write(OUTBOX_KEY, JSON.stringify(list.slice(-OUTBOX_CAP)));
+  notify();
+  flushEvents();
+}
+
+let flushing = false;
+export async function flushEvents() {
+  if (flushing) return;
+  const list = outbox();
+  if (list.length === 0) return;
+  flushing = true;
+  const batch = list.slice(0, 200);
+  try {
+    await api('/events', { method: 'POST', body: JSON.stringify({ device: code, events: batch }) });
+    // Only what was sent leaves the queue; anything logged meanwhile stays.
+    write(OUTBOX_KEY, JSON.stringify(outbox().slice(batch.length)));
+    setStatus('online');
+    notify();
+  } catch (err) {
+    // A 4xx means the batch itself is unusable; drop it rather than retry it forever.
+    if (err.status >= 400 && err.status < 500 && err.status !== 429) write(OUTBOX_KEY, JSON.stringify(outbox().slice(batch.length)));
+    setStatus(err.status ? 'online' : 'offline');
+  } finally {
+    flushing = false;
+  }
+  if (outbox().length > 0 && status === 'online') flushEvents();
+}
+
+let saveTimer = 0;
+let saveText = '';
+/** Copies the browser save (its JSON text) to the server, a moment after the last change. */
+export function mirrorSave(text) {
+  if (!text || frozen) return;
+  saveText = text;
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(pushSave, 2000);
+}
+
